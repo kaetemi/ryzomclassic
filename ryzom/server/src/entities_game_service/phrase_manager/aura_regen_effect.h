@@ -34,7 +34,7 @@ public:
 	///\ctor
 	CRegenAuraEffect( const CAuraRootEffect &rootEffect, TDataSetRow targetRowId ) : CAuraBaseEffect(rootEffect, targetRowId)
 	{
-		_RegenModifier = float(rootEffect.getParamValue()) / 10.0f;
+		_RegenModifier = float(rootEffect.getParamValue()) / 1000.0f;
 
 		switch(_PowerType)
 		{
