@@ -600,7 +600,7 @@ r2.loadPalette = function()
 
 
 --	
-
+--[[
 
 --	 obsolete	
 	entries.guard1 = 
@@ -1370,7 +1370,7 @@ r2.loadPalette = function()
 		Level=1,
 	}
 	r2.addPaletteElement("palette.entities.npcs.guards.zorai_guard_l_f_h", entries.zorai_guard_l_f_h)
-
+--]]
 
 
 -- cute
@@ -1380,7 +1380,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_mature_b.creature",
-		Level=1,
+		Level=20,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_mature_b", entries.npc_cute_mature_b)
 
@@ -1389,7 +1390,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_mature_c.creature",
-		Level=1,
+		Level=70,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_mature_c", entries.npc_cute_mature_c)
 
@@ -1398,7 +1400,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_mature_d.creature",
-		Level=1,
+		Level=120,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_mature_d", entries.npc_cute_mature_d)
 
@@ -1407,7 +1410,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_mature_e.creature",
-		Level=1,
+		Level=170,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_mature_e", entries.npc_cute_mature_e)
 
@@ -1416,7 +1420,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_mature_f.creature",
-		Level=1,
+		Level=220,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_mature_f", entries.npc_cute_mature_f)
 
@@ -1425,7 +1430,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_venerable_b.creature",
-		Level=1,
+		Level=20,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_venerable_b", entries.npc_cute_venerable_b)
 
@@ -1434,7 +1440,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_venerable_c.creature",
-		Level=1,
+		Level=70,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_venerable_c", entries.npc_cute_venerable_c)
 
@@ -1443,7 +1450,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_venerable_d.creature",
-		Level=1,
+		Level=120,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_venerable_d", entries.npc_cute_venerable_d)
 
@@ -1452,7 +1460,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_venerable_e.creature",
-		Level=1,
+		Level=170,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_venerable_e", entries.npc_cute_venerable_e)
 
@@ -1461,7 +1470,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_venerable_f.creature",
-		Level=1,
+		Level=220,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_venerable_f", entries.npc_cute_venerable_f)
 
@@ -1470,7 +1480,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_weapon_b.creature",
-		Level=1,
+		Level=20,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_weapon_b", entries.npc_cute_weapon_b)
 
@@ -1479,7 +1490,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_weapon_c.creature",
-		Level=1,
+		Level=70,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_weapon_c", entries.npc_cute_weapon_c)
 
@@ -1488,7 +1500,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_weapon_d.creature",
-		Level=1,
+		Level=120,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_weapon_d", entries.npc_cute_weapon_d)
 
@@ -1497,7 +1510,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_weapon_e.creature",
-		Level=1,
+		Level=170,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_weapon_e", entries.npc_cute_weapon_e)
 
@@ -1506,7 +1520,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Cute",
 		SheetClient="npc_cute_weapon_f.creature",
-		Level=1,
+		Level=220,
+		Ecosystem="Lacustre",
 	}
 	r2.addPaletteElement("palette.entities.npcs.cute.npc_cute_weapon_f", entries.npc_cute_weapon_f)
 
@@ -1518,7 +1533,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_ancient_b.creature",
-		Level=1,
+		Level=20,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_ancient_b", entries.npc_frahar_ancient_b)
 
@@ -1527,7 +1543,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_ancient_c.creature",
-		Level=1,
+		Level=70,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_ancient_c", entries.npc_frahar_ancient_c)
 
@@ -1536,7 +1553,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_ancient_d.creature",
-		Level=1,
+		Level=120,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_ancient_d", entries.npc_frahar_ancient_d)
 
@@ -1545,7 +1563,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_ancient_e.creature",
-		Level=1,
+		Level=170,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_ancient_e", entries.npc_frahar_ancient_e)
 
@@ -1554,7 +1573,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_ancient_f.creature",
-		Level=1,
+		Level=220,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_ancient_f", entries.npc_frahar_ancient_f)
 
@@ -1565,7 +1585,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_patriarchal_b.creature",
-		Level=1,
+		Level=20,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_patriarchal_b", entries.npc_frahar_patriarchal_b)
 
@@ -1574,7 +1595,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_patriarchal_c.creature",
-		Level=1,
+		Level=70,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_patriarchal_c", entries.npc_frahar_patriarchal_c)
 
@@ -1583,7 +1605,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_patriarchal_d.creature",
-		Level=1,
+		Level=120,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_patriarchal_d", entries.npc_frahar_patriarchal_d)
 
@@ -1592,7 +1615,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_patriarchal_e.creature",
-		Level=1,
+		Level=170,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_patriarchal_e", entries.npc_frahar_patriarchal_e)
 
@@ -1601,7 +1625,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_patriarchal_f.creature",
-		Level=1,
+		Level=220,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_patriarchal_f", entries.npc_frahar_patriarchal_f)
 
@@ -1610,7 +1635,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_weapon_b.creature",
-		Level=1,
+		Level=20,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_weapon_b", entries.npc_frahar_weapon_b)
 
@@ -1619,7 +1645,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_weapon_c.creature",
-		Level=1,
+		Level=70,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_weapon_c", entries.npc_frahar_weapon_c)
 
@@ -1628,7 +1655,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_weapon_d.creature",
-		Level=1,
+		Level=120,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_weapon_d", entries.npc_frahar_weapon_d)
 
@@ -1637,7 +1665,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_weapon_e.creature",
-		Level=1,
+		Level=170,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_weapon_e", entries.npc_frahar_weapon_e)
 
@@ -1646,7 +1675,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Frahar",
 		SheetClient="npc_frahar_weapon_f.creature",
-		Level=1,
+		Level=220,
+		Ecosystem="Desert",
 	}
 	r2.addPaletteElement("palette.entities.npcs.frahar.npc_frahar_weapon_f", entries.npc_frahar_weapon_f)
 
@@ -1658,7 +1688,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_old_b.creature",
-		Level=1
+		Level=20,
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_old_b", entries.npc_gibbay_old_b)
 
@@ -1667,7 +1698,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_old_c.creature",
-		Level=1		
+		Level=70,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_old_c", entries.npc_gibbay_old_c)
 
@@ -1676,7 +1708,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_old_d.creature",
-		Level=1		
+		Level=120,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_old_d", entries.npc_gibbay_old_d)
 
@@ -1685,7 +1718,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_old_e.creature",
-		Level=1		
+		Level=170,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_old_e", entries.npc_gibbay_old_e)
 
@@ -1694,7 +1728,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_old_f.creature",
-		Level=1		
+		Level=220,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_old_f", entries.npc_gibbay_old_f)
 
@@ -1703,7 +1738,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_weapon_b.creature",
-		Level=1		
+		Level=20,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_weapon_b", entries.npc_gibbay_weapon_b)
 
@@ -1713,7 +1749,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_weapon_c.creature",
-		Level=1		
+		Level=70,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_weapon_c", entries.npc_gibbay_weapon_c)
 
@@ -1722,7 +1759,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_weapon_d.creature",
-		Level=1		
+		Level=120,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_weapon_d", entries.npc_gibbay_weapon_d)
 
@@ -1731,7 +1769,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_weapon_e.creature",
-		Level=1		
+		Level=170,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_weapon_e", entries.npc_gibbay_weapon_e)
 
@@ -1740,7 +1779,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_weapon_f.creature",
-		Level=1		
+		Level=220,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_weapon_f", entries.npc_gibbay_weapon_f)
 
@@ -1749,7 +1789,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_wise_b.creature",
-		Level=1		
+		Level=20,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_wise_b", entries.npc_gibbay_wise_b)
 
@@ -1758,7 +1799,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_wise_c.creature",
-		Level=1		
+		Level=70,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_wise_c", entries.npc_gibbay_wise_c)
 
@@ -1767,7 +1809,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_wise_d.creature",
-		Level=1		
+		Level=120,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_wise_d", entries.npc_gibbay_wise_d)
 
@@ -1776,7 +1819,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_wise_e.creature",
-		Level=1		
+		Level=170,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_wise_e", entries.npc_gibbay_wise_e)
 
@@ -1785,7 +1829,8 @@ r2.loadPalette = function()
 		Base="palette.entities.npc",
 		Name="Gibbai",
 		SheetClient="npc_gibbay_wise_f.creature",
-		Level=1		
+		Level=220,		
+		Ecosystem="Jungle",
 	}
 	r2.addPaletteElement("palette.entities.npcs.gibbai.npc_gibbay_wise_f", entries.npc_gibbay_wise_f)
 
@@ -3431,7 +3476,7 @@ r2.loadPalette = function()
 		SheetClient="object_roadsign.creature",
 		Level=1,
 	}
---	r2.addPaletteElement("palette.entities.botobjects.roadsign", entries.roadsign);
+	r2.addPaletteElement("palette.entities.botobjects.roadsign", entries.roadsign);
 	entries.roadsign_fyros=
 	{
 		Base="palette.entities.botobject",
@@ -3480,6 +3525,84 @@ r2.loadPalette = function()
 		Level=1,
 	}
 	r2.addPaletteElement("palette.entities.botobjects.counter", entries.counter);
+	
+	-- new items  &xt
+	
+	entries.stele_kami=
+	{
+		Base="palette.entities.botobject",
+		Name = "stele_kami",
+		SheetClient="object_kami_stele_background.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.stele_kami", entries.stele_kami);
+	
+	entries.temple_kami=
+	{
+		Base="palette.entities.botobject",
+		Name = "stele_kami",
+		SheetClient="object_kami_maduk_temple.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.temple_kami", entries.temple_kami);
+	
+	entries.object_well=
+	{
+		Base="palette.entities.botobject",
+		Name = "object_well",
+		SheetClient="object_well.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.object_well", entries.object_well);
+	
+	entries.gate_closed=
+	{
+		Base="palette.entities.botobject",
+		Name = "gate_closed",
+		SheetClient="object_Ge_Mission_Gate_gong.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.gate_closed", entries.gate_closed);
+	
+	entries.gate_open=
+	{
+		Base="palette.entities.botobject",
+		Name = "gate_open",
+		SheetClient="object_gate_open.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.gate_open", entries.gate_open);
+	
+	entries.gate_wall=
+	{
+		Base="palette.entities.botobject",
+		Name = "gate_wall",
+		SheetClient="object_gate_wall.creature",
+		Level=1,
+	}
+	
+	r2.addPaletteElement("palette.entities.botobjects.gate_wall", entries.gate_wall);
+	
+	entries.karavan_stele=
+	{
+		Base="palette.entities.botobject",
+		Name = "karavan_stele",
+		SheetClient="object_karavan_stele_background.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.karavan_stele", entries.karavan_stele);
+	
+	entries.karavan_temple=
+	{
+		Base="palette.entities.botobject",
+		Name = "karavan_temple",
+		SheetClient="object_karavan_jena_temple.creature",
+		Level=1,
+	}
+	r2.addPaletteElement("palette.entities.botobjects.karavan_temple", entries.karavan_temple);
+	
+	-- add corpse section
+	
 	entries.homin_body_fyros_H=
 	{
 		Base="palette.entities.botobject",
@@ -3544,6 +3667,7 @@ r2.loadPalette = function()
 		Level=1,
 	}
 	r2.addPaletteElement("palette.entities.botobjects.homin_body_zorai_F", entries.homin_body_zorai_F);
+
 	entries.karavan_standard=
 	{
 		Base="palette.entities.botobject",
@@ -6927,26 +7051,26 @@ r2.loadPalette = function()
 	entries.creature_cbadd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbadd2.creature", Level=120, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbadd2", entries.creature_cbadd2)
 	entries.creature_cbadd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbadd3.creature", Level=130, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbadd3", entries.creature_cbadd3)
 	entries.creature_cbadd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbadd4.creature", Level=140, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbadd4", entries.creature_cbadd4)
-	--entries.creature_cbagb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb1", entries.creature_cbagb1)
-	--entries.creature_cbagb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb2", entries.creature_cbagb2)
-	--entries.creature_cbagb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb3", entries.creature_cbagb3)
-	--entries.creature_cbagb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb4", entries.creature_cbagb4)
-	--entries.creature_cbagc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc1", entries.creature_cbagc1)
-	--entries.creature_cbagc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc2", entries.creature_cbagc2)
-	--entries.creature_cbagc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc3", entries.creature_cbagc3)
-	--entries.creature_cbagc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc4", entries.creature_cbagc4)
-	--entries.creature_cbagd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd1", entries.creature_cbagd1)
-	--entries.creature_cbagd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd2", entries.creature_cbagd2)
-	--entries.creature_cbagd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd3", entries.creature_cbagd3)
-	--entries.creature_cbagd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd4", entries.creature_cbagd4)
-	--entries.creature_cbage1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage1", entries.creature_cbage1)
-	--entries.creature_cbage2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage2", entries.creature_cbage2)
-	--entries.creature_cbage3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage3", entries.creature_cbage3)
-	--entries.creature_cbage4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage4", entries.creature_cbage4)
-	--entries.creature_cbagf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf1", entries.creature_cbagf1)
-	--entries.creature_cbagf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf2", entries.creature_cbagf2)
-	--entries.creature_cbagf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf3", entries.creature_cbagf3)
-	--entries.creature_cbagf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf4", entries.creature_cbagf4)
+	entries.creature_cbagb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb1", entries.creature_cbagb1)
+	entries.creature_cbagb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb2", entries.creature_cbagb2)
+	entries.creature_cbagb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb3", entries.creature_cbagb3)
+	entries.creature_cbagb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbagb4", entries.creature_cbagb4)
+	entries.creature_cbagc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc1", entries.creature_cbagc1)
+	entries.creature_cbagc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc2", entries.creature_cbagc2)
+	entries.creature_cbagc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc3", entries.creature_cbagc3)
+	entries.creature_cbagc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbagc4", entries.creature_cbagc4)
+	entries.creature_cbagd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd1", entries.creature_cbagd1)
+	entries.creature_cbagd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd2", entries.creature_cbagd2)
+	entries.creature_cbagd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd3", entries.creature_cbagd3)
+	entries.creature_cbagd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbagd4", entries.creature_cbagd4)
+	entries.creature_cbage1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage1", entries.creature_cbage1)
+	entries.creature_cbage2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage2", entries.creature_cbage2)
+	entries.creature_cbage3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage3", entries.creature_cbage3)
+	entries.creature_cbage4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbage4", entries.creature_cbage4)
+	entries.creature_cbagf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf1", entries.creature_cbagf1)
+	entries.creature_cbagf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf2", entries.creature_cbagf2)
+	entries.creature_cbagf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf3", entries.creature_cbagf3)
+	entries.creature_cbagf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbagf4", entries.creature_cbagf4)
 	entries.creature_cbajb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbajb4.creature", Level=40, RingAccess="a1", Ecosystem="Jungle", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbajb4", entries.creature_cbajb4)
 	entries.creature_cbajd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbajd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbajd1", entries.creature_cbajd1)
 	entries.creature_cbajd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbajd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbajd2", entries.creature_cbajd2)
@@ -6982,26 +7106,26 @@ r2.loadPalette = function()
 	entries.creature_cbbpd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbbpd3.creature", Level=130, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbbpd3", entries.creature_cbbpd3)
 	entries.creature_cbbpd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbbpd4.creature", Level=140, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbbpd4", entries.creature_cbbpd4)
 	entries.creature_cbbpe4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbbpe4.creature", Level=190, RingAccess="p4", Ecosystem="PrimeRoots", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbbpe4", entries.creature_cbbpe4)
-	--entries.creature_cbcgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb1", entries.creature_cbcgb1)
-	--entries.creature_cbcgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb2", entries.creature_cbcgb2)
-	--entries.creature_cbcgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb3", entries.creature_cbcgb3)
-	--entries.creature_cbcgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb4", entries.creature_cbcgb4)
-	--entries.creature_cbcgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc1", entries.creature_cbcgc1)
-	--entries.creature_cbcgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc2", entries.creature_cbcgc2)
-	--entries.creature_cbcgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc3", entries.creature_cbcgc3)
-	--entries.creature_cbcgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc4", entries.creature_cbcgc4)
-	--entries.creature_cbcgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd1", entries.creature_cbcgd1)
-	--entries.creature_cbcgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd2", entries.creature_cbcgd2)
-	--entries.creature_cbcgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd3", entries.creature_cbcgd3)
-	--entries.creature_cbcgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd4", entries.creature_cbcgd4)
-	--entries.creature_cbcge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge1", entries.creature_cbcge1)
-	--entries.creature_cbcge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge2", entries.creature_cbcge2)
-	--entries.creature_cbcge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge3", entries.creature_cbcge3)
-	--entries.creature_cbcge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge4", entries.creature_cbcge4)
-	--entries.creature_cbcgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf1", entries.creature_cbcgf1)
-	--entries.creature_cbcgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf2", entries.creature_cbcgf2)
-	--entries.creature_cbcgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf3", entries.creature_cbcgf3)
-	--entries.creature_cbcgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf4", entries.creature_cbcgf4)
+	entries.creature_cbcgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb1", entries.creature_cbcgb1)
+	entries.creature_cbcgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb2", entries.creature_cbcgb2)
+	entries.creature_cbcgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb3", entries.creature_cbcgb3)
+	entries.creature_cbcgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cbcgb4", entries.creature_cbcgb4)
+	entries.creature_cbcgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc1", entries.creature_cbcgc1)
+	entries.creature_cbcgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc2", entries.creature_cbcgc2)
+	entries.creature_cbcgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc3", entries.creature_cbcgc3)
+	entries.creature_cbcgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcgc4", entries.creature_cbcgc4)
+	entries.creature_cbcgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd1", entries.creature_cbcgd1)
+	entries.creature_cbcgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd2", entries.creature_cbcgd2)
+	entries.creature_cbcgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd3", entries.creature_cbcgd3)
+	entries.creature_cbcgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cbcgd4", entries.creature_cbcgd4)
+	entries.creature_cbcge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge1", entries.creature_cbcge1)
+	entries.creature_cbcge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge2", entries.creature_cbcge2)
+	entries.creature_cbcge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge3", entries.creature_cbcge3)
+	entries.creature_cbcge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cbcge4", entries.creature_cbcge4)
+	entries.creature_cbcgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf1", entries.creature_cbcgf1)
+	entries.creature_cbcgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf2", entries.creature_cbcgf2)
+	entries.creature_cbcgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf3", entries.creature_cbcgf3)
+	entries.creature_cbcgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cbcgf4", entries.creature_cbcgf4)
 	entries.creature_cbcjc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcjc1.creature", Level=60, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcjc1", entries.creature_cbcjc1)
 	entries.creature_cbcjc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcjc2.creature", Level=70, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcjc2", entries.creature_cbcjc2)
 	entries.creature_cbcjc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cbcjc3.creature", Level=80, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.cbcjc3", entries.creature_cbcjc3)
@@ -7123,52 +7247,52 @@ r2.loadPalette = function()
 	entries.creature_chdlb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chdlb2.creature", Level=20, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.chdlb2", entries.creature_chdlb2)
 	entries.creature_chdlb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chdlb3.creature", Level=30, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.chdlb3", entries.creature_chdlb3)
 	entries.creature_chdlb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chdlb4.creature", Level=40, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.chdlb4", entries.creature_chdlb4)
-	--entries.creature_chegb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb1", entries.creature_chegb1)
-	--entries.creature_chegb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb2", entries.creature_chegb2)
-	--entries.creature_chegb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb3", entries.creature_chegb3)
-	--entries.creature_chegb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb4", entries.creature_chegb4)
-	--entries.creature_chegc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc1", entries.creature_chegc1)
-	--entries.creature_chegc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc2", entries.creature_chegc2)
-	--entries.creature_chegc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc3", entries.creature_chegc3)
-	--entries.creature_chegc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc4", entries.creature_chegc4)
-	--entries.creature_chegd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd1", entries.creature_chegd1)
-	--entries.creature_chegd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd2", entries.creature_chegd2)
-	--entries.creature_chegd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd3", entries.creature_chegd3)
-	--entries.creature_chegd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd4", entries.creature_chegd4)
-	--entries.creature_chege1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege1", entries.creature_chege1)
-	--entries.creature_chege2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege2", entries.creature_chege2)
-	--entries.creature_chege3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege3", entries.creature_chege3)
-	--entries.creature_chege4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege4", entries.creature_chege4)
-	--entries.creature_chegf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf1", entries.creature_chegf1)
-	--entries.creature_chegf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf2", entries.creature_chegf2)
-	--entries.creature_chegf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf3", entries.creature_chegf3)
-	--entries.creature_chegf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf4", entries.creature_chegf4)
+	entries.creature_chegb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb1", entries.creature_chegb1)
+	entries.creature_chegb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb2", entries.creature_chegb2)
+	entries.creature_chegb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb3", entries.creature_chegb3)
+	entries.creature_chegb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chegb4", entries.creature_chegb4)
+	entries.creature_chegc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc1", entries.creature_chegc1)
+	entries.creature_chegc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc2", entries.creature_chegc2)
+	entries.creature_chegc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc3", entries.creature_chegc3)
+	entries.creature_chegc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chegc4", entries.creature_chegc4)
+	entries.creature_chegd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd1", entries.creature_chegd1)
+	entries.creature_chegd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd2", entries.creature_chegd2)
+	entries.creature_chegd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd3", entries.creature_chegd3)
+	entries.creature_chegd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chegd4", entries.creature_chegd4)
+	entries.creature_chege1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege1", entries.creature_chege1)
+	entries.creature_chege2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege2", entries.creature_chege2)
+	entries.creature_chege3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege3", entries.creature_chege3)
+	entries.creature_chege4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chege4", entries.creature_chege4)
+	entries.creature_chegf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf1", entries.creature_chegf1)
+	entries.creature_chegf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf2", entries.creature_chegf2)
+	entries.creature_chegf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf3", entries.creature_chegf3)
+	entries.creature_chegf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chegf4", entries.creature_chegf4)
 	entries.creature_cheld1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cheld1.creature", Level=110, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cheld1", entries.creature_cheld1)
 	entries.creature_cheld2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cheld2.creature", Level=120, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cheld2", entries.creature_cheld2)
 	entries.creature_cheld3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cheld3.creature", Level=130, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cheld3", entries.creature_cheld3)
 	entries.creature_cheld4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="cheld4.creature", Level=140, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cheld4", entries.creature_cheld4)
 	entries.creature_chele4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chele4.creature", Level=190, RingAccess="l5", Ecosystem="Lacustre", Region="e" } r2.addPaletteElement("palette.entities.creatures.chele4", entries.creature_chele4)
-	--entries.creature_chfgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb1", entries.creature_chfgb1)
-	--entries.creature_chfgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb2", entries.creature_chfgb2)
-	--entries.creature_chfgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb3", entries.creature_chfgb3)
-	--entries.creature_chfgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb4", entries.creature_chfgb4)
-	--entries.creature_chfgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc1", entries.creature_chfgc1)
-	--entries.creature_chfgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc2", entries.creature_chfgc2)
-	--entries.creature_chfgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc3", entries.creature_chfgc3)
-	--entries.creature_chfgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc4", entries.creature_chfgc4)
-	--entries.creature_chfgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd1", entries.creature_chfgd1)
-	--entries.creature_chfgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd2", entries.creature_chfgd2)
-	--entries.creature_chfgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd3", entries.creature_chfgd3)
-	--entries.creature_chfgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd4", entries.creature_chfgd4)
-	--entries.creature_chfge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge1", entries.creature_chfge1)
-	--entries.creature_chfge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge2", entries.creature_chfge2)
-	--entries.creature_chfge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge3", entries.creature_chfge3)
-	--entries.creature_chfge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge4", entries.creature_chfge4)
-	--entries.creature_chfgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf1", entries.creature_chfgf1)
+	entries.creature_chfgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb1", entries.creature_chfgb1)
+	entries.creature_chfgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb2", entries.creature_chfgb2)
+	entries.creature_chfgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb3", entries.creature_chfgb3)
+	entries.creature_chfgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chfgb4", entries.creature_chfgb4)
+	entries.creature_chfgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc1", entries.creature_chfgc1)
+	entries.creature_chfgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc2", entries.creature_chfgc2)
+	entries.creature_chfgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc3", entries.creature_chfgc3)
+	entries.creature_chfgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfgc4", entries.creature_chfgc4)
+	entries.creature_chfgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd1", entries.creature_chfgd1)
+	entries.creature_chfgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd2", entries.creature_chfgd2)
+	entries.creature_chfgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd3", entries.creature_chfgd3)
+	entries.creature_chfgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chfgd4", entries.creature_chfgd4)
+	entries.creature_chfge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge1", entries.creature_chfge1)
+	entries.creature_chfge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge2", entries.creature_chfge2)
+	entries.creature_chfge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge3", entries.creature_chfge3)
+	entries.creature_chfge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chfge4", entries.creature_chfge4)
+	entries.creature_chfgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf1", entries.creature_chfgf1)
 
-	--entries.creature_chfgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf2", entries.creature_chfgf2)
-	--entries.creature_chfgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf3", entries.creature_chfgf3)
-	--entries.creature_chfgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf4", entries.creature_chfgf4)
+	entries.creature_chfgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf2", entries.creature_chfgf2)
+	entries.creature_chfgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf3", entries.creature_chfgf3)
+	entries.creature_chfgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chfgf4", entries.creature_chfgf4)
 	entries.creature_chfjc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfjc1.creature", Level=60, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfjc1", entries.creature_chfjc1)
 	entries.creature_chfjc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfjc2.creature", Level=70, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfjc2", entries.creature_chfjc2)
 	entries.creature_chfjc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chfjc3.creature", Level=80, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.chfjc3", entries.creature_chfjc3)
@@ -7191,26 +7315,26 @@ r2.loadPalette = function()
 	entries.creature_chgde2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgde2.creature", Level=170, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgde2", entries.creature_chgde2)
 	entries.creature_chgde3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgde3.creature", Level=180, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgde3", entries.creature_chgde3)
 	entries.creature_chgde4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgde4.creature", Level=190, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgde4", entries.creature_chgde4)
-	--entries.creature_chggb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb1", entries.creature_chggb1)
-	--entries.creature_chggb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb2", entries.creature_chggb2)
-	--entries.creature_chggb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb3", entries.creature_chggb3)
-	--entries.creature_chggb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb4", entries.creature_chggb4)
-	--entries.creature_chggc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc1", entries.creature_chggc1)
-	--entries.creature_chggc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc2", entries.creature_chggc2)
-	--entries.creature_chggc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc3", entries.creature_chggc3)
-	--entries.creature_chggc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc4", entries.creature_chggc4)
-	--entries.creature_chggd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd1", entries.creature_chggd1)
-	--entries.creature_chggd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd2", entries.creature_chggd2)
-	--entries.creature_chggd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd3", entries.creature_chggd3)
-	--entries.creature_chggd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd4", entries.creature_chggd4)
-	--entries.creature_chgge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge1", entries.creature_chgge1)
-	--entries.creature_chgge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge2", entries.creature_chgge2)
-	--entries.creature_chgge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge3", entries.creature_chgge3)
-	--entries.creature_chgge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge4", entries.creature_chgge4)
-	--entries.creature_chggf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf1", entries.creature_chggf1)
-	--entries.creature_chggf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf2", entries.creature_chggf2)
-	--entries.creature_chggf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf3", entries.creature_chggf3)
-	--entries.creature_chggf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf4", entries.creature_chggf4)
+	entries.creature_chggb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb1", entries.creature_chggb1)
+	entries.creature_chggb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb2", entries.creature_chggb2)
+	entries.creature_chggb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb3", entries.creature_chggb3)
+	entries.creature_chggb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chggb4", entries.creature_chggb4)
+	entries.creature_chggc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc1", entries.creature_chggc1)
+	entries.creature_chggc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc2", entries.creature_chggc2)
+	entries.creature_chggc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc3", entries.creature_chggc3)
+	entries.creature_chggc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chggc4", entries.creature_chggc4)
+	entries.creature_chggd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd1", entries.creature_chggd1)
+	entries.creature_chggd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd2", entries.creature_chggd2)
+	entries.creature_chggd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd3", entries.creature_chggd3)
+	entries.creature_chggd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chggd4", entries.creature_chggd4)
+	entries.creature_chgge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge1", entries.creature_chgge1)
+	entries.creature_chgge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge2", entries.creature_chgge2)
+	entries.creature_chgge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge3", entries.creature_chgge3)
+	entries.creature_chgge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chgge4", entries.creature_chgge4)
+	entries.creature_chggf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf1", entries.creature_chggf1)
+	entries.creature_chggf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf2", entries.creature_chggf2)
+	entries.creature_chggf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf3", entries.creature_chggf3)
+	entries.creature_chggf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chggf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chggf4", entries.creature_chggf4)
 	entries.creature_chgpd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgpd1.creature", Level=110, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.chgpd1", entries.creature_chgpd1)
 	entries.creature_chgpd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgpd2.creature", Level=120, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.chgpd2", entries.creature_chgpd2)
 	entries.creature_chgpd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chgpd3.creature", Level=130, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.chgpd3", entries.creature_chgpd3)
@@ -7245,6 +7369,7 @@ r2.loadPalette = function()
 	entries.creature_chhpf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chhpf2.creature", Level=220, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.chhpf2", entries.creature_chhpf2)
 	entries.creature_chhpf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chhpf3.creature", Level=230, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.chhpf3", entries.creature_chhpf3)
 	entries.creature_chhpf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chhpf4.creature", Level=240, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.chhpf4", entries.creature_chhpf4)
+	-- start mounts & packers
 	entries.creature_chidb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chidb2.creature", Level=20, RingAccess="a1", Ecosystem="Desert", Region="b" } r2.addPaletteElement("palette.entities.creatures.chidb2", entries.creature_chidb2)
 	entries.creature_chidc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chidc2.creature", Level=70, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.chidc2", entries.creature_chidc2)
 	entries.creature_chidd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chidd2.creature", Level=120, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.chidd2", entries.creature_chidd2)
@@ -7311,6 +7436,7 @@ r2.loadPalette = function()
 	entries.creature_chjpd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chjpd2.creature", Level=120, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.chjpd2", entries.creature_chjpd2)
 	entries.creature_chjpe2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chjpe2.creature", Level=170, RingAccess="p4", Ecosystem="PrimeRoots", Region="e" } r2.addPaletteElement("palette.entities.creatures.chjpe2", entries.creature_chjpe2)
 	entries.creature_chjpf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chjpf2.creature", Level=220, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.chjpf2", entries.creature_chjpf2)
+	-- end mounts & packers	
 	entries.creature_chkde1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkde1.creature", Level=160, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkde1", entries.creature_chkde1)
 	entries.creature_chkde2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkde2.creature", Level=170, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkde2", entries.creature_chkde2)
 	entries.creature_chkde3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkde3.creature", Level=180, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkde3", entries.creature_chkde3)
@@ -7319,26 +7445,26 @@ r2.loadPalette = function()
 	entries.creature_chkdf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkdf2.creature", Level=220, RingAccess="d7", Ecosystem="Desert", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkdf2", entries.creature_chkdf2)
 	entries.creature_chkdf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkdf3.creature", Level=230, RingAccess="d7", Ecosystem="Desert", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkdf3", entries.creature_chkdf3)
 	entries.creature_chkdf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkdf4.creature", Level=240, RingAccess="d7", Ecosystem="Desert", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkdf4", entries.creature_chkdf4)
-	--entries.creature_chkgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb1", entries.creature_chkgb1)
-	--entries.creature_chkgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb2", entries.creature_chkgb2)
-	--entries.creature_chkgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb3", entries.creature_chkgb3)
-	--entries.creature_chkgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb4", entries.creature_chkgb4)
-	--entries.creature_chkgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc1", entries.creature_chkgc1)
-	--entries.creature_chkgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc2", entries.creature_chkgc2)
-	--entries.creature_chkgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc3", entries.creature_chkgc3)
-	--entries.creature_chkgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc4", entries.creature_chkgc4)
-	--entries.creature_chkgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd1", entries.creature_chkgd1)
-	--entries.creature_chkgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd2", entries.creature_chkgd2)
-	--entries.creature_chkgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd3", entries.creature_chkgd3)
-	--entries.creature_chkgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd4", entries.creature_chkgd4)
-	--entries.creature_chkge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge1", entries.creature_chkge1)
-	--entries.creature_chkge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge2", entries.creature_chkge2)
-	--entries.creature_chkge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge3", entries.creature_chkge3)
-	--entries.creature_chkge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge4", entries.creature_chkge4)
-	--entries.creature_chkgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf1", entries.creature_chkgf1)
-	--entries.creature_chkgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf2", entries.creature_chkgf2)
-	--entries.creature_chkgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf3", entries.creature_chkgf3)
-	--entries.creature_chkgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf4", entries.creature_chkgf4)
+	entries.creature_chkgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb1", entries.creature_chkgb1)
+	entries.creature_chkgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb2", entries.creature_chkgb2)
+	entries.creature_chkgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb3", entries.creature_chkgb3)
+	entries.creature_chkgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chkgb4", entries.creature_chkgb4)
+	entries.creature_chkgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc1", entries.creature_chkgc1)
+	entries.creature_chkgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc2", entries.creature_chkgc2)
+	entries.creature_chkgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc3", entries.creature_chkgc3)
+	entries.creature_chkgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chkgc4", entries.creature_chkgc4)
+	entries.creature_chkgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd1", entries.creature_chkgd1)
+	entries.creature_chkgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd2", entries.creature_chkgd2)
+	entries.creature_chkgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd3", entries.creature_chkgd3)
+	entries.creature_chkgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkgd4", entries.creature_chkgd4)
+	entries.creature_chkge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge1", entries.creature_chkge1)
+	entries.creature_chkge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge2", entries.creature_chkge2)
+	entries.creature_chkge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge3", entries.creature_chkge3)
+	entries.creature_chkge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chkge4", entries.creature_chkge4)
+	entries.creature_chkgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf1", entries.creature_chkgf1)
+	entries.creature_chkgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf2", entries.creature_chkgf2)
+	entries.creature_chkgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf3", entries.creature_chkgf3)
+	entries.creature_chkgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chkgf4", entries.creature_chkgf4)
 	entries.creature_chkjd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkjd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkjd1", entries.creature_chkjd1)
 	entries.creature_chkjd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkjd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkjd2", entries.creature_chkjd2)
 	entries.creature_chkjd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chkjd3.creature", Level=130, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.chkjd3", entries.creature_chkjd3)
@@ -7359,26 +7485,26 @@ r2.loadPalette = function()
 	entries.creature_chlff2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlff2", entries.creature_chlff2)
 	entries.creature_chlff3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlff3", entries.creature_chlff3)
 	entries.creature_chlff4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlff4", entries.creature_chlff4)
-	--entries.creature_chlgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb1", entries.creature_chlgb1)
-	--entries.creature_chlgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb2", entries.creature_chlgb2)
-	--entries.creature_chlgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb3", entries.creature_chlgb3)
-	--entries.creature_chlgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb4", entries.creature_chlgb4)
-	--entries.creature_chlgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc1", entries.creature_chlgc1)
-	--entries.creature_chlgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc2", entries.creature_chlgc2)
-	--entries.creature_chlgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc3", entries.creature_chlgc3)
-	--entries.creature_chlgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc4", entries.creature_chlgc4)
-	--entries.creature_chlgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd1", entries.creature_chlgd1)
-	--entries.creature_chlgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd2", entries.creature_chlgd2)
-	--entries.creature_chlgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd3", entries.creature_chlgd3)
-	--entries.creature_chlgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd4", entries.creature_chlgd4)
-	--entries.creature_chlge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge1", entries.creature_chlge1)
-	--entries.creature_chlge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge2", entries.creature_chlge2)
-	--entries.creature_chlge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge3", entries.creature_chlge3)
-	--entries.creature_chlge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge4", entries.creature_chlge4)
-	--entries.creature_chlgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf1", entries.creature_chlgf1)
-	--entries.creature_chlgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf2", entries.creature_chlgf2)
-	--entries.creature_chlgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf3", entries.creature_chlgf3)
-	--entries.creature_chlgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf4", entries.creature_chlgf4)
+	entries.creature_chlgb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb1", entries.creature_chlgb1)
+	entries.creature_chlgb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb2", entries.creature_chlgb2)
+	entries.creature_chlgb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb3", entries.creature_chlgb3)
+	entries.creature_chlgb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chlgb4", entries.creature_chlgb4)
+	entries.creature_chlgc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc1", entries.creature_chlgc1)
+	entries.creature_chlgc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc2", entries.creature_chlgc2)
+	entries.creature_chlgc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc3", entries.creature_chlgc3)
+	entries.creature_chlgc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chlgc4", entries.creature_chlgc4)
+	entries.creature_chlgd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd1", entries.creature_chlgd1)
+	entries.creature_chlgd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd2", entries.creature_chlgd2)
+	entries.creature_chlgd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd3", entries.creature_chlgd3)
+	entries.creature_chlgd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlgd4", entries.creature_chlgd4)
+	entries.creature_chlge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge1", entries.creature_chlge1)
+	entries.creature_chlge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge2", entries.creature_chlge2)
+	entries.creature_chlge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge3", entries.creature_chlge3)
+	entries.creature_chlge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.chlge4", entries.creature_chlge4)
+	entries.creature_chlgf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf1", entries.creature_chlgf1)
+	entries.creature_chlgf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf2", entries.creature_chlgf2)
+	entries.creature_chlgf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf3", entries.creature_chlgf3)
+	entries.creature_chlgf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chlgf4", entries.creature_chlgf4)
 	entries.creature_chlld1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlld1.creature", Level=110, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlld1", entries.creature_chlld1)
 	entries.creature_chlld2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlld2.creature", Level=120, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlld2", entries.creature_chlld2)
 	entries.creature_chlld3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chlld3.creature", Level=130, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.chlld3", entries.creature_chlld3)
@@ -7415,26 +7541,26 @@ r2.loadPalette = function()
 	entries.creature_chofc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chofc2.creature", Level=70, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.chofc2", entries.creature_chofc2)
 	entries.creature_chofc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chofc3.creature", Level=80, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.chofc3", entries.creature_chofc3)
 	entries.creature_chofc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chofc4.creature", Level=90, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.chofc4", entries.creature_chofc4)
-	--entries.creature_chogb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb1", entries.creature_chogb1)
-	--entries.creature_chogb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb2", entries.creature_chogb2)
-	--entries.creature_chogb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb3", entries.creature_chogb3)
-	--entries.creature_chogb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb4", entries.creature_chogb4)
-	--entries.creature_chogc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc1", entries.creature_chogc1)
-	--entries.creature_chogc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc2", entries.creature_chogc2)
-	--entries.creature_chogc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc3", entries.creature_chogc3)
-	--entries.creature_chogc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc4", entries.creature_chogc4)
-	--entries.creature_chogd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd1", entries.creature_chogd1)
-	--entries.creature_chogd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd2", entries.creature_chogd2)
-	--entries.creature_chogd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd3", entries.creature_chogd3)
-	--entries.creature_chogd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd4", entries.creature_chogd4)
-	--entries.creature_choge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge1", entries.creature_choge1)
-	--entries.creature_choge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge2", entries.creature_choge2)
-	--entries.creature_choge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge3", entries.creature_choge3)
-	--entries.creature_choge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge4", entries.creature_choge4)
-	--entries.creature_chogf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf1", entries.creature_chogf1)
-	--entries.creature_chogf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf2", entries.creature_chogf2)
-	--entries.creature_chogf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf3", entries.creature_chogf3)
-	--entries.creature_chogf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf4", entries.creature_chogf4)
+	entries.creature_chogb1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb1", entries.creature_chogb1)
+	entries.creature_chogb2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb2", entries.creature_chogb2)
+	entries.creature_chogb3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb3", entries.creature_chogb3)
+	entries.creature_chogb4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.chogb4", entries.creature_chogb4)
+	entries.creature_chogc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc1", entries.creature_chogc1)
+	entries.creature_chogc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc2", entries.creature_chogc2)
+	entries.creature_chogc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc3", entries.creature_chogc3)
+	entries.creature_chogc4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.chogc4", entries.creature_chogc4)
+	entries.creature_chogd1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd1", entries.creature_chogd1)
+	entries.creature_chogd2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd2", entries.creature_chogd2)
+	entries.creature_chogd3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd3", entries.creature_chogd3)
+	entries.creature_chogd4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.chogd4", entries.creature_chogd4)
+	entries.creature_choge1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge1", entries.creature_choge1)
+	entries.creature_choge2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge2", entries.creature_choge2)
+	entries.creature_choge3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge3", entries.creature_choge3)
+	entries.creature_choge4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="choge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.choge4", entries.creature_choge4)
+	entries.creature_chogf1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf1", entries.creature_chogf1)
+	entries.creature_chogf2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf2", entries.creature_chogf2)
+	entries.creature_chogf3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf3", entries.creature_chogf3)
+	entries.creature_chogf4 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chogf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.chogf4", entries.creature_chogf4)
 	entries.creature_chpdc1 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chpdc1.creature", Level=60, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.chpdc1", entries.creature_chpdc1)
 	entries.creature_chpdc2 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chpdc2.creature", Level=70, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.chpdc2", entries.creature_chpdc2)
 	entries.creature_chpdc3 = { Class="Npc", Base="palette.entities.creatures.passive", SheetClient="chpdc3.creature", Level=80, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.chpdc3", entries.creature_chpdc3)
@@ -7530,26 +7656,26 @@ r2.loadPalette = function()
 	entries.creature_ccafc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccafc3.creature", Level=80, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccafc3", entries.creature_ccafc3)
 	entries.creature_ccafc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccafc4.creature", Level=90, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccafc4", entries.creature_ccafc4)
 	entries.creature_ccafe4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccafe4.creature", Level=190, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccafe4", entries.creature_ccafe4)
-	--entries.creature_ccagb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb1", entries.creature_ccagb1)
-	--entries.creature_ccagb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb2", entries.creature_ccagb2)
-	--entries.creature_ccagb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb3", entries.creature_ccagb3)
-	--entries.creature_ccagb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb4", entries.creature_ccagb4)
-	--entries.creature_ccagc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc1", entries.creature_ccagc1)
-	--entries.creature_ccagc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc2", entries.creature_ccagc2)
-	--entries.creature_ccagc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc3", entries.creature_ccagc3)
-	--entries.creature_ccagc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc4", entries.creature_ccagc4)
-	--entries.creature_ccagd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd1", entries.creature_ccagd1)
-	--entries.creature_ccagd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd2", entries.creature_ccagd2)
-	--entries.creature_ccagd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd3", entries.creature_ccagd3)
-	--entries.creature_ccagd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd4", entries.creature_ccagd4)
-	--entries.creature_ccage1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage1", entries.creature_ccage1)
-	--entries.creature_ccage2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage2", entries.creature_ccage2)
-	--entries.creature_ccage3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage3", entries.creature_ccage3)
-	--entries.creature_ccage4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage4", entries.creature_ccage4)
-	--entries.creature_ccagf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf1", entries.creature_ccagf1)
-	--entries.creature_ccagf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf2", entries.creature_ccagf2)
-	--entries.creature_ccagf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf3", entries.creature_ccagf3)
-	--entries.creature_ccagf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf4", entries.creature_ccagf4)
+	entries.creature_ccagb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb1", entries.creature_ccagb1)
+	entries.creature_ccagb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb2", entries.creature_ccagb2)
+	entries.creature_ccagb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb3", entries.creature_ccagb3)
+	entries.creature_ccagb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccagb4", entries.creature_ccagb4)
+	entries.creature_ccagc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc1", entries.creature_ccagc1)
+	entries.creature_ccagc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc2", entries.creature_ccagc2)
+	entries.creature_ccagc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc3", entries.creature_ccagc3)
+	entries.creature_ccagc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccagc4", entries.creature_ccagc4)
+	entries.creature_ccagd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd1", entries.creature_ccagd1)
+	entries.creature_ccagd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd2", entries.creature_ccagd2)
+	entries.creature_ccagd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd3", entries.creature_ccagd3)
+	entries.creature_ccagd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccagd4", entries.creature_ccagd4)
+	entries.creature_ccage1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage1", entries.creature_ccage1)
+	entries.creature_ccage2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage2", entries.creature_ccage2)
+	entries.creature_ccage3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage3", entries.creature_ccage3)
+	entries.creature_ccage4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccage4", entries.creature_ccage4)
+	entries.creature_ccagf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf1", entries.creature_ccagf1)
+	entries.creature_ccagf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf2", entries.creature_ccagf2)
+	entries.creature_ccagf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf3", entries.creature_ccagf3)
+	entries.creature_ccagf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccagf4", entries.creature_ccagf4)
 	entries.creature_ccajd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccajd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccajd1", entries.creature_ccajd1)
 	entries.creature_ccajd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccajd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccajd2", entries.creature_ccajd2)
 	entries.creature_ccajd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccajd3.creature", Level=130, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccajd3", entries.creature_ccajd3)
@@ -7562,28 +7688,28 @@ r2.loadPalette = function()
 	entries.creature_ccbdc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbdc2.creature", Level=70, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbdc2", entries.creature_ccbdc2)
 	entries.creature_ccbdc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbdc3.creature", Level=80, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbdc3", entries.creature_ccbdc3)
 	entries.creature_ccbdc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbdc4.creature", Level=90, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbdc4", entries.creature_ccbdc4)
-	--entries.creature_ccbgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb1", entries.creature_ccbgb1)
-	--entries.creature_ccbgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb2", entries.creature_ccbgb2)
-	--entries.creature_ccbgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb3", entries.creature_ccbgb3)
-	--entries.creature_ccbgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb4", entries.creature_ccbgb4)
-	--entries.creature_ccbgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc1", entries.creature_ccbgc1)
-	--entries.creature_ccbgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc2", entries.creature_ccbgc2)
-	--entries.creature_ccbgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc3", entries.creature_ccbgc3)
-	--entries.creature_ccbgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc4", entries.creature_ccbgc4)
-	--entries.creature_ccbgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd1", entries.creature_ccbgd1)
-	--entries.creature_ccbgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd2", entries.creature_ccbgd2)
-	--entries.creature_ccbgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd3", entries.creature_ccbgd3)
+	entries.creature_ccbgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb1", entries.creature_ccbgb1)
+	entries.creature_ccbgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb2", entries.creature_ccbgb2)
+	entries.creature_ccbgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb3", entries.creature_ccbgb3)
+	entries.creature_ccbgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccbgb4", entries.creature_ccbgb4)
+	entries.creature_ccbgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc1", entries.creature_ccbgc1)
+	entries.creature_ccbgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc2", entries.creature_ccbgc2)
+	entries.creature_ccbgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc3", entries.creature_ccbgc3)
+	entries.creature_ccbgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccbgc4", entries.creature_ccbgc4)
+	entries.creature_ccbgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd1", entries.creature_ccbgd1)
+	entries.creature_ccbgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd2", entries.creature_ccbgd2)
+	entries.creature_ccbgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd3", entries.creature_ccbgd3)
 
-	--entries.creature_ccbgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd4", entries.creature_ccbgd4)
+	entries.creature_ccbgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccbgd4", entries.creature_ccbgd4)
 
-	--entries.creature_ccbge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge1", entries.creature_ccbge1)
-	--entries.creature_ccbge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge2", entries.creature_ccbge2)
-	--entries.creature_ccbge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge3", entries.creature_ccbge3)
-	--entries.creature_ccbge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge4", entries.creature_ccbge4)
-	--entries.creature_ccbgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf1", entries.creature_ccbgf1)
-	--entries.creature_ccbgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf2", entries.creature_ccbgf2)
-	--entries.creature_ccbgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf3", entries.creature_ccbgf3)
-	--entries.creature_ccbgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf4", entries.creature_ccbgf4)
+	entries.creature_ccbge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge1", entries.creature_ccbge1)
+	entries.creature_ccbge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge2", entries.creature_ccbge2)
+	entries.creature_ccbge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge3", entries.creature_ccbge3)
+	entries.creature_ccbge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccbge4", entries.creature_ccbge4)
+	entries.creature_ccbgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf1", entries.creature_ccbgf1)
+	entries.creature_ccbgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf2", entries.creature_ccbgf2)
+	entries.creature_ccbgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf3", entries.creature_ccbgf3)
+	entries.creature_ccbgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccbgf4", entries.creature_ccbgf4)
 	entries.creature_ccbla1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbla1.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="a" } r2.addPaletteElement("palette.entities.creatures.ccbla1", entries.creature_ccbla1)
 	entries.creature_ccbla2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccbla2.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="a" } r2.addPaletteElement("palette.entities.creatures.ccbla2", entries.creature_ccbla2)
 	entries.creature_ccblb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccblb1.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccblb1", entries.creature_ccblb1)
@@ -7605,26 +7731,26 @@ r2.loadPalette = function()
 	entries.creature_cccdc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccdc3.creature", Level=80, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccdc3", entries.creature_cccdc3)
 	entries.creature_cccdc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccdc4.creature", Level=90, RingAccess="d2", Ecosystem="Desert", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccdc4", entries.creature_cccdc4)
 	entries.creature_cccdd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccdd4.creature", Level=140, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccdd4", entries.creature_cccdd4)
-	--entries.creature_cccgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb1", entries.creature_cccgb1)
-	--entries.creature_cccgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb2", entries.creature_cccgb2)
-	--entries.creature_cccgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb3", entries.creature_cccgb3)
-	--entries.creature_cccgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb4", entries.creature_cccgb4)
-	--entries.creature_cccgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc1", entries.creature_cccgc1)
-	--entries.creature_cccgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc2", entries.creature_cccgc2)
-	--entries.creature_cccgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc3", entries.creature_cccgc3)
-	--entries.creature_cccgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc4", entries.creature_cccgc4)
-	--entries.creature_cccgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd1", entries.creature_cccgd1)
-	--entries.creature_cccgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd2", entries.creature_cccgd2)
-	--entries.creature_cccgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd3", entries.creature_cccgd3)
-	--entries.creature_cccgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd4", entries.creature_cccgd4)
-	--entries.creature_cccge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge1", entries.creature_cccge1)
-	--entries.creature_cccge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge2", entries.creature_cccge2)
-	--entries.creature_cccge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge3", entries.creature_cccge3)
-	--entries.creature_cccge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge4", entries.creature_cccge4)
-	--entries.creature_cccgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf1", entries.creature_cccgf1)
-	--entries.creature_cccgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf2", entries.creature_cccgf2)
-	--entries.creature_cccgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf3", entries.creature_cccgf3)
-	--entries.creature_cccgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf4", entries.creature_cccgf4)
+	entries.creature_cccgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb1", entries.creature_cccgb1)
+	entries.creature_cccgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb2", entries.creature_cccgb2)
+	entries.creature_cccgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb3", entries.creature_cccgb3)
+	entries.creature_cccgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cccgb4", entries.creature_cccgb4)
+	entries.creature_cccgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc1", entries.creature_cccgc1)
+	entries.creature_cccgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc2", entries.creature_cccgc2)
+	entries.creature_cccgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc3", entries.creature_cccgc3)
+	entries.creature_cccgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cccgc4", entries.creature_cccgc4)
+	entries.creature_cccgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd1", entries.creature_cccgd1)
+	entries.creature_cccgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd2", entries.creature_cccgd2)
+	entries.creature_cccgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd3", entries.creature_cccgd3)
+	entries.creature_cccgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cccgd4", entries.creature_cccgd4)
+	entries.creature_cccge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge1", entries.creature_cccge1)
+	entries.creature_cccge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge2", entries.creature_cccge2)
+	entries.creature_cccge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge3", entries.creature_cccge3)
+	entries.creature_cccge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cccge4", entries.creature_cccge4)
+	entries.creature_cccgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf1", entries.creature_cccgf1)
+	entries.creature_cccgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf2", entries.creature_cccgf2)
+	entries.creature_cccgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf3", entries.creature_cccgf3)
+	entries.creature_cccgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cccgf4", entries.creature_cccgf4)
 	entries.creature_cccla1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccla1.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="a" } r2.addPaletteElement("palette.entities.creatures.cccla1", entries.creature_cccla1)
 	entries.creature_cccla2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cccla2.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="a" } r2.addPaletteElement("palette.entities.creatures.cccla2", entries.creature_cccla2)
 	entries.creature_ccclb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccclb1.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccclb1", entries.creature_ccclb1)
@@ -7640,26 +7766,26 @@ r2.loadPalette = function()
 	entries.creature_ccdfe2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdfe2.creature", Level=170, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdfe2", entries.creature_ccdfe2)
 	entries.creature_ccdfe3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdfe3.creature", Level=180, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdfe3", entries.creature_ccdfe3)
 	entries.creature_ccdfe4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdfe4.creature", Level=190, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdfe4", entries.creature_ccdfe4)
-	--entries.creature_ccdgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb1", entries.creature_ccdgb1)
-	--entries.creature_ccdgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb2", entries.creature_ccdgb2)
-	--entries.creature_ccdgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb3", entries.creature_ccdgb3)
-	--entries.creature_ccdgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb4", entries.creature_ccdgb4)
-	--entries.creature_ccdgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc1", entries.creature_ccdgc1)
-	--entries.creature_ccdgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc2", entries.creature_ccdgc2)
-	--entries.creature_ccdgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc3", entries.creature_ccdgc3)
-	--entries.creature_ccdgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc4", entries.creature_ccdgc4)
-	--entries.creature_ccdgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd1", entries.creature_ccdgd1)
-	--entries.creature_ccdgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd2", entries.creature_ccdgd2)
-	--entries.creature_ccdgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd3", entries.creature_ccdgd3)
-	--entries.creature_ccdgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd4", entries.creature_ccdgd4)
-	--entries.creature_ccdge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge1", entries.creature_ccdge1)
-	--entries.creature_ccdge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge2", entries.creature_ccdge2)
-	--entries.creature_ccdge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge3", entries.creature_ccdge3)
-	--entries.creature_ccdge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge4", entries.creature_ccdge4)
-	--entries.creature_ccdgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf1", entries.creature_ccdgf1)
-	--entries.creature_ccdgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf2", entries.creature_ccdgf2)
-	--entries.creature_ccdgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf3", entries.creature_ccdgf3)
-	--entries.creature_ccdgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf4", entries.creature_ccdgf4)
+	entries.creature_ccdgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb1", entries.creature_ccdgb1)
+	entries.creature_ccdgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb2", entries.creature_ccdgb2)
+	entries.creature_ccdgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb3", entries.creature_ccdgb3)
+	entries.creature_ccdgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccdgb4", entries.creature_ccdgb4)
+	entries.creature_ccdgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc1", entries.creature_ccdgc1)
+	entries.creature_ccdgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc2", entries.creature_ccdgc2)
+	entries.creature_ccdgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc3", entries.creature_ccdgc3)
+	entries.creature_ccdgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdgc4", entries.creature_ccdgc4)
+	entries.creature_ccdgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd1", entries.creature_ccdgd1)
+	entries.creature_ccdgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd2", entries.creature_ccdgd2)
+	entries.creature_ccdgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd3", entries.creature_ccdgd3)
+	entries.creature_ccdgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccdgd4", entries.creature_ccdgd4)
+	entries.creature_ccdge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge1", entries.creature_ccdge1)
+	entries.creature_ccdge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge2", entries.creature_ccdge2)
+	entries.creature_ccdge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge3", entries.creature_ccdge3)
+	entries.creature_ccdge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccdge4", entries.creature_ccdge4)
+	entries.creature_ccdgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf1", entries.creature_ccdgf1)
+	entries.creature_ccdgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf2", entries.creature_ccdgf2)
+	entries.creature_ccdgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf3", entries.creature_ccdgf3)
+	entries.creature_ccdgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccdgf4", entries.creature_ccdgf4)
 	entries.creature_ccdjc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdjc1.creature", Level=60, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdjc1", entries.creature_ccdjc1)
 	entries.creature_ccdjc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdjc2.creature", Level=70, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdjc2", entries.creature_ccdjc2)
 	entries.creature_ccdjc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccdjc3.creature", Level=80, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccdjc3", entries.creature_ccdjc3)
@@ -7683,26 +7809,26 @@ r2.loadPalette = function()
 	entries.creature_ccefb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccefb3.creature", Level=30, RingAccess="a1", Ecosystem="Forest", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccefb3", entries.creature_ccefb3)
 	entries.creature_ccefb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccefb4.creature", Level=40, RingAccess="a1", Ecosystem="Forest", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccefb4", entries.creature_ccefb4)
 	entries.creature_cceff4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cceff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.cceff4", entries.creature_cceff4)
-	--entries.creature_ccegb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb1", entries.creature_ccegb1)
-	--entries.creature_ccegb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb2", entries.creature_ccegb2)
-	--entries.creature_ccegb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb3", entries.creature_ccegb3)
-	--entries.creature_ccegb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb4", entries.creature_ccegb4)
-	--entries.creature_ccegc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc1", entries.creature_ccegc1)
-	--entries.creature_ccegc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc2", entries.creature_ccegc2)
-	--entries.creature_ccegc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc3", entries.creature_ccegc3)
-	--entries.creature_ccegc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc4", entries.creature_ccegc4)
-	--entries.creature_ccegd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd1", entries.creature_ccegd1)
-	--entries.creature_ccegd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd2", entries.creature_ccegd2)
-	--entries.creature_ccegd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd3", entries.creature_ccegd3)
-	--entries.creature_ccegd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd4", entries.creature_ccegd4)
-	--entries.creature_ccege1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege1", entries.creature_ccege1)
-	--entries.creature_ccege2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege2", entries.creature_ccege2)
-	--entries.creature_ccege3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege3", entries.creature_ccege3)
-	--entries.creature_ccege4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege4", entries.creature_ccege4)
-	--entries.creature_ccegf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf1", entries.creature_ccegf1)
-	--entries.creature_ccegf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf2", entries.creature_ccegf2)
-	--entries.creature_ccegf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf3", entries.creature_ccegf3)
-	--entries.creature_ccegf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf4", entries.creature_ccegf4)
+	entries.creature_ccegb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb1", entries.creature_ccegb1)
+	entries.creature_ccegb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb2", entries.creature_ccegb2)
+	entries.creature_ccegb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb3", entries.creature_ccegb3)
+	entries.creature_ccegb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccegb4", entries.creature_ccegb4)
+	entries.creature_ccegc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc1", entries.creature_ccegc1)
+	entries.creature_ccegc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc2", entries.creature_ccegc2)
+	entries.creature_ccegc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc3", entries.creature_ccegc3)
+	entries.creature_ccegc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccegc4", entries.creature_ccegc4)
+	entries.creature_ccegd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd1", entries.creature_ccegd1)
+	entries.creature_ccegd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd2", entries.creature_ccegd2)
+	entries.creature_ccegd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd3", entries.creature_ccegd3)
+	entries.creature_ccegd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccegd4", entries.creature_ccegd4)
+	entries.creature_ccege1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege1", entries.creature_ccege1)
+	entries.creature_ccege2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege2", entries.creature_ccege2)
+	entries.creature_ccege3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege3", entries.creature_ccege3)
+	entries.creature_ccege4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccege4", entries.creature_ccege4)
+	entries.creature_ccegf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf1", entries.creature_ccegf1)
+	entries.creature_ccegf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf2", entries.creature_ccegf2)
+	entries.creature_ccegf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf3", entries.creature_ccegf3)
+	entries.creature_ccegf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccegf4", entries.creature_ccegf4)
 	entries.creature_cceja1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cceja1.creature", Level=10, RingAccess="a1", Ecosystem="Jungle", Region="a" } r2.addPaletteElement("palette.entities.creatures.cceja1", entries.creature_cceja1)
 	entries.creature_cceja2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cceja2.creature", Level=10, RingAccess="a1", Ecosystem="Jungle", Region="a" } r2.addPaletteElement("palette.entities.creatures.cceja2", entries.creature_cceja2)
 	entries.creature_ccejb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccejb1.creature", Level=10, RingAccess="a1", Ecosystem="Jungle", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccejb1", entries.creature_ccejb1)
@@ -7722,26 +7848,26 @@ r2.loadPalette = function()
 	entries.creature_cceld3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cceld3.creature", Level=130, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cceld3", entries.creature_cceld3)
 	entries.creature_cceld4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cceld4.creature", Level=140, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cceld4", entries.creature_cceld4)
 	entries.creature_ccepf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccepf4.creature", Level=240, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccepf4", entries.creature_ccepf4)
-	--entries.creature_ccfgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb1", entries.creature_ccfgb1)
-	--entries.creature_ccfgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb2", entries.creature_ccfgb2)
-	--entries.creature_ccfgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb3", entries.creature_ccfgb3)
-	--entries.creature_ccfgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb4", entries.creature_ccfgb4)
-	--entries.creature_ccfgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc1", entries.creature_ccfgc1)
-	--entries.creature_ccfgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc2", entries.creature_ccfgc2)
-	--entries.creature_ccfgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc3", entries.creature_ccfgc3)
-	--entries.creature_ccfgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc4", entries.creature_ccfgc4)
-	--entries.creature_ccfgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd1", entries.creature_ccfgd1)
-	--entries.creature_ccfgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd2", entries.creature_ccfgd2)
-	--entries.creature_ccfgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd3", entries.creature_ccfgd3)
-	--entries.creature_ccfgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd4", entries.creature_ccfgd4)
-	--entries.creature_ccfge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge1", entries.creature_ccfge1)
-	--entries.creature_ccfge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge2", entries.creature_ccfge2)
-	--entries.creature_ccfge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge3", entries.creature_ccfge3)
-	--entries.creature_ccfge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge4", entries.creature_ccfge4)
-	--entries.creature_ccfgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf1", entries.creature_ccfgf1)
-	--entries.creature_ccfgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf2", entries.creature_ccfgf2)
-	--entries.creature_ccfgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf3", entries.creature_ccfgf3)
-	--entries.creature_ccfgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf4", entries.creature_ccfgf4)
+	entries.creature_ccfgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb1", entries.creature_ccfgb1)
+	entries.creature_ccfgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb2", entries.creature_ccfgb2)
+	entries.creature_ccfgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb3", entries.creature_ccfgb3)
+	entries.creature_ccfgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccfgb4", entries.creature_ccfgb4)
+	entries.creature_ccfgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc1", entries.creature_ccfgc1)
+	entries.creature_ccfgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc2", entries.creature_ccfgc2)
+	entries.creature_ccfgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc3", entries.creature_ccfgc3)
+	entries.creature_ccfgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccfgc4", entries.creature_ccfgc4)
+	entries.creature_ccfgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd1", entries.creature_ccfgd1)
+	entries.creature_ccfgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd2", entries.creature_ccfgd2)
+	entries.creature_ccfgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd3", entries.creature_ccfgd3)
+	entries.creature_ccfgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfgd4", entries.creature_ccfgd4)
+	entries.creature_ccfge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge1", entries.creature_ccfge1)
+	entries.creature_ccfge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge2", entries.creature_ccfge2)
+	entries.creature_ccfge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge3", entries.creature_ccfge3)
+	entries.creature_ccfge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfge4", entries.creature_ccfge4)
+	entries.creature_ccfgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf1", entries.creature_ccfgf1)
+	entries.creature_ccfgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf2", entries.creature_ccfgf2)
+	entries.creature_ccfgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf3", entries.creature_ccfgf3)
+	entries.creature_ccfgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccfgf4", entries.creature_ccfgf4)
 	entries.creature_ccfjd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfjd4.creature", Level=140, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccfjd4", entries.creature_ccfjd4)
 	entries.creature_ccfje1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfje1.creature", Level=160, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfje1", entries.creature_ccfje1)
 	entries.creature_ccfje2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfje2.creature", Level=170, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfje2", entries.creature_ccfje2)
@@ -7756,10 +7882,10 @@ r2.loadPalette = function()
 	entries.creature_ccflf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccflf3.creature", Level=230, RingAccess="l6", Ecosystem="Lacustre", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccflf3", entries.creature_ccflf3)
 	entries.creature_ccflf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccflf4.creature", Level=240, RingAccess="l6", Ecosystem="Lacustre", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccflf4", entries.creature_ccflf4)
 	entries.creature_ccfpe4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccfpe4.creature", Level=190, RingAccess="p4", Ecosystem="PrimeRoots", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccfpe4", entries.creature_ccfpe4)
-	--entries.creature_ccggf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf1", entries.creature_ccggf1)
-	--entries.creature_ccggf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf2", entries.creature_ccggf2)
-	--entries.creature_ccggf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf3", entries.creature_ccggf3)
-	--entries.creature_ccggf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf4", entries.creature_ccggf4)
+	entries.creature_ccggf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf1", entries.creature_ccggf1)
+	entries.creature_ccggf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf2", entries.creature_ccggf2)
+	entries.creature_ccggf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf3", entries.creature_ccggf3)
+	entries.creature_ccggf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccggf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccggf4", entries.creature_ccggf4)
 	entries.creature_ccgpf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccgpf1.creature", Level=210, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccgpf1", entries.creature_ccgpf1)
 	entries.creature_ccgpf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccgpf2.creature", Level=220, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccgpf2", entries.creature_ccgpf2)
 	entries.creature_ccgpf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccgpf3.creature", Level=230, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccgpf3", entries.creature_ccgpf3)
@@ -7772,27 +7898,27 @@ r2.loadPalette = function()
 	entries.creature_cchde2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchde2.creature", Level=170, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchde2", entries.creature_cchde2)
 	entries.creature_cchde3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchde3.creature", Level=180, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchde3", entries.creature_cchde3)
 	entries.creature_cchde4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchde4.creature", Level=190, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchde4", entries.creature_cchde4)
-	--entries.creature_cchgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb1", entries.creature_cchgb1)
+	entries.creature_cchgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb1", entries.creature_cchgb1)
 
-	--entries.creature_cchgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb2", entries.creature_cchgb2)
-	--entries.creature_cchgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb3", entries.creature_cchgb3)
-	--entries.creature_cchgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb4", entries.creature_cchgb4)
-	--entries.creature_cchgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc1", entries.creature_cchgc1)
-	--entries.creature_cchgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc2", entries.creature_cchgc2)
-	--entries.creature_cchgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc3", entries.creature_cchgc3)
-	--entries.creature_cchgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc4", entries.creature_cchgc4)
-	--entries.creature_cchgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd1", entries.creature_cchgd1)
-	--entries.creature_cchgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd2", entries.creature_cchgd2)
-	--entries.creature_cchgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd3", entries.creature_cchgd3)
-	--entries.creature_cchgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd4", entries.creature_cchgd4)
-	--entries.creature_cchge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge1", entries.creature_cchge1)
-	--entries.creature_cchge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge2", entries.creature_cchge2)
-	--entries.creature_cchge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge3", entries.creature_cchge3)
-	--entries.creature_cchge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge4", entries.creature_cchge4)
-	--entries.creature_cchgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf1", entries.creature_cchgf1)
-	--entries.creature_cchgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf2", entries.creature_cchgf2)
-	--entries.creature_cchgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf3", entries.creature_cchgf3)
-	--entries.creature_cchgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf4", entries.creature_cchgf4)
+	entries.creature_cchgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb2", entries.creature_cchgb2)
+	entries.creature_cchgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb3", entries.creature_cchgb3)
+	entries.creature_cchgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cchgb4", entries.creature_cchgb4)
+	entries.creature_cchgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc1", entries.creature_cchgc1)
+	entries.creature_cchgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc2", entries.creature_cchgc2)
+	entries.creature_cchgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc3", entries.creature_cchgc3)
+	entries.creature_cchgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cchgc4", entries.creature_cchgc4)
+	entries.creature_cchgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd1", entries.creature_cchgd1)
+	entries.creature_cchgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd2", entries.creature_cchgd2)
+	entries.creature_cchgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd3", entries.creature_cchgd3)
+	entries.creature_cchgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cchgd4", entries.creature_cchgd4)
+	entries.creature_cchge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge1", entries.creature_cchge1)
+	entries.creature_cchge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge2", entries.creature_cchge2)
+	entries.creature_cchge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge3", entries.creature_cchge3)
+	entries.creature_cchge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchge4", entries.creature_cchge4)
+	entries.creature_cchgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf1", entries.creature_cchgf1)
+	entries.creature_cchgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf2", entries.creature_cchgf2)
+	entries.creature_cchgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf3", entries.creature_cchgf3)
+	entries.creature_cchgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cchgf4", entries.creature_cchgf4)
 	entries.creature_cchpe1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchpe1.creature", Level=160, RingAccess="p4", Ecosystem="PrimeRoots", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchpe1", entries.creature_cchpe1)
 	entries.creature_cchpe2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchpe2.creature", Level=170, RingAccess="p4", Ecosystem="PrimeRoots", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchpe2", entries.creature_cchpe2)
 	entries.creature_cchpe3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="cchpe3.creature", Level=180, RingAccess="p4", Ecosystem="PrimeRoots", Region="e" } r2.addPaletteElement("palette.entities.creatures.cchpe3", entries.creature_cchpe3)
@@ -7859,26 +7985,26 @@ r2.loadPalette = function()
 	entries.creature_ccmff2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmff2", entries.creature_ccmff2)
 	entries.creature_ccmff3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmff3", entries.creature_ccmff3)
 	entries.creature_ccmff4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmff4", entries.creature_ccmff4)
-	--entries.creature_ccmgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb1", entries.creature_ccmgb1)
-	--entries.creature_ccmgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb2", entries.creature_ccmgb2)
-	--entries.creature_ccmgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb3", entries.creature_ccmgb3)
-	--entries.creature_ccmgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb4", entries.creature_ccmgb4)
-	--entries.creature_ccmgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc1", entries.creature_ccmgc1)
-	--entries.creature_ccmgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc2", entries.creature_ccmgc2)
-	--entries.creature_ccmgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc3", entries.creature_ccmgc3)
-	--entries.creature_ccmgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc4", entries.creature_ccmgc4)
-	--entries.creature_ccmgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd1", entries.creature_ccmgd1)
-	--entries.creature_ccmgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd2", entries.creature_ccmgd2)
-	--entries.creature_ccmgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd3", entries.creature_ccmgd3)
-	--entries.creature_ccmgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd4", entries.creature_ccmgd4)
-	--entries.creature_ccmge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge1", entries.creature_ccmge1)
-	--entries.creature_ccmge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge2", entries.creature_ccmge2)
-	--entries.creature_ccmge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge3", entries.creature_ccmge3)
-	--entries.creature_ccmge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge4", entries.creature_ccmge4)
-	--entries.creature_ccmgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf1", entries.creature_ccmgf1)
-	--entries.creature_ccmgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf2", entries.creature_ccmgf2)
-	--entries.creature_ccmgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf3", entries.creature_ccmgf3)
-	--entries.creature_ccmgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf4", entries.creature_ccmgf4)
+	entries.creature_ccmgb1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb1", entries.creature_ccmgb1)
+	entries.creature_ccmgb2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb2", entries.creature_ccmgb2)
+	entries.creature_ccmgb3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb3", entries.creature_ccmgb3)
+	entries.creature_ccmgb4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ccmgb4", entries.creature_ccmgb4)
+	entries.creature_ccmgc1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc1", entries.creature_ccmgc1)
+	entries.creature_ccmgc2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc2", entries.creature_ccmgc2)
+	entries.creature_ccmgc3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc3", entries.creature_ccmgc3)
+	entries.creature_ccmgc4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ccmgc4", entries.creature_ccmgc4)
+	entries.creature_ccmgd1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd1", entries.creature_ccmgd1)
+	entries.creature_ccmgd2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd2", entries.creature_ccmgd2)
+	entries.creature_ccmgd3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd3", entries.creature_ccmgd3)
+	entries.creature_ccmgd4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ccmgd4", entries.creature_ccmgd4)
+	entries.creature_ccmge1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge1", entries.creature_ccmge1)
+	entries.creature_ccmge2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge2", entries.creature_ccmge2)
+	entries.creature_ccmge3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge3", entries.creature_ccmge3)
+	entries.creature_ccmge4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ccmge4", entries.creature_ccmge4)
+	entries.creature_ccmgf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf1", entries.creature_ccmgf1)
+	entries.creature_ccmgf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf2", entries.creature_ccmgf2)
+	entries.creature_ccmgf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf3", entries.creature_ccmgf3)
+	entries.creature_ccmgf4 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmgf4", entries.creature_ccmgf4)
 	entries.creature_ccmpf1 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmpf1.creature", Level=210, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmpf1", entries.creature_ccmpf1)
 	entries.creature_ccmpf2 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmpf2.creature", Level=220, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmpf2", entries.creature_ccmpf2)
 	entries.creature_ccmpf3 = { Class="Npc", Base="palette.entities.creatures.predator", SheetClient="ccmpf3.creature", Level=230, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.ccmpf3", entries.creature_ccmpf3)
@@ -7910,26 +8036,26 @@ r2.loadPalette = function()
 
 
 -- Plants
-	--entries.creature_cpagb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb1", entries.creature_cpagb1)
-	--entries.creature_cpagb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb2", entries.creature_cpagb2)
-	--entries.creature_cpagb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb3", entries.creature_cpagb3)
-	--entries.creature_cpagb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb4", entries.creature_cpagb4)
-	--entries.creature_cpagc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc1", entries.creature_cpagc1)
-	--entries.creature_cpagc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc2", entries.creature_cpagc2)
-	--entries.creature_cpagc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc3", entries.creature_cpagc3)
-	--entries.creature_cpagc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc4", entries.creature_cpagc4)
-	--entries.creature_cpagd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd1", entries.creature_cpagd1)
-	--entries.creature_cpagd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd2", entries.creature_cpagd2)
-	--entries.creature_cpagd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd3", entries.creature_cpagd3)
-	--entries.creature_cpagd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd4", entries.creature_cpagd4)
-	--entries.creature_cpage1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage1", entries.creature_cpage1)
-	--entries.creature_cpage2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage2", entries.creature_cpage2)
-	--entries.creature_cpage3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage3", entries.creature_cpage3)
-	--entries.creature_cpage4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage4", entries.creature_cpage4)
-	--entries.creature_cpagf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf1", entries.creature_cpagf1)
-	--entries.creature_cpagf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf2", entries.creature_cpagf2)
-	--entries.creature_cpagf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf3", entries.creature_cpagf3)
-	--entries.creature_cpagf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf4", entries.creature_cpagf4)
+	entries.creature_cpagb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb1", entries.creature_cpagb1)
+	entries.creature_cpagb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb2", entries.creature_cpagb2)
+	entries.creature_cpagb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb3", entries.creature_cpagb3)
+	entries.creature_cpagb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpagb4", entries.creature_cpagb4)
+	entries.creature_cpagc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc1", entries.creature_cpagc1)
+	entries.creature_cpagc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc2", entries.creature_cpagc2)
+	entries.creature_cpagc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc3", entries.creature_cpagc3)
+	entries.creature_cpagc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpagc4", entries.creature_cpagc4)
+	entries.creature_cpagd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd1", entries.creature_cpagd1)
+	entries.creature_cpagd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd2", entries.creature_cpagd2)
+	entries.creature_cpagd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd3", entries.creature_cpagd3)
+	entries.creature_cpagd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpagd4", entries.creature_cpagd4)
+	entries.creature_cpage1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage1", entries.creature_cpage1)
+	entries.creature_cpage2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage2", entries.creature_cpage2)
+	entries.creature_cpage3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage3", entries.creature_cpage3)
+	entries.creature_cpage4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpage4", entries.creature_cpage4)
+	entries.creature_cpagf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf1", entries.creature_cpagf1)
+	entries.creature_cpagf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf2", entries.creature_cpagf2)
+	entries.creature_cpagf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf3", entries.creature_cpagf3)
+	entries.creature_cpagf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpagf4", entries.creature_cpagf4)
 	entries.creature_cpapd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpapd1.creature", Level=110, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpapd1", entries.creature_cpapd1)
 	entries.creature_cpapd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpapd2.creature", Level=120, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpapd2", entries.creature_cpapd2)
 	entries.creature_cpapd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpapd3.creature", Level=130, RingAccess="p1", Ecosystem="PrimeRoots", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpapd3", entries.creature_cpapd3)
@@ -7942,26 +8068,26 @@ r2.loadPalette = function()
 	entries.creature_cpapf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpapf2.creature", Level=220, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpapf2", entries.creature_cpapf2)
 	entries.creature_cpapf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpapf3.creature", Level=230, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpapf3", entries.creature_cpapf3)
 	entries.creature_cpapf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpapf4.creature", Level=240, RingAccess="p10", Ecosystem="PrimeRoots", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpapf4", entries.creature_cpapf4)
-	--entries.creature_cpbgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb1", entries.creature_cpbgb1)
-	--entries.creature_cpbgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb2", entries.creature_cpbgb2)
-	--entries.creature_cpbgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb3", entries.creature_cpbgb3)
-	--entries.creature_cpbgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb4", entries.creature_cpbgb4)
-	--entries.creature_cpbgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc1", entries.creature_cpbgc1)
-	--entries.creature_cpbgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc2", entries.creature_cpbgc2)
-	--entries.creature_cpbgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc3", entries.creature_cpbgc3)
-	--entries.creature_cpbgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc4", entries.creature_cpbgc4)
-	--entries.creature_cpbgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd1", entries.creature_cpbgd1)
-	--entries.creature_cpbgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd2", entries.creature_cpbgd2)
-	--entries.creature_cpbgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd3", entries.creature_cpbgd3)
-	--entries.creature_cpbgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd4", entries.creature_cpbgd4)
-	--entries.creature_cpbge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge1", entries.creature_cpbge1)
-	--entries.creature_cpbge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge2", entries.creature_cpbge2)
-	--entries.creature_cpbge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge3", entries.creature_cpbge3)
-	--entries.creature_cpbge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge4", entries.creature_cpbge4)
-	--entries.creature_cpbgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf1", entries.creature_cpbgf1)
-	--entries.creature_cpbgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf2", entries.creature_cpbgf2)
-	--entries.creature_cpbgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf3", entries.creature_cpbgf3)
-	--entries.creature_cpbgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf4", entries.creature_cpbgf4)
+	entries.creature_cpbgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb1", entries.creature_cpbgb1)
+	entries.creature_cpbgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb2", entries.creature_cpbgb2)
+	entries.creature_cpbgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb3", entries.creature_cpbgb3)
+	entries.creature_cpbgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpbgb4", entries.creature_cpbgb4)
+	entries.creature_cpbgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc1", entries.creature_cpbgc1)
+	entries.creature_cpbgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc2", entries.creature_cpbgc2)
+	entries.creature_cpbgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc3", entries.creature_cpbgc3)
+	entries.creature_cpbgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpbgc4", entries.creature_cpbgc4)
+	entries.creature_cpbgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd1", entries.creature_cpbgd1)
+	entries.creature_cpbgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd2", entries.creature_cpbgd2)
+	entries.creature_cpbgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd3", entries.creature_cpbgd3)
+	entries.creature_cpbgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpbgd4", entries.creature_cpbgd4)
+	entries.creature_cpbge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge1", entries.creature_cpbge1)
+	entries.creature_cpbge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge2", entries.creature_cpbge2)
+	entries.creature_cpbge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge3", entries.creature_cpbge3)
+	entries.creature_cpbge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpbge4", entries.creature_cpbge4)
+	entries.creature_cpbgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf1", entries.creature_cpbgf1)
+	entries.creature_cpbgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf2", entries.creature_cpbgf2)
+	entries.creature_cpbgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf3", entries.creature_cpbgf3)
+	entries.creature_cpbgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpbgf4", entries.creature_cpbgf4)
 	entries.creature_cpblb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpblb1.creature", Level=10, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpblb1", entries.creature_cpblb1)
 	entries.creature_cpblb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpblb2.creature", Level=20, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpblb2", entries.creature_cpblb2)
 	entries.creature_cpblb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpblb3.creature", Level=30, RingAccess="a1", Ecosystem="Lacustre", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpblb3", entries.creature_cpblb3)
@@ -7983,27 +8109,27 @@ r2.loadPalette = function()
 	entries.creature_cpcfc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcfc2.creature", Level=70, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcfc2", entries.creature_cpcfc2)
 	entries.creature_cpcfc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcfc3.creature", Level=80, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcfc3", entries.creature_cpcfc3)
 	entries.creature_cpcfc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcfc4.creature", Level=90, RingAccess="f5", Ecosystem="Forest", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcfc4", entries.creature_cpcfc4)
-	--entries.creature_cpcgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb1", entries.creature_cpcgb1)
-	--entries.creature_cpcgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb2", entries.creature_cpcgb2)
-	--entries.creature_cpcgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb3", entries.creature_cpcgb3)
-	--entries.creature_cpcgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb4", entries.creature_cpcgb4)
-	--entries.creature_cpcgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc1", entries.creature_cpcgc1)
-	--entries.creature_cpcgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc2", entries.creature_cpcgc2)
-	--entries.creature_cpcgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc3", entries.creature_cpcgc3)
-	--entries.creature_cpcgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc4", entries.creature_cpcgc4)
-	--entries.creature_cpcgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd1", entries.creature_cpcgd1)
-	--entries.creature_cpcgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd2", entries.creature_cpcgd2)
-	--entries.creature_cpcgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd3", entries.creature_cpcgd3)
-	--entries.creature_cpcgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd4", entries.creature_cpcgd4)
-	--entries.creature_cpcge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge1", entries.creature_cpcge1)
-	--entries.creature_cpcge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge2", entries.creature_cpcge2)
-	--entries.creature_cpcge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge3", entries.creature_cpcge3)
-	--entries.creature_cpcge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge4", entries.creature_cpcge4)
-	--entries.creature_cpcgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf1", entries.creature_cpcgf1)
-	--entries.creature_cpcgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf2", entries.creature_cpcgf2)
+	entries.creature_cpcgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb1", entries.creature_cpcgb1)
+	entries.creature_cpcgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb2", entries.creature_cpcgb2)
+	entries.creature_cpcgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb3", entries.creature_cpcgb3)
+	entries.creature_cpcgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpcgb4", entries.creature_cpcgb4)
+	entries.creature_cpcgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc1", entries.creature_cpcgc1)
+	entries.creature_cpcgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc2", entries.creature_cpcgc2)
+	entries.creature_cpcgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc3", entries.creature_cpcgc3)
+	entries.creature_cpcgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpcgc4", entries.creature_cpcgc4)
+	entries.creature_cpcgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd1", entries.creature_cpcgd1)
+	entries.creature_cpcgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd2", entries.creature_cpcgd2)
+	entries.creature_cpcgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd3", entries.creature_cpcgd3)
+	entries.creature_cpcgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcgd4", entries.creature_cpcgd4)
+	entries.creature_cpcge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge1", entries.creature_cpcge1)
+	entries.creature_cpcge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge2", entries.creature_cpcge2)
+	entries.creature_cpcge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge3", entries.creature_cpcge3)
+	entries.creature_cpcge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpcge4", entries.creature_cpcge4)
+	entries.creature_cpcgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf1", entries.creature_cpcgf1)
+	entries.creature_cpcgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf2", entries.creature_cpcgf2)
 
-	--entries.creature_cpcgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf3", entries.creature_cpcgf3)
-	--entries.creature_cpcgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf4", entries.creature_cpcgf4)
+	entries.creature_cpcgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf3", entries.creature_cpcgf3)
+	entries.creature_cpcgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpcgf4", entries.creature_cpcgf4)
 	entries.creature_cpcjd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcjd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcjd1", entries.creature_cpcjd1)
 	entries.creature_cpcjd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcjd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcjd2", entries.creature_cpcjd2)
 	entries.creature_cpcjd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpcjd3.creature", Level=130, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpcjd3", entries.creature_cpcjd3)
@@ -8021,26 +8147,26 @@ r2.loadPalette = function()
 	entries.creature_cpdff2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdff2", entries.creature_cpdff2)
 	entries.creature_cpdff3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdff3", entries.creature_cpdff3)
 	entries.creature_cpdff4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdff4", entries.creature_cpdff4)
-	--entries.creature_cpdgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb1", entries.creature_cpdgb1)
-	--entries.creature_cpdgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb2", entries.creature_cpdgb2)
-	--entries.creature_cpdgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb3", entries.creature_cpdgb3)
-	--entries.creature_cpdgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb4", entries.creature_cpdgb4)
-	--entries.creature_cpdgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc1", entries.creature_cpdgc1)
-	--entries.creature_cpdgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc2", entries.creature_cpdgc2)
-	--entries.creature_cpdgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc3", entries.creature_cpdgc3)
-	--entries.creature_cpdgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc4", entries.creature_cpdgc4)
-	--entries.creature_cpdgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd1", entries.creature_cpdgd1)
-	--entries.creature_cpdgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd2", entries.creature_cpdgd2)
-	--entries.creature_cpdgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd3", entries.creature_cpdgd3)
-	--entries.creature_cpdgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd4", entries.creature_cpdgd4)
-	--entries.creature_cpdge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge1", entries.creature_cpdge1)
-	--entries.creature_cpdge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge2", entries.creature_cpdge2)
-	--entries.creature_cpdge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge3", entries.creature_cpdge3)
-	--entries.creature_cpdge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge4", entries.creature_cpdge4)
-	--entries.creature_cpdgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf1", entries.creature_cpdgf1)
-	--entries.creature_cpdgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf2", entries.creature_cpdgf2)
-	--entries.creature_cpdgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf3", entries.creature_cpdgf3)
-	--entries.creature_cpdgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf4", entries.creature_cpdgf4)
+	entries.creature_cpdgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb1", entries.creature_cpdgb1)
+	entries.creature_cpdgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb2", entries.creature_cpdgb2)
+	entries.creature_cpdgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb3", entries.creature_cpdgb3)
+	entries.creature_cpdgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdgb4", entries.creature_cpdgb4)
+	entries.creature_cpdgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc1", entries.creature_cpdgc1)
+	entries.creature_cpdgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc2", entries.creature_cpdgc2)
+	entries.creature_cpdgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc3", entries.creature_cpdgc3)
+	entries.creature_cpdgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpdgc4", entries.creature_cpdgc4)
+	entries.creature_cpdgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd1", entries.creature_cpdgd1)
+	entries.creature_cpdgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd2", entries.creature_cpdgd2)
+	entries.creature_cpdgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd3", entries.creature_cpdgd3)
+	entries.creature_cpdgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpdgd4", entries.creature_cpdgd4)
+	entries.creature_cpdge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge1", entries.creature_cpdge1)
+	entries.creature_cpdge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge2", entries.creature_cpdge2)
+	entries.creature_cpdge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge3", entries.creature_cpdge3)
+	entries.creature_cpdge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpdge4", entries.creature_cpdge4)
+	entries.creature_cpdgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf1", entries.creature_cpdgf1)
+	entries.creature_cpdgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf2", entries.creature_cpdgf2)
+	entries.creature_cpdgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf3", entries.creature_cpdgf3)
+	entries.creature_cpdgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpdgf4", entries.creature_cpdgf4)
 	entries.creature_cpdjb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdjb1.creature", Level=10, RingAccess="a1", Ecosystem="Jungle", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdjb1", entries.creature_cpdjb1)
 	entries.creature_cpdjb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdjb2.creature", Level=20, RingAccess="a1", Ecosystem="Jungle", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdjb2", entries.creature_cpdjb2)
 	entries.creature_cpdjb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpdjb3.creature", Level=30, RingAccess="a1", Ecosystem="Jungle", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpdjb3", entries.creature_cpdjb3)
@@ -8059,26 +8185,26 @@ r2.loadPalette = function()
 
 	entries.creature_cpefe3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpefe3.creature", Level=180, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpefe3", entries.creature_cpefe3)
 	entries.creature_cpefe4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpefe4.creature", Level=190, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpefe4", entries.creature_cpefe4)
-	--entries.creature_cpegb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb1", entries.creature_cpegb1)
-	--entries.creature_cpegb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb2", entries.creature_cpegb2)
-	--entries.creature_cpegb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb3", entries.creature_cpegb3)
-	--entries.creature_cpegb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb4", entries.creature_cpegb4)
-	--entries.creature_cpegc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc1", entries.creature_cpegc1)
-	--entries.creature_cpegc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc2", entries.creature_cpegc2)
-	--entries.creature_cpegc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc3", entries.creature_cpegc3)
-	--entries.creature_cpegc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc4", entries.creature_cpegc4)
-	--entries.creature_cpegd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd1", entries.creature_cpegd1)
-	--entries.creature_cpegd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd2", entries.creature_cpegd2)
-	--entries.creature_cpegd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd3", entries.creature_cpegd3)
-	--entries.creature_cpegd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd4", entries.creature_cpegd4)
-	--entries.creature_cpege1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege1", entries.creature_cpege1)
-	--entries.creature_cpege2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege2", entries.creature_cpege2)
-	--entries.creature_cpege3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege3", entries.creature_cpege3)
-	--entries.creature_cpege4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege4", entries.creature_cpege4)
-	--entries.creature_cpegf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf1", entries.creature_cpegf1)
-	--entries.creature_cpegf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf2", entries.creature_cpegf2)
-	--entries.creature_cpegf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf3", entries.creature_cpegf3)
-	--entries.creature_cpegf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf4", entries.creature_cpegf4)
+	entries.creature_cpegb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb1", entries.creature_cpegb1)
+	entries.creature_cpegb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb2", entries.creature_cpegb2)
+	entries.creature_cpegb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb3", entries.creature_cpegb3)
+	entries.creature_cpegb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpegb4", entries.creature_cpegb4)
+	entries.creature_cpegc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc1", entries.creature_cpegc1)
+	entries.creature_cpegc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc2", entries.creature_cpegc2)
+	entries.creature_cpegc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc3", entries.creature_cpegc3)
+	entries.creature_cpegc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpegc4", entries.creature_cpegc4)
+	entries.creature_cpegd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd1", entries.creature_cpegd1)
+	entries.creature_cpegd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd2", entries.creature_cpegd2)
+	entries.creature_cpegd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd3", entries.creature_cpegd3)
+	entries.creature_cpegd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpegd4", entries.creature_cpegd4)
+	entries.creature_cpege1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege1", entries.creature_cpege1)
+	entries.creature_cpege2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege2", entries.creature_cpege2)
+	entries.creature_cpege3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege3", entries.creature_cpege3)
+	entries.creature_cpege4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpege4", entries.creature_cpege4)
+	entries.creature_cpegf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf1", entries.creature_cpegf1)
+	entries.creature_cpegf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf2", entries.creature_cpegf2)
+	entries.creature_cpegf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf3", entries.creature_cpegf3)
+	entries.creature_cpegf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpegf4", entries.creature_cpegf4)
 	entries.creature_cpejf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpejf1.creature", Level=210, RingAccess="j7", Ecosystem="Jungle", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpejf1", entries.creature_cpejf1)
 	entries.creature_cpejf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpejf2.creature", Level=220, RingAccess="j7", Ecosystem="Jungle", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpejf2", entries.creature_cpejf2)
 	entries.creature_cpejf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpejf3.creature", Level=230, RingAccess="j7", Ecosystem="Jungle", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpejf3", entries.creature_cpejf3)
@@ -8096,49 +8222,49 @@ r2.loadPalette = function()
 	entries.creature_cpfdd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfdd3.creature", Level=130, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfdd3", entries.creature_cpfdd3)
 	entries.creature_cpfdd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfdd4.creature", Level=140, RingAccess="d4", Ecosystem="Desert", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfdd4", entries.creature_cpfdd4)
 	entries.creature_cpfdf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfdf4.creature", Level=240, RingAccess="d7", Ecosystem="Desert", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfdf4", entries.creature_cpfdf4)
-	--entries.creature_cpfgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb1", entries.creature_cpfgb1)
-	--entries.creature_cpfgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb2", entries.creature_cpfgb2)
-	--entries.creature_cpfgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb3", entries.creature_cpfgb3)
-	--entries.creature_cpfgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb4", entries.creature_cpfgb4)
-	--entries.creature_cpfgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc1", entries.creature_cpfgc1)
-	--entries.creature_cpfgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc2", entries.creature_cpfgc2)
-	--entries.creature_cpfgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc3", entries.creature_cpfgc3)
-	--entries.creature_cpfgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc4", entries.creature_cpfgc4)
-	--entries.creature_cpfgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd1", entries.creature_cpfgd1)
-	--entries.creature_cpfgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd2", entries.creature_cpfgd2)
-	--entries.creature_cpfgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd3", entries.creature_cpfgd3)
-	--entries.creature_cpfgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd4", entries.creature_cpfgd4)
-	--entries.creature_cpfge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge1", entries.creature_cpfge1)
-	--entries.creature_cpfge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge2", entries.creature_cpfge2)
-	--entries.creature_cpfge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge3", entries.creature_cpfge3)
-	--entries.creature_cpfge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge4", entries.creature_cpfge4)
-	--entries.creature_cpfgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf1", entries.creature_cpfgf1)
-	--entries.creature_cpfgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf2", entries.creature_cpfgf2)
-	--entries.creature_cpfgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf3", entries.creature_cpfgf3)
-	--entries.creature_cpfgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf4", entries.creature_cpfgf4)
+	entries.creature_cpfgb1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb1", entries.creature_cpfgb1)
+	entries.creature_cpfgb2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb2", entries.creature_cpfgb2)
+	entries.creature_cpfgb3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb3", entries.creature_cpfgb3)
+	entries.creature_cpfgb4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cpfgb4", entries.creature_cpfgb4)
+	entries.creature_cpfgc1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc1", entries.creature_cpfgc1)
+	entries.creature_cpfgc2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc2", entries.creature_cpfgc2)
+	entries.creature_cpfgc3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc3", entries.creature_cpfgc3)
+	entries.creature_cpfgc4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cpfgc4", entries.creature_cpfgc4)
+	entries.creature_cpfgd1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd1", entries.creature_cpfgd1)
+	entries.creature_cpfgd2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd2", entries.creature_cpfgd2)
+	entries.creature_cpfgd3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd3", entries.creature_cpfgd3)
+	entries.creature_cpfgd4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cpfgd4", entries.creature_cpfgd4)
+	entries.creature_cpfge1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge1", entries.creature_cpfge1)
+	entries.creature_cpfge2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge2", entries.creature_cpfge2)
+	entries.creature_cpfge3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge3", entries.creature_cpfge3)
+	entries.creature_cpfge4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cpfge4", entries.creature_cpfge4)
+	entries.creature_cpfgf1 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf1", entries.creature_cpfgf1)
+	entries.creature_cpfgf2 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf2", entries.creature_cpfgf2)
+	entries.creature_cpfgf3 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf3", entries.creature_cpfgf3)
+	entries.creature_cpfgf4 = { Class="Npc", Base="palette.entities.creatures.plant", SheetClient="cpfgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cpfgf4", entries.creature_cpfgf4)
 
 
 -- Degens (primitive tribes)
-	--entries.creature_cdagb1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb1", entries.creature_cdagb1)
-	--entries.creature_cdagb2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb2", entries.creature_cdagb2)
-	--entries.creature_cdagb3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb3", entries.creature_cdagb3)
-	--entries.creature_cdagb4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb4", entries.creature_cdagb4)
-	--entries.creature_cdagc1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc1", entries.creature_cdagc1)
-	--entries.creature_cdagc2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc2", entries.creature_cdagc2)
-	--entries.creature_cdagc3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc3", entries.creature_cdagc3)
-	--entries.creature_cdagc4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc4", entries.creature_cdagc4)
-	--entries.creature_cdagd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd1", entries.creature_cdagd1)
-	--entries.creature_cdagd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd2", entries.creature_cdagd2)
-	--entries.creature_cdagd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd3", entries.creature_cdagd3)
-	--entries.creature_cdagd4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd4", entries.creature_cdagd4)
-	--entries.creature_cdage1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage1", entries.creature_cdage1)
-	--entries.creature_cdage2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage2", entries.creature_cdage2)
-	--entries.creature_cdage3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage3", entries.creature_cdage3)
-	--entries.creature_cdage4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage4", entries.creature_cdage4)
-	--entries.creature_cdagf1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf1", entries.creature_cdagf1)
-	--entries.creature_cdagf2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf2", entries.creature_cdagf2)
-	--entries.creature_cdagf3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf3", entries.creature_cdagf3)
-	--entries.creature_cdagf4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf4", entries.creature_cdagf4)
+	entries.creature_cdagb1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb1", entries.creature_cdagb1)
+	entries.creature_cdagb2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb2", entries.creature_cdagb2)
+	entries.creature_cdagb3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb3", entries.creature_cdagb3)
+	entries.creature_cdagb4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdagb4", entries.creature_cdagb4)
+	entries.creature_cdagc1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc1", entries.creature_cdagc1)
+	entries.creature_cdagc2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc2", entries.creature_cdagc2)
+	entries.creature_cdagc3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc3", entries.creature_cdagc3)
+	entries.creature_cdagc4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdagc4", entries.creature_cdagc4)
+	entries.creature_cdagd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd1", entries.creature_cdagd1)
+	entries.creature_cdagd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd2", entries.creature_cdagd2)
+	entries.creature_cdagd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd3", entries.creature_cdagd3)
+	entries.creature_cdagd4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdagd4", entries.creature_cdagd4)
+	entries.creature_cdage1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage1", entries.creature_cdage1)
+	entries.creature_cdage2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage2", entries.creature_cdage2)
+	entries.creature_cdage3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage3", entries.creature_cdage3)
+	entries.creature_cdage4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdage4", entries.creature_cdage4)
+	entries.creature_cdagf1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf1", entries.creature_cdagf1)
+	entries.creature_cdagf2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf2", entries.creature_cdagf2)
+	entries.creature_cdagf3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf3", entries.creature_cdagf3)
+	entries.creature_cdagf4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdagf4", entries.creature_cdagf4)
 	entries.creature_cdald1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdald1.creature", Level=110, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdald1", entries.creature_cdald1)
 	entries.creature_cdald2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdald2.creature", Level=120, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdald2", entries.creature_cdald2)
 	entries.creature_cdald3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdald3.creature", Level=130, RingAccess="l5", Ecosystem="Lacustre", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdald3", entries.creature_cdald3)
@@ -8163,26 +8289,26 @@ r2.loadPalette = function()
 	entries.creature_cdbfe2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbfe2.creature", Level=170, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbfe2", entries.creature_cdbfe2)
 	entries.creature_cdbfe3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbfe3.creature", Level=180, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbfe3", entries.creature_cdbfe3)
 	entries.creature_cdbfe4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbfe4.creature", Level=190, RingAccess="f6", Ecosystem="Forest", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbfe4", entries.creature_cdbfe4)
-	--entries.creature_cdbgb1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb1", entries.creature_cdbgb1)
-	--entries.creature_cdbgb2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb2", entries.creature_cdbgb2)
-	--entries.creature_cdbgb3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb3", entries.creature_cdbgb3)
-	--entries.creature_cdbgb4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb4", entries.creature_cdbgb4)
-	--entries.creature_cdbgc1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc1", entries.creature_cdbgc1)
-	--entries.creature_cdbgc2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc2", entries.creature_cdbgc2)
-	--entries.creature_cdbgc3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc3", entries.creature_cdbgc3)
-	--entries.creature_cdbgc4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc4", entries.creature_cdbgc4)
-	--entries.creature_cdbgd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd1", entries.creature_cdbgd1)
-	--entries.creature_cdbgd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd2", entries.creature_cdbgd2)
-	--entries.creature_cdbgd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd3", entries.creature_cdbgd3)
-	--entries.creature_cdbgd4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd4", entries.creature_cdbgd4)
-	--entries.creature_cdbge1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge1", entries.creature_cdbge1)
-	--entries.creature_cdbge2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge2", entries.creature_cdbge2)
-	--entries.creature_cdbge3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge3", entries.creature_cdbge3)
-	--entries.creature_cdbge4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge4", entries.creature_cdbge4)
-	--entries.creature_cdbgf1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf1", entries.creature_cdbgf1)
-	--entries.creature_cdbgf2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf2", entries.creature_cdbgf2)
-	--entries.creature_cdbgf3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf3", entries.creature_cdbgf3)
-	--entries.creature_cdbgf4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf4", entries.creature_cdbgf4)
+	entries.creature_cdbgb1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb1", entries.creature_cdbgb1)
+	entries.creature_cdbgb2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb2", entries.creature_cdbgb2)
+	entries.creature_cdbgb3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb3", entries.creature_cdbgb3)
+	entries.creature_cdbgb4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdbgb4", entries.creature_cdbgb4)
+	entries.creature_cdbgc1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc1", entries.creature_cdbgc1)
+	entries.creature_cdbgc2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc2", entries.creature_cdbgc2)
+	entries.creature_cdbgc3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc3", entries.creature_cdbgc3)
+	entries.creature_cdbgc4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdbgc4", entries.creature_cdbgc4)
+	entries.creature_cdbgd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd1", entries.creature_cdbgd1)
+	entries.creature_cdbgd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd2", entries.creature_cdbgd2)
+	entries.creature_cdbgd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd3", entries.creature_cdbgd3)
+	entries.creature_cdbgd4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbgd4", entries.creature_cdbgd4)
+	entries.creature_cdbge1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge1", entries.creature_cdbge1)
+	entries.creature_cdbge2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge2", entries.creature_cdbge2)
+	entries.creature_cdbge3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge3", entries.creature_cdbge3)
+	entries.creature_cdbge4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdbge4", entries.creature_cdbge4)
+	entries.creature_cdbgf1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf1", entries.creature_cdbgf1)
+	entries.creature_cdbgf2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf2", entries.creature_cdbgf2)
+	entries.creature_cdbgf3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf3", entries.creature_cdbgf3)
+	entries.creature_cdbgf4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdbgf4", entries.creature_cdbgf4)
 	entries.creature_cdbjd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbjd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbjd1", entries.creature_cdbjd1)
 	entries.creature_cdbjd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbjd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbjd2", entries.creature_cdbjd2)
 	entries.creature_cdbjd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdbjd3.creature", Level=130, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdbjd3", entries.creature_cdbjd3)
@@ -8199,26 +8325,26 @@ r2.loadPalette = function()
 	entries.creature_cdcde2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcde2.creature", Level=170, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcde2", entries.creature_cdcde2)
 	entries.creature_cdcde3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcde3.creature", Level=180, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcde3", entries.creature_cdcde3)
 	entries.creature_cdcde4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcde4.creature", Level=190, RingAccess="d6", Ecosystem="Desert", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcde4", entries.creature_cdcde4)
-	--entries.creature_cdcgb1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb1", entries.creature_cdcgb1)
-	--entries.creature_cdcgb2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb2", entries.creature_cdcgb2)
-	--entries.creature_cdcgb3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb3", entries.creature_cdcgb3)
-	--entries.creature_cdcgb4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb4", entries.creature_cdcgb4)
-	--entries.creature_cdcgc1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc1", entries.creature_cdcgc1)
-	--entries.creature_cdcgc2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc2", entries.creature_cdcgc2)
-	--entries.creature_cdcgc3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc3", entries.creature_cdcgc3)
-	--entries.creature_cdcgc4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc4", entries.creature_cdcgc4)
-	--entries.creature_cdcgd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd1", entries.creature_cdcgd1)
-	--entries.creature_cdcgd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd2", entries.creature_cdcgd2)
-	--entries.creature_cdcgd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd3", entries.creature_cdcgd3)
-	--entries.creature_cdcgd4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd4", entries.creature_cdcgd4)
-	--entries.creature_cdcge1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge1", entries.creature_cdcge1)
-	--entries.creature_cdcge2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge2", entries.creature_cdcge2)
-	--entries.creature_cdcge3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge3", entries.creature_cdcge3)
-	--entries.creature_cdcge4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge4", entries.creature_cdcge4)
-	--entries.creature_cdcgf1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf1", entries.creature_cdcgf1)
-	--entries.creature_cdcgf2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf2", entries.creature_cdcgf2)
-	--entries.creature_cdcgf3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf3", entries.creature_cdcgf3)
-	--entries.creature_cdcgf4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf4", entries.creature_cdcgf4)
+	entries.creature_cdcgb1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb1", entries.creature_cdcgb1)
+	entries.creature_cdcgb2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb2", entries.creature_cdcgb2)
+	entries.creature_cdcgb3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb3", entries.creature_cdcgb3)
+	entries.creature_cdcgb4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.cdcgb4", entries.creature_cdcgb4)
+	entries.creature_cdcgc1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc1", entries.creature_cdcgc1)
+	entries.creature_cdcgc2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc2", entries.creature_cdcgc2)
+	entries.creature_cdcgc3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc3", entries.creature_cdcgc3)
+	entries.creature_cdcgc4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.cdcgc4", entries.creature_cdcgc4)
+	entries.creature_cdcgd1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd1", entries.creature_cdcgd1)
+	entries.creature_cdcgd2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd2", entries.creature_cdcgd2)
+	entries.creature_cdcgd3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd3", entries.creature_cdcgd3)
+	entries.creature_cdcgd4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.cdcgd4", entries.creature_cdcgd4)
+	entries.creature_cdcge1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge1", entries.creature_cdcge1)
+	entries.creature_cdcge2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge2", entries.creature_cdcge2)
+	entries.creature_cdcge3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge3", entries.creature_cdcge3)
+	entries.creature_cdcge4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.cdcge4", entries.creature_cdcge4)
+	entries.creature_cdcgf1 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf1", entries.creature_cdcgf1)
+	entries.creature_cdcgf2 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf2", entries.creature_cdcgf2)
+	entries.creature_cdcgf3 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf3", entries.creature_cdcgf3)
+	entries.creature_cdcgf4 = { Class="Npc", Base="palette.entities.creatures.degen", SheetClient="cdcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.cdcgf4", entries.creature_cdcgf4)
 
 
 -- Kitins
@@ -8238,26 +8364,26 @@ r2.loadPalette = function()
 	entries.creature_ckaff2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckaff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckaff2", entries.creature_ckaff2)
 	entries.creature_ckaff3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckaff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckaff3", entries.creature_ckaff3)
 	entries.creature_ckaff4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckaff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckaff4", entries.creature_ckaff4)
-	--entries.creature_ckagb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb1", entries.creature_ckagb1)
-	--entries.creature_ckagb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb2", entries.creature_ckagb2)
-	--entries.creature_ckagb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb3", entries.creature_ckagb3)
-	--entries.creature_ckagb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb4", entries.creature_ckagb4)
-	--entries.creature_ckagc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc1", entries.creature_ckagc1)
-	--entries.creature_ckagc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc2", entries.creature_ckagc2)
-	--entries.creature_ckagc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc3", entries.creature_ckagc3)
-	--entries.creature_ckagc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc4", entries.creature_ckagc4)
-	--entries.creature_ckagd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd1", entries.creature_ckagd1)
-	--entries.creature_ckagd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd2", entries.creature_ckagd2)
-	--entries.creature_ckagd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd3", entries.creature_ckagd3)
-	--entries.creature_ckagd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd4", entries.creature_ckagd4)
-	--entries.creature_ckage1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage1", entries.creature_ckage1)
-	--entries.creature_ckage2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage2", entries.creature_ckage2)
-	--entries.creature_ckage3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage3", entries.creature_ckage3)
-	--entries.creature_ckage4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage4", entries.creature_ckage4)
-	--entries.creature_ckagf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf1", entries.creature_ckagf1)
-	--entries.creature_ckagf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf2", entries.creature_ckagf2)
-	--entries.creature_ckagf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf3", entries.creature_ckagf3)
-	--entries.creature_ckagf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf4", entries.creature_ckagf4)
+	entries.creature_ckagb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb1", entries.creature_ckagb1)
+	entries.creature_ckagb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb2", entries.creature_ckagb2)
+	entries.creature_ckagb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb3", entries.creature_ckagb3)
+	entries.creature_ckagb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckagb4", entries.creature_ckagb4)
+	entries.creature_ckagc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc1", entries.creature_ckagc1)
+	entries.creature_ckagc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc2", entries.creature_ckagc2)
+	entries.creature_ckagc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc3", entries.creature_ckagc3)
+	entries.creature_ckagc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckagc4", entries.creature_ckagc4)
+	entries.creature_ckagd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd1", entries.creature_ckagd1)
+	entries.creature_ckagd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd2", entries.creature_ckagd2)
+	entries.creature_ckagd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd3", entries.creature_ckagd3)
+	entries.creature_ckagd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckagd4", entries.creature_ckagd4)
+	entries.creature_ckage1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage1", entries.creature_ckage1)
+	entries.creature_ckage2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage2", entries.creature_ckage2)
+	entries.creature_ckage3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage3", entries.creature_ckage3)
+	entries.creature_ckage4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckage4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckage4", entries.creature_ckage4)
+	entries.creature_ckagf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf1", entries.creature_ckagf1)
+	entries.creature_ckagf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf2", entries.creature_ckagf2)
+	entries.creature_ckagf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf3", entries.creature_ckagf3)
+	entries.creature_ckagf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckagf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckagf4", entries.creature_ckagf4)
 	entries.creature_ckaje1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckaje1.creature", Level=160, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckaje1", entries.creature_ckaje1)
 	entries.creature_ckaje2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckaje2.creature", Level=170, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckaje2", entries.creature_ckaje2)
 	entries.creature_ckaje3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckaje3.creature", Level=180, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckaje3", entries.creature_ckaje3)
@@ -8298,26 +8424,26 @@ r2.loadPalette = function()
 	entries.creature_ckbff2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbff2", entries.creature_ckbff2)
 	entries.creature_ckbff3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbff3", entries.creature_ckbff3)
 	entries.creature_ckbff4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbff4", entries.creature_ckbff4)
-	--entries.creature_ckbgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb1", entries.creature_ckbgb1)
-	--entries.creature_ckbgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb2", entries.creature_ckbgb2)
-	--entries.creature_ckbgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb3", entries.creature_ckbgb3)
-	--entries.creature_ckbgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb4", entries.creature_ckbgb4)
-	--entries.creature_ckbgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc1", entries.creature_ckbgc1)
-	--entries.creature_ckbgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc2", entries.creature_ckbgc2)
-	--entries.creature_ckbgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc3", entries.creature_ckbgc3)
-	--entries.creature_ckbgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc4", entries.creature_ckbgc4)
-	--entries.creature_ckbgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd1", entries.creature_ckbgd1)
-	--entries.creature_ckbgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd2", entries.creature_ckbgd2)
-	--entries.creature_ckbgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd3", entries.creature_ckbgd3)
-	--entries.creature_ckbgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd4", entries.creature_ckbgd4)
-	--entries.creature_ckbge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge1", entries.creature_ckbge1)
-	--entries.creature_ckbge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge2", entries.creature_ckbge2)
-	--entries.creature_ckbge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge3", entries.creature_ckbge3)
-	--entries.creature_ckbge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge4", entries.creature_ckbge4)
-	--entries.creature_ckbgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf1", entries.creature_ckbgf1)
-	--entries.creature_ckbgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf2", entries.creature_ckbgf2)
-	--entries.creature_ckbgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf3", entries.creature_ckbgf3)
-	--entries.creature_ckbgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf4", entries.creature_ckbgf4)
+	entries.creature_ckbgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb1", entries.creature_ckbgb1)
+	entries.creature_ckbgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb2", entries.creature_ckbgb2)
+	entries.creature_ckbgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb3", entries.creature_ckbgb3)
+	entries.creature_ckbgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckbgb4", entries.creature_ckbgb4)
+	entries.creature_ckbgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc1", entries.creature_ckbgc1)
+	entries.creature_ckbgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc2", entries.creature_ckbgc2)
+	entries.creature_ckbgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc3", entries.creature_ckbgc3)
+	entries.creature_ckbgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckbgc4", entries.creature_ckbgc4)
+	entries.creature_ckbgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd1", entries.creature_ckbgd1)
+	entries.creature_ckbgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd2", entries.creature_ckbgd2)
+	entries.creature_ckbgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd3", entries.creature_ckbgd3)
+	entries.creature_ckbgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckbgd4", entries.creature_ckbgd4)
+	entries.creature_ckbge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge1", entries.creature_ckbge1)
+	entries.creature_ckbge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge2", entries.creature_ckbge2)
+	entries.creature_ckbge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge3", entries.creature_ckbge3)
+	entries.creature_ckbge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbge4", entries.creature_ckbge4)
+	entries.creature_ckbgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf1", entries.creature_ckbgf1)
+	entries.creature_ckbgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf2", entries.creature_ckbgf2)
+	entries.creature_ckbgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf3", entries.creature_ckbgf3)
+	entries.creature_ckbgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckbgf4", entries.creature_ckbgf4)
 	entries.creature_ckbje1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbje1.creature", Level=160, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbje1", entries.creature_ckbje1)
 	entries.creature_ckbje2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbje2.creature", Level=170, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbje2", entries.creature_ckbje2)
 	entries.creature_ckbje3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckbje3.creature", Level=180, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckbje3", entries.creature_ckbje3)
@@ -8358,26 +8484,26 @@ r2.loadPalette = function()
 	entries.creature_ckcff2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcff2", entries.creature_ckcff2)
 	entries.creature_ckcff3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcff3", entries.creature_ckcff3)
 	entries.creature_ckcff4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcff4", entries.creature_ckcff4)
-	--entries.creature_ckcgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb1", entries.creature_ckcgb1)
-	--entries.creature_ckcgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb2", entries.creature_ckcgb2)
-	--entries.creature_ckcgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb3", entries.creature_ckcgb3)
-	--entries.creature_ckcgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb4", entries.creature_ckcgb4)
-	--entries.creature_ckcgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc1", entries.creature_ckcgc1)
-	--entries.creature_ckcgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc2", entries.creature_ckcgc2)
-	--entries.creature_ckcgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc3", entries.creature_ckcgc3)
-	--entries.creature_ckcgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc4", entries.creature_ckcgc4)
-	--entries.creature_ckcgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd1", entries.creature_ckcgd1)
-	--entries.creature_ckcgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd2", entries.creature_ckcgd2)
-	--entries.creature_ckcgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd3", entries.creature_ckcgd3)
-	--entries.creature_ckcgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd4", entries.creature_ckcgd4)
-	--entries.creature_ckcge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge1", entries.creature_ckcge1)
-	--entries.creature_ckcge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge2", entries.creature_ckcge2)
-	--entries.creature_ckcge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge3", entries.creature_ckcge3)
-	--entries.creature_ckcge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge4", entries.creature_ckcge4)
-	--entries.creature_ckcgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf1", entries.creature_ckcgf1)
-	--entries.creature_ckcgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf2", entries.creature_ckcgf2)
-	--entries.creature_ckcgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf3", entries.creature_ckcgf3)
-	--entries.creature_ckcgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf4", entries.creature_ckcgf4)
+	entries.creature_ckcgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb1", entries.creature_ckcgb1)
+	entries.creature_ckcgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb2", entries.creature_ckcgb2)
+	entries.creature_ckcgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb3", entries.creature_ckcgb3)
+	entries.creature_ckcgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckcgb4", entries.creature_ckcgb4)
+	entries.creature_ckcgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc1", entries.creature_ckcgc1)
+	entries.creature_ckcgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc2", entries.creature_ckcgc2)
+	entries.creature_ckcgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc3", entries.creature_ckcgc3)
+	entries.creature_ckcgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckcgc4", entries.creature_ckcgc4)
+	entries.creature_ckcgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd1", entries.creature_ckcgd1)
+	entries.creature_ckcgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd2", entries.creature_ckcgd2)
+	entries.creature_ckcgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd3", entries.creature_ckcgd3)
+	entries.creature_ckcgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckcgd4", entries.creature_ckcgd4)
+	entries.creature_ckcge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge1", entries.creature_ckcge1)
+	entries.creature_ckcge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge2", entries.creature_ckcge2)
+	entries.creature_ckcge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge3", entries.creature_ckcge3)
+	entries.creature_ckcge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcge4", entries.creature_ckcge4)
+	entries.creature_ckcgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf1", entries.creature_ckcgf1)
+	entries.creature_ckcgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf2", entries.creature_ckcgf2)
+	entries.creature_ckcgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf3", entries.creature_ckcgf3)
+	entries.creature_ckcgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckcgf4", entries.creature_ckcgf4)
 	entries.creature_ckcje1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcje1.creature", Level=160, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcje1", entries.creature_ckcje1)
 	entries.creature_ckcje2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcje2.creature", Level=170, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcje2", entries.creature_ckcje2)
 	entries.creature_ckcje3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckcje3.creature", Level=180, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckcje3", entries.creature_ckcje3)
@@ -8426,26 +8552,26 @@ r2.loadPalette = function()
 	entries.creature_ckdff2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdff2", entries.creature_ckdff2)
 	entries.creature_ckdff3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdff3", entries.creature_ckdff3)
 	entries.creature_ckdff4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdff4", entries.creature_ckdff4)
-	--entries.creature_ckdgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb1", entries.creature_ckdgb1)
-	--entries.creature_ckdgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb2", entries.creature_ckdgb2)
-	--entries.creature_ckdgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb3", entries.creature_ckdgb3)
-	--entries.creature_ckdgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb4", entries.creature_ckdgb4)
-	--entries.creature_ckdgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc1", entries.creature_ckdgc1)
-	--entries.creature_ckdgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc2", entries.creature_ckdgc2)
-	--entries.creature_ckdgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc3", entries.creature_ckdgc3)
-	--entries.creature_ckdgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc4", entries.creature_ckdgc4)
-	--entries.creature_ckdgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd1", entries.creature_ckdgd1)
-	--entries.creature_ckdgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd2", entries.creature_ckdgd2)
-	--entries.creature_ckdgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd3", entries.creature_ckdgd3)
-	--entries.creature_ckdgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd4", entries.creature_ckdgd4)
-	--entries.creature_ckdge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge1", entries.creature_ckdge1)
-	--entries.creature_ckdge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge2", entries.creature_ckdge2)
-	--entries.creature_ckdge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge3", entries.creature_ckdge3)
-	--entries.creature_ckdge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge4", entries.creature_ckdge4)
-	--entries.creature_ckdgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf1", entries.creature_ckdgf1)
-	--entries.creature_ckdgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf2", entries.creature_ckdgf2)
-	--entries.creature_ckdgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf3", entries.creature_ckdgf3)
-	--entries.creature_ckdgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf4", entries.creature_ckdgf4)
+	entries.creature_ckdgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb1", entries.creature_ckdgb1)
+	entries.creature_ckdgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb2", entries.creature_ckdgb2)
+	entries.creature_ckdgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb3", entries.creature_ckdgb3)
+	entries.creature_ckdgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckdgb4", entries.creature_ckdgb4)
+	entries.creature_ckdgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc1", entries.creature_ckdgc1)
+	entries.creature_ckdgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc2", entries.creature_ckdgc2)
+	entries.creature_ckdgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc3", entries.creature_ckdgc3)
+	entries.creature_ckdgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckdgc4", entries.creature_ckdgc4)
+	entries.creature_ckdgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd1", entries.creature_ckdgd1)
+	entries.creature_ckdgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd2", entries.creature_ckdgd2)
+	entries.creature_ckdgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd3", entries.creature_ckdgd3)
+	entries.creature_ckdgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdgd4", entries.creature_ckdgd4)
+	entries.creature_ckdge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge1", entries.creature_ckdge1)
+	entries.creature_ckdge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge2", entries.creature_ckdge2)
+	entries.creature_ckdge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge3", entries.creature_ckdge3)
+	entries.creature_ckdge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdge4", entries.creature_ckdge4)
+	entries.creature_ckdgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf1", entries.creature_ckdgf1)
+	entries.creature_ckdgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf2", entries.creature_ckdgf2)
+	entries.creature_ckdgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf3", entries.creature_ckdgf3)
+	entries.creature_ckdgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckdgf4", entries.creature_ckdgf4)
 	entries.creature_ckdjd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdjd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdjd1", entries.creature_ckdjd1)
 	entries.creature_ckdjd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdjd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdjd2", entries.creature_ckdjd2)
 	entries.creature_ckdjd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdjd3.creature", Level=130, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckdjd3", entries.creature_ckdjd3)
@@ -8498,26 +8624,26 @@ r2.loadPalette = function()
 	entries.creature_ckeff2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckeff2", entries.creature_ckeff2)
 	entries.creature_ckeff3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckeff3", entries.creature_ckeff3)
 	entries.creature_ckeff4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckeff4", entries.creature_ckeff4)
-	--entries.creature_ckegb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb1", entries.creature_ckegb1)
-	--entries.creature_ckegb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb2", entries.creature_ckegb2)
-	--entries.creature_ckegb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb3", entries.creature_ckegb3)
-	--entries.creature_ckegb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb4", entries.creature_ckegb4)
-	--entries.creature_ckegc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc1", entries.creature_ckegc1)
-	--entries.creature_ckegc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc2", entries.creature_ckegc2)
-	--entries.creature_ckegc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc3", entries.creature_ckegc3)
-	--entries.creature_ckegc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc4", entries.creature_ckegc4)
-	--entries.creature_ckegd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd1", entries.creature_ckegd1)
-	--entries.creature_ckegd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd2", entries.creature_ckegd2)
-	--entries.creature_ckegd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd3", entries.creature_ckegd3)
-	--entries.creature_ckegd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd4", entries.creature_ckegd4)
-	--entries.creature_ckege1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege1", entries.creature_ckege1)
-	--entries.creature_ckege2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege2", entries.creature_ckege2)
-	--entries.creature_ckege3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege3", entries.creature_ckege3)
-	--entries.creature_ckege4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege4", entries.creature_ckege4)
-	--entries.creature_ckegf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf1", entries.creature_ckegf1)
-	--entries.creature_ckegf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf2", entries.creature_ckegf2)
-	--entries.creature_ckegf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf3", entries.creature_ckegf3)
-	--entries.creature_ckegf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf4", entries.creature_ckegf4)
+	entries.creature_ckegb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb1", entries.creature_ckegb1)
+	entries.creature_ckegb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb2", entries.creature_ckegb2)
+	entries.creature_ckegb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb3", entries.creature_ckegb3)
+	entries.creature_ckegb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckegb4", entries.creature_ckegb4)
+	entries.creature_ckegc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc1", entries.creature_ckegc1)
+	entries.creature_ckegc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc2", entries.creature_ckegc2)
+	entries.creature_ckegc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc3", entries.creature_ckegc3)
+	entries.creature_ckegc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckegc4", entries.creature_ckegc4)
+	entries.creature_ckegd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd1", entries.creature_ckegd1)
+	entries.creature_ckegd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd2", entries.creature_ckegd2)
+	entries.creature_ckegd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd3", entries.creature_ckegd3)
+	entries.creature_ckegd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckegd4", entries.creature_ckegd4)
+	entries.creature_ckege1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege1", entries.creature_ckege1)
+	entries.creature_ckege2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege2", entries.creature_ckege2)
+	entries.creature_ckege3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege3", entries.creature_ckege3)
+	entries.creature_ckege4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckege4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckege4", entries.creature_ckege4)
+	entries.creature_ckegf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf1", entries.creature_ckegf1)
+	entries.creature_ckegf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf2", entries.creature_ckegf2)
+	entries.creature_ckegf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf3", entries.creature_ckegf3)
+	entries.creature_ckegf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckegf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckegf4", entries.creature_ckegf4)
 	entries.creature_ckeje1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeje1.creature", Level=160, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckeje1", entries.creature_ckeje1)
 	entries.creature_ckeje2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeje2.creature", Level=170, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckeje2", entries.creature_ckeje2)
 	entries.creature_ckeje3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeje3.creature", Level=180, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckeje3", entries.creature_ckeje3)
@@ -8601,26 +8727,26 @@ r2.loadPalette = function()
 	entries.creature_ckgff2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckgff2", entries.creature_ckgff2)
 	entries.creature_ckgff3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckgff3", entries.creature_ckgff3)
 	entries.creature_ckgff4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckgff4", entries.creature_ckgff4)
-	--entries.creature_ckggb1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb1", entries.creature_ckggb1)
-	--entries.creature_ckggb2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb2", entries.creature_ckggb2)
-	--entries.creature_ckggb3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb3", entries.creature_ckggb3)
-	--entries.creature_ckggb4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb4", entries.creature_ckggb4)
-	--entries.creature_ckggc1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc1", entries.creature_ckggc1)
-	--entries.creature_ckggc2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc2", entries.creature_ckggc2)
-	--entries.creature_ckggc3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc3", entries.creature_ckggc3)
-	--entries.creature_ckggc4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc4", entries.creature_ckggc4)
-	--entries.creature_ckggd1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd1", entries.creature_ckggd1)
-	--entries.creature_ckggd2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd2", entries.creature_ckggd2)
-	--entries.creature_ckggd3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd3", entries.creature_ckggd3)
-	--entries.creature_ckggd4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd4", entries.creature_ckggd4)
-	--entries.creature_ckgge1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge1", entries.creature_ckgge1)
-	--entries.creature_ckgge2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge2", entries.creature_ckgge2)
-	--entries.creature_ckgge3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge3", entries.creature_ckgge3)
-	--entries.creature_ckgge4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge4", entries.creature_ckgge4)
-	--entries.creature_ckggf1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf1", entries.creature_ckggf1)
-	--entries.creature_ckggf2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf2", entries.creature_ckggf2)
-	--entries.creature_ckggf3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf3", entries.creature_ckggf3)
-	--entries.creature_ckggf4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf4", entries.creature_ckggf4)
+	entries.creature_ckggb1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb1", entries.creature_ckggb1)
+	entries.creature_ckggb2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb2", entries.creature_ckggb2)
+	entries.creature_ckggb3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb3", entries.creature_ckggb3)
+	entries.creature_ckggb4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckggb4", entries.creature_ckggb4)
+	entries.creature_ckggc1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc1", entries.creature_ckggc1)
+	entries.creature_ckggc2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc2", entries.creature_ckggc2)
+	entries.creature_ckggc3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc3", entries.creature_ckggc3)
+	entries.creature_ckggc4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckggc4", entries.creature_ckggc4)
+	entries.creature_ckggd1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd1", entries.creature_ckggd1)
+	entries.creature_ckggd2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd2", entries.creature_ckggd2)
+	entries.creature_ckggd3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd3", entries.creature_ckggd3)
+	entries.creature_ckggd4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckggd4", entries.creature_ckggd4)
+	entries.creature_ckgge1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge1", entries.creature_ckgge1)
+	entries.creature_ckgge2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge2", entries.creature_ckgge2)
+	entries.creature_ckgge3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge3", entries.creature_ckgge3)
+	entries.creature_ckgge4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgge4", entries.creature_ckgge4)
+	entries.creature_ckggf1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf1", entries.creature_ckggf1)
+	entries.creature_ckggf2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf2", entries.creature_ckggf2)
+	entries.creature_ckggf3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf3", entries.creature_ckggf3)
+	entries.creature_ckggf4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckggf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckggf4", entries.creature_ckggf4)
 	entries.creature_ckgje1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgje1.creature", Level=160, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgje1", entries.creature_ckgje1)
 	entries.creature_ckgje2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgje2.creature", Level=170, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgje2", entries.creature_ckgje2)
 	entries.creature_ckgje3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckgje3.creature", Level=180, RingAccess="j6", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgje3", entries.creature_ckgje3)
@@ -8778,26 +8904,26 @@ r2.loadPalette = function()
 	entries.creature_ckiff2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckiff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckiff2", entries.creature_ckiff2)
 	entries.creature_ckiff3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckiff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckiff3", entries.creature_ckiff3)
 	entries.creature_ckiff4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckiff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckiff4", entries.creature_ckiff4)
-	--entries.creature_ckigb1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb1", entries.creature_ckigb1)
-	--entries.creature_ckigb2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb2", entries.creature_ckigb2)
-	--entries.creature_ckigb3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb3", entries.creature_ckigb3)
-	--entries.creature_ckigb4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb4", entries.creature_ckigb4)
-	--entries.creature_ckigc1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc1", entries.creature_ckigc1)
-	--entries.creature_ckigc2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc2", entries.creature_ckigc2)
-	--entries.creature_ckigc3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc3", entries.creature_ckigc3)
-	--entries.creature_ckigc4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc4", entries.creature_ckigc4)
-	--entries.creature_ckigd1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd1", entries.creature_ckigd1)
-	--entries.creature_ckigd2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd2", entries.creature_ckigd2)
-	--entries.creature_ckigd3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd3", entries.creature_ckigd3)
-	--entries.creature_ckigd4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd4", entries.creature_ckigd4)
-	--entries.creature_ckige1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige1", entries.creature_ckige1)
-	--entries.creature_ckige2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige2", entries.creature_ckige2)
-	--entries.creature_ckige3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige3", entries.creature_ckige3)
-	--entries.creature_ckige4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige4", entries.creature_ckige4)
-	--entries.creature_ckigf1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf1", entries.creature_ckigf1)
-	--entries.creature_ckigf2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf2", entries.creature_ckigf2)
-	--entries.creature_ckigf3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf3", entries.creature_ckigf3)
-	--entries.creature_ckigf4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf4", entries.creature_ckigf4)
+	entries.creature_ckigb1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb1", entries.creature_ckigb1)
+	entries.creature_ckigb2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb2", entries.creature_ckigb2)
+	entries.creature_ckigb3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb3", entries.creature_ckigb3)
+	entries.creature_ckigb4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckigb4", entries.creature_ckigb4)
+	entries.creature_ckigc1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc1", entries.creature_ckigc1)
+	entries.creature_ckigc2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc2", entries.creature_ckigc2)
+	entries.creature_ckigc3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc3", entries.creature_ckigc3)
+	entries.creature_ckigc4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckigc4", entries.creature_ckigc4)
+	entries.creature_ckigd1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd1", entries.creature_ckigd1)
+	entries.creature_ckigd2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd2", entries.creature_ckigd2)
+	entries.creature_ckigd3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd3", entries.creature_ckigd3)
+	entries.creature_ckigd4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckigd4", entries.creature_ckigd4)
+	entries.creature_ckige1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige1", entries.creature_ckige1)
+	entries.creature_ckige2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige2", entries.creature_ckige2)
+	entries.creature_ckige3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige3", entries.creature_ckige3)
+	entries.creature_ckige4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckige4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckige4", entries.creature_ckige4)
+	entries.creature_ckigf1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf1", entries.creature_ckigf1)
+	entries.creature_ckigf2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf2", entries.creature_ckigf2)
+	entries.creature_ckigf3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf3", entries.creature_ckigf3)
+	entries.creature_ckigf4 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckigf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckigf4", entries.creature_ckigf4)
 	entries.creature_ckijc1 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckijc1.creature", Level=60, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckijc1", entries.creature_ckijc1)
 	entries.creature_ckijc2 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckijc2.creature", Level=70, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckijc2", entries.creature_ckijc2)
 	entries.creature_ckijc3 = { Class="Npc", Base="palette.entities.creatures.kitin_worker", SheetClient="ckijc3.creature", Level=80, RingAccess="j5", Ecosystem="Jungle", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckijc3", entries.creature_ckijc3)
@@ -8868,26 +8994,26 @@ r2.loadPalette = function()
 	entries.creature_ckjff2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjff2.creature", Level=220, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjff2", entries.creature_ckjff2)
 	entries.creature_ckjff3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjff3.creature", Level=230, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjff3", entries.creature_ckjff3)
 	entries.creature_ckjff4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjff4.creature", Level=240, RingAccess="f7", Ecosystem="Forest", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjff4", entries.creature_ckjff4)
-	--entries.creature_ckjgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb1", entries.creature_ckjgb1)
-	--entries.creature_ckjgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb2", entries.creature_ckjgb2)
-	--entries.creature_ckjgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb3", entries.creature_ckjgb3)
-	--entries.creature_ckjgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb4", entries.creature_ckjgb4)
-	--entries.creature_ckjgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc1", entries.creature_ckjgc1)
-	--entries.creature_ckjgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc2", entries.creature_ckjgc2)
-	--entries.creature_ckjgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc3", entries.creature_ckjgc3)
-	--entries.creature_ckjgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc4", entries.creature_ckjgc4)
-	--entries.creature_ckjgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd1", entries.creature_ckjgd1)
-	--entries.creature_ckjgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd2", entries.creature_ckjgd2)
-	--entries.creature_ckjgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd3", entries.creature_ckjgd3)
-	--entries.creature_ckjgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd4", entries.creature_ckjgd4)
-	--entries.creature_ckjge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge1", entries.creature_ckjge1)
-	--entries.creature_ckjge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge2", entries.creature_ckjge2)
-	--entries.creature_ckjge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge3", entries.creature_ckjge3)
-	--entries.creature_ckjge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge4", entries.creature_ckjge4)
-	--entries.creature_ckjgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf1", entries.creature_ckjgf1)
-	--entries.creature_ckjgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf2", entries.creature_ckjgf2)
-	--entries.creature_ckjgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf3", entries.creature_ckjgf3)
-	--entries.creature_ckjgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf4", entries.creature_ckjgf4)
+	entries.creature_ckjgb1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb1.creature", Level=10, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb1", entries.creature_ckjgb1)
+	entries.creature_ckjgb2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb2.creature", Level=20, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb2", entries.creature_ckjgb2)
+	entries.creature_ckjgb3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb3.creature", Level=30, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb3", entries.creature_ckjgb3)
+	entries.creature_ckjgb4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgb4.creature", Level=40, RingAccess="g1", Ecosystem="Goo", Region="b" } r2.addPaletteElement("palette.entities.creatures.ckjgb4", entries.creature_ckjgb4)
+	entries.creature_ckjgc1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc1.creature", Level=60, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc1", entries.creature_ckjgc1)
+	entries.creature_ckjgc2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc2.creature", Level=70, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc2", entries.creature_ckjgc2)
+	entries.creature_ckjgc3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc3.creature", Level=80, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc3", entries.creature_ckjgc3)
+	entries.creature_ckjgc4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgc4.creature", Level=90, RingAccess="g1", Ecosystem="Goo", Region="c" } r2.addPaletteElement("palette.entities.creatures.ckjgc4", entries.creature_ckjgc4)
+	entries.creature_ckjgd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd1.creature", Level=110, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd1", entries.creature_ckjgd1)
+	entries.creature_ckjgd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd2.creature", Level=120, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd2", entries.creature_ckjgd2)
+	entries.creature_ckjgd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd3.creature", Level=130, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd3", entries.creature_ckjgd3)
+	entries.creature_ckjgd4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgd4.creature", Level=140, RingAccess="g1", Ecosystem="Goo", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjgd4", entries.creature_ckjgd4)
+	entries.creature_ckjge1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge1.creature", Level=160, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge1", entries.creature_ckjge1)
+	entries.creature_ckjge2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge2.creature", Level=170, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge2", entries.creature_ckjge2)
+	entries.creature_ckjge3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge3.creature", Level=180, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge3", entries.creature_ckjge3)
+	entries.creature_ckjge4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjge4.creature", Level=190, RingAccess="g1", Ecosystem="Goo", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckjge4", entries.creature_ckjge4)
+	entries.creature_ckjgf1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf1.creature", Level=210, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf1", entries.creature_ckjgf1)
+	entries.creature_ckjgf2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf2.creature", Level=220, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf2", entries.creature_ckjgf2)
+	entries.creature_ckjgf3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf3.creature", Level=230, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf3", entries.creature_ckjgf3)
+	entries.creature_ckjgf4 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjgf4.creature", Level=240, RingAccess="g1", Ecosystem="Goo", Region="f" } r2.addPaletteElement("palette.entities.creatures.ckjgf4", entries.creature_ckjgf4)
 	entries.creature_ckjjd1 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjjd1.creature", Level=110, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjjd1", entries.creature_ckjjd1)
 	entries.creature_ckjjd2 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjjd2.creature", Level=120, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjjd2", entries.creature_ckjjd2)
 	entries.creature_ckjjd3 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckjjd3.creature", Level=130, RingAccess="j5", Ecosystem="Jungle", Region="d" } r2.addPaletteElement("palette.entities.creatures.ckjjd3", entries.creature_ckjjd3)
@@ -9149,7 +9275,7 @@ r2.loadPalette = function()
 	entries.creature_ckeje5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckeje5.creature", Level=198, RingAccess="j7", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckeje5", entries.creature_ckeje5)
 	entries.creature_ckfje5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckfje5.creature", Level=198, RingAccess="j7", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckfje5", entries.creature_ckfje5)
 	entries.creature_ckije5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckije5.creature", Level=198, RingAccess="j7", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckije5", entries.creature_ckije5)
---	entries.creature_ckdje5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdje5.creature", Level=198, RingAccess="j7", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdje5", entries.creature_ckdje5)
+	entries.creature_ckdje5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdje5.creature", Level=198, RingAccess="j7", Ecosystem="Jungle", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdje5", entries.creature_ckdje5)
 	entries.creature_ckgle5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckgle5.creature", Level=198, RingAccess="l6", Ecosystem="Lacustre", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckgle5", entries.creature_ckgle5)
 	entries.creature_ckhle5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckhle5.creature", Level=198, RingAccess="l6", Ecosystem="Lacustre", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckhle5", entries.creature_ckhle5)
 	entries.creature_ckdle5 = { Class="Npc", Base="palette.entities.creatures.kitin", SheetClient="ckdle5.creature", Level=198, RingAccess="l6", Ecosystem="Lacustre", Region="e" } r2.addPaletteElement("palette.entities.creatures.ckdle5", entries.creature_ckdle5)
@@ -9426,26 +9552,27 @@ r2.Palette =
 					{Id="palette.entities.creatures.cbadd2", Translation="uiR2EDcreature_cbadd2"},
 					{Id="palette.entities.creatures.cbadd3", Translation="uiR2EDcreature_cbadd3"},
 					{Id="palette.entities.creatures.cbadd4", Translation="uiR2EDcreature_cbadd4"},
-				--	{id="palette.entities.creatures.cbagb1", translation="uir2edcreature_cbagb1"},
+				-- these break the pallet?
+				--	{id="palette.entities.creatures.cbagb1", translation="uiR2EDcreature_cbagb1"},
 				--	{id="palette.entities.creatures.cbagb2", Translation="uiR2EDcreature_cbagb2"},
 				--	{Id="palette.entities.creatures.cbagb3", Translation="uiR2EDcreature_cbagb3"},
 				--	{Id="palette.entities.creatures.cbagb4", Translation="uiR2EDcreature_cbagb4"},
-				--	{Id="palette.entities.creatures.cbagc1", Translation="uiR2EDcreature_cbagc1"},
-				--	{Id="palette.entities.creatures.cbagc2", Translation="uiR2EDcreature_cbagc2"},
-				--	{Id="palette.entities.creatures.cbagc3", Translation="uiR2EDcreature_cbagc3"},
-				--	{Id="palette.entities.creatures.cbagc4", Translation="uiR2EDcreature_cbagc4"},
-				--	{Id="palette.entities.creatures.cbagd1", Translation="uiR2EDcreature_cbagd1"},
-				--	{Id="palette.entities.creatures.cbagd2", Translation="uiR2EDcreature_cbagd2"},
-				--	{Id="palette.entities.creatures.cbagd3", Translation="uiR2EDcreature_cbagd3"},
-				--	{Id="palette.entities.creatures.cbagd4", Translation="uiR2EDcreature_cbagd4"},
-				--	{Id="palette.entities.creatures.cbage1", Translation="uiR2EDcreature_cbage1"},
-				--	{Id="palette.entities.creatures.cbage2", Translation="uiR2EDcreature_cbage2"},
-				--	{Id="palette.entities.creatures.cbage3", Translation="uiR2EDcreature_cbage3"},
-				--	{Id="palette.entities.creatures.cbage4", Translation="uiR2EDcreature_cbage4"},
-				--	{Id="palette.entities.creatures.cbagf1", Translation="uiR2EDcreature_cbagf1"},
-				--	{Id="palette.entities.creatures.cbagf2", Translation="uiR2EDcreature_cbagf2"},
-				--	{Id="palette.entities.creatures.cbagf3", Translation="uiR2EDcreature_cbagf3"},
-				--	{Id="palette.entities.creatures.cbagf4", Translation="uiR2EDcreature_cbagf4"},
+					{Id="palette.entities.creatures.cbagc1", Translation="uiR2EDcreature_cbagc1"},
+					{Id="palette.entities.creatures.cbagc2", Translation="uiR2EDcreature_cbagc2"},
+					{Id="palette.entities.creatures.cbagc3", Translation="uiR2EDcreature_cbagc3"},
+					{Id="palette.entities.creatures.cbagc4", Translation="uiR2EDcreature_cbagc4"},
+					{Id="palette.entities.creatures.cbagd1", Translation="uiR2EDcreature_cbagd1"},
+					{Id="palette.entities.creatures.cbagd2", Translation="uiR2EDcreature_cbagd2"},
+					{Id="palette.entities.creatures.cbagd3", Translation="uiR2EDcreature_cbagd3"},
+					{Id="palette.entities.creatures.cbagd4", Translation="uiR2EDcreature_cbagd4"},
+					{Id="palette.entities.creatures.cbage1", Translation="uiR2EDcreature_cbage1"},
+					{Id="palette.entities.creatures.cbage2", Translation="uiR2EDcreature_cbage2"},
+					{Id="palette.entities.creatures.cbage3", Translation="uiR2EDcreature_cbage3"},
+					{Id="palette.entities.creatures.cbage4", Translation="uiR2EDcreature_cbage4"},
+					{Id="palette.entities.creatures.cbagf1", Translation="uiR2EDcreature_cbagf1"},
+					{Id="palette.entities.creatures.cbagf2", Translation="uiR2EDcreature_cbagf2"},
+					{Id="palette.entities.creatures.cbagf3", Translation="uiR2EDcreature_cbagf3"},
+					{Id="palette.entities.creatures.cbagf4", Translation="uiR2EDcreature_cbagf4"},
 					{Id="palette.entities.creatures.cbajb4", Translation="uiR2EDcreature_cbajb4"},
 					{Id="palette.entities.creatures.cbajd1", Translation="uiR2EDcreature_cbajd1"},
 					{Id="palette.entities.creatures.cbajd2", Translation="uiR2EDcreature_cbajd2"},
@@ -9479,26 +9606,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cbbpd3", Translation="uiR2EDcreature_cbbpd3"},
 					{Id="palette.entities.creatures.cbbpd4", Translation="uiR2EDcreature_cbbpd4"},
 					{Id="palette.entities.creatures.cbbpe4", Translation="uiR2EDcreature_cbbpe4"},
-				--	{Id="palette.entities.creatures.cbcgb1", Translation="uiR2EDcreature_cbcgb1"},
-				--	{Id="palette.entities.creatures.cbcgb2", Translation="uiR2EDcreature_cbcgb2"},
-				--	{Id="palette.entities.creatures.cbcgb3", Translation="uiR2EDcreature_cbcgb3"},
-				--	{Id="palette.entities.creatures.cbcgb4", Translation="uiR2EDcreature_cbcgb4"},
-				--	{Id="palette.entities.creatures.cbcgc1", Translation="uiR2EDcreature_cbcgc1"},
-				--	{Id="palette.entities.creatures.cbcgc2", Translation="uiR2EDcreature_cbcgc2"},
-				--	{Id="palette.entities.creatures.cbcgc3", Translation="uiR2EDcreature_cbcgc3"},
-				--	{Id="palette.entities.creatures.cbcgc4", Translation="uiR2EDcreature_cbcgc4"},
-				--	{Id="palette.entities.creatures.cbcgd1", Translation="uiR2EDcreature_cbcgd1"},
-				--	{Id="palette.entities.creatures.cbcgd2", Translation="uiR2EDcreature_cbcgd2"},
-				--	{Id="palette.entities.creatures.cbcgd3", Translation="uiR2EDcreature_cbcgd3"},
-				--	{Id="palette.entities.creatures.cbcgd4", Translation="uiR2EDcreature_cbcgd4"},
-				--	{Id="palette.entities.creatures.cbcge1", Translation="uiR2EDcreature_cbcge1"},
-				--	{Id="palette.entities.creatures.cbcge2", Translation="uiR2EDcreature_cbcge2"},
-				--	{Id="palette.entities.creatures.cbcge3", Translation="uiR2EDcreature_cbcge3"},
-				--	{Id="palette.entities.creatures.cbcge4", Translation="uiR2EDcreature_cbcge4"},
-				--	{Id="palette.entities.creatures.cbcgf1", Translation="uiR2EDcreature_cbcgf1"},
-				--	{Id="palette.entities.creatures.cbcgf2", Translation="uiR2EDcreature_cbcgf2"},
-				--	{Id="palette.entities.creatures.cbcgf3", Translation="uiR2EDcreature_cbcgf3"},
-				--	{Id="palette.entities.creatures.cbcgf4", Translation="uiR2EDcreature_cbcgf4"},
+					{Id="palette.entities.creatures.cbcgb1", Translation="uiR2EDcreature_cbcgb1"},
+					{Id="palette.entities.creatures.cbcgb2", Translation="uiR2EDcreature_cbcgb2"},
+					{Id="palette.entities.creatures.cbcgb3", Translation="uiR2EDcreature_cbcgb3"},
+					{Id="palette.entities.creatures.cbcgb4", Translation="uiR2EDcreature_cbcgb4"},
+					{Id="palette.entities.creatures.cbcgc1", Translation="uiR2EDcreature_cbcgc1"},
+					{Id="palette.entities.creatures.cbcgc2", Translation="uiR2EDcreature_cbcgc2"},
+					{Id="palette.entities.creatures.cbcgc3", Translation="uiR2EDcreature_cbcgc3"},
+					{Id="palette.entities.creatures.cbcgc4", Translation="uiR2EDcreature_cbcgc4"},
+					{Id="palette.entities.creatures.cbcgd1", Translation="uiR2EDcreature_cbcgd1"},
+					{Id="palette.entities.creatures.cbcgd2", Translation="uiR2EDcreature_cbcgd2"},
+					{Id="palette.entities.creatures.cbcgd3", Translation="uiR2EDcreature_cbcgd3"},
+					{Id="palette.entities.creatures.cbcgd4", Translation="uiR2EDcreature_cbcgd4"},
+					{Id="palette.entities.creatures.cbcge1", Translation="uiR2EDcreature_cbcge1"},
+					{Id="palette.entities.creatures.cbcge2", Translation="uiR2EDcreature_cbcge2"},
+					{Id="palette.entities.creatures.cbcge3", Translation="uiR2EDcreature_cbcge3"},
+					{Id="palette.entities.creatures.cbcge4", Translation="uiR2EDcreature_cbcge4"},
+					{Id="palette.entities.creatures.cbcgf1", Translation="uiR2EDcreature_cbcgf1"},
+					{Id="palette.entities.creatures.cbcgf2", Translation="uiR2EDcreature_cbcgf2"},
+					{Id="palette.entities.creatures.cbcgf3", Translation="uiR2EDcreature_cbcgf3"},
+					{Id="palette.entities.creatures.cbcgf4", Translation="uiR2EDcreature_cbcgf4"},
 					{Id="palette.entities.creatures.cbcjc1", Translation="uiR2EDcreature_cbcjc1"},
 					{Id="palette.entities.creatures.cbcjc2", Translation="uiR2EDcreature_cbcjc2"},
 					{Id="palette.entities.creatures.cbcjc3", Translation="uiR2EDcreature_cbcjc3"},
@@ -9616,51 +9743,51 @@ r2.Palette =
 					{Id="palette.entities.creatures.chdlb2", Translation="uiR2EDcreature_chdlb2"},
 					{Id="palette.entities.creatures.chdlb3", Translation="uiR2EDcreature_chdlb3"},
 					{Id="palette.entities.creatures.chdlb4", Translation="uiR2EDcreature_chdlb4"},
-				--	{Id="palette.entities.creatures.chegb1", Translation="uiR2EDcreature_chegb1"},
-				--	{Id="palette.entities.creatures.chegb2", Translation="uiR2EDcreature_chegb2"},
-				--	{Id="palette.entities.creatures.chegb3", Translation="uiR2EDcreature_chegb3"},
-				--	{Id="palette.entities.creatures.chegb4", Translation="uiR2EDcreature_chegb4"},
-				--	{Id="palette.entities.creatures.chegc1", Translation="uiR2EDcreature_chegc1"},
-				--	{Id="palette.entities.creatures.chegc2", Translation="uiR2EDcreature_chegc2"},
-				--	{Id="palette.entities.creatures.chegc3", Translation="uiR2EDcreature_chegc3"},
-				--	{Id="palette.entities.creatures.chegc4", Translation="uiR2EDcreature_chegc4"},
-				--	{Id="palette.entities.creatures.chegd1", Translation="uiR2EDcreature_chegd1"},
-				--	{Id="palette.entities.creatures.chegd2", Translation="uiR2EDcreature_chegd2"},
-				--	{Id="palette.entities.creatures.chegd3", Translation="uiR2EDcreature_chegd3"},
-				--	{Id="palette.entities.creatures.chegd4", Translation="uiR2EDcreature_chegd4"},
-				--	{Id="palette.entities.creatures.chege1", Translation="uiR2EDcreature_chege1"},
-				--	{Id="palette.entities.creatures.chege2", Translation="uiR2EDcreature_chege2"},
-				--	{Id="palette.entities.creatures.chege3", Translation="uiR2EDcreature_chege3"},
-				--	{Id="palette.entities.creatures.chege4", Translation="uiR2EDcreature_chege4"},
-				--	{Id="palette.entities.creatures.chegf1", Translation="uiR2EDcreature_chegf1"},
-				--	{Id="palette.entities.creatures.chegf2", Translation="uiR2EDcreature_chegf2"},
-				--	{Id="palette.entities.creatures.chegf3", Translation="uiR2EDcreature_chegf3"},
-				--	{Id="palette.entities.creatures.chegf4", Translation="uiR2EDcreature_chegf4"},
+					{Id="palette.entities.creatures.chegb1", Translation="uiR2EDcreature_chegb1"},
+					{Id="palette.entities.creatures.chegb2", Translation="uiR2EDcreature_chegb2"},
+					{Id="palette.entities.creatures.chegb3", Translation="uiR2EDcreature_chegb3"},
+					{Id="palette.entities.creatures.chegb4", Translation="uiR2EDcreature_chegb4"},
+					{Id="palette.entities.creatures.chegc1", Translation="uiR2EDcreature_chegc1"},
+					{Id="palette.entities.creatures.chegc2", Translation="uiR2EDcreature_chegc2"},
+					{Id="palette.entities.creatures.chegc3", Translation="uiR2EDcreature_chegc3"},
+					{Id="palette.entities.creatures.chegc4", Translation="uiR2EDcreature_chegc4"},
+					{Id="palette.entities.creatures.chegd1", Translation="uiR2EDcreature_chegd1"},
+					{Id="palette.entities.creatures.chegd2", Translation="uiR2EDcreature_chegd2"},
+					{Id="palette.entities.creatures.chegd3", Translation="uiR2EDcreature_chegd3"},
+					{Id="palette.entities.creatures.chegd4", Translation="uiR2EDcreature_chegd4"},
+					{Id="palette.entities.creatures.chege1", Translation="uiR2EDcreature_chege1"},
+					{Id="palette.entities.creatures.chege2", Translation="uiR2EDcreature_chege2"},
+					{Id="palette.entities.creatures.chege3", Translation="uiR2EDcreature_chege3"},
+					{Id="palette.entities.creatures.chege4", Translation="uiR2EDcreature_chege4"},
+					{Id="palette.entities.creatures.chegf1", Translation="uiR2EDcreature_chegf1"},
+					{Id="palette.entities.creatures.chegf2", Translation="uiR2EDcreature_chegf2"},
+					{Id="palette.entities.creatures.chegf3", Translation="uiR2EDcreature_chegf3"},
+					{Id="palette.entities.creatures.chegf4", Translation="uiR2EDcreature_chegf4"},
 					{Id="palette.entities.creatures.cheld1", Translation="uiR2EDcreature_cheld1"},
 					{Id="palette.entities.creatures.cheld2", Translation="uiR2EDcreature_cheld2"},
 					{Id="palette.entities.creatures.cheld3", Translation="uiR2EDcreature_cheld3"},
 					{Id="palette.entities.creatures.cheld4", Translation="uiR2EDcreature_cheld4"},
 					{Id="palette.entities.creatures.chele4", Translation="uiR2EDcreature_chele4"},
-				--	{Id="palette.entities.creatures.chfgb1", Translation="uiR2EDcreature_chfgb1"},
-				--	{Id="palette.entities.creatures.chfgb2", Translation="uiR2EDcreature_chfgb2"},
-				--	{Id="palette.entities.creatures.chfgb3", Translation="uiR2EDcreature_chfgb3"},
-				--	{Id="palette.entities.creatures.chfgb4", Translation="uiR2EDcreature_chfgb4"},
-				--	{Id="palette.entities.creatures.chfgc1", Translation="uiR2EDcreature_chfgc1"},
-				--	{Id="palette.entities.creatures.chfgc2", Translation="uiR2EDcreature_chfgc2"},
-				--	{Id="palette.entities.creatures.chfgc3", Translation="uiR2EDcreature_chfgc3"},
-				--	{Id="palette.entities.creatures.chfgc4", Translation="uiR2EDcreature_chfgc4"},
-				--	{Id="palette.entities.creatures.chfgd1", Translation="uiR2EDcreature_chfgd1"},
-				--	{Id="palette.entities.creatures.chfgd2", Translation="uiR2EDcreature_chfgd2"},
-				--	{Id="palette.entities.creatures.chfgd3", Translation="uiR2EDcreature_chfgd3"},
-				--	{Id="palette.entities.creatures.chfgd4", Translation="uiR2EDcreature_chfgd4"},
-				--	{Id="palette.entities.creatures.chfge1", Translation="uiR2EDcreature_chfge1"},
-				--	{Id="palette.entities.creatures.chfge2", Translation="uiR2EDcreature_chfge2"},
-				--	{Id="palette.entities.creatures.chfge3", Translation="uiR2EDcreature_chfge3"},
-				--	{Id="palette.entities.creatures.chfge4", Translation="uiR2EDcreature_chfge4"},
-				--	{Id="palette.entities.creatures.chfgf1", Translation="uiR2EDcreature_chfgf1"},
-				--	{Id="palette.entities.creatures.chfgf2", Translation="uiR2EDcreature_chfgf2"},
-				--	{Id="palette.entities.creatures.chfgf3", Translation="uiR2EDcreature_chfgf3"},
-				--	{Id="palette.entities.creatures.chfgf4", Translation="uiR2EDcreature_chfgf4"},
+					{Id="palette.entities.creatures.chfgb1", Translation="uiR2EDcreature_chfgb1"},
+					{Id="palette.entities.creatures.chfgb2", Translation="uiR2EDcreature_chfgb2"},
+					{Id="palette.entities.creatures.chfgb3", Translation="uiR2EDcreature_chfgb3"},
+					{Id="palette.entities.creatures.chfgb4", Translation="uiR2EDcreature_chfgb4"},
+					{Id="palette.entities.creatures.chfgc1", Translation="uiR2EDcreature_chfgc1"},
+					{Id="palette.entities.creatures.chfgc2", Translation="uiR2EDcreature_chfgc2"},
+					{Id="palette.entities.creatures.chfgc3", Translation="uiR2EDcreature_chfgc3"},
+					{Id="palette.entities.creatures.chfgc4", Translation="uiR2EDcreature_chfgc4"},
+					{Id="palette.entities.creatures.chfgd1", Translation="uiR2EDcreature_chfgd1"},
+					{Id="palette.entities.creatures.chfgd2", Translation="uiR2EDcreature_chfgd2"},
+					{Id="palette.entities.creatures.chfgd3", Translation="uiR2EDcreature_chfgd3"},
+					{Id="palette.entities.creatures.chfgd4", Translation="uiR2EDcreature_chfgd4"},
+					{Id="palette.entities.creatures.chfge1", Translation="uiR2EDcreature_chfge1"},
+					{Id="palette.entities.creatures.chfge2", Translation="uiR2EDcreature_chfge2"},
+					{Id="palette.entities.creatures.chfge3", Translation="uiR2EDcreature_chfge3"},
+					{Id="palette.entities.creatures.chfge4", Translation="uiR2EDcreature_chfge4"},
+					{Id="palette.entities.creatures.chfgf1", Translation="uiR2EDcreature_chfgf1"},
+					{Id="palette.entities.creatures.chfgf2", Translation="uiR2EDcreature_chfgf2"},
+					{Id="palette.entities.creatures.chfgf3", Translation="uiR2EDcreature_chfgf3"},
+					{Id="palette.entities.creatures.chfgf4", Translation="uiR2EDcreature_chfgf4"},
 					{Id="palette.entities.creatures.chfjc1", Translation="uiR2EDcreature_chfjc1"},
 					{Id="palette.entities.creatures.chfjc2", Translation="uiR2EDcreature_chfjc2"},
 					{Id="palette.entities.creatures.chfjc3", Translation="uiR2EDcreature_chfjc3"},
@@ -9683,26 +9810,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.chgde2", Translation="uiR2EDcreature_chgde2"},
 					{Id="palette.entities.creatures.chgde3", Translation="uiR2EDcreature_chgde3"},
 					{Id="palette.entities.creatures.chgde4", Translation="uiR2EDcreature_chgde4"},
-				--	{Id="palette.entities.creatures.chggb1", Translation="uiR2EDcreature_chggb1"},
-				--	{Id="palette.entities.creatures.chggb2", Translation="uiR2EDcreature_chggb2"},
-				--	{Id="palette.entities.creatures.chggb3", Translation="uiR2EDcreature_chggb3"},
-				--	{Id="palette.entities.creatures.chggb4", Translation="uiR2EDcreature_chggb4"},
-				--	{Id="palette.entities.creatures.chggc1", Translation="uiR2EDcreature_chggc1"},
-				--	{Id="palette.entities.creatures.chggc2", Translation="uiR2EDcreature_chggc2"},
-				--	{Id="palette.entities.creatures.chggc3", Translation="uiR2EDcreature_chggc3"},
-				--	{Id="palette.entities.creatures.chggc4", Translation="uiR2EDcreature_chggc4"},
-				--	{Id="palette.entities.creatures.chggd1", Translation="uiR2EDcreature_chggd1"},
-				--	{Id="palette.entities.creatures.chggd2", Translation="uiR2EDcreature_chggd2"},
-				--	{Id="palette.entities.creatures.chggd3", Translation="uiR2EDcreature_chggd3"},
-				--	{Id="palette.entities.creatures.chggd4", Translation="uiR2EDcreature_chggd4"},
-				--	{Id="palette.entities.creatures.chgge1", Translation="uiR2EDcreature_chgge1"},
-				--	{Id="palette.entities.creatures.chgge2", Translation="uiR2EDcreature_chgge2"},
-				--	{Id="palette.entities.creatures.chgge3", Translation="uiR2EDcreature_chgge3"},
-				--	{Id="palette.entities.creatures.chgge4", Translation="uiR2EDcreature_chgge4"},
-				--	{Id="palette.entities.creatures.chggf1", Translation="uiR2EDcreature_chggf1"},
-				--	{Id="palette.entities.creatures.chggf2", Translation="uiR2EDcreature_chggf2"},
-				--	{Id="palette.entities.creatures.chggf3", Translation="uiR2EDcreature_chggf3"},
-				--	{Id="palette.entities.creatures.chggf4", Translation="uiR2EDcreature_chggf4"},
+					{Id="palette.entities.creatures.chggb1", Translation="uiR2EDcreature_chggb1"},
+					{Id="palette.entities.creatures.chggb2", Translation="uiR2EDcreature_chggb2"},
+					{Id="palette.entities.creatures.chggb3", Translation="uiR2EDcreature_chggb3"},
+					{Id="palette.entities.creatures.chggb4", Translation="uiR2EDcreature_chggb4"},
+					{Id="palette.entities.creatures.chggc1", Translation="uiR2EDcreature_chggc1"},
+					{Id="palette.entities.creatures.chggc2", Translation="uiR2EDcreature_chggc2"},
+					{Id="palette.entities.creatures.chggc3", Translation="uiR2EDcreature_chggc3"},
+					{Id="palette.entities.creatures.chggc4", Translation="uiR2EDcreature_chggc4"},
+					{Id="palette.entities.creatures.chggd1", Translation="uiR2EDcreature_chggd1"},
+					{Id="palette.entities.creatures.chggd2", Translation="uiR2EDcreature_chggd2"},
+					{Id="palette.entities.creatures.chggd3", Translation="uiR2EDcreature_chggd3"},
+					{Id="palette.entities.creatures.chggd4", Translation="uiR2EDcreature_chggd4"},
+					{Id="palette.entities.creatures.chgge1", Translation="uiR2EDcreature_chgge1"},
+					{Id="palette.entities.creatures.chgge2", Translation="uiR2EDcreature_chgge2"},
+					{Id="palette.entities.creatures.chgge3", Translation="uiR2EDcreature_chgge3"},
+					{Id="palette.entities.creatures.chgge4", Translation="uiR2EDcreature_chgge4"},
+					{Id="palette.entities.creatures.chggf1", Translation="uiR2EDcreature_chggf1"},
+					{Id="palette.entities.creatures.chggf2", Translation="uiR2EDcreature_chggf2"},
+					{Id="palette.entities.creatures.chggf3", Translation="uiR2EDcreature_chggf3"},
+					{Id="palette.entities.creatures.chggf4", Translation="uiR2EDcreature_chggf4"},
 					{Id="palette.entities.creatures.chgpd1", Translation="uiR2EDcreature_chgpd1"},
 					{Id="palette.entities.creatures.chgpd2", Translation="uiR2EDcreature_chgpd2"},
 					{Id="palette.entities.creatures.chgpd3", Translation="uiR2EDcreature_chgpd3"},
@@ -9814,26 +9941,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.chkdf2", Translation="uiR2EDcreature_chkdf2"},
 					{Id="palette.entities.creatures.chkdf3", Translation="uiR2EDcreature_chkdf3"},
 					{Id="palette.entities.creatures.chkdf4", Translation="uiR2EDcreature_chkdf4"},
-				--	{Id="palette.entities.creatures.chkgb1", Translation="uiR2EDcreature_chkgb1"},
-				--	{Id="palette.entities.creatures.chkgb2", Translation="uiR2EDcreature_chkgb2"},
-				--	{Id="palette.entities.creatures.chkgb3", Translation="uiR2EDcreature_chkgb3"},
-				--	{Id="palette.entities.creatures.chkgb4", Translation="uiR2EDcreature_chkgb4"},
-				--	{Id="palette.entities.creatures.chkgc1", Translation="uiR2EDcreature_chkgc1"},
-				--	{Id="palette.entities.creatures.chkgc2", Translation="uiR2EDcreature_chkgc2"},
-				--	{Id="palette.entities.creatures.chkgc3", Translation="uiR2EDcreature_chkgc3"},
-				--	{Id="palette.entities.creatures.chkgc4", Translation="uiR2EDcreature_chkgc4"},
-				--	{Id="palette.entities.creatures.chkgd1", Translation="uiR2EDcreature_chkgd1"},
-				--	{Id="palette.entities.creatures.chkgd2", Translation="uiR2EDcreature_chkgd2"},
-				--	{Id="palette.entities.creatures.chkgd3", Translation="uiR2EDcreature_chkgd3"},
-				--	{Id="palette.entities.creatures.chkgd4", Translation="uiR2EDcreature_chkgd4"},
-				--	{Id="palette.entities.creatures.chkge1", Translation="uiR2EDcreature_chkge1"},
-				--	{Id="palette.entities.creatures.chkge2", Translation="uiR2EDcreature_chkge2"},
-				--	{Id="palette.entities.creatures.chkge3", Translation="uiR2EDcreature_chkge3"},
-				--	{Id="palette.entities.creatures.chkge4", Translation="uiR2EDcreature_chkge4"},
-				--	{Id="palette.entities.creatures.chkgf1", Translation="uiR2EDcreature_chkgf1"},
-				--	{Id="palette.entities.creatures.chkgf2", Translation="uiR2EDcreature_chkgf2"},
-				--	{Id="palette.entities.creatures.chkgf3", Translation="uiR2EDcreature_chkgf3"},
-				--	{Id="palette.entities.creatures.chkgf4", Translation="uiR2EDcreature_chkgf4"},
+					{Id="palette.entities.creatures.chkgb1", Translation="uiR2EDcreature_chkgb1"},
+					{Id="palette.entities.creatures.chkgb2", Translation="uiR2EDcreature_chkgb2"},
+					{Id="palette.entities.creatures.chkgb3", Translation="uiR2EDcreature_chkgb3"},
+					{Id="palette.entities.creatures.chkgb4", Translation="uiR2EDcreature_chkgb4"},
+					{Id="palette.entities.creatures.chkgc1", Translation="uiR2EDcreature_chkgc1"},
+					{Id="palette.entities.creatures.chkgc2", Translation="uiR2EDcreature_chkgc2"},
+					{Id="palette.entities.creatures.chkgc3", Translation="uiR2EDcreature_chkgc3"},
+					{Id="palette.entities.creatures.chkgc4", Translation="uiR2EDcreature_chkgc4"},
+					{Id="palette.entities.creatures.chkgd1", Translation="uiR2EDcreature_chkgd1"},
+					{Id="palette.entities.creatures.chkgd2", Translation="uiR2EDcreature_chkgd2"},
+					{Id="palette.entities.creatures.chkgd3", Translation="uiR2EDcreature_chkgd3"},
+					{Id="palette.entities.creatures.chkgd4", Translation="uiR2EDcreature_chkgd4"},
+					{Id="palette.entities.creatures.chkge1", Translation="uiR2EDcreature_chkge1"},
+					{Id="palette.entities.creatures.chkge2", Translation="uiR2EDcreature_chkge2"},
+					{Id="palette.entities.creatures.chkge3", Translation="uiR2EDcreature_chkge3"},
+					{Id="palette.entities.creatures.chkge4", Translation="uiR2EDcreature_chkge4"},
+					{Id="palette.entities.creatures.chkgf1", Translation="uiR2EDcreature_chkgf1"},
+					{Id="palette.entities.creatures.chkgf2", Translation="uiR2EDcreature_chkgf2"},
+					{Id="palette.entities.creatures.chkgf3", Translation="uiR2EDcreature_chkgf3"},
+					{Id="palette.entities.creatures.chkgf4", Translation="uiR2EDcreature_chkgf4"},
 					{Id="palette.entities.creatures.chkjd1", Translation="uiR2EDcreature_chkjd1"},
 					{Id="palette.entities.creatures.chkjd2", Translation="uiR2EDcreature_chkjd2"},
 					{Id="palette.entities.creatures.chkjd3", Translation="uiR2EDcreature_chkjd3"},
@@ -9854,26 +9981,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.chlff2", Translation="uiR2EDcreature_chlff2"},
 					{Id="palette.entities.creatures.chlff3", Translation="uiR2EDcreature_chlff3"},
 					{Id="palette.entities.creatures.chlff4", Translation="uiR2EDcreature_chlff4"},
-				--	{Id="palette.entities.creatures.chlgb1", Translation="uiR2EDcreature_chlgb1"},
-				--	{Id="palette.entities.creatures.chlgb2", Translation="uiR2EDcreature_chlgb2"},
-				--	{Id="palette.entities.creatures.chlgb3", Translation="uiR2EDcreature_chlgb3"},
-				--	{Id="palette.entities.creatures.chlgb4", Translation="uiR2EDcreature_chlgb4"},
-				--	{Id="palette.entities.creatures.chlgc1", Translation="uiR2EDcreature_chlgc1"},
-				--	{Id="palette.entities.creatures.chlgc2", Translation="uiR2EDcreature_chlgc2"},
-				--	{Id="palette.entities.creatures.chlgc3", Translation="uiR2EDcreature_chlgc3"},
-				--	{Id="palette.entities.creatures.chlgc4", Translation="uiR2EDcreature_chlgc4"},
-				--	{Id="palette.entities.creatures.chlgd1", Translation="uiR2EDcreature_chlgd1"},
-				--	{Id="palette.entities.creatures.chlgd2", Translation="uiR2EDcreature_chlgd2"},
-				--	{Id="palette.entities.creatures.chlgd3", Translation="uiR2EDcreature_chlgd3"},
-				--	{Id="palette.entities.creatures.chlgd4", Translation="uiR2EDcreature_chlgd4"},
-				--	{Id="palette.entities.creatures.chlge1", Translation="uiR2EDcreature_chlge1"},
-				--	{Id="palette.entities.creatures.chlge2", Translation="uiR2EDcreature_chlge2"},
-				--	{Id="palette.entities.creatures.chlge3", Translation="uiR2EDcreature_chlge3"},
-				--	{Id="palette.entities.creatures.chlge4", Translation="uiR2EDcreature_chlge4"},
-				--	{Id="palette.entities.creatures.chlgf1", Translation="uiR2EDcreature_chlgf1"},
-				--	{Id="palette.entities.creatures.chlgf2", Translation="uiR2EDcreature_chlgf2"},
-				--	{Id="palette.entities.creatures.chlgf3", Translation="uiR2EDcreature_chlgf3"},
-				--	{Id="palette.entities.creatures.chlgf4", Translation="uiR2EDcreature_chlgf4"},
+					{Id="palette.entities.creatures.chlgb1", Translation="uiR2EDcreature_chlgb1"},
+					{Id="palette.entities.creatures.chlgb2", Translation="uiR2EDcreature_chlgb2"},
+					{Id="palette.entities.creatures.chlgb3", Translation="uiR2EDcreature_chlgb3"},
+					{Id="palette.entities.creatures.chlgb4", Translation="uiR2EDcreature_chlgb4"},
+					{Id="palette.entities.creatures.chlgc1", Translation="uiR2EDcreature_chlgc1"},
+					{Id="palette.entities.creatures.chlgc2", Translation="uiR2EDcreature_chlgc2"},
+					{Id="palette.entities.creatures.chlgc3", Translation="uiR2EDcreature_chlgc3"},
+					{Id="palette.entities.creatures.chlgc4", Translation="uiR2EDcreature_chlgc4"},
+					{Id="palette.entities.creatures.chlgd1", Translation="uiR2EDcreature_chlgd1"},
+					{Id="palette.entities.creatures.chlgd2", Translation="uiR2EDcreature_chlgd2"},
+					{Id="palette.entities.creatures.chlgd3", Translation="uiR2EDcreature_chlgd3"},
+					{Id="palette.entities.creatures.chlgd4", Translation="uiR2EDcreature_chlgd4"},
+					{Id="palette.entities.creatures.chlge1", Translation="uiR2EDcreature_chlge1"},
+					{Id="palette.entities.creatures.chlge2", Translation="uiR2EDcreature_chlge2"},
+					{Id="palette.entities.creatures.chlge3", Translation="uiR2EDcreature_chlge3"},
+					{Id="palette.entities.creatures.chlge4", Translation="uiR2EDcreature_chlge4"},
+					{Id="palette.entities.creatures.chlgf1", Translation="uiR2EDcreature_chlgf1"},
+					{Id="palette.entities.creatures.chlgf2", Translation="uiR2EDcreature_chlgf2"},
+					{Id="palette.entities.creatures.chlgf3", Translation="uiR2EDcreature_chlgf3"},
+					{Id="palette.entities.creatures.chlgf4", Translation="uiR2EDcreature_chlgf4"},
 					{Id="palette.entities.creatures.chlld1", Translation="uiR2EDcreature_chlld1"},
 					{Id="palette.entities.creatures.chlld2", Translation="uiR2EDcreature_chlld2"},
 					{Id="palette.entities.creatures.chlld3", Translation="uiR2EDcreature_chlld3"},
@@ -9910,26 +10037,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.chofc2", Translation="uiR2EDcreature_chofc2"},
 					{Id="palette.entities.creatures.chofc3", Translation="uiR2EDcreature_chofc3"},
 					{Id="palette.entities.creatures.chofc4", Translation="uiR2EDcreature_chofc4"},
-				--	{Id="palette.entities.creatures.chogb1", Translation="uiR2EDcreature_chogb1"},
-				--	{Id="palette.entities.creatures.chogb2", Translation="uiR2EDcreature_chogb2"},
-				--	{Id="palette.entities.creatures.chogb3", Translation="uiR2EDcreature_chogb3"},
-				--	{Id="palette.entities.creatures.chogb4", Translation="uiR2EDcreature_chogb4"},
-				--	{Id="palette.entities.creatures.chogc1", Translation="uiR2EDcreature_chogc1"},
-				--	{Id="palette.entities.creatures.chogc2", Translation="uiR2EDcreature_chogc2"},
-				--	{Id="palette.entities.creatures.chogc3", Translation="uiR2EDcreature_chogc3"},
-				--	{Id="palette.entities.creatures.chogc4", Translation="uiR2EDcreature_chogc4"},
-				--	{Id="palette.entities.creatures.chogd1", Translation="uiR2EDcreature_chogd1"},
-				--	{Id="palette.entities.creatures.chogd2", Translation="uiR2EDcreature_chogd2"},
-				--	{Id="palette.entities.creatures.chogd3", Translation="uiR2EDcreature_chogd3"},
-				--	{Id="palette.entities.creatures.chogd4", Translation="uiR2EDcreature_chogd4"},
-				--	{Id="palette.entities.creatures.choge1", Translation="uiR2EDcreature_choge1"},
-				--	{Id="palette.entities.creatures.choge2", Translation="uiR2EDcreature_choge2"},
-				--	{Id="palette.entities.creatures.choge3", Translation="uiR2EDcreature_choge3"},
-				--	{Id="palette.entities.creatures.choge4", Translation="uiR2EDcreature_choge4"},
-				--	{Id="palette.entities.creatures.chogf1", Translation="uiR2EDcreature_chogf1"},
-				--	{Id="palette.entities.creatures.chogf2", Translation="uiR2EDcreature_chogf2"},
-				--	{Id="palette.entities.creatures.chogf3", Translation="uiR2EDcreature_chogf3"},
-				--	{Id="palette.entities.creatures.chogf4", Translation="uiR2EDcreature_chogf4"},
+					{Id="palette.entities.creatures.chogb1", Translation="uiR2EDcreature_chogb1"},
+					{Id="palette.entities.creatures.chogb2", Translation="uiR2EDcreature_chogb2"},
+					{Id="palette.entities.creatures.chogb3", Translation="uiR2EDcreature_chogb3"},
+					{Id="palette.entities.creatures.chogb4", Translation="uiR2EDcreature_chogb4"},
+					{Id="palette.entities.creatures.chogc1", Translation="uiR2EDcreature_chogc1"},
+					{Id="palette.entities.creatures.chogc2", Translation="uiR2EDcreature_chogc2"},
+					{Id="palette.entities.creatures.chogc3", Translation="uiR2EDcreature_chogc3"},
+					{Id="palette.entities.creatures.chogc4", Translation="uiR2EDcreature_chogc4"},
+					{Id="palette.entities.creatures.chogd1", Translation="uiR2EDcreature_chogd1"},
+					{Id="palette.entities.creatures.chogd2", Translation="uiR2EDcreature_chogd2"},
+					{Id="palette.entities.creatures.chogd3", Translation="uiR2EDcreature_chogd3"},
+					{Id="palette.entities.creatures.chogd4", Translation="uiR2EDcreature_chogd4"},
+					{Id="palette.entities.creatures.choge1", Translation="uiR2EDcreature_choge1"},
+					{Id="palette.entities.creatures.choge2", Translation="uiR2EDcreature_choge2"},
+					{Id="palette.entities.creatures.choge3", Translation="uiR2EDcreature_choge3"},
+					{Id="palette.entities.creatures.choge4", Translation="uiR2EDcreature_choge4"},
+					{Id="palette.entities.creatures.chogf1", Translation="uiR2EDcreature_chogf1"},
+					{Id="palette.entities.creatures.chogf2", Translation="uiR2EDcreature_chogf2"},
+					{Id="palette.entities.creatures.chogf3", Translation="uiR2EDcreature_chogf3"},
+					{Id="palette.entities.creatures.chogf4", Translation="uiR2EDcreature_chogf4"},
 					{Id="palette.entities.creatures.chpdc1", Translation="uiR2EDcreature_chpdc1"},
 					{Id="palette.entities.creatures.chpdc2", Translation="uiR2EDcreature_chpdc2"},
 					{Id="palette.entities.creatures.chpdc3", Translation="uiR2EDcreature_chpdc3"},
@@ -10009,6 +10136,79 @@ r2.Palette =
 				}
 			},
 
+		--	 Work Animals (Mounts & Packers)
+			work_animals =
+			{
+				instances = 
+				{
+					{Id="palette.entities.creatures.chidb2", Translation="uiR2EDcreature_chidb2"},
+					{Id="palette.entities.creatures.chidc2", Translation="uiR2EDcreature_chidc2"},
+					{Id="palette.entities.creatures.chidd2", Translation="uiR2EDcreature_chidd2"},
+					{Id="palette.entities.creatures.chide2", Translation="uiR2EDcreature_chide2"},
+					{Id="palette.entities.creatures.chidf2", Translation="uiR2EDcreature_chidf2"},
+					{Id="palette.entities.creatures.chifb2", Translation="uiR2EDcreature_chifb2"},
+					{Id="palette.entities.creatures.chifc2", Translation="uiR2EDcreature_chifc2"},
+					{Id="palette.entities.creatures.chifd2", Translation="uiR2EDcreature_chifd2"},
+					{Id="palette.entities.creatures.chife2", Translation="uiR2EDcreature_chife2"},
+					{Id="palette.entities.creatures.chiff2", Translation="uiR2EDcreature_chiff2"},
+					{Id="palette.entities.creatures.chijb2", Translation="uiR2EDcreature_chijb2"},
+					{Id="palette.entities.creatures.chijc2", Translation="uiR2EDcreature_chijc2"},
+					{Id="palette.entities.creatures.chijd2", Translation="uiR2EDcreature_chijd2"},
+					{Id="palette.entities.creatures.chije2", Translation="uiR2EDcreature_chije2"},
+					{Id="palette.entities.creatures.chijf2", Translation="uiR2EDcreature_chijf2"},
+					{Id="palette.entities.creatures.chilb2", Translation="uiR2EDcreature_chilb2"},
+					{Id="palette.entities.creatures.chilc2", Translation="uiR2EDcreature_chilc2"},
+					{Id="palette.entities.creatures.child2", Translation="uiR2EDcreature_child2"},
+					{Id="palette.entities.creatures.chile2", Translation="uiR2EDcreature_chile2"},
+					{Id="palette.entities.creatures.chilf2", Translation="uiR2EDcreature_chilf2"},
+					{Id="palette.entities.creatures.chipd2", Translation="uiR2EDcreature_chipd2"},
+					{Id="palette.entities.creatures.chipe2", Translation="uiR2EDcreature_chipe2"},
+					{Id="palette.entities.creatures.chipf2", Translation="uiR2EDcreature_chipf2"},
+					{Id="palette.entities.creatures.chjdb2", Translation="uiR2EDcreature_chjdb2"},
+--					{Id="palette.entities.creatures.chjdb3", Translation="uiR2EDcreature_chjdb3"},
+					{Id="palette.entities.creatures.chjdc2", Translation="uiR2EDcreature_chjdc2"},
+--					{Id="palette.entities.creatures.chjdc3", Translation="uiR2EDcreature_chjdc3"},
+					{Id="palette.entities.creatures.chjdd2", Translation="uiR2EDcreature_chjdd2"},
+--					{Id="palette.entities.creatures.chjdd3", Translation="uiR2EDcreature_chjdd3"},
+					{Id="palette.entities.creatures.chjde2", Translation="uiR2EDcreature_chjde2"},
+--					{Id="palette.entities.creatures.chjde3", Translation="uiR2EDcreature_chjde3"},
+					{Id="palette.entities.creatures.chjdf2", Translation="uiR2EDcreature_chjdf2"},
+--					{Id="palette.entities.creatures.chjdf3", Translation="uiR2EDcreature_chjdf3"},
+					{Id="palette.entities.creatures.chjfb2", Translation="uiR2EDcreature_chjfb2"},
+--					{Id="palette.entities.creatures.chjfb3", Translation="uiR2EDcreature_chjfb3"},
+					{Id="palette.entities.creatures.chjfc2", Translation="uiR2EDcreature_chjfc2"},
+--					{Id="palette.entities.creatures.chjfc3", Translation="uiR2EDcreature_chjfc3"},
+					{Id="palette.entities.creatures.chjfd2", Translation="uiR2EDcreature_chjfd2"},
+--					{Id="palette.entities.creatures.chjfd3", Translation="uiR2EDcreature_chjfd3"},
+					{Id="palette.entities.creatures.chjfe2", Translation="uiR2EDcreature_chjfe2"},
+--					{Id="palette.entities.creatures.chjfe3", Translation="uiR2EDcreature_chjfe3"},
+					{Id="palette.entities.creatures.chjff2", Translation="uiR2EDcreature_chjff2"},
+--					{Id="palette.entities.creatures.chjff3", Translation="uiR2EDcreature_chjff3"},
+					{Id="palette.entities.creatures.chjjb2", Translation="uiR2EDcreature_chjjb2"},
+--					{Id="palette.entities.creatures.chjjb3", Translation="uiR2EDcreature_chjjb3"},
+					{Id="palette.entities.creatures.chjjc2", Translation="uiR2EDcreature_chjjc2"},
+--					{Id="palette.entities.creatures.chjjc3", Translation="uiR2EDcreature_chjjc3"},
+					{Id="palette.entities.creatures.chjjd2", Translation="uiR2EDcreature_chjjd2"},
+--					{Id="palette.entities.creatures.chjjd3", Translation="uiR2EDcreature_chjjd3"},
+					{Id="palette.entities.creatures.chjje2", Translation="uiR2EDcreature_chjje2"},
+--					{Id="palette.entities.creatures.chjje3", Translation="uiR2EDcreature_chjje3"},
+					{Id="palette.entities.creatures.chjjf2", Translation="uiR2EDcreature_chjjf2"},
+--					{Id="palette.entities.creatures.chjjf3", Translation="uiR2EDcreature_chjjf3"},
+					{Id="palette.entities.creatures.chjlb2", Translation="uiR2EDcreature_chjlb2"},
+--					{Id="palette.entities.creatures.chjlb3", Translation="uiR2EDcreature_chjlb3"},
+					{Id="palette.entities.creatures.chjlc2", Translation="uiR2EDcreature_chjlc2"},
+--					{Id="palette.entities.creatures.chjlc3", Translation="uiR2EDcreature_chjlc3"},
+					{Id="palette.entities.creatures.chjld2", Translation="uiR2EDcreature_chjld2"},
+--					{Id="palette.entities.creatures.chjld3", Translation="uiR2EDcreature_chjld3"},
+					{Id="palette.entities.creatures.chjle2", Translation="uiR2EDcreature_chjle2"},
+--					{Id="palette.entities.creatures.chjle3", Translation="uiR2EDcreature_chjle3"},
+					{Id="palette.entities.creatures.chjlf2", Translation="uiR2EDcreature_chjlf2"},
+--					{Id="palette.entities.creatures.chjlf3", Translation="uiR2EDcreature_chjlf3"},
+					{Id="palette.entities.creatures.chjpd2", Translation="uiR2EDcreature_chjpd2"},
+					{Id="palette.entities.creatures.chjpe2", Translation="uiR2EDcreature_chjpe2"},
+					{Id="palette.entities.creatures.chjpf2", Translation="uiR2EDcreature_chjpf2"},
+				}
+			},
 
 		--	 Predators (carnivores)
 			creatures_predators =
@@ -10032,27 +10232,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccafc3", Translation="uiR2EDcreature_ccafc3"},
 					{Id="palette.entities.creatures.ccafc4", Translation="uiR2EDcreature_ccafc4"},
 					{Id="palette.entities.creatures.ccafe4", Translation="uiR2EDcreature_ccafe4"},
-				--	{Id="palette.entities.creatures.ccagb1", Translation="uiR2EDcreature_ccagb1"},
-				--	{Id="palette.entities.creatures.ccagb2", Translation="uiR2EDcreature_ccagb2"},
-				--	{Id="palette.entities.creatures.ccagb3", Translation="uiR2EDcreature_ccagb3"},
-				--	{Id="palette.entities.creatures.ccagb4", Translation="uiR2EDcreature_ccagb4"},
-				--	{Id="palette.entities.creatures.ccagc1", Translation="uiR2EDcreature_ccagc1"},
-				--	{Id="palette.entities.creatures.ccagc2", Translation="uiR2EDcreature_ccagc2"},
-				--	{Id="palette.entities.creatures.ccagc3", Translation="uiR2EDcreature_ccagc3"},
-
-				--	{Id="palette.entities.creatures.ccagc4", Translation="uiR2EDcreature_ccagc4"},
-				--	{Id="palette.entities.creatures.ccagd1", Translation="uiR2EDcreature_ccagd1"},
-				--	{Id="palette.entities.creatures.ccagd2", Translation="uiR2EDcreature_ccagd2"},
-				--	{Id="palette.entities.creatures.ccagd3", Translation="uiR2EDcreature_ccagd3"},
-				--	{Id="palette.entities.creatures.ccagd4", Translation="uiR2EDcreature_ccagd4"},
-				--	{Id="palette.entities.creatures.ccage1", Translation="uiR2EDcreature_ccage1"},
-				--	{Id="palette.entities.creatures.ccage2", Translation="uiR2EDcreature_ccage2"},
-				--	{Id="palette.entities.creatures.ccage3", Translation="uiR2EDcreature_ccage3"},
-				--	{Id="palette.entities.creatures.ccage4", Translation="uiR2EDcreature_ccage4"},
-				--	{Id="palette.entities.creatures.ccagf1", Translation="uiR2EDcreature_ccagf1"},
-				--	{Id="palette.entities.creatures.ccagf2", Translation="uiR2EDcreature_ccagf2"},
-				--	{Id="palette.entities.creatures.ccagf3", Translation="uiR2EDcreature_ccagf3"},
-				--	{Id="palette.entities.creatures.ccagf4", Translation="uiR2EDcreature_ccagf4"},
+					{Id="palette.entities.creatures.ccagb1", Translation="uiR2EDcreature_ccagb1"},
+					{Id="palette.entities.creatures.ccagb2", Translation="uiR2EDcreature_ccagb2"},
+					{Id="palette.entities.creatures.ccagb3", Translation="uiR2EDcreature_ccagb3"},
+					{Id="palette.entities.creatures.ccagb4", Translation="uiR2EDcreature_ccagb4"},
+					{Id="palette.entities.creatures.ccagc1", Translation="uiR2EDcreature_ccagc1"},
+					{Id="palette.entities.creatures.ccagc2", Translation="uiR2EDcreature_ccagc2"},
+					{Id="palette.entities.creatures.ccagc3", Translation="uiR2EDcreature_ccagc3"},
+					{Id="palette.entities.creatures.ccagc4", Translation="uiR2EDcreature_ccagc4"},
+					{Id="palette.entities.creatures.ccagd1", Translation="uiR2EDcreature_ccagd1"},
+					{Id="palette.entities.creatures.ccagd2", Translation="uiR2EDcreature_ccagd2"},
+					{Id="palette.entities.creatures.ccagd3", Translation="uiR2EDcreature_ccagd3"},
+					{Id="palette.entities.creatures.ccagd4", Translation="uiR2EDcreature_ccagd4"},
+					{Id="palette.entities.creatures.ccage1", Translation="uiR2EDcreature_ccage1"},
+					{Id="palette.entities.creatures.ccage2", Translation="uiR2EDcreature_ccage2"},
+					{Id="palette.entities.creatures.ccage3", Translation="uiR2EDcreature_ccage3"},
+					{Id="palette.entities.creatures.ccage4", Translation="uiR2EDcreature_ccage4"},
+					{Id="palette.entities.creatures.ccagf1", Translation="uiR2EDcreature_ccagf1"},
+					{Id="palette.entities.creatures.ccagf2", Translation="uiR2EDcreature_ccagf2"},
+					{Id="palette.entities.creatures.ccagf3", Translation="uiR2EDcreature_ccagf3"},
+					{Id="palette.entities.creatures.ccagf4", Translation="uiR2EDcreature_ccagf4"},
 					{Id="palette.entities.creatures.ccajd1", Translation="uiR2EDcreature_ccajd1"},
 					{Id="palette.entities.creatures.ccajd2", Translation="uiR2EDcreature_ccajd2"},
 					{Id="palette.entities.creatures.ccajd3", Translation="uiR2EDcreature_ccajd3"},
@@ -10065,26 +10264,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccbdc2", Translation="uiR2EDcreature_ccbdc2"},
 					{Id="palette.entities.creatures.ccbdc3", Translation="uiR2EDcreature_ccbdc3"},
 					{Id="palette.entities.creatures.ccbdc4", Translation="uiR2EDcreature_ccbdc4"},
-				--	{Id="palette.entities.creatures.ccbgb1", Translation="uiR2EDcreature_ccbgb1"},
-				--	{Id="palette.entities.creatures.ccbgb2", Translation="uiR2EDcreature_ccbgb2"},
-				--	{Id="palette.entities.creatures.ccbgb3", Translation="uiR2EDcreature_ccbgb3"},
-				--	{Id="palette.entities.creatures.ccbgb4", Translation="uiR2EDcreature_ccbgb4"},
-				--	{Id="palette.entities.creatures.ccbgc1", Translation="uiR2EDcreature_ccbgc1"},
-				--	{Id="palette.entities.creatures.ccbgc2", Translation="uiR2EDcreature_ccbgc2"},
-				--	{Id="palette.entities.creatures.ccbgc3", Translation="uiR2EDcreature_ccbgc3"},
-				--	{Id="palette.entities.creatures.ccbgc4", Translation="uiR2EDcreature_ccbgc4"},
-				--	{Id="palette.entities.creatures.ccbgd1", Translation="uiR2EDcreature_ccbgd1"},
-				--	{Id="palette.entities.creatures.ccbgd2", Translation="uiR2EDcreature_ccbgd2"},
-				--	{Id="palette.entities.creatures.ccbgd3", Translation="uiR2EDcreature_ccbgd3"},
-				--	{Id="palette.entities.creatures.ccbgd4", Translation="uiR2EDcreature_ccbgd4"},
-				--	{Id="palette.entities.creatures.ccbge1", Translation="uiR2EDcreature_ccbge1"},
-				--	{Id="palette.entities.creatures.ccbge2", Translation="uiR2EDcreature_ccbge2"},
-				--	{Id="palette.entities.creatures.ccbge3", Translation="uiR2EDcreature_ccbge3"},
-				--	{Id="palette.entities.creatures.ccbge4", Translation="uiR2EDcreature_ccbge4"},
-				--	{Id="palette.entities.creatures.ccbgf1", Translation="uiR2EDcreature_ccbgf1"},
-				--	{Id="palette.entities.creatures.ccbgf2", Translation="uiR2EDcreature_ccbgf2"},
-				--	{Id="palette.entities.creatures.ccbgf3", Translation="uiR2EDcreature_ccbgf3"},
-				--	{Id="palette.entities.creatures.ccbgf4", Translation="uiR2EDcreature_ccbgf4"},
+					{Id="palette.entities.creatures.ccbgb1", Translation="uiR2EDcreature_ccbgb1"},
+					{Id="palette.entities.creatures.ccbgb2", Translation="uiR2EDcreature_ccbgb2"},
+					{Id="palette.entities.creatures.ccbgb3", Translation="uiR2EDcreature_ccbgb3"},
+					{Id="palette.entities.creatures.ccbgb4", Translation="uiR2EDcreature_ccbgb4"},
+					{Id="palette.entities.creatures.ccbgc1", Translation="uiR2EDcreature_ccbgc1"},
+					{Id="palette.entities.creatures.ccbgc2", Translation="uiR2EDcreature_ccbgc2"},
+					{Id="palette.entities.creatures.ccbgc3", Translation="uiR2EDcreature_ccbgc3"},
+					{Id="palette.entities.creatures.ccbgc4", Translation="uiR2EDcreature_ccbgc4"},
+					{Id="palette.entities.creatures.ccbgd1", Translation="uiR2EDcreature_ccbgd1"},
+					{Id="palette.entities.creatures.ccbgd2", Translation="uiR2EDcreature_ccbgd2"},
+					{Id="palette.entities.creatures.ccbgd3", Translation="uiR2EDcreature_ccbgd3"},
+					{Id="palette.entities.creatures.ccbgd4", Translation="uiR2EDcreature_ccbgd4"},
+					{Id="palette.entities.creatures.ccbge1", Translation="uiR2EDcreature_ccbge1"},
+					{Id="palette.entities.creatures.ccbge2", Translation="uiR2EDcreature_ccbge2"},
+					{Id="palette.entities.creatures.ccbge3", Translation="uiR2EDcreature_ccbge3"},
+					{Id="palette.entities.creatures.ccbge4", Translation="uiR2EDcreature_ccbge4"},
+					{Id="palette.entities.creatures.ccbgf1", Translation="uiR2EDcreature_ccbgf1"},
+					{Id="palette.entities.creatures.ccbgf2", Translation="uiR2EDcreature_ccbgf2"},
+					{Id="palette.entities.creatures.ccbgf3", Translation="uiR2EDcreature_ccbgf3"},
+					{Id="palette.entities.creatures.ccbgf4", Translation="uiR2EDcreature_ccbgf4"},
 					{Id="palette.entities.creatures.ccbla1", Translation="uiR2EDcreature_ccbla1"},
 					{Id="palette.entities.creatures.ccbla2", Translation="uiR2EDcreature_ccbla2"},
 					{Id="palette.entities.creatures.ccblb1", Translation="uiR2EDcreature_ccblb1"},
@@ -10106,26 +10305,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cccdc3", Translation="uiR2EDcreature_cccdc3"},
 					{Id="palette.entities.creatures.cccdc4", Translation="uiR2EDcreature_cccdc4"},
 					{Id="palette.entities.creatures.cccdd4", Translation="uiR2EDcreature_cccdd4"},
-				--	{Id="palette.entities.creatures.cccgb1", Translation="uiR2EDcreature_cccgb1"},
-				--	{Id="palette.entities.creatures.cccgb2", Translation="uiR2EDcreature_cccgb2"},
-				--	{Id="palette.entities.creatures.cccgb3", Translation="uiR2EDcreature_cccgb3"},
-				--	{Id="palette.entities.creatures.cccgb4", Translation="uiR2EDcreature_cccgb4"},
-				--	{Id="palette.entities.creatures.cccgc1", Translation="uiR2EDcreature_cccgc1"},
-				--	{Id="palette.entities.creatures.cccgc2", Translation="uiR2EDcreature_cccgc2"},
-				--	{Id="palette.entities.creatures.cccgc3", Translation="uiR2EDcreature_cccgc3"},
-				--	{Id="palette.entities.creatures.cccgc4", Translation="uiR2EDcreature_cccgc4"},
-				--	{Id="palette.entities.creatures.cccgd1", Translation="uiR2EDcreature_cccgd1"},
-				--	{Id="palette.entities.creatures.cccgd2", Translation="uiR2EDcreature_cccgd2"},
-				--	{Id="palette.entities.creatures.cccgd3", Translation="uiR2EDcreature_cccgd3"},
-				--	{Id="palette.entities.creatures.cccgd4", Translation="uiR2EDcreature_cccgd4"},
-				--	{Id="palette.entities.creatures.cccge1", Translation="uiR2EDcreature_cccge1"},
-				--	{Id="palette.entities.creatures.cccge2", Translation="uiR2EDcreature_cccge2"},
-				--	{Id="palette.entities.creatures.cccge3", Translation="uiR2EDcreature_cccge3"},
-				--	{Id="palette.entities.creatures.cccge4", Translation="uiR2EDcreature_cccge4"},
-				--	{Id="palette.entities.creatures.cccgf1", Translation="uiR2EDcreature_cccgf1"},
-				--	{Id="palette.entities.creatures.cccgf2", Translation="uiR2EDcreature_cccgf2"},
-				--	{Id="palette.entities.creatures.cccgf3", Translation="uiR2EDcreature_cccgf3"},
-				--	{Id="palette.entities.creatures.cccgf4", Translation="uiR2EDcreature_cccgf4"},
+					{Id="palette.entities.creatures.cccgb1", Translation="uiR2EDcreature_cccgb1"},
+					{Id="palette.entities.creatures.cccgb2", Translation="uiR2EDcreature_cccgb2"},
+					{Id="palette.entities.creatures.cccgb3", Translation="uiR2EDcreature_cccgb3"},
+					{Id="palette.entities.creatures.cccgb4", Translation="uiR2EDcreature_cccgb4"},
+					{Id="palette.entities.creatures.cccgc1", Translation="uiR2EDcreature_cccgc1"},
+					{Id="palette.entities.creatures.cccgc2", Translation="uiR2EDcreature_cccgc2"},
+					{Id="palette.entities.creatures.cccgc3", Translation="uiR2EDcreature_cccgc3"},
+					{Id="palette.entities.creatures.cccgc4", Translation="uiR2EDcreature_cccgc4"},
+					{Id="palette.entities.creatures.cccgd1", Translation="uiR2EDcreature_cccgd1"},
+					{Id="palette.entities.creatures.cccgd2", Translation="uiR2EDcreature_cccgd2"},
+					{Id="palette.entities.creatures.cccgd3", Translation="uiR2EDcreature_cccgd3"},
+					{Id="palette.entities.creatures.cccgd4", Translation="uiR2EDcreature_cccgd4"},
+					{Id="palette.entities.creatures.cccge1", Translation="uiR2EDcreature_cccge1"},
+					{Id="palette.entities.creatures.cccge2", Translation="uiR2EDcreature_cccge2"},
+					{Id="palette.entities.creatures.cccge3", Translation="uiR2EDcreature_cccge3"},
+					{Id="palette.entities.creatures.cccge4", Translation="uiR2EDcreature_cccge4"},
+					{Id="palette.entities.creatures.cccgf1", Translation="uiR2EDcreature_cccgf1"},
+					{Id="palette.entities.creatures.cccgf2", Translation="uiR2EDcreature_cccgf2"},
+					{Id="palette.entities.creatures.cccgf3", Translation="uiR2EDcreature_cccgf3"},
+					{Id="palette.entities.creatures.cccgf4", Translation="uiR2EDcreature_cccgf4"},
 					{Id="palette.entities.creatures.cccla1", Translation="uiR2EDcreature_cccla1"},
 					{Id="palette.entities.creatures.cccla2", Translation="uiR2EDcreature_cccla2"},
 					{Id="palette.entities.creatures.ccclb1", Translation="uiR2EDcreature_ccclb1"},
@@ -10141,26 +10340,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccdfe2", Translation="uiR2EDcreature_ccdfe2"},
 					{Id="palette.entities.creatures.ccdfe3", Translation="uiR2EDcreature_ccdfe3"},
 					{Id="palette.entities.creatures.ccdfe4", Translation="uiR2EDcreature_ccdfe4"},
-				--	{Id="palette.entities.creatures.ccdgb1", Translation="uiR2EDcreature_ccdgb1"},
-				--	{Id="palette.entities.creatures.ccdgb2", Translation="uiR2EDcreature_ccdgb2"},
-				--	{Id="palette.entities.creatures.ccdgb3", Translation="uiR2EDcreature_ccdgb3"},
-				--	{Id="palette.entities.creatures.ccdgb4", Translation="uiR2EDcreature_ccdgb4"},
-				--	{Id="palette.entities.creatures.ccdgc1", Translation="uiR2EDcreature_ccdgc1"},
-				--	{Id="palette.entities.creatures.ccdgc2", Translation="uiR2EDcreature_ccdgc2"},
-				--	{Id="palette.entities.creatures.ccdgc3", Translation="uiR2EDcreature_ccdgc3"},
-				--	{Id="palette.entities.creatures.ccdgc4", Translation="uiR2EDcreature_ccdgc4"},
-				--	{Id="palette.entities.creatures.ccdgd1", Translation="uiR2EDcreature_ccdgd1"},
-				--	{Id="palette.entities.creatures.ccdgd2", Translation="uiR2EDcreature_ccdgd2"},
-				--	{Id="palette.entities.creatures.ccdgd3", Translation="uiR2EDcreature_ccdgd3"},
-				--	{Id="palette.entities.creatures.ccdgd4", Translation="uiR2EDcreature_ccdgd4"},
-				--	{Id="palette.entities.creatures.ccdge1", Translation="uiR2EDcreature_ccdge1"},
-				--	{Id="palette.entities.creatures.ccdge2", Translation="uiR2EDcreature_ccdge2"},
-				--	{Id="palette.entities.creatures.ccdge3", Translation="uiR2EDcreature_ccdge3"},
-				--	{Id="palette.entities.creatures.ccdge4", Translation="uiR2EDcreature_ccdge4"},
-				--	{Id="palette.entities.creatures.ccdgf1", Translation="uiR2EDcreature_ccdgf1"},
-				--	{Id="palette.entities.creatures.ccdgf2", Translation="uiR2EDcreature_ccdgf2"},
-				--	{Id="palette.entities.creatures.ccdgf3", Translation="uiR2EDcreature_ccdgf3"},
-				--	{Id="palette.entities.creatures.ccdgf4", Translation="uiR2EDcreature_ccdgf4"},
+					{Id="palette.entities.creatures.ccdgb1", Translation="uiR2EDcreature_ccdgb1"},
+					{Id="palette.entities.creatures.ccdgb2", Translation="uiR2EDcreature_ccdgb2"},
+					{Id="palette.entities.creatures.ccdgb3", Translation="uiR2EDcreature_ccdgb3"},
+					{Id="palette.entities.creatures.ccdgb4", Translation="uiR2EDcreature_ccdgb4"},
+					{Id="palette.entities.creatures.ccdgc1", Translation="uiR2EDcreature_ccdgc1"},
+					{Id="palette.entities.creatures.ccdgc2", Translation="uiR2EDcreature_ccdgc2"},
+					{Id="palette.entities.creatures.ccdgc3", Translation="uiR2EDcreature_ccdgc3"},
+					{Id="palette.entities.creatures.ccdgc4", Translation="uiR2EDcreature_ccdgc4"},
+					{Id="palette.entities.creatures.ccdgd1", Translation="uiR2EDcreature_ccdgd1"},
+					{Id="palette.entities.creatures.ccdgd2", Translation="uiR2EDcreature_ccdgd2"},
+					{Id="palette.entities.creatures.ccdgd3", Translation="uiR2EDcreature_ccdgd3"},
+					{Id="palette.entities.creatures.ccdgd4", Translation="uiR2EDcreature_ccdgd4"},
+					{Id="palette.entities.creatures.ccdge1", Translation="uiR2EDcreature_ccdge1"},
+					{Id="palette.entities.creatures.ccdge2", Translation="uiR2EDcreature_ccdge2"},
+					{Id="palette.entities.creatures.ccdge3", Translation="uiR2EDcreature_ccdge3"},
+					{Id="palette.entities.creatures.ccdge4", Translation="uiR2EDcreature_ccdge4"},
+					{Id="palette.entities.creatures.ccdgf1", Translation="uiR2EDcreature_ccdgf1"},
+					{Id="palette.entities.creatures.ccdgf2", Translation="uiR2EDcreature_ccdgf2"},
+					{Id="palette.entities.creatures.ccdgf3", Translation="uiR2EDcreature_ccdgf3"},
+					{Id="palette.entities.creatures.ccdgf4", Translation="uiR2EDcreature_ccdgf4"},
 					{Id="palette.entities.creatures.ccdjc1", Translation="uiR2EDcreature_ccdjc1"},
 					{Id="palette.entities.creatures.ccdjc2", Translation="uiR2EDcreature_ccdjc2"},
 					{Id="palette.entities.creatures.ccdjc3", Translation="uiR2EDcreature_ccdjc3"},
@@ -10184,26 +10383,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccefb3", Translation="uiR2EDcreature_ccefb3"},
 					{Id="palette.entities.creatures.ccefb4", Translation="uiR2EDcreature_ccefb4"},
 					{Id="palette.entities.creatures.cceff4", Translation="uiR2EDcreature_cceff4"},
-				--	{Id="palette.entities.creatures.ccegb1", Translation="uiR2EDcreature_ccegb1"},
-				--	{Id="palette.entities.creatures.ccegb2", Translation="uiR2EDcreature_ccegb2"},
-				--	{Id="palette.entities.creatures.ccegb3", Translation="uiR2EDcreature_ccegb3"},
-				--	{Id="palette.entities.creatures.ccegb4", Translation="uiR2EDcreature_ccegb4"},
-				--	{Id="palette.entities.creatures.ccegc1", Translation="uiR2EDcreature_ccegc1"},
-				--	{Id="palette.entities.creatures.ccegc2", Translation="uiR2EDcreature_ccegc2"},
-				--	{Id="palette.entities.creatures.ccegc3", Translation="uiR2EDcreature_ccegc3"},
-				--	{Id="palette.entities.creatures.ccegc4", Translation="uiR2EDcreature_ccegc4"},
-				--	{Id="palette.entities.creatures.ccegd1", Translation="uiR2EDcreature_ccegd1"},
-				--	{Id="palette.entities.creatures.ccegd2", Translation="uiR2EDcreature_ccegd2"},
-				--	{Id="palette.entities.creatures.ccegd3", Translation="uiR2EDcreature_ccegd3"},
-				--	{Id="palette.entities.creatures.ccegd4", Translation="uiR2EDcreature_ccegd4"},
-				--	{Id="palette.entities.creatures.ccege1", Translation="uiR2EDcreature_ccege1"},
-				--	{Id="palette.entities.creatures.ccege2", Translation="uiR2EDcreature_ccege2"},
-				--	{Id="palette.entities.creatures.ccege3", Translation="uiR2EDcreature_ccege3"},
-				--	{Id="palette.entities.creatures.ccege4", Translation="uiR2EDcreature_ccege4"},
-				--	{Id="palette.entities.creatures.ccegf1", Translation="uiR2EDcreature_ccegf1"},
-				--	{Id="palette.entities.creatures.ccegf2", Translation="uiR2EDcreature_ccegf2"},
-				--	{Id="palette.entities.creatures.ccegf3", Translation="uiR2EDcreature_ccegf3"},
-				--	{Id="palette.entities.creatures.ccegf4", Translation="uiR2EDcreature_ccegf4"},
+					{Id="palette.entities.creatures.ccegb1", Translation="uiR2EDcreature_ccegb1"},
+					{Id="palette.entities.creatures.ccegb2", Translation="uiR2EDcreature_ccegb2"},
+					{Id="palette.entities.creatures.ccegb3", Translation="uiR2EDcreature_ccegb3"},
+					{Id="palette.entities.creatures.ccegb4", Translation="uiR2EDcreature_ccegb4"},
+					{Id="palette.entities.creatures.ccegc1", Translation="uiR2EDcreature_ccegc1"},
+					{Id="palette.entities.creatures.ccegc2", Translation="uiR2EDcreature_ccegc2"},
+					{Id="palette.entities.creatures.ccegc3", Translation="uiR2EDcreature_ccegc3"},
+					{Id="palette.entities.creatures.ccegc4", Translation="uiR2EDcreature_ccegc4"},
+					{Id="palette.entities.creatures.ccegd1", Translation="uiR2EDcreature_ccegd1"},
+					{Id="palette.entities.creatures.ccegd2", Translation="uiR2EDcreature_ccegd2"},
+					{Id="palette.entities.creatures.ccegd3", Translation="uiR2EDcreature_ccegd3"},
+					{Id="palette.entities.creatures.ccegd4", Translation="uiR2EDcreature_ccegd4"},
+					{Id="palette.entities.creatures.ccege1", Translation="uiR2EDcreature_ccege1"},
+					{Id="palette.entities.creatures.ccege2", Translation="uiR2EDcreature_ccege2"},
+					{Id="palette.entities.creatures.ccege3", Translation="uiR2EDcreature_ccege3"},
+					{Id="palette.entities.creatures.ccege4", Translation="uiR2EDcreature_ccege4"},
+					{Id="palette.entities.creatures.ccegf1", Translation="uiR2EDcreature_ccegf1"},
+					{Id="palette.entities.creatures.ccegf2", Translation="uiR2EDcreature_ccegf2"},
+					{Id="palette.entities.creatures.ccegf3", Translation="uiR2EDcreature_ccegf3"},
+					{Id="palette.entities.creatures.ccegf4", Translation="uiR2EDcreature_ccegf4"},
 					{Id="palette.entities.creatures.cceja1", Translation="uiR2EDcreature_cceja1"},
 					{Id="palette.entities.creatures.cceja2", Translation="uiR2EDcreature_cceja2"},
 					{Id="palette.entities.creatures.ccejb1", Translation="uiR2EDcreature_ccejb1"},
@@ -10223,26 +10422,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cceld3", Translation="uiR2EDcreature_cceld3"},
 					{Id="palette.entities.creatures.cceld4", Translation="uiR2EDcreature_cceld4"},
 					{Id="palette.entities.creatures.ccepf4", Translation="uiR2EDcreature_ccepf4"},
-				--	{Id="palette.entities.creatures.ccfgb1", Translation="uiR2EDcreature_ccfgb1"},
-				--	{Id="palette.entities.creatures.ccfgb2", Translation="uiR2EDcreature_ccfgb2"},
-				--	{Id="palette.entities.creatures.ccfgb3", Translation="uiR2EDcreature_ccfgb3"},
-				--	{Id="palette.entities.creatures.ccfgb4", Translation="uiR2EDcreature_ccfgb4"},
-				--	{Id="palette.entities.creatures.ccfgc1", Translation="uiR2EDcreature_ccfgc1"},
-				--	{Id="palette.entities.creatures.ccfgc2", Translation="uiR2EDcreature_ccfgc2"},
-				--	{Id="palette.entities.creatures.ccfgc3", Translation="uiR2EDcreature_ccfgc3"},
-				--	{Id="palette.entities.creatures.ccfgc4", Translation="uiR2EDcreature_ccfgc4"},
-				--	{Id="palette.entities.creatures.ccfgd1", Translation="uiR2EDcreature_ccfgd1"},
-				--	{Id="palette.entities.creatures.ccfgd2", Translation="uiR2EDcreature_ccfgd2"},
-				--	{Id="palette.entities.creatures.ccfgd3", Translation="uiR2EDcreature_ccfgd3"},
-				--	{Id="palette.entities.creatures.ccfgd4", Translation="uiR2EDcreature_ccfgd4"},
-				--	{Id="palette.entities.creatures.ccfge1", Translation="uiR2EDcreature_ccfge1"},
-				--	{Id="palette.entities.creatures.ccfge2", Translation="uiR2EDcreature_ccfge2"},
-				--	{Id="palette.entities.creatures.ccfge3", Translation="uiR2EDcreature_ccfge3"},
-				--	{Id="palette.entities.creatures.ccfge4", Translation="uiR2EDcreature_ccfge4"},
-				--	{Id="palette.entities.creatures.ccfgf1", Translation="uiR2EDcreature_ccfgf1"},
-				--	{Id="palette.entities.creatures.ccfgf2", Translation="uiR2EDcreature_ccfgf2"},
-				--	{Id="palette.entities.creatures.ccfgf3", Translation="uiR2EDcreature_ccfgf3"},
-				--	{Id="palette.entities.creatures.ccfgf4", Translation="uiR2EDcreature_ccfgf4"},
+					{Id="palette.entities.creatures.ccfgb1", Translation="uiR2EDcreature_ccfgb1"},
+					{Id="palette.entities.creatures.ccfgb2", Translation="uiR2EDcreature_ccfgb2"},
+					{Id="palette.entities.creatures.ccfgb3", Translation="uiR2EDcreature_ccfgb3"},
+					{Id="palette.entities.creatures.ccfgb4", Translation="uiR2EDcreature_ccfgb4"},
+					{Id="palette.entities.creatures.ccfgc1", Translation="uiR2EDcreature_ccfgc1"},
+					{Id="palette.entities.creatures.ccfgc2", Translation="uiR2EDcreature_ccfgc2"},
+					{Id="palette.entities.creatures.ccfgc3", Translation="uiR2EDcreature_ccfgc3"},
+					{Id="palette.entities.creatures.ccfgc4", Translation="uiR2EDcreature_ccfgc4"},
+					{Id="palette.entities.creatures.ccfgd1", Translation="uiR2EDcreature_ccfgd1"},
+					{Id="palette.entities.creatures.ccfgd2", Translation="uiR2EDcreature_ccfgd2"},
+					{Id="palette.entities.creatures.ccfgd3", Translation="uiR2EDcreature_ccfgd3"},
+					{Id="palette.entities.creatures.ccfgd4", Translation="uiR2EDcreature_ccfgd4"},
+					{Id="palette.entities.creatures.ccfge1", Translation="uiR2EDcreature_ccfge1"},
+					{Id="palette.entities.creatures.ccfge2", Translation="uiR2EDcreature_ccfge2"},
+					{Id="palette.entities.creatures.ccfge3", Translation="uiR2EDcreature_ccfge3"},
+					{Id="palette.entities.creatures.ccfge4", Translation="uiR2EDcreature_ccfge4"},
+					{Id="palette.entities.creatures.ccfgf1", Translation="uiR2EDcreature_ccfgf1"},
+					{Id="palette.entities.creatures.ccfgf2", Translation="uiR2EDcreature_ccfgf2"},
+					{Id="palette.entities.creatures.ccfgf3", Translation="uiR2EDcreature_ccfgf3"},
+					{Id="palette.entities.creatures.ccfgf4", Translation="uiR2EDcreature_ccfgf4"},
 					{Id="palette.entities.creatures.ccfjd4", Translation="uiR2EDcreature_ccfjd4"},
 					{Id="palette.entities.creatures.ccfje1", Translation="uiR2EDcreature_ccfje1"},
 					{Id="palette.entities.creatures.ccfje2", Translation="uiR2EDcreature_ccfje2"},
@@ -10257,10 +10456,10 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccflf3", Translation="uiR2EDcreature_ccflf3"},
 					{Id="palette.entities.creatures.ccflf4", Translation="uiR2EDcreature_ccflf4"},
 					{Id="palette.entities.creatures.ccfpe4", Translation="uiR2EDcreature_ccfpe4"},
-				--	{Id="palette.entities.creatures.ccggf1", Translation="uiR2EDcreature_ccggf1"},
-				--	{Id="palette.entities.creatures.ccggf2", Translation="uiR2EDcreature_ccggf2"},
-				--	{Id="palette.entities.creatures.ccggf3", Translation="uiR2EDcreature_ccggf3"},
-				--	{Id="palette.entities.creatures.ccggf4", Translation="uiR2EDcreature_ccggf4"},
+					{Id="palette.entities.creatures.ccggf1", Translation="uiR2EDcreature_ccggf1"},
+					{Id="palette.entities.creatures.ccggf2", Translation="uiR2EDcreature_ccggf2"},
+					{Id="palette.entities.creatures.ccggf3", Translation="uiR2EDcreature_ccggf3"},
+					{Id="palette.entities.creatures.ccggf4", Translation="uiR2EDcreature_ccggf4"},
 					{Id="palette.entities.creatures.ccgpf1", Translation="uiR2EDcreature_ccgpf1"},
 					{Id="palette.entities.creatures.ccgpf2", Translation="uiR2EDcreature_ccgpf2"},
 					{Id="palette.entities.creatures.ccgpf3", Translation="uiR2EDcreature_ccgpf3"},
@@ -10273,26 +10472,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cchde2", Translation="uiR2EDcreature_cchde2"},
 					{Id="palette.entities.creatures.cchde3", Translation="uiR2EDcreature_cchde3"},
 					{Id="palette.entities.creatures.cchde4", Translation="uiR2EDcreature_cchde4"},
-				--	{Id="palette.entities.creatures.cchgb1", Translation="uiR2EDcreature_cchgb1"},
-				--	{Id="palette.entities.creatures.cchgb2", Translation="uiR2EDcreature_cchgb2"},
-				--	{Id="palette.entities.creatures.cchgb3", Translation="uiR2EDcreature_cchgb3"},
-				--	{Id="palette.entities.creatures.cchgb4", Translation="uiR2EDcreature_cchgb4"},
-				--	{Id="palette.entities.creatures.cchgc1", Translation="uiR2EDcreature_cchgc1"},
-				--	{Id="palette.entities.creatures.cchgc2", Translation="uiR2EDcreature_cchgc2"},
-				--	{Id="palette.entities.creatures.cchgc3", Translation="uiR2EDcreature_cchgc3"},
-				--	{Id="palette.entities.creatures.cchgc4", Translation="uiR2EDcreature_cchgc4"},
-				--	{Id="palette.entities.creatures.cchgd1", Translation="uiR2EDcreature_cchgd1"},
-				--	{Id="palette.entities.creatures.cchgd2", Translation="uiR2EDcreature_cchgd2"},
-				--	{Id="palette.entities.creatures.cchgd3", Translation="uiR2EDcreature_cchgd3"},
-				--	{Id="palette.entities.creatures.cchgd4", Translation="uiR2EDcreature_cchgd4"},
-				--	{Id="palette.entities.creatures.cchge1", Translation="uiR2EDcreature_cchge1"},
-				--	{Id="palette.entities.creatures.cchge2", Translation="uiR2EDcreature_cchge2"},
-				--	{Id="palette.entities.creatures.cchge3", Translation="uiR2EDcreature_cchge3"},
-				--	{Id="palette.entities.creatures.cchge4", Translation="uiR2EDcreature_cchge4"},
-				--	{Id="palette.entities.creatures.cchgf1", Translation="uiR2EDcreature_cchgf1"},
-				--	{Id="palette.entities.creatures.cchgf2", Translation="uiR2EDcreature_cchgf2"},
-				--	{Id="palette.entities.creatures.cchgf3", Translation="uiR2EDcreature_cchgf3"},
-				--	{Id="palette.entities.creatures.cchgf4", Translation="uiR2EDcreature_cchgf4"},
+					{Id="palette.entities.creatures.cchgb1", Translation="uiR2EDcreature_cchgb1"},
+					{Id="palette.entities.creatures.cchgb2", Translation="uiR2EDcreature_cchgb2"},
+					{Id="palette.entities.creatures.cchgb3", Translation="uiR2EDcreature_cchgb3"},
+					{Id="palette.entities.creatures.cchgb4", Translation="uiR2EDcreature_cchgb4"},
+					{Id="palette.entities.creatures.cchgc1", Translation="uiR2EDcreature_cchgc1"},
+					{Id="palette.entities.creatures.cchgc2", Translation="uiR2EDcreature_cchgc2"},
+					{Id="palette.entities.creatures.cchgc3", Translation="uiR2EDcreature_cchgc3"},
+					{Id="palette.entities.creatures.cchgc4", Translation="uiR2EDcreature_cchgc4"},
+					{Id="palette.entities.creatures.cchgd1", Translation="uiR2EDcreature_cchgd1"},
+					{Id="palette.entities.creatures.cchgd2", Translation="uiR2EDcreature_cchgd2"},
+					{Id="palette.entities.creatures.cchgd3", Translation="uiR2EDcreature_cchgd3"},
+					{Id="palette.entities.creatures.cchgd4", Translation="uiR2EDcreature_cchgd4"},
+					{Id="palette.entities.creatures.cchge1", Translation="uiR2EDcreature_cchge1"},
+					{Id="palette.entities.creatures.cchge2", Translation="uiR2EDcreature_cchge2"},
+					{Id="palette.entities.creatures.cchge3", Translation="uiR2EDcreature_cchge3"},
+					{Id="palette.entities.creatures.cchge4", Translation="uiR2EDcreature_cchge4"},
+					{Id="palette.entities.creatures.cchgf1", Translation="uiR2EDcreature_cchgf1"},
+					{Id="palette.entities.creatures.cchgf2", Translation="uiR2EDcreature_cchgf2"},
+					{Id="palette.entities.creatures.cchgf3", Translation="uiR2EDcreature_cchgf3"},
+					{Id="palette.entities.creatures.cchgf4", Translation="uiR2EDcreature_cchgf4"},
 					{Id="palette.entities.creatures.cchpe1", Translation="uiR2EDcreature_cchpe1"},
 					{Id="palette.entities.creatures.cchpe2", Translation="uiR2EDcreature_cchpe2"},
 					{Id="palette.entities.creatures.cchpe3", Translation="uiR2EDcreature_cchpe3"},
@@ -10359,26 +10558,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccmff2", Translation="uiR2EDcreature_ccmff2"},
 					{Id="palette.entities.creatures.ccmff3", Translation="uiR2EDcreature_ccmff3"},
 					{Id="palette.entities.creatures.ccmff4", Translation="uiR2EDcreature_ccmff4"},
-				--	{Id="palette.entities.creatures.ccmgb1", Translation="uiR2EDcreature_ccmgb1"},
-				--	{Id="palette.entities.creatures.ccmgb2", Translation="uiR2EDcreature_ccmgb2"},
-				--	{Id="palette.entities.creatures.ccmgb3", Translation="uiR2EDcreature_ccmgb3"},
-				--	{Id="palette.entities.creatures.ccmgb4", Translation="uiR2EDcreature_ccmgb4"},
-				--	{Id="palette.entities.creatures.ccmgc1", Translation="uiR2EDcreature_ccmgc1"},
-				--	{Id="palette.entities.creatures.ccmgc2", Translation="uiR2EDcreature_ccmgc2"},
-				--	{Id="palette.entities.creatures.ccmgc3", Translation="uiR2EDcreature_ccmgc3"},
-				--	{Id="palette.entities.creatures.ccmgc4", Translation="uiR2EDcreature_ccmgc4"},
-				--	{Id="palette.entities.creatures.ccmgd1", Translation="uiR2EDcreature_ccmgd1"},
-				--	{Id="palette.entities.creatures.ccmgd2", Translation="uiR2EDcreature_ccmgd2"},
-				--	{Id="palette.entities.creatures.ccmgd3", Translation="uiR2EDcreature_ccmgd3"},
-				--	{Id="palette.entities.creatures.ccmgd4", Translation="uiR2EDcreature_ccmgd4"},
-				--	{Id="palette.entities.creatures.ccmge1", Translation="uiR2EDcreature_ccmge1"},
-				--	{Id="palette.entities.creatures.ccmge2", Translation="uiR2EDcreature_ccmge2"},
-				--	{Id="palette.entities.creatures.ccmge3", Translation="uiR2EDcreature_ccmge3"},
-				--	{Id="palette.entities.creatures.ccmge4", Translation="uiR2EDcreature_ccmge4"},
-				--	{Id="palette.entities.creatures.ccmgf1", Translation="uiR2EDcreature_ccmgf1"},
-				--	{Id="palette.entities.creatures.ccmgf2", Translation="uiR2EDcreature_ccmgf2"},
-				--	{Id="palette.entities.creatures.ccmgf3", Translation="uiR2EDcreature_ccmgf3"},
-				--	{Id="palette.entities.creatures.ccmgf4", Translation="uiR2EDcreature_ccmgf4"},
+					{Id="palette.entities.creatures.ccmgb1", Translation="uiR2EDcreature_ccmgb1"},
+					{Id="palette.entities.creatures.ccmgb2", Translation="uiR2EDcreature_ccmgb2"},
+					{Id="palette.entities.creatures.ccmgb3", Translation="uiR2EDcreature_ccmgb3"},
+					{Id="palette.entities.creatures.ccmgb4", Translation="uiR2EDcreature_ccmgb4"},
+					{Id="palette.entities.creatures.ccmgc1", Translation="uiR2EDcreature_ccmgc1"},
+					{Id="palette.entities.creatures.ccmgc2", Translation="uiR2EDcreature_ccmgc2"},
+					{Id="palette.entities.creatures.ccmgc3", Translation="uiR2EDcreature_ccmgc3"},
+					{Id="palette.entities.creatures.ccmgc4", Translation="uiR2EDcreature_ccmgc4"},
+					{Id="palette.entities.creatures.ccmgd1", Translation="uiR2EDcreature_ccmgd1"},
+					{Id="palette.entities.creatures.ccmgd2", Translation="uiR2EDcreature_ccmgd2"},
+					{Id="palette.entities.creatures.ccmgd3", Translation="uiR2EDcreature_ccmgd3"},
+					{Id="palette.entities.creatures.ccmgd4", Translation="uiR2EDcreature_ccmgd4"},
+					{Id="palette.entities.creatures.ccmge1", Translation="uiR2EDcreature_ccmge1"},
+					{Id="palette.entities.creatures.ccmge2", Translation="uiR2EDcreature_ccmge2"},
+					{Id="palette.entities.creatures.ccmge3", Translation="uiR2EDcreature_ccmge3"},
+					{Id="palette.entities.creatures.ccmge4", Translation="uiR2EDcreature_ccmge4"},
+					{Id="palette.entities.creatures.ccmgf1", Translation="uiR2EDcreature_ccmgf1"},
+					{Id="palette.entities.creatures.ccmgf2", Translation="uiR2EDcreature_ccmgf2"},
+					{Id="palette.entities.creatures.ccmgf3", Translation="uiR2EDcreature_ccmgf3"},
+					{Id="palette.entities.creatures.ccmgf4", Translation="uiR2EDcreature_ccmgf4"},
 					{Id="palette.entities.creatures.ccmpf1", Translation="uiR2EDcreature_ccmpf1"},
 					{Id="palette.entities.creatures.ccmpf2", Translation="uiR2EDcreature_ccmpf2"},
 					{Id="palette.entities.creatures.ccmpf3", Translation="uiR2EDcreature_ccmpf3"},
@@ -10416,26 +10615,26 @@ r2.Palette =
 			{
 				instances = 
 				{
-				--	{Id="palette.entities.creatures.cpagb1", Translation="uiR2EDcreature_cpagb1"},
-				--	{Id="palette.entities.creatures.cpagb2", Translation="uiR2EDcreature_cpagb2"},
-				--	{Id="palette.entities.creatures.cpagb3", Translation="uiR2EDcreature_cpagb3"},
-				--	{Id="palette.entities.creatures.cpagb4", Translation="uiR2EDcreature_cpagb4"},
-				--	{Id="palette.entities.creatures.cpagc1", Translation="uiR2EDcreature_cpagc1"},
-				--	{Id="palette.entities.creatures.cpagc2", Translation="uiR2EDcreature_cpagc2"},
-				--	{Id="palette.entities.creatures.cpagc3", Translation="uiR2EDcreature_cpagc3"},
-				--	{Id="palette.entities.creatures.cpagc4", Translation="uiR2EDcreature_cpagc4"},
-				--	{Id="palette.entities.creatures.cpagd1", Translation="uiR2EDcreature_cpagd1"},
-				--	{Id="palette.entities.creatures.cpagd2", Translation="uiR2EDcreature_cpagd2"},
-				--	{Id="palette.entities.creatures.cpagd3", Translation="uiR2EDcreature_cpagd3"},
-				--	{Id="palette.entities.creatures.cpagd4", Translation="uiR2EDcreature_cpagd4"},
-				--	{Id="palette.entities.creatures.cpage1", Translation="uiR2EDcreature_cpage1"},
-				--	{Id="palette.entities.creatures.cpage2", Translation="uiR2EDcreature_cpage2"},
-				--	{Id="palette.entities.creatures.cpage3", Translation="uiR2EDcreature_cpage3"},
-				--	{Id="palette.entities.creatures.cpage4", Translation="uiR2EDcreature_cpage4"},
-				--	{Id="palette.entities.creatures.cpagf1", Translation="uiR2EDcreature_cpagf1"},
-				--	{Id="palette.entities.creatures.cpagf2", Translation="uiR2EDcreature_cpagf2"},
-				--	{Id="palette.entities.creatures.cpagf3", Translation="uiR2EDcreature_cpagf3"},
-				--	{Id="palette.entities.creatures.cpagf4", Translation="uiR2EDcreature_cpagf4"},
+					{Id="palette.entities.creatures.cpagb1", Translation="uiR2EDcreature_cpagb1"},
+					{Id="palette.entities.creatures.cpagb2", Translation="uiR2EDcreature_cpagb2"},
+					{Id="palette.entities.creatures.cpagb3", Translation="uiR2EDcreature_cpagb3"},
+					{Id="palette.entities.creatures.cpagb4", Translation="uiR2EDcreature_cpagb4"},
+					{Id="palette.entities.creatures.cpagc1", Translation="uiR2EDcreature_cpagc1"},
+					{Id="palette.entities.creatures.cpagc2", Translation="uiR2EDcreature_cpagc2"},
+					{Id="palette.entities.creatures.cpagc3", Translation="uiR2EDcreature_cpagc3"},
+					{Id="palette.entities.creatures.cpagc4", Translation="uiR2EDcreature_cpagc4"},
+					{Id="palette.entities.creatures.cpagd1", Translation="uiR2EDcreature_cpagd1"},
+					{Id="palette.entities.creatures.cpagd2", Translation="uiR2EDcreature_cpagd2"},
+					{Id="palette.entities.creatures.cpagd3", Translation="uiR2EDcreature_cpagd3"},
+					{Id="palette.entities.creatures.cpagd4", Translation="uiR2EDcreature_cpagd4"},
+					{Id="palette.entities.creatures.cpage1", Translation="uiR2EDcreature_cpage1"},
+					{Id="palette.entities.creatures.cpage2", Translation="uiR2EDcreature_cpage2"},
+					{Id="palette.entities.creatures.cpage3", Translation="uiR2EDcreature_cpage3"},
+					{Id="palette.entities.creatures.cpage4", Translation="uiR2EDcreature_cpage4"},
+					{Id="palette.entities.creatures.cpagf1", Translation="uiR2EDcreature_cpagf1"},
+					{Id="palette.entities.creatures.cpagf2", Translation="uiR2EDcreature_cpagf2"},
+					{Id="palette.entities.creatures.cpagf3", Translation="uiR2EDcreature_cpagf3"},
+					{Id="palette.entities.creatures.cpagf4", Translation="uiR2EDcreature_cpagf4"},
 					{Id="palette.entities.creatures.cpapd1", Translation="uiR2EDcreature_cpapd1"},
 					{Id="palette.entities.creatures.cpapd2", Translation="uiR2EDcreature_cpapd2"},
 					{Id="palette.entities.creatures.cpapd3", Translation="uiR2EDcreature_cpapd3"},
@@ -10448,26 +10647,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cpapf2", Translation="uiR2EDcreature_cpapf2"},
 					{Id="palette.entities.creatures.cpapf3", Translation="uiR2EDcreature_cpapf3"},
 					{Id="palette.entities.creatures.cpapf4", Translation="uiR2EDcreature_cpapf4"},
-				--	{Id="palette.entities.creatures.cpbgb1", Translation="uiR2EDcreature_cpbgb1"},
-				--	{Id="palette.entities.creatures.cpbgb2", Translation="uiR2EDcreature_cpbgb2"},
-				--	{Id="palette.entities.creatures.cpbgb3", Translation="uiR2EDcreature_cpbgb3"},
-				--	{Id="palette.entities.creatures.cpbgb4", Translation="uiR2EDcreature_cpbgb4"},
-				--	{Id="palette.entities.creatures.cpbgc1", Translation="uiR2EDcreature_cpbgc1"},
-				--	{Id="palette.entities.creatures.cpbgc2", Translation="uiR2EDcreature_cpbgc2"},
-				--	{Id="palette.entities.creatures.cpbgc3", Translation="uiR2EDcreature_cpbgc3"},
-				--	{Id="palette.entities.creatures.cpbgc4", Translation="uiR2EDcreature_cpbgc4"},
-				--	{Id="palette.entities.creatures.cpbgd1", Translation="uiR2EDcreature_cpbgd1"},
-				--	{Id="palette.entities.creatures.cpbgd2", Translation="uiR2EDcreature_cpbgd2"},
-				--	{Id="palette.entities.creatures.cpbgd3", Translation="uiR2EDcreature_cpbgd3"},
-				--	{Id="palette.entities.creatures.cpbgd4", Translation="uiR2EDcreature_cpbgd4"},
-				--	{Id="palette.entities.creatures.cpbge1", Translation="uiR2EDcreature_cpbge1"},
-				--	{Id="palette.entities.creatures.cpbge2", Translation="uiR2EDcreature_cpbge2"},
-				--	{Id="palette.entities.creatures.cpbge3", Translation="uiR2EDcreature_cpbge3"},
-				--	{Id="palette.entities.creatures.cpbge4", Translation="uiR2EDcreature_cpbge4"},
-				--	{Id="palette.entities.creatures.cpbgf1", Translation="uiR2EDcreature_cpbgf1"},
-				--	{Id="palette.entities.creatures.cpbgf2", Translation="uiR2EDcreature_cpbgf2"},
-				--	{Id="palette.entities.creatures.cpbgf3", Translation="uiR2EDcreature_cpbgf3"},
-				--	{Id="palette.entities.creatures.cpbgf4", Translation="uiR2EDcreature_cpbgf4"},
+					{Id="palette.entities.creatures.cpbgb1", Translation="uiR2EDcreature_cpbgb1"},
+					{Id="palette.entities.creatures.cpbgb2", Translation="uiR2EDcreature_cpbgb2"},
+					{Id="palette.entities.creatures.cpbgb3", Translation="uiR2EDcreature_cpbgb3"},
+					{Id="palette.entities.creatures.cpbgb4", Translation="uiR2EDcreature_cpbgb4"},
+					{Id="palette.entities.creatures.cpbgc1", Translation="uiR2EDcreature_cpbgc1"},
+					{Id="palette.entities.creatures.cpbgc2", Translation="uiR2EDcreature_cpbgc2"},
+					{Id="palette.entities.creatures.cpbgc3", Translation="uiR2EDcreature_cpbgc3"},
+					{Id="palette.entities.creatures.cpbgc4", Translation="uiR2EDcreature_cpbgc4"},
+					{Id="palette.entities.creatures.cpbgd1", Translation="uiR2EDcreature_cpbgd1"},
+					{Id="palette.entities.creatures.cpbgd2", Translation="uiR2EDcreature_cpbgd2"},
+					{Id="palette.entities.creatures.cpbgd3", Translation="uiR2EDcreature_cpbgd3"},
+					{Id="palette.entities.creatures.cpbgd4", Translation="uiR2EDcreature_cpbgd4"},
+					{Id="palette.entities.creatures.cpbge1", Translation="uiR2EDcreature_cpbge1"},
+					{Id="palette.entities.creatures.cpbge2", Translation="uiR2EDcreature_cpbge2"},
+					{Id="palette.entities.creatures.cpbge3", Translation="uiR2EDcreature_cpbge3"},
+					{Id="palette.entities.creatures.cpbge4", Translation="uiR2EDcreature_cpbge4"},
+					{Id="palette.entities.creatures.cpbgf1", Translation="uiR2EDcreature_cpbgf1"},
+					{Id="palette.entities.creatures.cpbgf2", Translation="uiR2EDcreature_cpbgf2"},
+					{Id="palette.entities.creatures.cpbgf3", Translation="uiR2EDcreature_cpbgf3"},
+					{Id="palette.entities.creatures.cpbgf4", Translation="uiR2EDcreature_cpbgf4"},
 					{Id="palette.entities.creatures.cpblb1", Translation="uiR2EDcreature_cpblb1"},
 					{Id="palette.entities.creatures.cpblb2", Translation="uiR2EDcreature_cpblb2"},
 					{Id="palette.entities.creatures.cpblb3", Translation="uiR2EDcreature_cpblb3"},
@@ -10489,26 +10688,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cpcfc2", Translation="uiR2EDcreature_cpcfc2"},
 					{Id="palette.entities.creatures.cpcfc3", Translation="uiR2EDcreature_cpcfc3"},
 					{Id="palette.entities.creatures.cpcfc4", Translation="uiR2EDcreature_cpcfc4"},
-				--	{Id="palette.entities.creatures.cpcgb1", Translation="uiR2EDcreature_cpcgb1"},
-				--	{Id="palette.entities.creatures.cpcgb2", Translation="uiR2EDcreature_cpcgb2"},
-				--	{Id="palette.entities.creatures.cpcgb3", Translation="uiR2EDcreature_cpcgb3"},
-				--	{Id="palette.entities.creatures.cpcgb4", Translation="uiR2EDcreature_cpcgb4"},
-				--	{Id="palette.entities.creatures.cpcgc1", Translation="uiR2EDcreature_cpcgc1"},
-				--	{Id="palette.entities.creatures.cpcgc2", Translation="uiR2EDcreature_cpcgc2"},
-				--	{Id="palette.entities.creatures.cpcgc3", Translation="uiR2EDcreature_cpcgc3"},
-				--	{Id="palette.entities.creatures.cpcgc4", Translation="uiR2EDcreature_cpcgc4"},
-				--	{Id="palette.entities.creatures.cpcgd1", Translation="uiR2EDcreature_cpcgd1"},
-				--	{Id="palette.entities.creatures.cpcgd2", Translation="uiR2EDcreature_cpcgd2"},
-				--	{Id="palette.entities.creatures.cpcgd3", Translation="uiR2EDcreature_cpcgd3"},
-				--	{Id="palette.entities.creatures.cpcgd4", Translation="uiR2EDcreature_cpcgd4"},
-				--	{Id="palette.entities.creatures.cpcge1", Translation="uiR2EDcreature_cpcge1"},
-				--	{Id="palette.entities.creatures.cpcge2", Translation="uiR2EDcreature_cpcge2"},
-				--	{Id="palette.entities.creatures.cpcge3", Translation="uiR2EDcreature_cpcge3"},
-				--	{Id="palette.entities.creatures.cpcge4", Translation="uiR2EDcreature_cpcge4"},
-				--	{Id="palette.entities.creatures.cpcgf1", Translation="uiR2EDcreature_cpcgf1"},
-				--	{Id="palette.entities.creatures.cpcgf2", Translation="uiR2EDcreature_cpcgf2"},
-				--	{Id="palette.entities.creatures.cpcgf3", Translation="uiR2EDcreature_cpcgf3"},
-				--	{Id="palette.entities.creatures.cpcgf4", Translation="uiR2EDcreature_cpcgf4"},
+					{Id="palette.entities.creatures.cpcgb1", Translation="uiR2EDcreature_cpcgb1"},
+					{Id="palette.entities.creatures.cpcgb2", Translation="uiR2EDcreature_cpcgb2"},
+					{Id="palette.entities.creatures.cpcgb3", Translation="uiR2EDcreature_cpcgb3"},
+					{Id="palette.entities.creatures.cpcgb4", Translation="uiR2EDcreature_cpcgb4"},
+					{Id="palette.entities.creatures.cpcgc1", Translation="uiR2EDcreature_cpcgc1"},
+					{Id="palette.entities.creatures.cpcgc2", Translation="uiR2EDcreature_cpcgc2"},
+					{Id="palette.entities.creatures.cpcgc3", Translation="uiR2EDcreature_cpcgc3"},
+					{Id="palette.entities.creatures.cpcgc4", Translation="uiR2EDcreature_cpcgc4"},
+					{Id="palette.entities.creatures.cpcgd1", Translation="uiR2EDcreature_cpcgd1"},
+					{Id="palette.entities.creatures.cpcgd2", Translation="uiR2EDcreature_cpcgd2"},
+					{Id="palette.entities.creatures.cpcgd3", Translation="uiR2EDcreature_cpcgd3"},
+					{Id="palette.entities.creatures.cpcgd4", Translation="uiR2EDcreature_cpcgd4"},
+					{Id="palette.entities.creatures.cpcge1", Translation="uiR2EDcreature_cpcge1"},
+					{Id="palette.entities.creatures.cpcge2", Translation="uiR2EDcreature_cpcge2"},
+					{Id="palette.entities.creatures.cpcge3", Translation="uiR2EDcreature_cpcge3"},
+					{Id="palette.entities.creatures.cpcge4", Translation="uiR2EDcreature_cpcge4"},
+					{Id="palette.entities.creatures.cpcgf1", Translation="uiR2EDcreature_cpcgf1"},
+					{Id="palette.entities.creatures.cpcgf2", Translation="uiR2EDcreature_cpcgf2"},
+					{Id="palette.entities.creatures.cpcgf3", Translation="uiR2EDcreature_cpcgf3"},
+					{Id="palette.entities.creatures.cpcgf4", Translation="uiR2EDcreature_cpcgf4"},
 					{Id="palette.entities.creatures.cpcjd1", Translation="uiR2EDcreature_cpcjd1"},
 					{Id="palette.entities.creatures.cpcjd2", Translation="uiR2EDcreature_cpcjd2"},
 					{Id="palette.entities.creatures.cpcjd3", Translation="uiR2EDcreature_cpcjd3"},
@@ -10526,26 +10725,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cpdff2", Translation="uiR2EDcreature_cpdff2"},
 					{Id="palette.entities.creatures.cpdff3", Translation="uiR2EDcreature_cpdff3"},
 					{Id="palette.entities.creatures.cpdff4", Translation="uiR2EDcreature_cpdff4"},
-				--	{Id="palette.entities.creatures.cpdgb1", Translation="uiR2EDcreature_cpdgb1"},
-				--	{Id="palette.entities.creatures.cpdgb2", Translation="uiR2EDcreature_cpdgb2"},
-				--	{Id="palette.entities.creatures.cpdgb3", Translation="uiR2EDcreature_cpdgb3"},
-				--	{Id="palette.entities.creatures.cpdgb4", Translation="uiR2EDcreature_cpdgb4"},
-				--	{Id="palette.entities.creatures.cpdgc1", Translation="uiR2EDcreature_cpdgc1"},
-				--	{Id="palette.entities.creatures.cpdgc2", Translation="uiR2EDcreature_cpdgc2"},
-				--	{Id="palette.entities.creatures.cpdgc3", Translation="uiR2EDcreature_cpdgc3"},
-				--	{Id="palette.entities.creatures.cpdgc4", Translation="uiR2EDcreature_cpdgc4"},
-				--	{Id="palette.entities.creatures.cpdgd1", Translation="uiR2EDcreature_cpdgd1"},
-				--	{Id="palette.entities.creatures.cpdgd2", Translation="uiR2EDcreature_cpdgd2"},
-				--	{Id="palette.entities.creatures.cpdgd3", Translation="uiR2EDcreature_cpdgd3"},
-				--	{Id="palette.entities.creatures.cpdgd4", Translation="uiR2EDcreature_cpdgd4"},
-				--	{Id="palette.entities.creatures.cpdge1", Translation="uiR2EDcreature_cpdge1"},
-				--	{Id="palette.entities.creatures.cpdge2", Translation="uiR2EDcreature_cpdge2"},
-				--	{Id="palette.entities.creatures.cpdge3", Translation="uiR2EDcreature_cpdge3"},
-				--	{Id="palette.entities.creatures.cpdge4", Translation="uiR2EDcreature_cpdge4"},
-				--	{Id="palette.entities.creatures.cpdgf1", Translation="uiR2EDcreature_cpdgf1"},
-				--	{Id="palette.entities.creatures.cpdgf2", Translation="uiR2EDcreature_cpdgf2"},
-				--	{Id="palette.entities.creatures.cpdgf3", Translation="uiR2EDcreature_cpdgf3"},
-				--	{Id="palette.entities.creatures.cpdgf4", Translation="uiR2EDcreature_cpdgf4"},
+					{Id="palette.entities.creatures.cpdgb1", Translation="uiR2EDcreature_cpdgb1"},
+					{Id="palette.entities.creatures.cpdgb2", Translation="uiR2EDcreature_cpdgb2"},
+					{Id="palette.entities.creatures.cpdgb3", Translation="uiR2EDcreature_cpdgb3"},
+					{Id="palette.entities.creatures.cpdgb4", Translation="uiR2EDcreature_cpdgb4"},
+					{Id="palette.entities.creatures.cpdgc1", Translation="uiR2EDcreature_cpdgc1"},
+					{Id="palette.entities.creatures.cpdgc2", Translation="uiR2EDcreature_cpdgc2"},
+					{Id="palette.entities.creatures.cpdgc3", Translation="uiR2EDcreature_cpdgc3"},
+					{Id="palette.entities.creatures.cpdgc4", Translation="uiR2EDcreature_cpdgc4"},
+					{Id="palette.entities.creatures.cpdgd1", Translation="uiR2EDcreature_cpdgd1"},
+					{Id="palette.entities.creatures.cpdgd2", Translation="uiR2EDcreature_cpdgd2"},
+					{Id="palette.entities.creatures.cpdgd3", Translation="uiR2EDcreature_cpdgd3"},
+					{Id="palette.entities.creatures.cpdgd4", Translation="uiR2EDcreature_cpdgd4"},
+					{Id="palette.entities.creatures.cpdge1", Translation="uiR2EDcreature_cpdge1"},
+					{Id="palette.entities.creatures.cpdge2", Translation="uiR2EDcreature_cpdge2"},
+					{Id="palette.entities.creatures.cpdge3", Translation="uiR2EDcreature_cpdge3"},
+					{Id="palette.entities.creatures.cpdge4", Translation="uiR2EDcreature_cpdge4"},
+					{Id="palette.entities.creatures.cpdgf1", Translation="uiR2EDcreature_cpdgf1"},
+					{Id="palette.entities.creatures.cpdgf2", Translation="uiR2EDcreature_cpdgf2"},
+					{Id="palette.entities.creatures.cpdgf3", Translation="uiR2EDcreature_cpdgf3"},
+					{Id="palette.entities.creatures.cpdgf4", Translation="uiR2EDcreature_cpdgf4"},
 					{Id="palette.entities.creatures.cpdjb1", Translation="uiR2EDcreature_cpdjb1"},
 					{Id="palette.entities.creatures.cpdjb2", Translation="uiR2EDcreature_cpdjb2"},
 					{Id="palette.entities.creatures.cpdjb3", Translation="uiR2EDcreature_cpdjb3"},
@@ -10563,26 +10762,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cpefe2", Translation="uiR2EDcreature_cpefe2"},
 					{Id="palette.entities.creatures.cpefe3", Translation="uiR2EDcreature_cpefe3"},
 					{Id="palette.entities.creatures.cpefe4", Translation="uiR2EDcreature_cpefe4"},
-				--	{Id="palette.entities.creatures.cpegb1", Translation="uiR2EDcreature_cpegb1"},
-				--	{Id="palette.entities.creatures.cpegb2", Translation="uiR2EDcreature_cpegb2"},
-				--	{Id="palette.entities.creatures.cpegb3", Translation="uiR2EDcreature_cpegb3"},
-				--	{Id="palette.entities.creatures.cpegb4", Translation="uiR2EDcreature_cpegb4"},
-				--	{Id="palette.entities.creatures.cpegc1", Translation="uiR2EDcreature_cpegc1"},
-				--	{Id="palette.entities.creatures.cpegc2", Translation="uiR2EDcreature_cpegc2"},
-				--	{Id="palette.entities.creatures.cpegc3", Translation="uiR2EDcreature_cpegc3"},
-				--	{Id="palette.entities.creatures.cpegc4", Translation="uiR2EDcreature_cpegc4"},
-				--	{Id="palette.entities.creatures.cpegd1", Translation="uiR2EDcreature_cpegd1"},
-				--	{Id="palette.entities.creatures.cpegd2", Translation="uiR2EDcreature_cpegd2"},
-				--	{Id="palette.entities.creatures.cpegd3", Translation="uiR2EDcreature_cpegd3"},
-				--	{Id="palette.entities.creatures.cpegd4", Translation="uiR2EDcreature_cpegd4"},
-				--	{Id="palette.entities.creatures.cpege1", Translation="uiR2EDcreature_cpege1"},
-				--	{Id="palette.entities.creatures.cpege2", Translation="uiR2EDcreature_cpege2"},
-				--	{Id="palette.entities.creatures.cpege3", Translation="uiR2EDcreature_cpege3"},
-				--	{Id="palette.entities.creatures.cpege4", Translation="uiR2EDcreature_cpege4"},
-				--	{Id="palette.entities.creatures.cpegf1", Translation="uiR2EDcreature_cpegf1"},
-				--	{Id="palette.entities.creatures.cpegf2", Translation="uiR2EDcreature_cpegf2"},
-				--	{Id="palette.entities.creatures.cpegf3", Translation="uiR2EDcreature_cpegf3"},
-				--	{Id="palette.entities.creatures.cpegf4", Translation="uiR2EDcreature_cpegf4"},
+					{Id="palette.entities.creatures.cpegb1", Translation="uiR2EDcreature_cpegb1"},
+					{Id="palette.entities.creatures.cpegb2", Translation="uiR2EDcreature_cpegb2"},
+					{Id="palette.entities.creatures.cpegb3", Translation="uiR2EDcreature_cpegb3"},
+					{Id="palette.entities.creatures.cpegb4", Translation="uiR2EDcreature_cpegb4"},
+					{Id="palette.entities.creatures.cpegc1", Translation="uiR2EDcreature_cpegc1"},
+					{Id="palette.entities.creatures.cpegc2", Translation="uiR2EDcreature_cpegc2"},
+					{Id="palette.entities.creatures.cpegc3", Translation="uiR2EDcreature_cpegc3"},
+					{Id="palette.entities.creatures.cpegc4", Translation="uiR2EDcreature_cpegc4"},
+					{Id="palette.entities.creatures.cpegd1", Translation="uiR2EDcreature_cpegd1"},
+					{Id="palette.entities.creatures.cpegd2", Translation="uiR2EDcreature_cpegd2"},
+					{Id="palette.entities.creatures.cpegd3", Translation="uiR2EDcreature_cpegd3"},
+					{Id="palette.entities.creatures.cpegd4", Translation="uiR2EDcreature_cpegd4"},
+					{Id="palette.entities.creatures.cpege1", Translation="uiR2EDcreature_cpege1"},
+					{Id="palette.entities.creatures.cpege2", Translation="uiR2EDcreature_cpege2"},
+					{Id="palette.entities.creatures.cpege3", Translation="uiR2EDcreature_cpege3"},
+					{Id="palette.entities.creatures.cpege4", Translation="uiR2EDcreature_cpege4"},
+					{Id="palette.entities.creatures.cpegf1", Translation="uiR2EDcreature_cpegf1"},
+					{Id="palette.entities.creatures.cpegf2", Translation="uiR2EDcreature_cpegf2"},
+					{Id="palette.entities.creatures.cpegf3", Translation="uiR2EDcreature_cpegf3"},
+					{Id="palette.entities.creatures.cpegf4", Translation="uiR2EDcreature_cpegf4"},
 					{Id="palette.entities.creatures.cpejf1", Translation="uiR2EDcreature_cpejf1"},
 					{Id="palette.entities.creatures.cpejf2", Translation="uiR2EDcreature_cpejf2"},
 					{Id="palette.entities.creatures.cpejf3", Translation="uiR2EDcreature_cpejf3"},
@@ -10600,26 +10799,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cpfdd3", Translation="uiR2EDcreature_cpfdd3"},
 					{Id="palette.entities.creatures.cpfdd4", Translation="uiR2EDcreature_cpfdd4"},
 					{Id="palette.entities.creatures.cpfdf4", Translation="uiR2EDcreature_cpfdf4"},
-				--	{Id="palette.entities.creatures.cpfgb1", Translation="uiR2EDcreature_cpfgb1"},
-				--	{Id="palette.entities.creatures.cpfgb2", Translation="uiR2EDcreature_cpfgb2"},
-				--	{Id="palette.entities.creatures.cpfgb3", Translation="uiR2EDcreature_cpfgb3"},
-				--	{Id="palette.entities.creatures.cpfgb4", Translation="uiR2EDcreature_cpfgb4"},
-				--	{Id="palette.entities.creatures.cpfgc1", Translation="uiR2EDcreature_cpfgc1"},
-				--	{Id="palette.entities.creatures.cpfgc2", Translation="uiR2EDcreature_cpfgc2"},
-				--	{Id="palette.entities.creatures.cpfgc3", Translation="uiR2EDcreature_cpfgc3"},
-				--	{Id="palette.entities.creatures.cpfgc4", Translation="uiR2EDcreature_cpfgc4"},
-				--	{Id="palette.entities.creatures.cpfgd1", Translation="uiR2EDcreature_cpfgd1"},
-				--	{Id="palette.entities.creatures.cpfgd2", Translation="uiR2EDcreature_cpfgd2"},
-				--	{Id="palette.entities.creatures.cpfgd3", Translation="uiR2EDcreature_cpfgd3"},
-				--	{Id="palette.entities.creatures.cpfgd4", Translation="uiR2EDcreature_cpfgd4"},
-				--	{Id="palette.entities.creatures.cpfge1", Translation="uiR2EDcreature_cpfge1"},
-				--	{Id="palette.entities.creatures.cpfge2", Translation="uiR2EDcreature_cpfge2"},
-				--	{Id="palette.entities.creatures.cpfge3", Translation="uiR2EDcreature_cpfge3"},
-				--	{Id="palette.entities.creatures.cpfge4", Translation="uiR2EDcreature_cpfge4"},
-				--	{Id="palette.entities.creatures.cpfgf1", Translation="uiR2EDcreature_cpfgf1"},
-				--	{Id="palette.entities.creatures.cpfgf2", Translation="uiR2EDcreature_cpfgf2"},
-				--	{Id="palette.entities.creatures.cpfgf3", Translation="uiR2EDcreature_cpfgf3"},
-				--	{Id="palette.entities.creatures.cpfgf4", Translation="uiR2EDcreature_cpfgf4"}
+					{Id="palette.entities.creatures.cpfgb1", Translation="uiR2EDcreature_cpfgb1"},
+					{Id="palette.entities.creatures.cpfgb2", Translation="uiR2EDcreature_cpfgb2"},
+					{Id="palette.entities.creatures.cpfgb3", Translation="uiR2EDcreature_cpfgb3"},
+					{Id="palette.entities.creatures.cpfgb4", Translation="uiR2EDcreature_cpfgb4"},
+					{Id="palette.entities.creatures.cpfgc1", Translation="uiR2EDcreature_cpfgc1"},
+					{Id="palette.entities.creatures.cpfgc2", Translation="uiR2EDcreature_cpfgc2"},
+					{Id="palette.entities.creatures.cpfgc3", Translation="uiR2EDcreature_cpfgc3"},
+					{Id="palette.entities.creatures.cpfgc4", Translation="uiR2EDcreature_cpfgc4"},
+					{Id="palette.entities.creatures.cpfgd1", Translation="uiR2EDcreature_cpfgd1"},
+					{Id="palette.entities.creatures.cpfgd2", Translation="uiR2EDcreature_cpfgd2"},
+					{Id="palette.entities.creatures.cpfgd3", Translation="uiR2EDcreature_cpfgd3"},
+					{Id="palette.entities.creatures.cpfgd4", Translation="uiR2EDcreature_cpfgd4"},
+					{Id="palette.entities.creatures.cpfge1", Translation="uiR2EDcreature_cpfge1"},
+					{Id="palette.entities.creatures.cpfge2", Translation="uiR2EDcreature_cpfge2"},
+					{Id="palette.entities.creatures.cpfge3", Translation="uiR2EDcreature_cpfge3"},
+					{Id="palette.entities.creatures.cpfge4", Translation="uiR2EDcreature_cpfge4"},
+					{Id="palette.entities.creatures.cpfgf1", Translation="uiR2EDcreature_cpfgf1"},
+					{Id="palette.entities.creatures.cpfgf2", Translation="uiR2EDcreature_cpfgf2"},
+					{Id="palette.entities.creatures.cpfgf3", Translation="uiR2EDcreature_cpfgf3"},
+					{Id="palette.entities.creatures.cpfgf4", Translation="uiR2EDcreature_cpfgf4"}
 				}
 			},
 
@@ -10629,27 +10828,27 @@ r2.Palette =
 			{
 				instances = 
 				{
-				--	{Id="palette.entities.creatures.cdagb1", Translation="uiR2EDcreature_cdagb1"},
-				--	{Id="palette.entities.creatures.cdagb2", Translation="uiR2EDcreature_cdagb2"},
-				--	{Id="palette.entities.creatures.cdagb3", Translation="uiR2EDcreature_cdagb3"},
-				--	{Id="palette.entities.creatures.cdagb4", Translation="uiR2EDcreature_cdagb4"},
-				--	{Id="palette.entities.creatures.cdagc1", Translation="uiR2EDcreature_cdagc1"},
+					{Id="palette.entities.creatures.cdagb1", Translation="uiR2EDcreature_cdagb1"},
+					{Id="palette.entities.creatures.cdagb2", Translation="uiR2EDcreature_cdagb2"},
+					{Id="palette.entities.creatures.cdagb3", Translation="uiR2EDcreature_cdagb3"},
+					{Id="palette.entities.creatures.cdagb4", Translation="uiR2EDcreature_cdagb4"},
+					{Id="palette.entities.creatures.cdagc1", Translation="uiR2EDcreature_cdagc1"},
 
-				--	{Id="palette.entities.creatures.cdagc2", Translation="uiR2EDcreature_cdagc2"},
-				--	{Id="palette.entities.creatures.cdagc3", Translation="uiR2EDcreature_cdagc3"},
-				--	{Id="palette.entities.creatures.cdagc4", Translation="uiR2EDcreature_cdagc4"},
-				--	{Id="palette.entities.creatures.cdagd1", Translation="uiR2EDcreature_cdagd1"},
-				--	{Id="palette.entities.creatures.cdagd2", Translation="uiR2EDcreature_cdagd2"},
-				--	{Id="palette.entities.creatures.cdagd3", Translation="uiR2EDcreature_cdagd3"},
-				--	{Id="palette.entities.creatures.cdagd4", Translation="uiR2EDcreature_cdagd4"},
-				--	{Id="palette.entities.creatures.cdage1", Translation="uiR2EDcreature_cdage1"},
-				--	{Id="palette.entities.creatures.cdage2", Translation="uiR2EDcreature_cdage2"},
-				--	{Id="palette.entities.creatures.cdage3", Translation="uiR2EDcreature_cdage3"},
-				--	{Id="palette.entities.creatures.cdage4", Translation="uiR2EDcreature_cdage4"},
-				--	{Id="palette.entities.creatures.cdagf1", Translation="uiR2EDcreature_cdagf1"},
-				--	{Id="palette.entities.creatures.cdagf2", Translation="uiR2EDcreature_cdagf2"},
-				--	{Id="palette.entities.creatures.cdagf3", Translation="uiR2EDcreature_cdagf3"},
-				--	{Id="palette.entities.creatures.cdagf4", Translation="uiR2EDcreature_cdagf4"},
+					{Id="palette.entities.creatures.cdagc2", Translation="uiR2EDcreature_cdagc2"},
+					{Id="palette.entities.creatures.cdagc3", Translation="uiR2EDcreature_cdagc3"},
+					{Id="palette.entities.creatures.cdagc4", Translation="uiR2EDcreature_cdagc4"},
+					{Id="palette.entities.creatures.cdagd1", Translation="uiR2EDcreature_cdagd1"},
+					{Id="palette.entities.creatures.cdagd2", Translation="uiR2EDcreature_cdagd2"},
+					{Id="palette.entities.creatures.cdagd3", Translation="uiR2EDcreature_cdagd3"},
+					{Id="palette.entities.creatures.cdagd4", Translation="uiR2EDcreature_cdagd4"},
+					{Id="palette.entities.creatures.cdage1", Translation="uiR2EDcreature_cdage1"},
+					{Id="palette.entities.creatures.cdage2", Translation="uiR2EDcreature_cdage2"},
+					{Id="palette.entities.creatures.cdage3", Translation="uiR2EDcreature_cdage3"},
+					{Id="palette.entities.creatures.cdage4", Translation="uiR2EDcreature_cdage4"},
+					{Id="palette.entities.creatures.cdagf1", Translation="uiR2EDcreature_cdagf1"},
+					{Id="palette.entities.creatures.cdagf2", Translation="uiR2EDcreature_cdagf2"},
+					{Id="palette.entities.creatures.cdagf3", Translation="uiR2EDcreature_cdagf3"},
+					{Id="palette.entities.creatures.cdagf4", Translation="uiR2EDcreature_cdagf4"},
 					{Id="palette.entities.creatures.cdald1", Translation="uiR2EDcreature_cdald1"},
 					{Id="palette.entities.creatures.cdald2", Translation="uiR2EDcreature_cdald2"},
 					{Id="palette.entities.creatures.cdald3", Translation="uiR2EDcreature_cdald3"},
@@ -10674,26 +10873,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cdbfe2", Translation="uiR2EDcreature_cdbfe2"},
 					{Id="palette.entities.creatures.cdbfe3", Translation="uiR2EDcreature_cdbfe3"},
 					{Id="palette.entities.creatures.cdbfe4", Translation="uiR2EDcreature_cdbfe4"},
-				--	{Id="palette.entities.creatures.cdbgb1", Translation="uiR2EDcreature_cdbgb1"},
-				--	{Id="palette.entities.creatures.cdbgb2", Translation="uiR2EDcreature_cdbgb2"},
-				--	{Id="palette.entities.creatures.cdbgb3", Translation="uiR2EDcreature_cdbgb3"},
-				--	{Id="palette.entities.creatures.cdbgb4", Translation="uiR2EDcreature_cdbgb4"},
-				--	{Id="palette.entities.creatures.cdbgc1", Translation="uiR2EDcreature_cdbgc1"},
-				--	{Id="palette.entities.creatures.cdbgc2", Translation="uiR2EDcreature_cdbgc2"},
-				--	{Id="palette.entities.creatures.cdbgc3", Translation="uiR2EDcreature_cdbgc3"},
-				--	{Id="palette.entities.creatures.cdbgc4", Translation="uiR2EDcreature_cdbgc4"},
-				--	{Id="palette.entities.creatures.cdbgd1", Translation="uiR2EDcreature_cdbgd1"},
-				--	{Id="palette.entities.creatures.cdbgd2", Translation="uiR2EDcreature_cdbgd2"},
-				--	{Id="palette.entities.creatures.cdbgd3", Translation="uiR2EDcreature_cdbgd3"},
-				--	{Id="palette.entities.creatures.cdbgd4", Translation="uiR2EDcreature_cdbgd4"},
-				--	{Id="palette.entities.creatures.cdbge1", Translation="uiR2EDcreature_cdbge1"},
-				--	{Id="palette.entities.creatures.cdbge2", Translation="uiR2EDcreature_cdbge2"},
-				--	{Id="palette.entities.creatures.cdbge3", Translation="uiR2EDcreature_cdbge3"},
-				--	{Id="palette.entities.creatures.cdbge4", Translation="uiR2EDcreature_cdbge4"},
-				--	{Id="palette.entities.creatures.cdbgf1", Translation="uiR2EDcreature_cdbgf1"},
-				--	{Id="palette.entities.creatures.cdbgf2", Translation="uiR2EDcreature_cdbgf2"},
-				--	{Id="palette.entities.creatures.cdbgf3", Translation="uiR2EDcreature_cdbgf3"},
-				--	{Id="palette.entities.creatures.cdbgf4", Translation="uiR2EDcreature_cdbgf4"},
+					{Id="palette.entities.creatures.cdbgb1", Translation="uiR2EDcreature_cdbgb1"},
+					{Id="palette.entities.creatures.cdbgb2", Translation="uiR2EDcreature_cdbgb2"},
+					{Id="palette.entities.creatures.cdbgb3", Translation="uiR2EDcreature_cdbgb3"},
+					{Id="palette.entities.creatures.cdbgb4", Translation="uiR2EDcreature_cdbgb4"},
+					{Id="palette.entities.creatures.cdbgc1", Translation="uiR2EDcreature_cdbgc1"},
+					{Id="palette.entities.creatures.cdbgc2", Translation="uiR2EDcreature_cdbgc2"},
+					{Id="palette.entities.creatures.cdbgc3", Translation="uiR2EDcreature_cdbgc3"},
+					{Id="palette.entities.creatures.cdbgc4", Translation="uiR2EDcreature_cdbgc4"},
+					{Id="palette.entities.creatures.cdbgd1", Translation="uiR2EDcreature_cdbgd1"},
+					{Id="palette.entities.creatures.cdbgd2", Translation="uiR2EDcreature_cdbgd2"},
+					{Id="palette.entities.creatures.cdbgd3", Translation="uiR2EDcreature_cdbgd3"},
+					{Id="palette.entities.creatures.cdbgd4", Translation="uiR2EDcreature_cdbgd4"},
+					{Id="palette.entities.creatures.cdbge1", Translation="uiR2EDcreature_cdbge1"},
+					{Id="palette.entities.creatures.cdbge2", Translation="uiR2EDcreature_cdbge2"},
+					{Id="palette.entities.creatures.cdbge3", Translation="uiR2EDcreature_cdbge3"},
+					{Id="palette.entities.creatures.cdbge4", Translation="uiR2EDcreature_cdbge4"},
+					{Id="palette.entities.creatures.cdbgf1", Translation="uiR2EDcreature_cdbgf1"},
+					{Id="palette.entities.creatures.cdbgf2", Translation="uiR2EDcreature_cdbgf2"},
+					{Id="palette.entities.creatures.cdbgf3", Translation="uiR2EDcreature_cdbgf3"},
+					{Id="palette.entities.creatures.cdbgf4", Translation="uiR2EDcreature_cdbgf4"},
 					{Id="palette.entities.creatures.cdbjd1", Translation="uiR2EDcreature_cdbjd1"},
 					{Id="palette.entities.creatures.cdbjd2", Translation="uiR2EDcreature_cdbjd2"},
 					{Id="palette.entities.creatures.cdbjd3", Translation="uiR2EDcreature_cdbjd3"},
@@ -10710,26 +10909,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.cdcde2", Translation="uiR2EDcreature_cdcde2"},
 					{Id="palette.entities.creatures.cdcde3", Translation="uiR2EDcreature_cdcde3"},
 					{Id="palette.entities.creatures.cdcde4", Translation="uiR2EDcreature_cdcde4"},
-				--	{Id="palette.entities.creatures.cdcgb1", Translation="uiR2EDcreature_cdcgb1"},
-				--	{Id="palette.entities.creatures.cdcgb2", Translation="uiR2EDcreature_cdcgb2"},
-				--	{Id="palette.entities.creatures.cdcgb3", Translation="uiR2EDcreature_cdcgb3"},
-				--	{Id="palette.entities.creatures.cdcgb4", Translation="uiR2EDcreature_cdcgb4"},
-				--	{Id="palette.entities.creatures.cdcgc1", Translation="uiR2EDcreature_cdcgc1"},
-				--	{Id="palette.entities.creatures.cdcgc2", Translation="uiR2EDcreature_cdcgc2"},
-				--	{Id="palette.entities.creatures.cdcgc3", Translation="uiR2EDcreature_cdcgc3"},
-				--	{Id="palette.entities.creatures.cdcgc4", Translation="uiR2EDcreature_cdcgc4"},
-				--	{Id="palette.entities.creatures.cdcgd1", Translation="uiR2EDcreature_cdcgd1"},
-				--	{Id="palette.entities.creatures.cdcgd2", Translation="uiR2EDcreature_cdcgd2"},
-				--	{Id="palette.entities.creatures.cdcgd3", Translation="uiR2EDcreature_cdcgd3"},
-				--	{Id="palette.entities.creatures.cdcgd4", Translation="uiR2EDcreature_cdcgd4"},
-				--	{Id="palette.entities.creatures.cdcge1", Translation="uiR2EDcreature_cdcge1"},
-				--	{Id="palette.entities.creatures.cdcge2", Translation="uiR2EDcreature_cdcge2"},
-				--	{Id="palette.entities.creatures.cdcge3", Translation="uiR2EDcreature_cdcge3"},
-				--	{Id="palette.entities.creatures.cdcge4", Translation="uiR2EDcreature_cdcge4"},
-				--	{Id="palette.entities.creatures.cdcgf1", Translation="uiR2EDcreature_cdcgf1"},
-				--	{Id="palette.entities.creatures.cdcgf2", Translation="uiR2EDcreature_cdcgf2"},
-				--	{Id="palette.entities.creatures.cdcgf3", Translation="uiR2EDcreature_cdcgf3"},
-				--	{Id="palette.entities.creatures.cdcgf4", Translation="uiR2EDcreature_cdcgf4"}
+					{Id="palette.entities.creatures.cdcgb1", Translation="uiR2EDcreature_cdcgb1"},
+					{Id="palette.entities.creatures.cdcgb2", Translation="uiR2EDcreature_cdcgb2"},
+					{Id="palette.entities.creatures.cdcgb3", Translation="uiR2EDcreature_cdcgb3"},
+					{Id="palette.entities.creatures.cdcgb4", Translation="uiR2EDcreature_cdcgb4"},
+					{Id="palette.entities.creatures.cdcgc1", Translation="uiR2EDcreature_cdcgc1"},
+					{Id="palette.entities.creatures.cdcgc2", Translation="uiR2EDcreature_cdcgc2"},
+					{Id="palette.entities.creatures.cdcgc3", Translation="uiR2EDcreature_cdcgc3"},
+					{Id="palette.entities.creatures.cdcgc4", Translation="uiR2EDcreature_cdcgc4"},
+					{Id="palette.entities.creatures.cdcgd1", Translation="uiR2EDcreature_cdcgd1"},
+					{Id="palette.entities.creatures.cdcgd2", Translation="uiR2EDcreature_cdcgd2"},
+					{Id="palette.entities.creatures.cdcgd3", Translation="uiR2EDcreature_cdcgd3"},
+					{Id="palette.entities.creatures.cdcgd4", Translation="uiR2EDcreature_cdcgd4"},
+					{Id="palette.entities.creatures.cdcge1", Translation="uiR2EDcreature_cdcge1"},
+					{Id="palette.entities.creatures.cdcge2", Translation="uiR2EDcreature_cdcge2"},
+					{Id="palette.entities.creatures.cdcge3", Translation="uiR2EDcreature_cdcge3"},
+					{Id="palette.entities.creatures.cdcge4", Translation="uiR2EDcreature_cdcge4"},
+					{Id="palette.entities.creatures.cdcgf1", Translation="uiR2EDcreature_cdcgf1"},
+					{Id="palette.entities.creatures.cdcgf2", Translation="uiR2EDcreature_cdcgf2"},
+					{Id="palette.entities.creatures.cdcgf3", Translation="uiR2EDcreature_cdcgf3"},
+					{Id="palette.entities.creatures.cdcgf4", Translation="uiR2EDcreature_cdcgf4"}
 				}
 			},
 
@@ -10851,26 +11050,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckgff2", Translation="uiR2EDcreature_ckgff2"},
 					{Id="palette.entities.creatures.ckgff3", Translation="uiR2EDcreature_ckgff3"},
 					{Id="palette.entities.creatures.ckgff4", Translation="uiR2EDcreature_ckgff4"},
-				--	{Id="palette.entities.creatures.ckggb1", Translation="uiR2EDcreature_ckggb1"},
-				--	{Id="palette.entities.creatures.ckggb2", Translation="uiR2EDcreature_ckggb2"},
-				--	{Id="palette.entities.creatures.ckggb3", Translation="uiR2EDcreature_ckggb3"},
-				--	{Id="palette.entities.creatures.ckggb4", Translation="uiR2EDcreature_ckggb4"},
-				--	{Id="palette.entities.creatures.ckggc1", Translation="uiR2EDcreature_ckggc1"},
-				--	{Id="palette.entities.creatures.ckggc2", Translation="uiR2EDcreature_ckggc2"},
-				--	{Id="palette.entities.creatures.ckggc3", Translation="uiR2EDcreature_ckggc3"},
-				--	{Id="palette.entities.creatures.ckggc4", Translation="uiR2EDcreature_ckggc4"},
-				--	{Id="palette.entities.creatures.ckggd1", Translation="uiR2EDcreature_ckggd1"},
-				--	{Id="palette.entities.creatures.ckggd2", Translation="uiR2EDcreature_ckggd2"},
-				--	{Id="palette.entities.creatures.ckggd3", Translation="uiR2EDcreature_ckggd3"},
-				--	{Id="palette.entities.creatures.ckggd4", Translation="uiR2EDcreature_ckggd4"},
-				--	{Id="palette.entities.creatures.ckgge1", Translation="uiR2EDcreature_ckgge1"},
-				--	{Id="palette.entities.creatures.ckgge2", Translation="uiR2EDcreature_ckgge2"},
-				--	{Id="palette.entities.creatures.ckgge3", Translation="uiR2EDcreature_ckgge3"},
-				--	{Id="palette.entities.creatures.ckgge4", Translation="uiR2EDcreature_ckgge4"},
-				--	{Id="palette.entities.creatures.ckggf1", Translation="uiR2EDcreature_ckggf1"},
-				--	{Id="palette.entities.creatures.ckggf2", Translation="uiR2EDcreature_ckggf2"},
-				--	{Id="palette.entities.creatures.ckggf3", Translation="uiR2EDcreature_ckggf3"},
-				--	{Id="palette.entities.creatures.ckggf4", Translation="uiR2EDcreature_ckggf4"},
+					{Id="palette.entities.creatures.ckggb1", Translation="uiR2EDcreature_ckggb1"},
+					{Id="palette.entities.creatures.ckggb2", Translation="uiR2EDcreature_ckggb2"},
+					{Id="palette.entities.creatures.ckggb3", Translation="uiR2EDcreature_ckggb3"},
+					{Id="palette.entities.creatures.ckggb4", Translation="uiR2EDcreature_ckggb4"},
+					{Id="palette.entities.creatures.ckggc1", Translation="uiR2EDcreature_ckggc1"},
+					{Id="palette.entities.creatures.ckggc2", Translation="uiR2EDcreature_ckggc2"},
+					{Id="palette.entities.creatures.ckggc3", Translation="uiR2EDcreature_ckggc3"},
+					{Id="palette.entities.creatures.ckggc4", Translation="uiR2EDcreature_ckggc4"},
+					{Id="palette.entities.creatures.ckggd1", Translation="uiR2EDcreature_ckggd1"},
+					{Id="palette.entities.creatures.ckggd2", Translation="uiR2EDcreature_ckggd2"},
+					{Id="palette.entities.creatures.ckggd3", Translation="uiR2EDcreature_ckggd3"},
+					{Id="palette.entities.creatures.ckggd4", Translation="uiR2EDcreature_ckggd4"},
+					{Id="palette.entities.creatures.ckgge1", Translation="uiR2EDcreature_ckgge1"},
+					{Id="palette.entities.creatures.ckgge2", Translation="uiR2EDcreature_ckgge2"},
+					{Id="palette.entities.creatures.ckgge3", Translation="uiR2EDcreature_ckgge3"},
+					{Id="palette.entities.creatures.ckgge4", Translation="uiR2EDcreature_ckgge4"},
+					{Id="palette.entities.creatures.ckggf1", Translation="uiR2EDcreature_ckggf1"},
+					{Id="palette.entities.creatures.ckggf2", Translation="uiR2EDcreature_ckggf2"},
+					{Id="palette.entities.creatures.ckggf3", Translation="uiR2EDcreature_ckggf3"},
+					{Id="palette.entities.creatures.ckggf4", Translation="uiR2EDcreature_ckggf4"},
 					{Id="palette.entities.creatures.ckgje1", Translation="uiR2EDcreature_ckgje1"},
 					{Id="palette.entities.creatures.ckgje2", Translation="uiR2EDcreature_ckgje2"},
 					{Id="palette.entities.creatures.ckgje3", Translation="uiR2EDcreature_ckgje3"},
@@ -10927,26 +11126,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckiff2", Translation="uiR2EDcreature_ckiff2"},
 					{Id="palette.entities.creatures.ckiff3", Translation="uiR2EDcreature_ckiff3"},
 					{Id="palette.entities.creatures.ckiff4", Translation="uiR2EDcreature_ckiff4"},
-				--	{Id="palette.entities.creatures.ckigb1", Translation="uiR2EDcreature_ckigb1"},
-				--	{Id="palette.entities.creatures.ckigb2", Translation="uiR2EDcreature_ckigb2"},
-				--	{Id="palette.entities.creatures.ckigb3", Translation="uiR2EDcreature_ckigb3"},
-				--	{Id="palette.entities.creatures.ckigb4", Translation="uiR2EDcreature_ckigb4"},
-				--	{Id="palette.entities.creatures.ckigc1", Translation="uiR2EDcreature_ckigc1"},
-				--	{Id="palette.entities.creatures.ckigc2", Translation="uiR2EDcreature_ckigc2"},
-				--	{Id="palette.entities.creatures.ckigc3", Translation="uiR2EDcreature_ckigc3"},
-				--	{Id="palette.entities.creatures.ckigc4", Translation="uiR2EDcreature_ckigc4"},
-				--	{Id="palette.entities.creatures.ckigd1", Translation="uiR2EDcreature_ckigd1"},
-				--	{Id="palette.entities.creatures.ckigd2", Translation="uiR2EDcreature_ckigd2"},
-				--	{Id="palette.entities.creatures.ckigd3", Translation="uiR2EDcreature_ckigd3"},
-				--	{Id="palette.entities.creatures.ckigd4", Translation="uiR2EDcreature_ckigd4"},
-				--	{Id="palette.entities.creatures.ckige1", Translation="uiR2EDcreature_ckige1"},
-				--	{Id="palette.entities.creatures.ckige2", Translation="uiR2EDcreature_ckige2"},
-				--	{Id="palette.entities.creatures.ckige3", Translation="uiR2EDcreature_ckige3"},
-				--	{Id="palette.entities.creatures.ckige4", Translation="uiR2EDcreature_ckige4"},
-				--	{Id="palette.entities.creatures.ckigf1", Translation="uiR2EDcreature_ckigf1"},
-				--	{Id="palette.entities.creatures.ckigf2", Translation="uiR2EDcreature_ckigf2"},
-				--	{Id="palette.entities.creatures.ckigf3", Translation="uiR2EDcreature_ckigf3"},
-				--	{Id="palette.entities.creatures.ckigf4", Translation="uiR2EDcreature_ckigf4"},
+					{Id="palette.entities.creatures.ckigb1", Translation="uiR2EDcreature_ckigb1"},
+					{Id="palette.entities.creatures.ckigb2", Translation="uiR2EDcreature_ckigb2"},
+					{Id="palette.entities.creatures.ckigb3", Translation="uiR2EDcreature_ckigb3"},
+					{Id="palette.entities.creatures.ckigb4", Translation="uiR2EDcreature_ckigb4"},
+					{Id="palette.entities.creatures.ckigc1", Translation="uiR2EDcreature_ckigc1"},
+					{Id="palette.entities.creatures.ckigc2", Translation="uiR2EDcreature_ckigc2"},
+					{Id="palette.entities.creatures.ckigc3", Translation="uiR2EDcreature_ckigc3"},
+					{Id="palette.entities.creatures.ckigc4", Translation="uiR2EDcreature_ckigc4"},
+					{Id="palette.entities.creatures.ckigd1", Translation="uiR2EDcreature_ckigd1"},
+					{Id="palette.entities.creatures.ckigd2", Translation="uiR2EDcreature_ckigd2"},
+					{Id="palette.entities.creatures.ckigd3", Translation="uiR2EDcreature_ckigd3"},
+					{Id="palette.entities.creatures.ckigd4", Translation="uiR2EDcreature_ckigd4"},
+					{Id="palette.entities.creatures.ckige1", Translation="uiR2EDcreature_ckige1"},
+					{Id="palette.entities.creatures.ckige2", Translation="uiR2EDcreature_ckige2"},
+					{Id="palette.entities.creatures.ckige3", Translation="uiR2EDcreature_ckige3"},
+					{Id="palette.entities.creatures.ckige4", Translation="uiR2EDcreature_ckige4"},
+					{Id="palette.entities.creatures.ckigf1", Translation="uiR2EDcreature_ckigf1"},
+					{Id="palette.entities.creatures.ckigf2", Translation="uiR2EDcreature_ckigf2"},
+					{Id="palette.entities.creatures.ckigf3", Translation="uiR2EDcreature_ckigf3"},
+					{Id="palette.entities.creatures.ckigf4", Translation="uiR2EDcreature_ckigf4"},
 					{Id="palette.entities.creatures.ckijc1", Translation="uiR2EDcreature_ckijc1"},
 					{Id="palette.entities.creatures.ckijc2", Translation="uiR2EDcreature_ckijc2"},
 					{Id="palette.entities.creatures.ckijc3", Translation="uiR2EDcreature_ckijc3"},
@@ -11014,26 +11213,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckaff2", Translation="uiR2EDcreature_ckaff2"},
 					{Id="palette.entities.creatures.ckaff3", Translation="uiR2EDcreature_ckaff3"},
 					{Id="palette.entities.creatures.ckaff4", Translation="uiR2EDcreature_ckaff4"},
-				--	{Id="palette.entities.creatures.ckagb1", Translation="uiR2EDcreature_ckagb1"},
-				--	{Id="palette.entities.creatures.ckagb2", Translation="uiR2EDcreature_ckagb2"},
-				--	{Id="palette.entities.creatures.ckagb3", Translation="uiR2EDcreature_ckagb3"},
-				--	{Id="palette.entities.creatures.ckagb4", Translation="uiR2EDcreature_ckagb4"},
-				--	{Id="palette.entities.creatures.ckagc1", Translation="uiR2EDcreature_ckagc1"},
-				--	{Id="palette.entities.creatures.ckagc2", Translation="uiR2EDcreature_ckagc2"},
-				--	{Id="palette.entities.creatures.ckagc3", Translation="uiR2EDcreature_ckagc3"},
-				--	{Id="palette.entities.creatures.ckagc4", Translation="uiR2EDcreature_ckagc4"},
-				--	{Id="palette.entities.creatures.ckagd1", Translation="uiR2EDcreature_ckagd1"},
-				--	{Id="palette.entities.creatures.ckagd2", Translation="uiR2EDcreature_ckagd2"},
-				--	{Id="palette.entities.creatures.ckagd3", Translation="uiR2EDcreature_ckagd3"},
-				--	{Id="palette.entities.creatures.ckagd4", Translation="uiR2EDcreature_ckagd4"},
-				--	{Id="palette.entities.creatures.ckage1", Translation="uiR2EDcreature_ckage1"},
-				--	{Id="palette.entities.creatures.ckage2", Translation="uiR2EDcreature_ckage2"},
-				--	{Id="palette.entities.creatures.ckage3", Translation="uiR2EDcreature_ckage3"},
-				--	{Id="palette.entities.creatures.ckage4", Translation="uiR2EDcreature_ckage4"},
-				--	{Id="palette.entities.creatures.ckagf1", Translation="uiR2EDcreature_ckagf1"},
-				--	{Id="palette.entities.creatures.ckagf2", Translation="uiR2EDcreature_ckagf2"},
-				--	{Id="palette.entities.creatures.ckagf3", Translation="uiR2EDcreature_ckagf3"},
-				--	{Id="palette.entities.creatures.ckagf4", Translation="uiR2EDcreature_ckagf4"},
+					{Id="palette.entities.creatures.ckagb1", Translation="uiR2EDcreature_ckagb1"},
+					{Id="palette.entities.creatures.ckagb2", Translation="uiR2EDcreature_ckagb2"},
+					{Id="palette.entities.creatures.ckagb3", Translation="uiR2EDcreature_ckagb3"},
+					{Id="palette.entities.creatures.ckagb4", Translation="uiR2EDcreature_ckagb4"},
+					{Id="palette.entities.creatures.ckagc1", Translation="uiR2EDcreature_ckagc1"},
+					{Id="palette.entities.creatures.ckagc2", Translation="uiR2EDcreature_ckagc2"},
+					{Id="palette.entities.creatures.ckagc3", Translation="uiR2EDcreature_ckagc3"},
+					{Id="palette.entities.creatures.ckagc4", Translation="uiR2EDcreature_ckagc4"},
+					{Id="palette.entities.creatures.ckagd1", Translation="uiR2EDcreature_ckagd1"},
+					{Id="palette.entities.creatures.ckagd2", Translation="uiR2EDcreature_ckagd2"},
+					{Id="palette.entities.creatures.ckagd3", Translation="uiR2EDcreature_ckagd3"},
+					{Id="palette.entities.creatures.ckagd4", Translation="uiR2EDcreature_ckagd4"},
+					{Id="palette.entities.creatures.ckage1", Translation="uiR2EDcreature_ckage1"},
+					{Id="palette.entities.creatures.ckage2", Translation="uiR2EDcreature_ckage2"},
+					{Id="palette.entities.creatures.ckage3", Translation="uiR2EDcreature_ckage3"},
+					{Id="palette.entities.creatures.ckage4", Translation="uiR2EDcreature_ckage4"},
+					{Id="palette.entities.creatures.ckagf1", Translation="uiR2EDcreature_ckagf1"},
+					{Id="palette.entities.creatures.ckagf2", Translation="uiR2EDcreature_ckagf2"},
+					{Id="palette.entities.creatures.ckagf3", Translation="uiR2EDcreature_ckagf3"},
+					{Id="palette.entities.creatures.ckagf4", Translation="uiR2EDcreature_ckagf4"},
 					{Id="palette.entities.creatures.ckaje1", Translation="uiR2EDcreature_ckaje1"},
 					{Id="palette.entities.creatures.ckaje2", Translation="uiR2EDcreature_ckaje2"},
 					{Id="palette.entities.creatures.ckaje3", Translation="uiR2EDcreature_ckaje3"},
@@ -11074,26 +11273,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckbff2", Translation="uiR2EDcreature_ckbff2"},
 					{Id="palette.entities.creatures.ckbff3", Translation="uiR2EDcreature_ckbff3"},
 					{Id="palette.entities.creatures.ckbff4", Translation="uiR2EDcreature_ckbff4"},
-				--	{Id="palette.entities.creatures.ckbgb1", Translation="uiR2EDcreature_ckbgb1"},
-				--	{Id="palette.entities.creatures.ckbgb2", Translation="uiR2EDcreature_ckbgb2"},
-				--	{Id="palette.entities.creatures.ckbgb3", Translation="uiR2EDcreature_ckbgb3"},
-				--	{Id="palette.entities.creatures.ckbgb4", Translation="uiR2EDcreature_ckbgb4"},
-				--	{Id="palette.entities.creatures.ckbgc1", Translation="uiR2EDcreature_ckbgc1"},
-				--	{Id="palette.entities.creatures.ckbgc2", Translation="uiR2EDcreature_ckbgc2"},
-				--	{Id="palette.entities.creatures.ckbgc3", Translation="uiR2EDcreature_ckbgc3"},
-				--	{Id="palette.entities.creatures.ckbgc4", Translation="uiR2EDcreature_ckbgc4"},
-				--	{Id="palette.entities.creatures.ckbgd1", Translation="uiR2EDcreature_ckbgd1"},
-				--	{Id="palette.entities.creatures.ckbgd2", Translation="uiR2EDcreature_ckbgd2"},
-				--	{Id="palette.entities.creatures.ckbgd3", Translation="uiR2EDcreature_ckbgd3"},
-				--	{Id="palette.entities.creatures.ckbgd4", Translation="uiR2EDcreature_ckbgd4"},
-				--	{Id="palette.entities.creatures.ckbge1", Translation="uiR2EDcreature_ckbge1"},
-				--	{Id="palette.entities.creatures.ckbge2", Translation="uiR2EDcreature_ckbge2"},
-				--	{Id="palette.entities.creatures.ckbge3", Translation="uiR2EDcreature_ckbge3"},
-				--	{Id="palette.entities.creatures.ckbge4", Translation="uiR2EDcreature_ckbge4"},
-				--	{Id="palette.entities.creatures.ckbgf1", Translation="uiR2EDcreature_ckbgf1"},
-				--	{Id="palette.entities.creatures.ckbgf2", Translation="uiR2EDcreature_ckbgf2"},
-				--	{Id="palette.entities.creatures.ckbgf3", Translation="uiR2EDcreature_ckbgf3"},
-				--	{Id="palette.entities.creatures.ckbgf4", Translation="uiR2EDcreature_ckbgf4"},
+					{Id="palette.entities.creatures.ckbgb1", Translation="uiR2EDcreature_ckbgb1"},
+					{Id="palette.entities.creatures.ckbgb2", Translation="uiR2EDcreature_ckbgb2"},
+					{Id="palette.entities.creatures.ckbgb3", Translation="uiR2EDcreature_ckbgb3"},
+					{Id="palette.entities.creatures.ckbgb4", Translation="uiR2EDcreature_ckbgb4"},
+					{Id="palette.entities.creatures.ckbgc1", Translation="uiR2EDcreature_ckbgc1"},
+					{Id="palette.entities.creatures.ckbgc2", Translation="uiR2EDcreature_ckbgc2"},
+					{Id="palette.entities.creatures.ckbgc3", Translation="uiR2EDcreature_ckbgc3"},
+					{Id="palette.entities.creatures.ckbgc4", Translation="uiR2EDcreature_ckbgc4"},
+					{Id="palette.entities.creatures.ckbgd1", Translation="uiR2EDcreature_ckbgd1"},
+					{Id="palette.entities.creatures.ckbgd2", Translation="uiR2EDcreature_ckbgd2"},
+					{Id="palette.entities.creatures.ckbgd3", Translation="uiR2EDcreature_ckbgd3"},
+					{Id="palette.entities.creatures.ckbgd4", Translation="uiR2EDcreature_ckbgd4"},
+					{Id="palette.entities.creatures.ckbge1", Translation="uiR2EDcreature_ckbge1"},
+					{Id="palette.entities.creatures.ckbge2", Translation="uiR2EDcreature_ckbge2"},
+					{Id="palette.entities.creatures.ckbge3", Translation="uiR2EDcreature_ckbge3"},
+					{Id="palette.entities.creatures.ckbge4", Translation="uiR2EDcreature_ckbge4"},
+					{Id="palette.entities.creatures.ckbgf1", Translation="uiR2EDcreature_ckbgf1"},
+					{Id="palette.entities.creatures.ckbgf2", Translation="uiR2EDcreature_ckbgf2"},
+					{Id="palette.entities.creatures.ckbgf3", Translation="uiR2EDcreature_ckbgf3"},
+					{Id="palette.entities.creatures.ckbgf4", Translation="uiR2EDcreature_ckbgf4"},
 					{Id="palette.entities.creatures.ckbje1", Translation="uiR2EDcreature_ckbje1"},
 					{Id="palette.entities.creatures.ckbje2", Translation="uiR2EDcreature_ckbje2"},
 					{Id="palette.entities.creatures.ckbje3", Translation="uiR2EDcreature_ckbje3"},
@@ -11134,26 +11333,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckcff2", Translation="uiR2EDcreature_ckcff2"},
 					{Id="palette.entities.creatures.ckcff3", Translation="uiR2EDcreature_ckcff3"},
 					{Id="palette.entities.creatures.ckcff4", Translation="uiR2EDcreature_ckcff4"},
-				--	{Id="palette.entities.creatures.ckcgb1", Translation="uiR2EDcreature_ckcgb1"},
-				--	{Id="palette.entities.creatures.ckcgb2", Translation="uiR2EDcreature_ckcgb2"},
-				--	{Id="palette.entities.creatures.ckcgb3", Translation="uiR2EDcreature_ckcgb3"},
-				--	{Id="palette.entities.creatures.ckcgb4", Translation="uiR2EDcreature_ckcgb4"},
-				--	{Id="palette.entities.creatures.ckcgc1", Translation="uiR2EDcreature_ckcgc1"},
-				--	{Id="palette.entities.creatures.ckcgc2", Translation="uiR2EDcreature_ckcgc2"},
-				--	{Id="palette.entities.creatures.ckcgc3", Translation="uiR2EDcreature_ckcgc3"},
-				--	{Id="palette.entities.creatures.ckcgc4", Translation="uiR2EDcreature_ckcgc4"},
-				--	{Id="palette.entities.creatures.ckcgd1", Translation="uiR2EDcreature_ckcgd1"},
-				--	{Id="palette.entities.creatures.ckcgd2", Translation="uiR2EDcreature_ckcgd2"},
-				--	{Id="palette.entities.creatures.ckcgd3", Translation="uiR2EDcreature_ckcgd3"},
-				--	{Id="palette.entities.creatures.ckcgd4", Translation="uiR2EDcreature_ckcgd4"},
-				--	{Id="palette.entities.creatures.ckcge1", Translation="uiR2EDcreature_ckcge1"},
-				--	{Id="palette.entities.creatures.ckcge2", Translation="uiR2EDcreature_ckcge2"},
-				--	{Id="palette.entities.creatures.ckcge3", Translation="uiR2EDcreature_ckcge3"},
-				--	{Id="palette.entities.creatures.ckcge4", Translation="uiR2EDcreature_ckcge4"},
-				--	{Id="palette.entities.creatures.ckcgf1", Translation="uiR2EDcreature_ckcgf1"},
-				--	{Id="palette.entities.creatures.ckcgf2", Translation="uiR2EDcreature_ckcgf2"},
-				--	{Id="palette.entities.creatures.ckcgf3", Translation="uiR2EDcreature_ckcgf3"},
-				--	{Id="palette.entities.creatures.ckcgf4", Translation="uiR2EDcreature_ckcgf4"},
+					{Id="palette.entities.creatures.ckcgb1", Translation="uiR2EDcreature_ckcgb1"},
+					{Id="palette.entities.creatures.ckcgb2", Translation="uiR2EDcreature_ckcgb2"},
+					{Id="palette.entities.creatures.ckcgb3", Translation="uiR2EDcreature_ckcgb3"},
+					{Id="palette.entities.creatures.ckcgb4", Translation="uiR2EDcreature_ckcgb4"},
+					{Id="palette.entities.creatures.ckcgc1", Translation="uiR2EDcreature_ckcgc1"},
+					{Id="palette.entities.creatures.ckcgc2", Translation="uiR2EDcreature_ckcgc2"},
+					{Id="palette.entities.creatures.ckcgc3", Translation="uiR2EDcreature_ckcgc3"},
+					{Id="palette.entities.creatures.ckcgc4", Translation="uiR2EDcreature_ckcgc4"},
+					{Id="palette.entities.creatures.ckcgd1", Translation="uiR2EDcreature_ckcgd1"},
+					{Id="palette.entities.creatures.ckcgd2", Translation="uiR2EDcreature_ckcgd2"},
+					{Id="palette.entities.creatures.ckcgd3", Translation="uiR2EDcreature_ckcgd3"},
+					{Id="palette.entities.creatures.ckcgd4", Translation="uiR2EDcreature_ckcgd4"},
+					{Id="palette.entities.creatures.ckcge1", Translation="uiR2EDcreature_ckcge1"},
+					{Id="palette.entities.creatures.ckcge2", Translation="uiR2EDcreature_ckcge2"},
+					{Id="palette.entities.creatures.ckcge3", Translation="uiR2EDcreature_ckcge3"},
+					{Id="palette.entities.creatures.ckcge4", Translation="uiR2EDcreature_ckcge4"},
+					{Id="palette.entities.creatures.ckcgf1", Translation="uiR2EDcreature_ckcgf1"},
+					{Id="palette.entities.creatures.ckcgf2", Translation="uiR2EDcreature_ckcgf2"},
+					{Id="palette.entities.creatures.ckcgf3", Translation="uiR2EDcreature_ckcgf3"},
+					{Id="palette.entities.creatures.ckcgf4", Translation="uiR2EDcreature_ckcgf4"},
 					{Id="palette.entities.creatures.ckcje1", Translation="uiR2EDcreature_ckcje1"},
 					{Id="palette.entities.creatures.ckcje2", Translation="uiR2EDcreature_ckcje2"},
 					{Id="palette.entities.creatures.ckcje3", Translation="uiR2EDcreature_ckcje3"},
@@ -11202,26 +11401,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckdff2", Translation="uiR2EDcreature_ckdff2"},
 					{Id="palette.entities.creatures.ckdff3", Translation="uiR2EDcreature_ckdff3"},
 					{Id="palette.entities.creatures.ckdff4", Translation="uiR2EDcreature_ckdff4"},
-				--	{Id="palette.entities.creatures.ckdgb1", Translation="uiR2EDcreature_ckdgb1"},
-				--	{Id="palette.entities.creatures.ckdgb2", Translation="uiR2EDcreature_ckdgb2"},
-				--	{Id="palette.entities.creatures.ckdgb3", Translation="uiR2EDcreature_ckdgb3"},
-				--	{Id="palette.entities.creatures.ckdgb4", Translation="uiR2EDcreature_ckdgb4"},
-				--	{Id="palette.entities.creatures.ckdgc1", Translation="uiR2EDcreature_ckdgc1"},
-				--	{Id="palette.entities.creatures.ckdgc2", Translation="uiR2EDcreature_ckdgc2"},
-				--	{Id="palette.entities.creatures.ckdgc3", Translation="uiR2EDcreature_ckdgc3"},
-				--	{Id="palette.entities.creatures.ckdgc4", Translation="uiR2EDcreature_ckdgc4"},
-				--	{Id="palette.entities.creatures.ckdgd1", Translation="uiR2EDcreature_ckdgd1"},
-				--	{Id="palette.entities.creatures.ckdgd2", Translation="uiR2EDcreature_ckdgd2"},
-				--	{Id="palette.entities.creatures.ckdgd3", Translation="uiR2EDcreature_ckdgd3"},
-				--	{Id="palette.entities.creatures.ckdgd4", Translation="uiR2EDcreature_ckdgd4"},
-				--	{Id="palette.entities.creatures.ckdge1", Translation="uiR2EDcreature_ckdge1"},
-				--	{Id="palette.entities.creatures.ckdge2", Translation="uiR2EDcreature_ckdge2"},
-				--	{Id="palette.entities.creatures.ckdge3", Translation="uiR2EDcreature_ckdge3"},
-				--	{Id="palette.entities.creatures.ckdge4", Translation="uiR2EDcreature_ckdge4"},
-				--	{Id="palette.entities.creatures.ckdgf1", Translation="uiR2EDcreature_ckdgf1"},
-				--	{Id="palette.entities.creatures.ckdgf2", Translation="uiR2EDcreature_ckdgf2"},
-				--	{Id="palette.entities.creatures.ckdgf3", Translation="uiR2EDcreature_ckdgf3"},
-				--	{Id="palette.entities.creatures.ckdgf4", Translation="uiR2EDcreature_ckdgf4"},
+					{Id="palette.entities.creatures.ckdgb1", Translation="uiR2EDcreature_ckdgb1"},
+					{Id="palette.entities.creatures.ckdgb2", Translation="uiR2EDcreature_ckdgb2"},
+					{Id="palette.entities.creatures.ckdgb3", Translation="uiR2EDcreature_ckdgb3"},
+					{Id="palette.entities.creatures.ckdgb4", Translation="uiR2EDcreature_ckdgb4"},
+					{Id="palette.entities.creatures.ckdgc1", Translation="uiR2EDcreature_ckdgc1"},
+					{Id="palette.entities.creatures.ckdgc2", Translation="uiR2EDcreature_ckdgc2"},
+					{Id="palette.entities.creatures.ckdgc3", Translation="uiR2EDcreature_ckdgc3"},
+					{Id="palette.entities.creatures.ckdgc4", Translation="uiR2EDcreature_ckdgc4"},
+					{Id="palette.entities.creatures.ckdgd1", Translation="uiR2EDcreature_ckdgd1"},
+					{Id="palette.entities.creatures.ckdgd2", Translation="uiR2EDcreature_ckdgd2"},
+					{Id="palette.entities.creatures.ckdgd3", Translation="uiR2EDcreature_ckdgd3"},
+					{Id="palette.entities.creatures.ckdgd4", Translation="uiR2EDcreature_ckdgd4"},
+					{Id="palette.entities.creatures.ckdge1", Translation="uiR2EDcreature_ckdge1"},
+					{Id="palette.entities.creatures.ckdge2", Translation="uiR2EDcreature_ckdge2"},
+					{Id="palette.entities.creatures.ckdge3", Translation="uiR2EDcreature_ckdge3"},
+					{Id="palette.entities.creatures.ckdge4", Translation="uiR2EDcreature_ckdge4"},
+					{Id="palette.entities.creatures.ckdgf1", Translation="uiR2EDcreature_ckdgf1"},
+					{Id="palette.entities.creatures.ckdgf2", Translation="uiR2EDcreature_ckdgf2"},
+					{Id="palette.entities.creatures.ckdgf3", Translation="uiR2EDcreature_ckdgf3"},
+					{Id="palette.entities.creatures.ckdgf4", Translation="uiR2EDcreature_ckdgf4"},
 					{Id="palette.entities.creatures.ckdjd1", Translation="uiR2EDcreature_ckdjd1"},
 					{Id="palette.entities.creatures.ckdjd2", Translation="uiR2EDcreature_ckdjd2"},
 					{Id="palette.entities.creatures.ckdjd3", Translation="uiR2EDcreature_ckdjd3"},
@@ -11274,26 +11473,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckeff2", Translation="uiR2EDcreature_ckeff2"},
 					{Id="palette.entities.creatures.ckeff3", Translation="uiR2EDcreature_ckeff3"},
 					{Id="palette.entities.creatures.ckeff4", Translation="uiR2EDcreature_ckeff4"},
-				--	{Id="palette.entities.creatures.ckegb1", Translation="uiR2EDcreature_ckegb1"},
-				--	{Id="palette.entities.creatures.ckegb2", Translation="uiR2EDcreature_ckegb2"},
-				--	{Id="palette.entities.creatures.ckegb3", Translation="uiR2EDcreature_ckegb3"},
-				--	{Id="palette.entities.creatures.ckegb4", Translation="uiR2EDcreature_ckegb4"},
-				--	{Id="palette.entities.creatures.ckegc1", Translation="uiR2EDcreature_ckegc1"},
-				--	{Id="palette.entities.creatures.ckegc2", Translation="uiR2EDcreature_ckegc2"},
-				--	{Id="palette.entities.creatures.ckegc3", Translation="uiR2EDcreature_ckegc3"},
-				--	{Id="palette.entities.creatures.ckegc4", Translation="uiR2EDcreature_ckegc4"},
-				--	{Id="palette.entities.creatures.ckegd1", Translation="uiR2EDcreature_ckegd1"},
-				--	{Id="palette.entities.creatures.ckegd2", Translation="uiR2EDcreature_ckegd2"},
-				--	{Id="palette.entities.creatures.ckegd3", Translation="uiR2EDcreature_ckegd3"},
-				--	{Id="palette.entities.creatures.ckegd4", Translation="uiR2EDcreature_ckegd4"},
-				--	{Id="palette.entities.creatures.ckege1", Translation="uiR2EDcreature_ckege1"},
-				--	{Id="palette.entities.creatures.ckege2", Translation="uiR2EDcreature_ckege2"},
-				--	{Id="palette.entities.creatures.ckege3", Translation="uiR2EDcreature_ckege3"},
-				--	{Id="palette.entities.creatures.ckege4", Translation="uiR2EDcreature_ckege4"},
-				--	{Id="palette.entities.creatures.ckegf1", Translation="uiR2EDcreature_ckegf1"},
-				--	{Id="palette.entities.creatures.ckegf2", Translation="uiR2EDcreature_ckegf2"},
-				--	{Id="palette.entities.creatures.ckegf3", Translation="uiR2EDcreature_ckegf3"},
-				--	{Id="palette.entities.creatures.ckegf4", Translation="uiR2EDcreature_ckegf4"},
+					{Id="palette.entities.creatures.ckegb1", Translation="uiR2EDcreature_ckegb1"},
+					{Id="palette.entities.creatures.ckegb2", Translation="uiR2EDcreature_ckegb2"},
+					{Id="palette.entities.creatures.ckegb3", Translation="uiR2EDcreature_ckegb3"},
+					{Id="palette.entities.creatures.ckegb4", Translation="uiR2EDcreature_ckegb4"},
+					{Id="palette.entities.creatures.ckegc1", Translation="uiR2EDcreature_ckegc1"},
+					{Id="palette.entities.creatures.ckegc2", Translation="uiR2EDcreature_ckegc2"},
+					{Id="palette.entities.creatures.ckegc3", Translation="uiR2EDcreature_ckegc3"},
+					{Id="palette.entities.creatures.ckegc4", Translation="uiR2EDcreature_ckegc4"},
+					{Id="palette.entities.creatures.ckegd1", Translation="uiR2EDcreature_ckegd1"},
+					{Id="palette.entities.creatures.ckegd2", Translation="uiR2EDcreature_ckegd2"},
+					{Id="palette.entities.creatures.ckegd3", Translation="uiR2EDcreature_ckegd3"},
+					{Id="palette.entities.creatures.ckegd4", Translation="uiR2EDcreature_ckegd4"},
+					{Id="palette.entities.creatures.ckege1", Translation="uiR2EDcreature_ckege1"},
+					{Id="palette.entities.creatures.ckege2", Translation="uiR2EDcreature_ckege2"},
+					{Id="palette.entities.creatures.ckege3", Translation="uiR2EDcreature_ckege3"},
+					{Id="palette.entities.creatures.ckege4", Translation="uiR2EDcreature_ckege4"},
+					{Id="palette.entities.creatures.ckegf1", Translation="uiR2EDcreature_ckegf1"},
+					{Id="palette.entities.creatures.ckegf2", Translation="uiR2EDcreature_ckegf2"},
+					{Id="palette.entities.creatures.ckegf3", Translation="uiR2EDcreature_ckegf3"},
+					{Id="palette.entities.creatures.ckegf4", Translation="uiR2EDcreature_ckegf4"},
 					{Id="palette.entities.creatures.ckeje1", Translation="uiR2EDcreature_ckeje1"},
 					{Id="palette.entities.creatures.ckeje2", Translation="uiR2EDcreature_ckeje2"},
 					{Id="palette.entities.creatures.ckeje3", Translation="uiR2EDcreature_ckeje3"},
@@ -11382,26 +11581,26 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckjff2", Translation="uiR2EDcreature_ckjff2"},
 					{Id="palette.entities.creatures.ckjff3", Translation="uiR2EDcreature_ckjff3"},
 					{Id="palette.entities.creatures.ckjff4", Translation="uiR2EDcreature_ckjff4"},
-				--	{Id="palette.entities.creatures.ckjgb1", Translation="uiR2EDcreature_ckjgb1"},
-				--	{Id="palette.entities.creatures.ckjgb2", Translation="uiR2EDcreature_ckjgb2"},
-				--	{Id="palette.entities.creatures.ckjgb3", Translation="uiR2EDcreature_ckjgb3"},
-				--	{Id="palette.entities.creatures.ckjgb4", Translation="uiR2EDcreature_ckjgb4"},
-				--	{Id="palette.entities.creatures.ckjgc1", Translation="uiR2EDcreature_ckjgc1"},
-				--	{Id="palette.entities.creatures.ckjgc2", Translation="uiR2EDcreature_ckjgc2"},
-				--	{Id="palette.entities.creatures.ckjgc3", Translation="uiR2EDcreature_ckjgc3"},
-				--	{Id="palette.entities.creatures.ckjgc4", Translation="uiR2EDcreature_ckjgc4"},
-				--	{Id="palette.entities.creatures.ckjgd1", Translation="uiR2EDcreature_ckjgd1"},
-				--	{Id="palette.entities.creatures.ckjgd2", Translation="uiR2EDcreature_ckjgd2"},
-				--	{Id="palette.entities.creatures.ckjgd3", Translation="uiR2EDcreature_ckjgd3"},
-				--	{Id="palette.entities.creatures.ckjgd4", Translation="uiR2EDcreature_ckjgd4"},
-				--	{Id="palette.entities.creatures.ckjge1", Translation="uiR2EDcreature_ckjge1"},
-				--	{Id="palette.entities.creatures.ckjge2", Translation="uiR2EDcreature_ckjge2"},
-				--	{Id="palette.entities.creatures.ckjge3", Translation="uiR2EDcreature_ckjge3"},
-				--	{Id="palette.entities.creatures.ckjge4", Translation="uiR2EDcreature_ckjge4"},
-				--	{Id="palette.entities.creatures.ckjgf1", Translation="uiR2EDcreature_ckjgf1"},
-				--	{Id="palette.entities.creatures.ckjgf2", Translation="uiR2EDcreature_ckjgf2"},
-				--	{Id="palette.entities.creatures.ckjgf3", Translation="uiR2EDcreature_ckjgf3"},
-				--	{Id="palette.entities.creatures.ckjgf4", Translation="uiR2EDcreature_ckjgf4"},
+					{Id="palette.entities.creatures.ckjgb1", Translation="uiR2EDcreature_ckjgb1"},
+					{Id="palette.entities.creatures.ckjgb2", Translation="uiR2EDcreature_ckjgb2"},
+					{Id="palette.entities.creatures.ckjgb3", Translation="uiR2EDcreature_ckjgb3"},
+					{Id="palette.entities.creatures.ckjgb4", Translation="uiR2EDcreature_ckjgb4"},
+					{Id="palette.entities.creatures.ckjgc1", Translation="uiR2EDcreature_ckjgc1"},
+					{Id="palette.entities.creatures.ckjgc2", Translation="uiR2EDcreature_ckjgc2"},
+					{Id="palette.entities.creatures.ckjgc3", Translation="uiR2EDcreature_ckjgc3"},
+					{Id="palette.entities.creatures.ckjgc4", Translation="uiR2EDcreature_ckjgc4"},
+					{Id="palette.entities.creatures.ckjgd1", Translation="uiR2EDcreature_ckjgd1"},
+					{Id="palette.entities.creatures.ckjgd2", Translation="uiR2EDcreature_ckjgd2"},
+					{Id="palette.entities.creatures.ckjgd3", Translation="uiR2EDcreature_ckjgd3"},
+					{Id="palette.entities.creatures.ckjgd4", Translation="uiR2EDcreature_ckjgd4"},
+					{Id="palette.entities.creatures.ckjge1", Translation="uiR2EDcreature_ckjge1"},
+					{Id="palette.entities.creatures.ckjge2", Translation="uiR2EDcreature_ckjge2"},
+					{Id="palette.entities.creatures.ckjge3", Translation="uiR2EDcreature_ckjge3"},
+					{Id="palette.entities.creatures.ckjge4", Translation="uiR2EDcreature_ckjge4"},
+					{Id="palette.entities.creatures.ckjgf1", Translation="uiR2EDcreature_ckjgf1"},
+					{Id="palette.entities.creatures.ckjgf2", Translation="uiR2EDcreature_ckjgf2"},
+					{Id="palette.entities.creatures.ckjgf3", Translation="uiR2EDcreature_ckjgf3"},
+					{Id="palette.entities.creatures.ckjgf4", Translation="uiR2EDcreature_ckjgf4"},
 					{Id="palette.entities.creatures.ckjjd1", Translation="uiR2EDcreature_ckjjd1"},
 					{Id="palette.entities.creatures.ckjjd2", Translation="uiR2EDcreature_ckjjd2"},
 					{Id="palette.entities.creatures.ckjjd3", Translation="uiR2EDcreature_ckjjd3"},
@@ -11609,11 +11808,11 @@ r2.Palette =
 				{
 					{Id="palette.entities.creatures.cpfdf7", Translation="uiR2EDcreature_cpfdf7"},
 					{Id="palette.entities.creatures.cpblf7", Translation="uiR2EDcreature_cpblf7"},
-					-- {Id="palette.entities.creatures.cpapf7", Translation="uiR2EDcreature_cpapf7"},
+					{Id="palette.entities.creatures.cpapf7", Translation="uiR2EDcreature_cpapf7"},
 					{Id="palette.entities.creatures.cpcpf7", Translation="uiR2EDcreature_cpcpf7"},
 					{Id="palette.entities.creatures.cpefe7", Translation="uiR2EDcreature_cpefe7"},
 					{Id="palette.entities.creatures.cpdje7", Translation="uiR2EDcreature_cpdje7"},
-					-- {Id="palette.entities.creatures.cpapd7", Translation="uiR2EDcreature_cpapd7"},
+					{Id="palette.entities.creatures.cpapd7", Translation="uiR2EDcreature_cpapd7"},
 					{Id="palette.entities.creatures.cpcfc7", Translation="uiR2EDcreature_cpcfc7"}
 				}
 			},
@@ -11693,7 +11892,7 @@ r2.Palette =
 					{Id="palette.entities.creatures.ckeje5", Translation="uiR2EDcreature_ckeje5"},
 					{Id="palette.entities.creatures.ckfje5", Translation="uiR2EDcreature_ckfje5"},
 					{Id="palette.entities.creatures.ckije5", Translation="uiR2EDcreature_ckije5"},
---					{Id="palette.entities.creatures.ckdje5", Translation="uiR2EDcreature_ckdje5"},
+					{Id="palette.entities.creatures.ckdje5", Translation="uiR2EDcreature_ckdje5"},
 					{Id="palette.entities.creatures.ckgle5", Translation="uiR2EDcreature_ckgle5"},
 					{Id="palette.entities.creatures.ckhle5", Translation="uiR2EDcreature_ckhle5"},
 					{Id="palette.entities.creatures.ckdle5", Translation="uiR2EDcreature_ckdle5"},
@@ -12096,72 +12295,72 @@ r2.Palette =
 -- sadge			},
 
 
--- sadge			primitives = 
--- sadge			{
--- sadge				cute = 
--- sadge				{
--- sadge					instances =
--- sadge					{
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_mature_b", Translation="uiR2EDnpc_npc_cute_mature_b"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_mature_c", Translation="uiR2EDnpc_npc_cute_mature_c"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_mature_d", Translation="uiR2EDnpc_npc_cute_mature_d"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_mature_e", Translation="uiR2EDnpc_npc_cute_mature_e"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_mature_f", Translation="uiR2EDnpc_npc_cute_mature_f"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_venerable_b", Translation="uiR2EDnpc_npc_cute_venerable_b"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_venerable_c", Translation="uiR2EDnpc_npc_cute_venerable_c"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_venerable_d", Translation="uiR2EDnpc_npc_cute_venerable_d"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_venerable_e", Translation="uiR2EDnpc_npc_cute_venerable_e"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_venerable_f", Translation="uiR2EDnpc_npc_cute_venerable_f"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_weapon_b", Translation="uiR2EDnpc_npc_cute_weapon_b"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_weapon_c", Translation="uiR2EDnpc_npc_cute_weapon_c"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_weapon_d", Translation="uiR2EDnpc_npc_cute_weapon_d"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_weapon_e", Translation="uiR2EDnpc_npc_cute_weapon_e"},
--- sadge						{Id="palette.entities.npcs.cute.npc_cute_weapon_f", Translation="uiR2EDnpc_npc_cute_weapon_f"},
--- sadge					}
--- sadge				},
--- sadge				frahar = 
--- sadge				{
--- sadge					instances =
--- sadge					{
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_b", Translation="uiR2EDnpc_npc_frahar_ancient_b"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_c", Translation="uiR2EDnpc_npc_frahar_ancient_c"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_d", Translation="uiR2EDnpc_npc_frahar_ancient_d"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_e", Translation="uiR2EDnpc_npc_frahar_ancient_e"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_f", Translation="uiR2EDnpc_npc_frahar_ancient_f"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_b", Translation="uiR2EDnpc_npc_frahar_patriarchal_b"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_c", Translation="uiR2EDnpc_npc_frahar_patriarchal_c"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_d", Translation="uiR2EDnpc_npc_frahar_patriarchal_d"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_e", Translation="uiR2EDnpc_npc_frahar_patriarchal_e"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_f", Translation="uiR2EDnpc_npc_frahar_patriarchal_f"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_b", Translation="uiR2EDnpc_npc_frahar_weapon_b"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_c", Translation="uiR2EDnpc_npc_frahar_weapon_c"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_d", Translation="uiR2EDnpc_npc_frahar_weapon_d"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_e", Translation="uiR2EDnpc_npc_frahar_weapon_e"},
--- sadge						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_f", Translation="uiR2EDnpc_npc_frahar_weapon_f"},
--- sadge					}
--- sadge				},
--- sadge				gibbai = 
--- sadge				{
--- sadge					instances =
--- sadge					{
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_b", Translation="uiR2EDnpc_npc_gibbay_old_b"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_c", Translation="uiR2EDnpc_npc_gibbay_old_c"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_d", Translation="uiR2EDnpc_npc_gibbay_old_d"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_e", Translation="uiR2EDnpc_npc_gibbay_old_e"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_f", Translation="uiR2EDnpc_npc_gibbay_old_f"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_b", Translation="uiR2EDnpc_npc_gibbay_weapon_b"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_c", Translation="uiR2EDnpc_npc_gibbay_weapon_c"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_d", Translation="uiR2EDnpc_npc_gibbay_weapon_d"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_e", Translation="uiR2EDnpc_npc_gibbay_weapon_e"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_f", Translation="uiR2EDnpc_npc_gibbay_weapon_f"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_b", Translation="uiR2EDnpc_npc_gibbay_wise_b"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_c", Translation="uiR2EDnpc_npc_gibbay_wise_c"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_d", Translation="uiR2EDnpc_npc_gibbay_wise_d"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_e", Translation="uiR2EDnpc_npc_gibbay_wise_e"},
--- sadge						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_f", Translation="uiR2EDnpc_npc_gibbay_wise_f"}
--- sadge					}
--- sadge				}
--- sadge			},
+			primitives = 
+			{
+				cute = 
+				{
+					instances =
+					{
+						{Id="palette.entities.npcs.cute.npc_cute_mature_b", Translation="uiR2EDnpc_npc_cute_mature_b"},
+						{Id="palette.entities.npcs.cute.npc_cute_mature_c", Translation="uiR2EDnpc_npc_cute_mature_c"},
+						{Id="palette.entities.npcs.cute.npc_cute_mature_d", Translation="uiR2EDnpc_npc_cute_mature_d"},
+						{Id="palette.entities.npcs.cute.npc_cute_mature_e", Translation="uiR2EDnpc_npc_cute_mature_e"},
+						{Id="palette.entities.npcs.cute.npc_cute_mature_f", Translation="uiR2EDnpc_npc_cute_mature_f"},
+						{Id="palette.entities.npcs.cute.npc_cute_venerable_b", Translation="uiR2EDnpc_npc_cute_venerable_b"},
+						{Id="palette.entities.npcs.cute.npc_cute_venerable_c", Translation="uiR2EDnpc_npc_cute_venerable_c"},
+						{Id="palette.entities.npcs.cute.npc_cute_venerable_d", Translation="uiR2EDnpc_npc_cute_venerable_d"},
+						{Id="palette.entities.npcs.cute.npc_cute_venerable_e", Translation="uiR2EDnpc_npc_cute_venerable_e"},
+						{Id="palette.entities.npcs.cute.npc_cute_venerable_f", Translation="uiR2EDnpc_npc_cute_venerable_f"},
+						{Id="palette.entities.npcs.cute.npc_cute_weapon_b", Translation="uiR2EDnpc_npc_cute_weapon_b"},
+						{Id="palette.entities.npcs.cute.npc_cute_weapon_c", Translation="uiR2EDnpc_npc_cute_weapon_c"},
+						{Id="palette.entities.npcs.cute.npc_cute_weapon_d", Translation="uiR2EDnpc_npc_cute_weapon_d"},
+						{Id="palette.entities.npcs.cute.npc_cute_weapon_e", Translation="uiR2EDnpc_npc_cute_weapon_e"},
+						{Id="palette.entities.npcs.cute.npc_cute_weapon_f", Translation="uiR2EDnpc_npc_cute_weapon_f"},
+					}
+				},
+				frahar = 
+				{
+					instances =
+					{
+						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_b", Translation="uiR2EDnpc_npc_frahar_ancient_b"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_c", Translation="uiR2EDnpc_npc_frahar_ancient_c"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_d", Translation="uiR2EDnpc_npc_frahar_ancient_d"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_e", Translation="uiR2EDnpc_npc_frahar_ancient_e"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_ancient_f", Translation="uiR2EDnpc_npc_frahar_ancient_f"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_b", Translation="uiR2EDnpc_npc_frahar_patriarchal_b"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_c", Translation="uiR2EDnpc_npc_frahar_patriarchal_c"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_d", Translation="uiR2EDnpc_npc_frahar_patriarchal_d"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_e", Translation="uiR2EDnpc_npc_frahar_patriarchal_e"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_patriarchal_f", Translation="uiR2EDnpc_npc_frahar_patriarchal_f"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_b", Translation="uiR2EDnpc_npc_frahar_weapon_b"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_c", Translation="uiR2EDnpc_npc_frahar_weapon_c"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_d", Translation="uiR2EDnpc_npc_frahar_weapon_d"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_e", Translation="uiR2EDnpc_npc_frahar_weapon_e"},
+						{Id="palette.entities.npcs.frahar.npc_frahar_weapon_f", Translation="uiR2EDnpc_npc_frahar_weapon_f"},
+					}
+				},
+				gibbai = 
+				{
+					instances =
+					{
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_b", Translation="uiR2EDnpc_npc_gibbay_old_b"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_c", Translation="uiR2EDnpc_npc_gibbay_old_c"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_d", Translation="uiR2EDnpc_npc_gibbay_old_d"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_e", Translation="uiR2EDnpc_npc_gibbay_old_e"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_old_f", Translation="uiR2EDnpc_npc_gibbay_old_f"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_b", Translation="uiR2EDnpc_npc_gibbay_weapon_b"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_c", Translation="uiR2EDnpc_npc_gibbay_weapon_c"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_d", Translation="uiR2EDnpc_npc_gibbay_weapon_d"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_e", Translation="uiR2EDnpc_npc_gibbay_weapon_e"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_weapon_f", Translation="uiR2EDnpc_npc_gibbay_weapon_f"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_b", Translation="uiR2EDnpc_npc_gibbay_wise_b"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_c", Translation="uiR2EDnpc_npc_gibbay_wise_c"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_d", Translation="uiR2EDnpc_npc_gibbay_wise_d"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_e", Translation="uiR2EDnpc_npc_gibbay_wise_e"},
+						{Id="palette.entities.npcs.gibbai.npc_gibbay_wise_f", Translation="uiR2EDnpc_npc_gibbay_wise_f"}
+					}
+				}
+			},
 
 
 			kami = 
@@ -12267,6 +12466,7 @@ r2.Palette =
 --					{Id="palette.entities.players.zorai_male", Translation="uiR2EDnpc_zorai_h"},
 -- sadge					{Id="palette.entities.players.zorai_female", Translation="uiR2EDnpc_zorai_f"},
 			
+
 					{Id="palette.entities.npcs.civils.f_civil_20", Translation="uiR2EDnpc_fyros_h"},
 					{Id="palette.entities.npcs.civils.m_civil_20", Translation="uiR2EDnpc_matis_h"},
 					{Id="palette.entities.npcs.civils.t_civil_20", Translation="uiR2EDnpc_tryker_h"},
@@ -12323,6 +12523,7 @@ r2.Palette =
 					{Id="palette.entities.npcs.guards.z_guard_245", Translation="uiR2EDnpc_z_guard"},
 				}
 			},
+   
 			cuthroats =
 			{
 				instances =
@@ -12535,211 +12736,211 @@ r2.Palette =
 					{Id="palette.entities.npcs.bandits.z_mage_celestial_curser_220", Translation="uiR2EDnpc_z_mage_celestial_curser"},
 
 				},
---			
---				civillight =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b3"},
+				
+				civillight =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_b4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_c4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_d4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_e4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f1", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f2", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f3", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_blunt_f4", Translation="uiR2EDnpc_ring_civil_light_melee_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_b4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_c4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_d4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_e4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f1", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f2", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f3", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_pierce_f4", Translation="uiR2EDnpc_ring_civil_light_melee_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b3"},
 
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f4"}
---					}
---				},
---				
---				guard =
---				{
---				    guardmelee =
---				    {
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f4"}
---						}
---					},
---					guardranged =
---					{
---						instances =
---						{
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e4"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f1"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f2"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f3"},
---							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f4"}
---		  				}
---					}
---				},
---	
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_b4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_c4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_d4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_e4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f1", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f2", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f3", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_civil_light_melee_slash_f4", Translation="uiR2EDnpc_ring_civil_light_melee_slash_f4"}
+					}
+				},
+				
+				guard =
+				{
+				    guardmelee =
+				    {
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_b4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_b4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_c4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_c4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_d4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_d4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_e4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_e4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f1", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f2", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f3", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_blunt_f4", Translation="uiR2EDnpc_ring_guard_melee_tank_blunt_f4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_b4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_b4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_c4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_c4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_d4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_d4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_e4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_e4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f1", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f2", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f3", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_pierce_f4", Translation="uiR2EDnpc_ring_guard_melee_tank_pierce_f4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_b4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_b4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_c4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_c4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_d4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_d4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_e4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_e4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f1", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f2", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f3", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_melee_tank_slash_f4", Translation="uiR2EDnpc_ring_guard_melee_tank_slash_f4"}
+						}
+					},
+					guardranged =
+					{
+						instances =
+						{
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_b4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_b4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_c4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_c4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_d4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_d4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_e4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_e4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f1", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f2", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f3", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_blunt_f4", Translation="uiR2EDnpc_ring_guard_ranged_tank_blunt_f4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_b4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_b4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_c4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_c4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_d4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_d4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_e4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_e4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f1", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f2", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f3", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_pierce_f4", Translation="uiR2EDnpc_ring_guard_ranged_tank_pierce_f4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_b4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_b4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_c4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_c4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_d4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_d4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_e4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_e4"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f1", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f1"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f2", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f2"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f3", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f3"},
+							{Id="palette.entities.npcs.bandits.ring_guard_ranged_tank_slash_f4", Translation="uiR2EDnpc_ring_guard_ranged_tank_slash_f4"}
+		  				}
+					}
+				},
+	
 --				healer =
 --				{
 --				    instances =
@@ -12787,899 +12988,899 @@ r2.Palette =
 --					}
 --				},
 --	
---				lightmelee =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b1", Translation="uiR2EDnpc_ring_light_melee_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b2", Translation="uiR2EDnpc_ring_light_melee_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b3", Translation="uiR2EDnpc_ring_light_melee_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b4", Translation="uiR2EDnpc_ring_light_melee_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c1", Translation="uiR2EDnpc_ring_light_melee_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c2", Translation="uiR2EDnpc_ring_light_melee_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c3", Translation="uiR2EDnpc_ring_light_melee_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c4", Translation="uiR2EDnpc_ring_light_melee_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d1", Translation="uiR2EDnpc_ring_light_melee_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d2", Translation="uiR2EDnpc_ring_light_melee_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d3", Translation="uiR2EDnpc_ring_light_melee_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d4", Translation="uiR2EDnpc_ring_light_melee_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e1", Translation="uiR2EDnpc_ring_light_melee_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e2", Translation="uiR2EDnpc_ring_light_melee_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e3", Translation="uiR2EDnpc_ring_light_melee_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e4", Translation="uiR2EDnpc_ring_light_melee_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f1", Translation="uiR2EDnpc_ring_light_melee_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f2", Translation="uiR2EDnpc_ring_light_melee_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f3", Translation="uiR2EDnpc_ring_light_melee_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f4", Translation="uiR2EDnpc_ring_light_melee_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b1", Translation="uiR2EDnpc_ring_light_melee_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b2", Translation="uiR2EDnpc_ring_light_melee_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b3", Translation="uiR2EDnpc_ring_light_melee_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b4", Translation="uiR2EDnpc_ring_light_melee_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c1", Translation="uiR2EDnpc_ring_light_melee_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c2", Translation="uiR2EDnpc_ring_light_melee_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c3", Translation="uiR2EDnpc_ring_light_melee_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c4", Translation="uiR2EDnpc_ring_light_melee_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d1", Translation="uiR2EDnpc_ring_light_melee_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d2", Translation="uiR2EDnpc_ring_light_melee_pierce_d2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d3", Translation="uiR2EDnpc_ring_light_melee_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d4", Translation="uiR2EDnpc_ring_light_melee_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e1", Translation="uiR2EDnpc_ring_light_melee_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e2", Translation="uiR2EDnpc_ring_light_melee_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e3", Translation="uiR2EDnpc_ring_light_melee_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e4", Translation="uiR2EDnpc_ring_light_melee_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f1", Translation="uiR2EDnpc_ring_light_melee_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f2", Translation="uiR2EDnpc_ring_light_melee_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f3", Translation="uiR2EDnpc_ring_light_melee_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f4", Translation="uiR2EDnpc_ring_light_melee_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b1", Translation="uiR2EDnpc_ring_light_melee_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b2", Translation="uiR2EDnpc_ring_light_melee_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b3", Translation="uiR2EDnpc_ring_light_melee_slash_b3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b4", Translation="uiR2EDnpc_ring_light_melee_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c1", Translation="uiR2EDnpc_ring_light_melee_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c2", Translation="uiR2EDnpc_ring_light_melee_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c3", Translation="uiR2EDnpc_ring_light_melee_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c4", Translation="uiR2EDnpc_ring_light_melee_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d1", Translation="uiR2EDnpc_ring_light_melee_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d2", Translation="uiR2EDnpc_ring_light_melee_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d3", Translation="uiR2EDnpc_ring_light_melee_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d4", Translation="uiR2EDnpc_ring_light_melee_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e1", Translation="uiR2EDnpc_ring_light_melee_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e2", Translation="uiR2EDnpc_ring_light_melee_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e3", Translation="uiR2EDnpc_ring_light_melee_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e4", Translation="uiR2EDnpc_ring_light_melee_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f1", Translation="uiR2EDnpc_ring_light_melee_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f2", Translation="uiR2EDnpc_ring_light_melee_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f3", Translation="uiR2EDnpc_ring_light_melee_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f4", Translation="uiR2EDnpc_ring_light_melee_slash_f4"}
---					}
---				},
---	
---				lightranged =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b1", Translation="uiR2EDnpc_ring_light_ranged_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b2", Translation="uiR2EDnpc_ring_light_ranged_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b3", Translation="uiR2EDnpc_ring_light_ranged_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b4", Translation="uiR2EDnpc_ring_light_ranged_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c1", Translation="uiR2EDnpc_ring_light_ranged_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c2", Translation="uiR2EDnpc_ring_light_ranged_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c3", Translation="uiR2EDnpc_ring_light_ranged_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c4", Translation="uiR2EDnpc_ring_light_ranged_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d1", Translation="uiR2EDnpc_ring_light_ranged_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d2", Translation="uiR2EDnpc_ring_light_ranged_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d3", Translation="uiR2EDnpc_ring_light_ranged_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d4", Translation="uiR2EDnpc_ring_light_ranged_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e1", Translation="uiR2EDnpc_ring_light_ranged_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e2", Translation="uiR2EDnpc_ring_light_ranged_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e3", Translation="uiR2EDnpc_ring_light_ranged_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e4", Translation="uiR2EDnpc_ring_light_ranged_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f1", Translation="uiR2EDnpc_ring_light_ranged_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f2", Translation="uiR2EDnpc_ring_light_ranged_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f3", Translation="uiR2EDnpc_ring_light_ranged_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f4", Translation="uiR2EDnpc_ring_light_ranged_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b1", Translation="uiR2EDnpc_ring_light_ranged_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b2", Translation="uiR2EDnpc_ring_light_ranged_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b3", Translation="uiR2EDnpc_ring_light_ranged_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b4", Translation="uiR2EDnpc_ring_light_ranged_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c1", Translation="uiR2EDnpc_ring_light_ranged_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c2", Translation="uiR2EDnpc_ring_light_ranged_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c3", Translation="uiR2EDnpc_ring_light_ranged_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c4", Translation="uiR2EDnpc_ring_light_ranged_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d1", Translation="uiR2EDnpc_ring_light_ranged_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d2", Translation="uiR2EDnpc_ring_light_ranged_pierce_d2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d3", Translation="uiR2EDnpc_ring_light_ranged_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d4", Translation="uiR2EDnpc_ring_light_ranged_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e1", Translation="uiR2EDnpc_ring_light_ranged_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e2", Translation="uiR2EDnpc_ring_light_ranged_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e3", Translation="uiR2EDnpc_ring_light_ranged_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e4", Translation="uiR2EDnpc_ring_light_ranged_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f1", Translation="uiR2EDnpc_ring_light_ranged_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f2", Translation="uiR2EDnpc_ring_light_ranged_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f3", Translation="uiR2EDnpc_ring_light_ranged_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f4", Translation="uiR2EDnpc_ring_light_ranged_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b1", Translation="uiR2EDnpc_ring_light_ranged_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b2", Translation="uiR2EDnpc_ring_light_ranged_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b3", Translation="uiR2EDnpc_ring_light_ranged_slash_b3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b4", Translation="uiR2EDnpc_ring_light_ranged_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c1", Translation="uiR2EDnpc_ring_light_ranged_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c2", Translation="uiR2EDnpc_ring_light_ranged_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c3", Translation="uiR2EDnpc_ring_light_ranged_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c4", Translation="uiR2EDnpc_ring_light_ranged_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d1", Translation="uiR2EDnpc_ring_light_ranged_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d2", Translation="uiR2EDnpc_ring_light_ranged_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d3", Translation="uiR2EDnpc_ring_light_ranged_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d4", Translation="uiR2EDnpc_ring_light_ranged_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e1", Translation="uiR2EDnpc_ring_light_ranged_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e2", Translation="uiR2EDnpc_ring_light_ranged_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e3", Translation="uiR2EDnpc_ring_light_ranged_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e4", Translation="uiR2EDnpc_ring_light_ranged_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f1", Translation="uiR2EDnpc_ring_light_ranged_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f2", Translation="uiR2EDnpc_ring_light_ranged_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f3", Translation="uiR2EDnpc_ring_light_ranged_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f4", Translation="uiR2EDnpc_ring_light_ranged_slash_f4"}
---					}
---				},
---	
---				magicaoe =
---				{
---				    magicaoebasic =
---				    {
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b1", Translation="uiR2EDnpc_ring_magic_aoe_acid_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b2", Translation="uiR2EDnpc_ring_magic_aoe_acid_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b3", Translation="uiR2EDnpc_ring_magic_aoe_acid_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b4", Translation="uiR2EDnpc_ring_magic_aoe_acid_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c1", Translation="uiR2EDnpc_ring_magic_aoe_acid_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c2", Translation="uiR2EDnpc_ring_magic_aoe_acid_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c3", Translation="uiR2EDnpc_ring_magic_aoe_acid_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c4", Translation="uiR2EDnpc_ring_magic_aoe_acid_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d1", Translation="uiR2EDnpc_ring_magic_aoe_acid_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d2", Translation="uiR2EDnpc_ring_magic_aoe_acid_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d3", Translation="uiR2EDnpc_ring_magic_aoe_acid_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d4", Translation="uiR2EDnpc_ring_magic_aoe_acid_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e1", Translation="uiR2EDnpc_ring_magic_aoe_acid_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e2", Translation="uiR2EDnpc_ring_magic_aoe_acid_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e3", Translation="uiR2EDnpc_ring_magic_aoe_acid_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e4", Translation="uiR2EDnpc_ring_magic_aoe_acid_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f1", Translation="uiR2EDnpc_ring_magic_aoe_acid_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f2", Translation="uiR2EDnpc_ring_magic_aoe_acid_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f3", Translation="uiR2EDnpc_ring_magic_aoe_acid_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f4", Translation="uiR2EDnpc_ring_magic_aoe_acid_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b1", Translation="uiR2EDnpc_ring_magic_aoe_cold_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b2", Translation="uiR2EDnpc_ring_magic_aoe_cold_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b3", Translation="uiR2EDnpc_ring_magic_aoe_cold_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b4", Translation="uiR2EDnpc_ring_magic_aoe_cold_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c1", Translation="uiR2EDnpc_ring_magic_aoe_cold_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c2", Translation="uiR2EDnpc_ring_magic_aoe_cold_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c3", Translation="uiR2EDnpc_ring_magic_aoe_cold_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c4", Translation="uiR2EDnpc_ring_magic_aoe_cold_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d1", Translation="uiR2EDnpc_ring_magic_aoe_cold_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d2", Translation="uiR2EDnpc_ring_magic_aoe_cold_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d3", Translation="uiR2EDnpc_ring_magic_aoe_cold_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d4", Translation="uiR2EDnpc_ring_magic_aoe_cold_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e1", Translation="uiR2EDnpc_ring_magic_aoe_cold_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e2", Translation="uiR2EDnpc_ring_magic_aoe_cold_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e3", Translation="uiR2EDnpc_ring_magic_aoe_cold_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e4", Translation="uiR2EDnpc_ring_magic_aoe_cold_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f1", Translation="uiR2EDnpc_ring_magic_aoe_cold_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f2", Translation="uiR2EDnpc_ring_magic_aoe_cold_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f3", Translation="uiR2EDnpc_ring_magic_aoe_cold_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f4", Translation="uiR2EDnpc_ring_magic_aoe_cold_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b1", Translation="uiR2EDnpc_ring_magic_aoe_rot_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b2", Translation="uiR2EDnpc_ring_magic_aoe_rot_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b3", Translation="uiR2EDnpc_ring_magic_aoe_rot_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b4", Translation="uiR2EDnpc_ring_magic_aoe_rot_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c1", Translation="uiR2EDnpc_ring_magic_aoe_rot_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c2", Translation="uiR2EDnpc_ring_magic_aoe_rot_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c3", Translation="uiR2EDnpc_ring_magic_aoe_rot_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c4", Translation="uiR2EDnpc_ring_magic_aoe_rot_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d1", Translation="uiR2EDnpc_ring_magic_aoe_rot_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d2", Translation="uiR2EDnpc_ring_magic_aoe_rot_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d3", Translation="uiR2EDnpc_ring_magic_aoe_rot_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d4", Translation="uiR2EDnpc_ring_magic_aoe_rot_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e1", Translation="uiR2EDnpc_ring_magic_aoe_rot_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e2", Translation="uiR2EDnpc_ring_magic_aoe_rot_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e3", Translation="uiR2EDnpc_ring_magic_aoe_rot_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e4", Translation="uiR2EDnpc_ring_magic_aoe_rot_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f1", Translation="uiR2EDnpc_ring_magic_aoe_rot_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f2", Translation="uiR2EDnpc_ring_magic_aoe_rot_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f3", Translation="uiR2EDnpc_ring_magic_aoe_rot_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f4", Translation="uiR2EDnpc_ring_magic_aoe_rot_f4"}
---						}
---					},
---	   				magicaoeracial =
---					{
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b1", Translation="uiR2EDnpc_ring_magic_aoe_fire_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b2", Translation="uiR2EDnpc_ring_magic_aoe_fire_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b3", Translation="uiR2EDnpc_ring_magic_aoe_fire_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b4", Translation="uiR2EDnpc_ring_magic_aoe_fire_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c1", Translation="uiR2EDnpc_ring_magic_aoe_fire_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c2", Translation="uiR2EDnpc_ring_magic_aoe_fire_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c3", Translation="uiR2EDnpc_ring_magic_aoe_fire_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c4", Translation="uiR2EDnpc_ring_magic_aoe_fire_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d1", Translation="uiR2EDnpc_ring_magic_aoe_fire_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d2", Translation="uiR2EDnpc_ring_magic_aoe_fire_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d3", Translation="uiR2EDnpc_ring_magic_aoe_fire_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d4", Translation="uiR2EDnpc_ring_magic_aoe_fire_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e1", Translation="uiR2EDnpc_ring_magic_aoe_fire_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e2", Translation="uiR2EDnpc_ring_magic_aoe_fire_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e3", Translation="uiR2EDnpc_ring_magic_aoe_fire_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e4", Translation="uiR2EDnpc_ring_magic_aoe_fire_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f1", Translation="uiR2EDnpc_ring_magic_aoe_fire_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f2", Translation="uiR2EDnpc_ring_magic_aoe_fire_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f3", Translation="uiR2EDnpc_ring_magic_aoe_fire_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f4", Translation="uiR2EDnpc_ring_magic_aoe_fire_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b1", Translation="uiR2EDnpc_ring_magic_aoe_poison_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b2", Translation="uiR2EDnpc_ring_magic_aoe_poison_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b3", Translation="uiR2EDnpc_ring_magic_aoe_poison_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b4", Translation="uiR2EDnpc_ring_magic_aoe_poison_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c1", Translation="uiR2EDnpc_ring_magic_aoe_poison_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c2", Translation="uiR2EDnpc_ring_magic_aoe_poison_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c3", Translation="uiR2EDnpc_ring_magic_aoe_poison_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c4", Translation="uiR2EDnpc_ring_magic_aoe_poison_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d1", Translation="uiR2EDnpc_ring_magic_aoe_poison_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d2", Translation="uiR2EDnpc_ring_magic_aoe_poison_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d3", Translation="uiR2EDnpc_ring_magic_aoe_poison_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d4", Translation="uiR2EDnpc_ring_magic_aoe_poison_d4"},
---	
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e1", Translation="uiR2EDnpc_ring_magic_aoe_poison_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e2", Translation="uiR2EDnpc_ring_magic_aoe_poison_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e3", Translation="uiR2EDnpc_ring_magic_aoe_poison_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e4", Translation="uiR2EDnpc_ring_magic_aoe_poison_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f1", Translation="uiR2EDnpc_ring_magic_aoe_poison_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f2", Translation="uiR2EDnpc_ring_magic_aoe_poison_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f3", Translation="uiR2EDnpc_ring_magic_aoe_poison_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f4", Translation="uiR2EDnpc_ring_magic_aoe_poison_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f4"}
---						}
---					}
---				},
---	
---				magiccurser =
---				{
---				    magiccurseratysianaffliction =
---				    {
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b1", Translation="uiR2EDnpc_ring_magic_curser_blind_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b2", Translation="uiR2EDnpc_ring_magic_curser_blind_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b3", Translation="uiR2EDnpc_ring_magic_curser_blind_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b4", Translation="uiR2EDnpc_ring_magic_curser_blind_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c1", Translation="uiR2EDnpc_ring_magic_curser_blind_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c2", Translation="uiR2EDnpc_ring_magic_curser_blind_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c3", Translation="uiR2EDnpc_ring_magic_curser_blind_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c4", Translation="uiR2EDnpc_ring_magic_curser_blind_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d1", Translation="uiR2EDnpc_ring_magic_curser_blind_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d2", Translation="uiR2EDnpc_ring_magic_curser_blind_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d3", Translation="uiR2EDnpc_ring_magic_curser_blind_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d4", Translation="uiR2EDnpc_ring_magic_curser_blind_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e1", Translation="uiR2EDnpc_ring_magic_curser_blind_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e2", Translation="uiR2EDnpc_ring_magic_curser_blind_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e3", Translation="uiR2EDnpc_ring_magic_curser_blind_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e4", Translation="uiR2EDnpc_ring_magic_curser_blind_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f1", Translation="uiR2EDnpc_ring_magic_curser_blind_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f2", Translation="uiR2EDnpc_ring_magic_curser_blind_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f3", Translation="uiR2EDnpc_ring_magic_curser_blind_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f4", Translation="uiR2EDnpc_ring_magic_curser_blind_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b1", Translation="uiR2EDnpc_ring_magic_curser_madness_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b2", Translation="uiR2EDnpc_ring_magic_curser_madness_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b3", Translation="uiR2EDnpc_ring_magic_curser_madness_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b4", Translation="uiR2EDnpc_ring_magic_curser_madness_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c1", Translation="uiR2EDnpc_ring_magic_curser_madness_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c2", Translation="uiR2EDnpc_ring_magic_curser_madness_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c3", Translation="uiR2EDnpc_ring_magic_curser_madness_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c4", Translation="uiR2EDnpc_ring_magic_curser_madness_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d1", Translation="uiR2EDnpc_ring_magic_curser_madness_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d2", Translation="uiR2EDnpc_ring_magic_curser_madness_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d3", Translation="uiR2EDnpc_ring_magic_curser_madness_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d4", Translation="uiR2EDnpc_ring_magic_curser_madness_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e1", Translation="uiR2EDnpc_ring_magic_curser_madness_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e2", Translation="uiR2EDnpc_ring_magic_curser_madness_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e3", Translation="uiR2EDnpc_ring_magic_curser_madness_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e4", Translation="uiR2EDnpc_ring_magic_curser_madness_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f1", Translation="uiR2EDnpc_ring_magic_curser_madness_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f2", Translation="uiR2EDnpc_ring_magic_curser_madness_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f3", Translation="uiR2EDnpc_ring_magic_curser_madness_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f4", Translation="uiR2EDnpc_ring_magic_curser_madness_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b1", Translation="uiR2EDnpc_ring_magic_curser_root_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b2", Translation="uiR2EDnpc_ring_magic_curser_root_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b3", Translation="uiR2EDnpc_ring_magic_curser_root_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b4", Translation="uiR2EDnpc_ring_magic_curser_root_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c1", Translation="uiR2EDnpc_ring_magic_curser_root_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c2", Translation="uiR2EDnpc_ring_magic_curser_root_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c3", Translation="uiR2EDnpc_ring_magic_curser_root_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c4", Translation="uiR2EDnpc_ring_magic_curser_root_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d1", Translation="uiR2EDnpc_ring_magic_curser_root_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d2", Translation="uiR2EDnpc_ring_magic_curser_root_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d3", Translation="uiR2EDnpc_ring_magic_curser_root_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d4", Translation="uiR2EDnpc_ring_magic_curser_root_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e1", Translation="uiR2EDnpc_ring_magic_curser_root_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e2", Translation="uiR2EDnpc_ring_magic_curser_root_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e3", Translation="uiR2EDnpc_ring_magic_curser_root_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e4", Translation="uiR2EDnpc_ring_magic_curser_root_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f1", Translation="uiR2EDnpc_ring_magic_curser_root_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f2", Translation="uiR2EDnpc_ring_magic_curser_root_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f3", Translation="uiR2EDnpc_ring_magic_curser_root_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f4", Translation="uiR2EDnpc_ring_magic_curser_root_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b1", Translation="uiR2EDnpc_ring_magic_curser_slow_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b2", Translation="uiR2EDnpc_ring_magic_curser_slow_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b3", Translation="uiR2EDnpc_ring_magic_curser_slow_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b4", Translation="uiR2EDnpc_ring_magic_curser_slow_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c1", Translation="uiR2EDnpc_ring_magic_curser_slow_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c2", Translation="uiR2EDnpc_ring_magic_curser_slow_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c3", Translation="uiR2EDnpc_ring_magic_curser_slow_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c4", Translation="uiR2EDnpc_ring_magic_curser_slow_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d1", Translation="uiR2EDnpc_ring_magic_curser_slow_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d2", Translation="uiR2EDnpc_ring_magic_curser_slow_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d3", Translation="uiR2EDnpc_ring_magic_curser_slow_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d4", Translation="uiR2EDnpc_ring_magic_curser_slow_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e1", Translation="uiR2EDnpc_ring_magic_curser_slow_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e2", Translation="uiR2EDnpc_ring_magic_curser_slow_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e3", Translation="uiR2EDnpc_ring_magic_curser_slow_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e4", Translation="uiR2EDnpc_ring_magic_curser_slow_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f1", Translation="uiR2EDnpc_ring_magic_curser_slow_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f2", Translation="uiR2EDnpc_ring_magic_curser_slow_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f3", Translation="uiR2EDnpc_ring_magic_curser_slow_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f4", Translation="uiR2EDnpc_ring_magic_curser_slow_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b1", Translation="uiR2EDnpc_ring_magic_curser_snare_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b2", Translation="uiR2EDnpc_ring_magic_curser_snare_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b3", Translation="uiR2EDnpc_ring_magic_curser_snare_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b4", Translation="uiR2EDnpc_ring_magic_curser_snare_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c1", Translation="uiR2EDnpc_ring_magic_curser_snare_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c2", Translation="uiR2EDnpc_ring_magic_curser_snare_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c3", Translation="uiR2EDnpc_ring_magic_curser_snare_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c4", Translation="uiR2EDnpc_ring_magic_curser_snare_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d1", Translation="uiR2EDnpc_ring_magic_curser_snare_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d2", Translation="uiR2EDnpc_ring_magic_curser_snare_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d3", Translation="uiR2EDnpc_ring_magic_curser_snare_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d4", Translation="uiR2EDnpc_ring_magic_curser_snare_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e1", Translation="uiR2EDnpc_ring_magic_curser_snare_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e2", Translation="uiR2EDnpc_ring_magic_curser_snare_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e3", Translation="uiR2EDnpc_ring_magic_curser_snare_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e4", Translation="uiR2EDnpc_ring_magic_curser_snare_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f1", Translation="uiR2EDnpc_ring_magic_curser_snare_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f2", Translation="uiR2EDnpc_ring_magic_curser_snare_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f3", Translation="uiR2EDnpc_ring_magic_curser_snare_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f4", Translation="uiR2EDnpc_ring_magic_curser_snare_f4"}
---						}
---					},
---					magiccursercelestialaffliction =
---				    {
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b1", Translation="uiR2EDnpc_ring_magic_curser_fear_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b2", Translation="uiR2EDnpc_ring_magic_curser_fear_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b3", Translation="uiR2EDnpc_ring_magic_curser_fear_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b4", Translation="uiR2EDnpc_ring_magic_curser_fear_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c1", Translation="uiR2EDnpc_ring_magic_curser_fear_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c2", Translation="uiR2EDnpc_ring_magic_curser_fear_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c3", Translation="uiR2EDnpc_ring_magic_curser_fear_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c4", Translation="uiR2EDnpc_ring_magic_curser_fear_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d1", Translation="uiR2EDnpc_ring_magic_curser_fear_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d2", Translation="uiR2EDnpc_ring_magic_curser_fear_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d3", Translation="uiR2EDnpc_ring_magic_curser_fear_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d4", Translation="uiR2EDnpc_ring_magic_curser_fear_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e1", Translation="uiR2EDnpc_ring_magic_curser_fear_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e2", Translation="uiR2EDnpc_ring_magic_curser_fear_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e3", Translation="uiR2EDnpc_ring_magic_curser_fear_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e4", Translation="uiR2EDnpc_ring_magic_curser_fear_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f1", Translation="uiR2EDnpc_ring_magic_curser_fear_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f2", Translation="uiR2EDnpc_ring_magic_curser_fear_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f3", Translation="uiR2EDnpc_ring_magic_curser_fear_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f4", Translation="uiR2EDnpc_ring_magic_curser_fear_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b1", Translation="uiR2EDnpc_ring_magic_curser_sleep_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b2", Translation="uiR2EDnpc_ring_magic_curser_sleep_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b3", Translation="uiR2EDnpc_ring_magic_curser_sleep_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b4", Translation="uiR2EDnpc_ring_magic_curser_sleep_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c1", Translation="uiR2EDnpc_ring_magic_curser_sleep_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c2", Translation="uiR2EDnpc_ring_magic_curser_sleep_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c3", Translation="uiR2EDnpc_ring_magic_curser_sleep_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c4", Translation="uiR2EDnpc_ring_magic_curser_sleep_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d1", Translation="uiR2EDnpc_ring_magic_curser_sleep_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d2", Translation="uiR2EDnpc_ring_magic_curser_sleep_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d3", Translation="uiR2EDnpc_ring_magic_curser_sleep_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d4", Translation="uiR2EDnpc_ring_magic_curser_sleep_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e1", Translation="uiR2EDnpc_ring_magic_curser_sleep_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e2", Translation="uiR2EDnpc_ring_magic_curser_sleep_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e3", Translation="uiR2EDnpc_ring_magic_curser_sleep_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e4", Translation="uiR2EDnpc_ring_magic_curser_sleep_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f1", Translation="uiR2EDnpc_ring_magic_curser_sleep_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f2", Translation="uiR2EDnpc_ring_magic_curser_sleep_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f3", Translation="uiR2EDnpc_ring_magic_curser_sleep_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f4", Translation="uiR2EDnpc_ring_magic_curser_sleep_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b1", Translation="uiR2EDnpc_ring_magic_curser_stun_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b2", Translation="uiR2EDnpc_ring_magic_curser_stun_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b3", Translation="uiR2EDnpc_ring_magic_curser_stun_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b4", Translation="uiR2EDnpc_ring_magic_curser_stun_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c1", Translation="uiR2EDnpc_ring_magic_curser_stun_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c2", Translation="uiR2EDnpc_ring_magic_curser_stun_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c3", Translation="uiR2EDnpc_ring_magic_curser_stun_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c4", Translation="uiR2EDnpc_ring_magic_curser_stun_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d1", Translation="uiR2EDnpc_ring_magic_curser_stun_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d2", Translation="uiR2EDnpc_ring_magic_curser_stun_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d3", Translation="uiR2EDnpc_ring_magic_curser_stun_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d4", Translation="uiR2EDnpc_ring_magic_curser_stun_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e1", Translation="uiR2EDnpc_ring_magic_curser_stun_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e2", Translation="uiR2EDnpc_ring_magic_curser_stun_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e3", Translation="uiR2EDnpc_ring_magic_curser_stun_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e4", Translation="uiR2EDnpc_ring_magic_curser_stun_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f1", Translation="uiR2EDnpc_ring_magic_curser_stun_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f2", Translation="uiR2EDnpc_ring_magic_curser_stun_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f3", Translation="uiR2EDnpc_ring_magic_curser_stun_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f4", Translation="uiR2EDnpc_ring_magic_curser_stun_f4"}
---	
---						}
---					}
---				},
---	
---				magicdamagedealer =
---				{
---					magicdamagedealerbasic =
---					{
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f4"}
---	 	   				}
---					},
---					magicdamagedealerracial =
---					{
---					    instances =
---					    {
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e4"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f1"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f2"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f3"},
---							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f4"},
---	
---					    }
---					}
---				},
---	
---				meleedamagedealer =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f4"}
---					}
---				},
---	
---				meleetank =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b1", Translation="uiR2EDnpc_ring_melee_tank_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b2", Translation="uiR2EDnpc_ring_melee_tank_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b3", Translation="uiR2EDnpc_ring_melee_tank_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b4", Translation="uiR2EDnpc_ring_melee_tank_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c1", Translation="uiR2EDnpc_ring_melee_tank_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c2", Translation="uiR2EDnpc_ring_melee_tank_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c3", Translation="uiR2EDnpc_ring_melee_tank_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c4", Translation="uiR2EDnpc_ring_melee_tank_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d1", Translation="uiR2EDnpc_ring_melee_tank_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d2", Translation="uiR2EDnpc_ring_melee_tank_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d3", Translation="uiR2EDnpc_ring_melee_tank_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d4", Translation="uiR2EDnpc_ring_melee_tank_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e1", Translation="uiR2EDnpc_ring_melee_tank_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e2", Translation="uiR2EDnpc_ring_melee_tank_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e3", Translation="uiR2EDnpc_ring_melee_tank_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e4", Translation="uiR2EDnpc_ring_melee_tank_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f1", Translation="uiR2EDnpc_ring_melee_tank_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f2", Translation="uiR2EDnpc_ring_melee_tank_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f3", Translation="uiR2EDnpc_ring_melee_tank_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f4", Translation="uiR2EDnpc_ring_melee_tank_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b1", Translation="uiR2EDnpc_ring_melee_tank_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b2", Translation="uiR2EDnpc_ring_melee_tank_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b3", Translation="uiR2EDnpc_ring_melee_tank_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b4", Translation="uiR2EDnpc_ring_melee_tank_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c1", Translation="uiR2EDnpc_ring_melee_tank_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c2", Translation="uiR2EDnpc_ring_melee_tank_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c3", Translation="uiR2EDnpc_ring_melee_tank_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c4", Translation="uiR2EDnpc_ring_melee_tank_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d1", Translation="uiR2EDnpc_ring_melee_tank_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d2", Translation="uiR2EDnpc_ring_melee_tank_pierce_d2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d3", Translation="uiR2EDnpc_ring_melee_tank_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d4", Translation="uiR2EDnpc_ring_melee_tank_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e1", Translation="uiR2EDnpc_ring_melee_tank_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e2", Translation="uiR2EDnpc_ring_melee_tank_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e3", Translation="uiR2EDnpc_ring_melee_tank_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e4", Translation="uiR2EDnpc_ring_melee_tank_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f1", Translation="uiR2EDnpc_ring_melee_tank_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f2", Translation="uiR2EDnpc_ring_melee_tank_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f3", Translation="uiR2EDnpc_ring_melee_tank_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f4", Translation="uiR2EDnpc_ring_melee_tank_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b1", Translation="uiR2EDnpc_ring_melee_tank_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b2", Translation="uiR2EDnpc_ring_melee_tank_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b3", Translation="uiR2EDnpc_ring_melee_tank_slash_b3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b4", Translation="uiR2EDnpc_ring_melee_tank_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c1", Translation="uiR2EDnpc_ring_melee_tank_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c2", Translation="uiR2EDnpc_ring_melee_tank_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c3", Translation="uiR2EDnpc_ring_melee_tank_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c4", Translation="uiR2EDnpc_ring_melee_tank_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d1", Translation="uiR2EDnpc_ring_melee_tank_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d2", Translation="uiR2EDnpc_ring_melee_tank_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d3", Translation="uiR2EDnpc_ring_melee_tank_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d4", Translation="uiR2EDnpc_ring_melee_tank_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e1", Translation="uiR2EDnpc_ring_melee_tank_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e2", Translation="uiR2EDnpc_ring_melee_tank_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e3", Translation="uiR2EDnpc_ring_melee_tank_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e4", Translation="uiR2EDnpc_ring_melee_tank_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f1", Translation="uiR2EDnpc_ring_melee_tank_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f2", Translation="uiR2EDnpc_ring_melee_tank_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f3", Translation="uiR2EDnpc_ring_melee_tank_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f4", Translation="uiR2EDnpc_ring_melee_tank_slash_f4"}
---	 				}
---				},
---	
---				rangeddamagedealer =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f4"}
---					}
---				},
---	
---				rangedtank =
---				{
---				    instances =
---				    {
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d2"},
+				lightmelee =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b1", Translation="uiR2EDnpc_ring_light_melee_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b2", Translation="uiR2EDnpc_ring_light_melee_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b3", Translation="uiR2EDnpc_ring_light_melee_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_b4", Translation="uiR2EDnpc_ring_light_melee_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c1", Translation="uiR2EDnpc_ring_light_melee_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c2", Translation="uiR2EDnpc_ring_light_melee_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c3", Translation="uiR2EDnpc_ring_light_melee_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_c4", Translation="uiR2EDnpc_ring_light_melee_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d1", Translation="uiR2EDnpc_ring_light_melee_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d2", Translation="uiR2EDnpc_ring_light_melee_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d3", Translation="uiR2EDnpc_ring_light_melee_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_d4", Translation="uiR2EDnpc_ring_light_melee_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e1", Translation="uiR2EDnpc_ring_light_melee_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e2", Translation="uiR2EDnpc_ring_light_melee_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e3", Translation="uiR2EDnpc_ring_light_melee_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_e4", Translation="uiR2EDnpc_ring_light_melee_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f1", Translation="uiR2EDnpc_ring_light_melee_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f2", Translation="uiR2EDnpc_ring_light_melee_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f3", Translation="uiR2EDnpc_ring_light_melee_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_blunt_f4", Translation="uiR2EDnpc_ring_light_melee_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b1", Translation="uiR2EDnpc_ring_light_melee_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b2", Translation="uiR2EDnpc_ring_light_melee_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b3", Translation="uiR2EDnpc_ring_light_melee_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_b4", Translation="uiR2EDnpc_ring_light_melee_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c1", Translation="uiR2EDnpc_ring_light_melee_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c2", Translation="uiR2EDnpc_ring_light_melee_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c3", Translation="uiR2EDnpc_ring_light_melee_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_c4", Translation="uiR2EDnpc_ring_light_melee_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d1", Translation="uiR2EDnpc_ring_light_melee_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d2", Translation="uiR2EDnpc_ring_light_melee_pierce_d2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d3", Translation="uiR2EDnpc_ring_light_melee_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_d4", Translation="uiR2EDnpc_ring_light_melee_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e1", Translation="uiR2EDnpc_ring_light_melee_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e2", Translation="uiR2EDnpc_ring_light_melee_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e3", Translation="uiR2EDnpc_ring_light_melee_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_e4", Translation="uiR2EDnpc_ring_light_melee_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f1", Translation="uiR2EDnpc_ring_light_melee_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f2", Translation="uiR2EDnpc_ring_light_melee_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f3", Translation="uiR2EDnpc_ring_light_melee_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_pierce_f4", Translation="uiR2EDnpc_ring_light_melee_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b1", Translation="uiR2EDnpc_ring_light_melee_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b2", Translation="uiR2EDnpc_ring_light_melee_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b3", Translation="uiR2EDnpc_ring_light_melee_slash_b3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_b4", Translation="uiR2EDnpc_ring_light_melee_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c1", Translation="uiR2EDnpc_ring_light_melee_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c2", Translation="uiR2EDnpc_ring_light_melee_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c3", Translation="uiR2EDnpc_ring_light_melee_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_c4", Translation="uiR2EDnpc_ring_light_melee_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d1", Translation="uiR2EDnpc_ring_light_melee_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d2", Translation="uiR2EDnpc_ring_light_melee_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d3", Translation="uiR2EDnpc_ring_light_melee_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_d4", Translation="uiR2EDnpc_ring_light_melee_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e1", Translation="uiR2EDnpc_ring_light_melee_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e2", Translation="uiR2EDnpc_ring_light_melee_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e3", Translation="uiR2EDnpc_ring_light_melee_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_e4", Translation="uiR2EDnpc_ring_light_melee_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f1", Translation="uiR2EDnpc_ring_light_melee_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f2", Translation="uiR2EDnpc_ring_light_melee_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f3", Translation="uiR2EDnpc_ring_light_melee_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_light_melee_slash_f4", Translation="uiR2EDnpc_ring_light_melee_slash_f4"}
+					}
+				},
+	
+				lightranged =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b1", Translation="uiR2EDnpc_ring_light_ranged_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b2", Translation="uiR2EDnpc_ring_light_ranged_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b3", Translation="uiR2EDnpc_ring_light_ranged_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_b4", Translation="uiR2EDnpc_ring_light_ranged_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c1", Translation="uiR2EDnpc_ring_light_ranged_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c2", Translation="uiR2EDnpc_ring_light_ranged_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c3", Translation="uiR2EDnpc_ring_light_ranged_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_c4", Translation="uiR2EDnpc_ring_light_ranged_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d1", Translation="uiR2EDnpc_ring_light_ranged_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d2", Translation="uiR2EDnpc_ring_light_ranged_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d3", Translation="uiR2EDnpc_ring_light_ranged_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_d4", Translation="uiR2EDnpc_ring_light_ranged_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e1", Translation="uiR2EDnpc_ring_light_ranged_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e2", Translation="uiR2EDnpc_ring_light_ranged_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e3", Translation="uiR2EDnpc_ring_light_ranged_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_e4", Translation="uiR2EDnpc_ring_light_ranged_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f1", Translation="uiR2EDnpc_ring_light_ranged_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f2", Translation="uiR2EDnpc_ring_light_ranged_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f3", Translation="uiR2EDnpc_ring_light_ranged_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_blunt_f4", Translation="uiR2EDnpc_ring_light_ranged_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b1", Translation="uiR2EDnpc_ring_light_ranged_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b2", Translation="uiR2EDnpc_ring_light_ranged_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b3", Translation="uiR2EDnpc_ring_light_ranged_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_b4", Translation="uiR2EDnpc_ring_light_ranged_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c1", Translation="uiR2EDnpc_ring_light_ranged_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c2", Translation="uiR2EDnpc_ring_light_ranged_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c3", Translation="uiR2EDnpc_ring_light_ranged_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_c4", Translation="uiR2EDnpc_ring_light_ranged_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d1", Translation="uiR2EDnpc_ring_light_ranged_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d2", Translation="uiR2EDnpc_ring_light_ranged_pierce_d2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d3", Translation="uiR2EDnpc_ring_light_ranged_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_d4", Translation="uiR2EDnpc_ring_light_ranged_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e1", Translation="uiR2EDnpc_ring_light_ranged_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e2", Translation="uiR2EDnpc_ring_light_ranged_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e3", Translation="uiR2EDnpc_ring_light_ranged_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_e4", Translation="uiR2EDnpc_ring_light_ranged_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f1", Translation="uiR2EDnpc_ring_light_ranged_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f2", Translation="uiR2EDnpc_ring_light_ranged_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f3", Translation="uiR2EDnpc_ring_light_ranged_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_pierce_f4", Translation="uiR2EDnpc_ring_light_ranged_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b1", Translation="uiR2EDnpc_ring_light_ranged_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b2", Translation="uiR2EDnpc_ring_light_ranged_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b3", Translation="uiR2EDnpc_ring_light_ranged_slash_b3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_b4", Translation="uiR2EDnpc_ring_light_ranged_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c1", Translation="uiR2EDnpc_ring_light_ranged_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c2", Translation="uiR2EDnpc_ring_light_ranged_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c3", Translation="uiR2EDnpc_ring_light_ranged_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_c4", Translation="uiR2EDnpc_ring_light_ranged_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d1", Translation="uiR2EDnpc_ring_light_ranged_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d2", Translation="uiR2EDnpc_ring_light_ranged_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d3", Translation="uiR2EDnpc_ring_light_ranged_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_d4", Translation="uiR2EDnpc_ring_light_ranged_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e1", Translation="uiR2EDnpc_ring_light_ranged_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e2", Translation="uiR2EDnpc_ring_light_ranged_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e3", Translation="uiR2EDnpc_ring_light_ranged_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_e4", Translation="uiR2EDnpc_ring_light_ranged_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f1", Translation="uiR2EDnpc_ring_light_ranged_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f2", Translation="uiR2EDnpc_ring_light_ranged_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f3", Translation="uiR2EDnpc_ring_light_ranged_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_light_ranged_slash_f4", Translation="uiR2EDnpc_ring_light_ranged_slash_f4"}
+					}
+				},
+	
+				magicaoe =
+				{
+				    magicaoebasic =
+				    {
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b1", Translation="uiR2EDnpc_ring_magic_aoe_acid_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b2", Translation="uiR2EDnpc_ring_magic_aoe_acid_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b3", Translation="uiR2EDnpc_ring_magic_aoe_acid_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_b4", Translation="uiR2EDnpc_ring_magic_aoe_acid_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c1", Translation="uiR2EDnpc_ring_magic_aoe_acid_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c2", Translation="uiR2EDnpc_ring_magic_aoe_acid_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c3", Translation="uiR2EDnpc_ring_magic_aoe_acid_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_c4", Translation="uiR2EDnpc_ring_magic_aoe_acid_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d1", Translation="uiR2EDnpc_ring_magic_aoe_acid_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d2", Translation="uiR2EDnpc_ring_magic_aoe_acid_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d3", Translation="uiR2EDnpc_ring_magic_aoe_acid_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_d4", Translation="uiR2EDnpc_ring_magic_aoe_acid_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e1", Translation="uiR2EDnpc_ring_magic_aoe_acid_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e2", Translation="uiR2EDnpc_ring_magic_aoe_acid_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e3", Translation="uiR2EDnpc_ring_magic_aoe_acid_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_e4", Translation="uiR2EDnpc_ring_magic_aoe_acid_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f1", Translation="uiR2EDnpc_ring_magic_aoe_acid_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f2", Translation="uiR2EDnpc_ring_magic_aoe_acid_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f3", Translation="uiR2EDnpc_ring_magic_aoe_acid_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_acid_f4", Translation="uiR2EDnpc_ring_magic_aoe_acid_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b1", Translation="uiR2EDnpc_ring_magic_aoe_cold_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b2", Translation="uiR2EDnpc_ring_magic_aoe_cold_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b3", Translation="uiR2EDnpc_ring_magic_aoe_cold_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_b4", Translation="uiR2EDnpc_ring_magic_aoe_cold_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c1", Translation="uiR2EDnpc_ring_magic_aoe_cold_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c2", Translation="uiR2EDnpc_ring_magic_aoe_cold_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c3", Translation="uiR2EDnpc_ring_magic_aoe_cold_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_c4", Translation="uiR2EDnpc_ring_magic_aoe_cold_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d1", Translation="uiR2EDnpc_ring_magic_aoe_cold_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d2", Translation="uiR2EDnpc_ring_magic_aoe_cold_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d3", Translation="uiR2EDnpc_ring_magic_aoe_cold_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_d4", Translation="uiR2EDnpc_ring_magic_aoe_cold_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e1", Translation="uiR2EDnpc_ring_magic_aoe_cold_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e2", Translation="uiR2EDnpc_ring_magic_aoe_cold_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e3", Translation="uiR2EDnpc_ring_magic_aoe_cold_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_e4", Translation="uiR2EDnpc_ring_magic_aoe_cold_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f1", Translation="uiR2EDnpc_ring_magic_aoe_cold_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f2", Translation="uiR2EDnpc_ring_magic_aoe_cold_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f3", Translation="uiR2EDnpc_ring_magic_aoe_cold_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_cold_f4", Translation="uiR2EDnpc_ring_magic_aoe_cold_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b1", Translation="uiR2EDnpc_ring_magic_aoe_rot_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b2", Translation="uiR2EDnpc_ring_magic_aoe_rot_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b3", Translation="uiR2EDnpc_ring_magic_aoe_rot_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_b4", Translation="uiR2EDnpc_ring_magic_aoe_rot_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c1", Translation="uiR2EDnpc_ring_magic_aoe_rot_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c2", Translation="uiR2EDnpc_ring_magic_aoe_rot_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c3", Translation="uiR2EDnpc_ring_magic_aoe_rot_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_c4", Translation="uiR2EDnpc_ring_magic_aoe_rot_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d1", Translation="uiR2EDnpc_ring_magic_aoe_rot_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d2", Translation="uiR2EDnpc_ring_magic_aoe_rot_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d3", Translation="uiR2EDnpc_ring_magic_aoe_rot_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_d4", Translation="uiR2EDnpc_ring_magic_aoe_rot_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e1", Translation="uiR2EDnpc_ring_magic_aoe_rot_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e2", Translation="uiR2EDnpc_ring_magic_aoe_rot_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e3", Translation="uiR2EDnpc_ring_magic_aoe_rot_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_e4", Translation="uiR2EDnpc_ring_magic_aoe_rot_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f1", Translation="uiR2EDnpc_ring_magic_aoe_rot_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f2", Translation="uiR2EDnpc_ring_magic_aoe_rot_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f3", Translation="uiR2EDnpc_ring_magic_aoe_rot_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_rot_f4", Translation="uiR2EDnpc_ring_magic_aoe_rot_f4"}
+						}
+					},
+	   				magicaoeracial =
+					{
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_b4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_c4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_d4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_e4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f1", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f2", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f3", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_electricity_f4", Translation="uiR2EDnpc_ring_magic_aoe_electricity_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b1", Translation="uiR2EDnpc_ring_magic_aoe_fire_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b2", Translation="uiR2EDnpc_ring_magic_aoe_fire_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b3", Translation="uiR2EDnpc_ring_magic_aoe_fire_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_b4", Translation="uiR2EDnpc_ring_magic_aoe_fire_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c1", Translation="uiR2EDnpc_ring_magic_aoe_fire_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c2", Translation="uiR2EDnpc_ring_magic_aoe_fire_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c3", Translation="uiR2EDnpc_ring_magic_aoe_fire_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_c4", Translation="uiR2EDnpc_ring_magic_aoe_fire_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d1", Translation="uiR2EDnpc_ring_magic_aoe_fire_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d2", Translation="uiR2EDnpc_ring_magic_aoe_fire_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d3", Translation="uiR2EDnpc_ring_magic_aoe_fire_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_d4", Translation="uiR2EDnpc_ring_magic_aoe_fire_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e1", Translation="uiR2EDnpc_ring_magic_aoe_fire_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e2", Translation="uiR2EDnpc_ring_magic_aoe_fire_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e3", Translation="uiR2EDnpc_ring_magic_aoe_fire_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_e4", Translation="uiR2EDnpc_ring_magic_aoe_fire_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f1", Translation="uiR2EDnpc_ring_magic_aoe_fire_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f2", Translation="uiR2EDnpc_ring_magic_aoe_fire_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f3", Translation="uiR2EDnpc_ring_magic_aoe_fire_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_fire_f4", Translation="uiR2EDnpc_ring_magic_aoe_fire_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b1", Translation="uiR2EDnpc_ring_magic_aoe_poison_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b2", Translation="uiR2EDnpc_ring_magic_aoe_poison_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b3", Translation="uiR2EDnpc_ring_magic_aoe_poison_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_b4", Translation="uiR2EDnpc_ring_magic_aoe_poison_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c1", Translation="uiR2EDnpc_ring_magic_aoe_poison_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c2", Translation="uiR2EDnpc_ring_magic_aoe_poison_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c3", Translation="uiR2EDnpc_ring_magic_aoe_poison_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_c4", Translation="uiR2EDnpc_ring_magic_aoe_poison_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d1", Translation="uiR2EDnpc_ring_magic_aoe_poison_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d2", Translation="uiR2EDnpc_ring_magic_aoe_poison_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d3", Translation="uiR2EDnpc_ring_magic_aoe_poison_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_d4", Translation="uiR2EDnpc_ring_magic_aoe_poison_d4"},
+	
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e1", Translation="uiR2EDnpc_ring_magic_aoe_poison_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e2", Translation="uiR2EDnpc_ring_magic_aoe_poison_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e3", Translation="uiR2EDnpc_ring_magic_aoe_poison_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_e4", Translation="uiR2EDnpc_ring_magic_aoe_poison_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f1", Translation="uiR2EDnpc_ring_magic_aoe_poison_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f2", Translation="uiR2EDnpc_ring_magic_aoe_poison_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f3", Translation="uiR2EDnpc_ring_magic_aoe_poison_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_poison_f4", Translation="uiR2EDnpc_ring_magic_aoe_poison_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_b4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_c4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_d4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_e4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f1", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f2", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f3", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_aoe_shockwave_f4", Translation="uiR2EDnpc_ring_magic_aoe_shockwave_f4"}
+						}
+					}
+				},
+	
+				magiccurser =
+				{
+				    magiccurseratysianaffliction =
+				    {
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b1", Translation="uiR2EDnpc_ring_magic_curser_blind_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b2", Translation="uiR2EDnpc_ring_magic_curser_blind_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b3", Translation="uiR2EDnpc_ring_magic_curser_blind_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_b4", Translation="uiR2EDnpc_ring_magic_curser_blind_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c1", Translation="uiR2EDnpc_ring_magic_curser_blind_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c2", Translation="uiR2EDnpc_ring_magic_curser_blind_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c3", Translation="uiR2EDnpc_ring_magic_curser_blind_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_c4", Translation="uiR2EDnpc_ring_magic_curser_blind_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d1", Translation="uiR2EDnpc_ring_magic_curser_blind_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d2", Translation="uiR2EDnpc_ring_magic_curser_blind_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d3", Translation="uiR2EDnpc_ring_magic_curser_blind_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_d4", Translation="uiR2EDnpc_ring_magic_curser_blind_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e1", Translation="uiR2EDnpc_ring_magic_curser_blind_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e2", Translation="uiR2EDnpc_ring_magic_curser_blind_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e3", Translation="uiR2EDnpc_ring_magic_curser_blind_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_e4", Translation="uiR2EDnpc_ring_magic_curser_blind_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f1", Translation="uiR2EDnpc_ring_magic_curser_blind_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f2", Translation="uiR2EDnpc_ring_magic_curser_blind_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f3", Translation="uiR2EDnpc_ring_magic_curser_blind_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_blind_f4", Translation="uiR2EDnpc_ring_magic_curser_blind_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b1", Translation="uiR2EDnpc_ring_magic_curser_madness_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b2", Translation="uiR2EDnpc_ring_magic_curser_madness_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b3", Translation="uiR2EDnpc_ring_magic_curser_madness_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_b4", Translation="uiR2EDnpc_ring_magic_curser_madness_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c1", Translation="uiR2EDnpc_ring_magic_curser_madness_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c2", Translation="uiR2EDnpc_ring_magic_curser_madness_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c3", Translation="uiR2EDnpc_ring_magic_curser_madness_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_c4", Translation="uiR2EDnpc_ring_magic_curser_madness_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d1", Translation="uiR2EDnpc_ring_magic_curser_madness_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d2", Translation="uiR2EDnpc_ring_magic_curser_madness_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d3", Translation="uiR2EDnpc_ring_magic_curser_madness_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_d4", Translation="uiR2EDnpc_ring_magic_curser_madness_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e1", Translation="uiR2EDnpc_ring_magic_curser_madness_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e2", Translation="uiR2EDnpc_ring_magic_curser_madness_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e3", Translation="uiR2EDnpc_ring_magic_curser_madness_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_e4", Translation="uiR2EDnpc_ring_magic_curser_madness_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f1", Translation="uiR2EDnpc_ring_magic_curser_madness_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f2", Translation="uiR2EDnpc_ring_magic_curser_madness_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f3", Translation="uiR2EDnpc_ring_magic_curser_madness_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_madness_f4", Translation="uiR2EDnpc_ring_magic_curser_madness_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b1", Translation="uiR2EDnpc_ring_magic_curser_root_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b2", Translation="uiR2EDnpc_ring_magic_curser_root_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b3", Translation="uiR2EDnpc_ring_magic_curser_root_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_b4", Translation="uiR2EDnpc_ring_magic_curser_root_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c1", Translation="uiR2EDnpc_ring_magic_curser_root_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c2", Translation="uiR2EDnpc_ring_magic_curser_root_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c3", Translation="uiR2EDnpc_ring_magic_curser_root_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_c4", Translation="uiR2EDnpc_ring_magic_curser_root_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d1", Translation="uiR2EDnpc_ring_magic_curser_root_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d2", Translation="uiR2EDnpc_ring_magic_curser_root_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d3", Translation="uiR2EDnpc_ring_magic_curser_root_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_d4", Translation="uiR2EDnpc_ring_magic_curser_root_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e1", Translation="uiR2EDnpc_ring_magic_curser_root_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e2", Translation="uiR2EDnpc_ring_magic_curser_root_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e3", Translation="uiR2EDnpc_ring_magic_curser_root_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_e4", Translation="uiR2EDnpc_ring_magic_curser_root_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f1", Translation="uiR2EDnpc_ring_magic_curser_root_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f2", Translation="uiR2EDnpc_ring_magic_curser_root_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f3", Translation="uiR2EDnpc_ring_magic_curser_root_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_root_f4", Translation="uiR2EDnpc_ring_magic_curser_root_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b1", Translation="uiR2EDnpc_ring_magic_curser_slow_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b2", Translation="uiR2EDnpc_ring_magic_curser_slow_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b3", Translation="uiR2EDnpc_ring_magic_curser_slow_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_b4", Translation="uiR2EDnpc_ring_magic_curser_slow_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c1", Translation="uiR2EDnpc_ring_magic_curser_slow_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c2", Translation="uiR2EDnpc_ring_magic_curser_slow_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c3", Translation="uiR2EDnpc_ring_magic_curser_slow_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_c4", Translation="uiR2EDnpc_ring_magic_curser_slow_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d1", Translation="uiR2EDnpc_ring_magic_curser_slow_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d2", Translation="uiR2EDnpc_ring_magic_curser_slow_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d3", Translation="uiR2EDnpc_ring_magic_curser_slow_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_d4", Translation="uiR2EDnpc_ring_magic_curser_slow_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e1", Translation="uiR2EDnpc_ring_magic_curser_slow_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e2", Translation="uiR2EDnpc_ring_magic_curser_slow_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e3", Translation="uiR2EDnpc_ring_magic_curser_slow_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_e4", Translation="uiR2EDnpc_ring_magic_curser_slow_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f1", Translation="uiR2EDnpc_ring_magic_curser_slow_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f2", Translation="uiR2EDnpc_ring_magic_curser_slow_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f3", Translation="uiR2EDnpc_ring_magic_curser_slow_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_slow_f4", Translation="uiR2EDnpc_ring_magic_curser_slow_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b1", Translation="uiR2EDnpc_ring_magic_curser_snare_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b2", Translation="uiR2EDnpc_ring_magic_curser_snare_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b3", Translation="uiR2EDnpc_ring_magic_curser_snare_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_b4", Translation="uiR2EDnpc_ring_magic_curser_snare_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c1", Translation="uiR2EDnpc_ring_magic_curser_snare_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c2", Translation="uiR2EDnpc_ring_magic_curser_snare_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c3", Translation="uiR2EDnpc_ring_magic_curser_snare_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_c4", Translation="uiR2EDnpc_ring_magic_curser_snare_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d1", Translation="uiR2EDnpc_ring_magic_curser_snare_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d2", Translation="uiR2EDnpc_ring_magic_curser_snare_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d3", Translation="uiR2EDnpc_ring_magic_curser_snare_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_d4", Translation="uiR2EDnpc_ring_magic_curser_snare_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e1", Translation="uiR2EDnpc_ring_magic_curser_snare_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e2", Translation="uiR2EDnpc_ring_magic_curser_snare_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e3", Translation="uiR2EDnpc_ring_magic_curser_snare_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_e4", Translation="uiR2EDnpc_ring_magic_curser_snare_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f1", Translation="uiR2EDnpc_ring_magic_curser_snare_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f2", Translation="uiR2EDnpc_ring_magic_curser_snare_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f3", Translation="uiR2EDnpc_ring_magic_curser_snare_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_snare_f4", Translation="uiR2EDnpc_ring_magic_curser_snare_f4"}
+						}
+					},
+					magiccursercelestialaffliction =
+				    {
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b1", Translation="uiR2EDnpc_ring_magic_curser_fear_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b2", Translation="uiR2EDnpc_ring_magic_curser_fear_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b3", Translation="uiR2EDnpc_ring_magic_curser_fear_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_b4", Translation="uiR2EDnpc_ring_magic_curser_fear_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c1", Translation="uiR2EDnpc_ring_magic_curser_fear_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c2", Translation="uiR2EDnpc_ring_magic_curser_fear_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c3", Translation="uiR2EDnpc_ring_magic_curser_fear_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_c4", Translation="uiR2EDnpc_ring_magic_curser_fear_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d1", Translation="uiR2EDnpc_ring_magic_curser_fear_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d2", Translation="uiR2EDnpc_ring_magic_curser_fear_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d3", Translation="uiR2EDnpc_ring_magic_curser_fear_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_d4", Translation="uiR2EDnpc_ring_magic_curser_fear_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e1", Translation="uiR2EDnpc_ring_magic_curser_fear_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e2", Translation="uiR2EDnpc_ring_magic_curser_fear_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e3", Translation="uiR2EDnpc_ring_magic_curser_fear_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_e4", Translation="uiR2EDnpc_ring_magic_curser_fear_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f1", Translation="uiR2EDnpc_ring_magic_curser_fear_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f2", Translation="uiR2EDnpc_ring_magic_curser_fear_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f3", Translation="uiR2EDnpc_ring_magic_curser_fear_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_fear_f4", Translation="uiR2EDnpc_ring_magic_curser_fear_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b1", Translation="uiR2EDnpc_ring_magic_curser_sleep_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b2", Translation="uiR2EDnpc_ring_magic_curser_sleep_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b3", Translation="uiR2EDnpc_ring_magic_curser_sleep_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_b4", Translation="uiR2EDnpc_ring_magic_curser_sleep_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c1", Translation="uiR2EDnpc_ring_magic_curser_sleep_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c2", Translation="uiR2EDnpc_ring_magic_curser_sleep_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c3", Translation="uiR2EDnpc_ring_magic_curser_sleep_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_c4", Translation="uiR2EDnpc_ring_magic_curser_sleep_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d1", Translation="uiR2EDnpc_ring_magic_curser_sleep_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d2", Translation="uiR2EDnpc_ring_magic_curser_sleep_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d3", Translation="uiR2EDnpc_ring_magic_curser_sleep_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_d4", Translation="uiR2EDnpc_ring_magic_curser_sleep_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e1", Translation="uiR2EDnpc_ring_magic_curser_sleep_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e2", Translation="uiR2EDnpc_ring_magic_curser_sleep_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e3", Translation="uiR2EDnpc_ring_magic_curser_sleep_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_e4", Translation="uiR2EDnpc_ring_magic_curser_sleep_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f1", Translation="uiR2EDnpc_ring_magic_curser_sleep_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f2", Translation="uiR2EDnpc_ring_magic_curser_sleep_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f3", Translation="uiR2EDnpc_ring_magic_curser_sleep_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_sleep_f4", Translation="uiR2EDnpc_ring_magic_curser_sleep_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b1", Translation="uiR2EDnpc_ring_magic_curser_stun_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b2", Translation="uiR2EDnpc_ring_magic_curser_stun_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b3", Translation="uiR2EDnpc_ring_magic_curser_stun_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_b4", Translation="uiR2EDnpc_ring_magic_curser_stun_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c1", Translation="uiR2EDnpc_ring_magic_curser_stun_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c2", Translation="uiR2EDnpc_ring_magic_curser_stun_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c3", Translation="uiR2EDnpc_ring_magic_curser_stun_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_c4", Translation="uiR2EDnpc_ring_magic_curser_stun_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d1", Translation="uiR2EDnpc_ring_magic_curser_stun_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d2", Translation="uiR2EDnpc_ring_magic_curser_stun_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d3", Translation="uiR2EDnpc_ring_magic_curser_stun_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_d4", Translation="uiR2EDnpc_ring_magic_curser_stun_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e1", Translation="uiR2EDnpc_ring_magic_curser_stun_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e2", Translation="uiR2EDnpc_ring_magic_curser_stun_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e3", Translation="uiR2EDnpc_ring_magic_curser_stun_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_e4", Translation="uiR2EDnpc_ring_magic_curser_stun_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f1", Translation="uiR2EDnpc_ring_magic_curser_stun_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f2", Translation="uiR2EDnpc_ring_magic_curser_stun_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f3", Translation="uiR2EDnpc_ring_magic_curser_stun_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_curser_stun_f4", Translation="uiR2EDnpc_ring_magic_curser_stun_f4"}
+	
+						}
+					}
+				},
+	
+				magicdamagedealer =
+				{
+					magicdamagedealerbasic =
+					{
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_acid_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_acid_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_cold_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_cold_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_rot_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_rot_f4"}
+	 	   				}
+					},
+					magicdamagedealerracial =
+					{
+					    instances =
+					    {
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_electricity_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_electricity_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_fire_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_fire_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_poison_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_poison_f4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_b4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_b4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_c4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_c4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_d4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_d4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_e4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_e4"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f1", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f1"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f2", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f2"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f3", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f3"},
+							{Id="palette.entities.npcs.bandits.ring_magic_damage_dealer_shockwave_f4", Translation="uiR2EDnpc_ring_magic_damage_dealer_shockwave_f4"},
+	
+					    }
+					}
+				},
+	
+				meleedamagedealer =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_b4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_c4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_d4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_e4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f1", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f2", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f3", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_blunt_f4", Translation="uiR2EDnpc_ring_melee_damage_dealer_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_b4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_c4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_d4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_e4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f1", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f2", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f3", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_pierce_f4", Translation="uiR2EDnpc_ring_melee_damage_dealer_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_b4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_c4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_d4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_e4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f1", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f2", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f3", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_damage_dealer_slash_f4", Translation="uiR2EDnpc_ring_melee_damage_dealer_slash_f4"}
+					}
+				},
+	
+				meleetank =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b1", Translation="uiR2EDnpc_ring_melee_tank_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b2", Translation="uiR2EDnpc_ring_melee_tank_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b3", Translation="uiR2EDnpc_ring_melee_tank_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_b4", Translation="uiR2EDnpc_ring_melee_tank_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c1", Translation="uiR2EDnpc_ring_melee_tank_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c2", Translation="uiR2EDnpc_ring_melee_tank_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c3", Translation="uiR2EDnpc_ring_melee_tank_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_c4", Translation="uiR2EDnpc_ring_melee_tank_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d1", Translation="uiR2EDnpc_ring_melee_tank_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d2", Translation="uiR2EDnpc_ring_melee_tank_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d3", Translation="uiR2EDnpc_ring_melee_tank_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_d4", Translation="uiR2EDnpc_ring_melee_tank_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e1", Translation="uiR2EDnpc_ring_melee_tank_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e2", Translation="uiR2EDnpc_ring_melee_tank_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e3", Translation="uiR2EDnpc_ring_melee_tank_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_e4", Translation="uiR2EDnpc_ring_melee_tank_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f1", Translation="uiR2EDnpc_ring_melee_tank_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f2", Translation="uiR2EDnpc_ring_melee_tank_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f3", Translation="uiR2EDnpc_ring_melee_tank_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_blunt_f4", Translation="uiR2EDnpc_ring_melee_tank_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b1", Translation="uiR2EDnpc_ring_melee_tank_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b2", Translation="uiR2EDnpc_ring_melee_tank_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b3", Translation="uiR2EDnpc_ring_melee_tank_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_b4", Translation="uiR2EDnpc_ring_melee_tank_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c1", Translation="uiR2EDnpc_ring_melee_tank_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c2", Translation="uiR2EDnpc_ring_melee_tank_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c3", Translation="uiR2EDnpc_ring_melee_tank_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_c4", Translation="uiR2EDnpc_ring_melee_tank_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d1", Translation="uiR2EDnpc_ring_melee_tank_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d2", Translation="uiR2EDnpc_ring_melee_tank_pierce_d2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d3", Translation="uiR2EDnpc_ring_melee_tank_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_d4", Translation="uiR2EDnpc_ring_melee_tank_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e1", Translation="uiR2EDnpc_ring_melee_tank_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e2", Translation="uiR2EDnpc_ring_melee_tank_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e3", Translation="uiR2EDnpc_ring_melee_tank_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_e4", Translation="uiR2EDnpc_ring_melee_tank_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f1", Translation="uiR2EDnpc_ring_melee_tank_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f2", Translation="uiR2EDnpc_ring_melee_tank_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f3", Translation="uiR2EDnpc_ring_melee_tank_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_pierce_f4", Translation="uiR2EDnpc_ring_melee_tank_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b1", Translation="uiR2EDnpc_ring_melee_tank_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b2", Translation="uiR2EDnpc_ring_melee_tank_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b3", Translation="uiR2EDnpc_ring_melee_tank_slash_b3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_b4", Translation="uiR2EDnpc_ring_melee_tank_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c1", Translation="uiR2EDnpc_ring_melee_tank_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c2", Translation="uiR2EDnpc_ring_melee_tank_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c3", Translation="uiR2EDnpc_ring_melee_tank_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_c4", Translation="uiR2EDnpc_ring_melee_tank_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d1", Translation="uiR2EDnpc_ring_melee_tank_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d2", Translation="uiR2EDnpc_ring_melee_tank_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d3", Translation="uiR2EDnpc_ring_melee_tank_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_d4", Translation="uiR2EDnpc_ring_melee_tank_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e1", Translation="uiR2EDnpc_ring_melee_tank_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e2", Translation="uiR2EDnpc_ring_melee_tank_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e3", Translation="uiR2EDnpc_ring_melee_tank_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_e4", Translation="uiR2EDnpc_ring_melee_tank_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f1", Translation="uiR2EDnpc_ring_melee_tank_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f2", Translation="uiR2EDnpc_ring_melee_tank_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f3", Translation="uiR2EDnpc_ring_melee_tank_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_melee_tank_slash_f4", Translation="uiR2EDnpc_ring_melee_tank_slash_f4"}
+	 				}
+				},
+	
+				rangeddamagedealer =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_b4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_c4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_d4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_e4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_blunt_f4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_b4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_c4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_d4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_e4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_pierce_f4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_b4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_c4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_d4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_e4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f1", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f2", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f3", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_damage_dealer_slash_f4", Translation="uiR2EDnpc_ring_ranged_damage_dealer_slash_f4"}
+					}
+				},
+	
+				rangedtank =
+				{
+				    instances =
+				    {
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_b4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_b4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_c4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_c4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_d4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_d4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_e4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_e4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f1", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f2", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f3", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_blunt_f4", Translation="uiR2EDnpc_ring_ranged_tank_blunt_f4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_b4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_b4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_c4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_c4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d2"},
 
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b1", Translation="uiR2EDnpc_ring_ranged_tank_slash_b1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b2", Translation="uiR2EDnpc_ring_ranged_tank_slash_b2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b3", Translation="uiR2EDnpc_ring_ranged_tank_slash_b3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b4", Translation="uiR2EDnpc_ring_ranged_tank_slash_b4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c1", Translation="uiR2EDnpc_ring_ranged_tank_slash_c1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c2", Translation="uiR2EDnpc_ring_ranged_tank_slash_c2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c3", Translation="uiR2EDnpc_ring_ranged_tank_slash_c3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c4", Translation="uiR2EDnpc_ring_ranged_tank_slash_c4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d1", Translation="uiR2EDnpc_ring_ranged_tank_slash_d1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d2", Translation="uiR2EDnpc_ring_ranged_tank_slash_d2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d3", Translation="uiR2EDnpc_ring_ranged_tank_slash_d3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d4", Translation="uiR2EDnpc_ring_ranged_tank_slash_d4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e1", Translation="uiR2EDnpc_ring_ranged_tank_slash_e1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e2", Translation="uiR2EDnpc_ring_ranged_tank_slash_e2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e3", Translation="uiR2EDnpc_ring_ranged_tank_slash_e3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e4", Translation="uiR2EDnpc_ring_ranged_tank_slash_e4"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f1", Translation="uiR2EDnpc_ring_ranged_tank_slash_f1"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f2", Translation="uiR2EDnpc_ring_ranged_tank_slash_f2"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f3", Translation="uiR2EDnpc_ring_ranged_tank_slash_f3"},
---						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f4", Translation="uiR2EDnpc_ring_ranged_tank_slash_f4"}
---					}
---				}
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_d4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_d4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_e4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_e4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f1", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f2", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f3", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_pierce_f4", Translation="uiR2EDnpc_ring_ranged_tank_pierce_f4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b1", Translation="uiR2EDnpc_ring_ranged_tank_slash_b1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b2", Translation="uiR2EDnpc_ring_ranged_tank_slash_b2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b3", Translation="uiR2EDnpc_ring_ranged_tank_slash_b3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_b4", Translation="uiR2EDnpc_ring_ranged_tank_slash_b4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c1", Translation="uiR2EDnpc_ring_ranged_tank_slash_c1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c2", Translation="uiR2EDnpc_ring_ranged_tank_slash_c2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c3", Translation="uiR2EDnpc_ring_ranged_tank_slash_c3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_c4", Translation="uiR2EDnpc_ring_ranged_tank_slash_c4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d1", Translation="uiR2EDnpc_ring_ranged_tank_slash_d1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d2", Translation="uiR2EDnpc_ring_ranged_tank_slash_d2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d3", Translation="uiR2EDnpc_ring_ranged_tank_slash_d3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_d4", Translation="uiR2EDnpc_ring_ranged_tank_slash_d4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e1", Translation="uiR2EDnpc_ring_ranged_tank_slash_e1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e2", Translation="uiR2EDnpc_ring_ranged_tank_slash_e2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e3", Translation="uiR2EDnpc_ring_ranged_tank_slash_e3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_e4", Translation="uiR2EDnpc_ring_ranged_tank_slash_e4"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f1", Translation="uiR2EDnpc_ring_ranged_tank_slash_f1"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f2", Translation="uiR2EDnpc_ring_ranged_tank_slash_f2"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f3", Translation="uiR2EDnpc_ring_ranged_tank_slash_f3"},
+						{Id="palette.entities.npcs.bandits.ring_ranged_tank_slash_f4", Translation="uiR2EDnpc_ring_ranged_tank_slash_f4"}
+					}
+				}
 			}
 		},
 	},
@@ -13714,6 +13915,7 @@ r2.Palette =
 					{Id="palette.entities.botobjects.flame_courage", Translation="uiR2EDbotObjflameCourage"},
 					{Id="palette.entities.botobjects.flame_justice", Translation="uiR2EDbotObjflameJustice"},
 					{Id="palette.entities.botobjects.flame_discipline", Translation="uiR2EDbotObjflameDiscipline"},
+					{Id="palette.entities.botobjects.object_well", Translation="uiR2EDbotObjWell"}, -- todo translation
 					{Id="palette.entities.botobjects.flame_verite", Translation="uiR2EDbotObjflameTruth"}
 				}
 			},
@@ -13861,6 +14063,9 @@ r2.Palette =
 					{Id="palette.entities.botobjects.watch_tower", Translation="uiR2EDbotObjWatchTower"},
 					{Id="palette.entities.botobjects.hall_of_fame", Translation="uiR2EDbotObjHallOfFame"},
 					{Id="palette.entities.botobjects.construction_site", Translation="uiR2EDbotObjConstructionSite"},
+--					{Id="palette.entities.botobjects.gate_closed", Translation="uiR2EDbotObjGateClosed"}, -- todo translation
+--					{Id="palette.entities.botobjects.gate_open", Translation="uiR2EDbotObjGateOpen"}, -- todo translation
+--					{Id="palette.entities.botobjects.gate_wall", Translation="uiR2EDbotObjGateWall"}, -- todo translation
 					{Id="palette.entities.botobjects.generic_hall", Translation="uiR2EDbotObjGenericHall"}
 				}
 			},
@@ -13887,9 +14092,11 @@ r2.Palette =
 					{Id="palette.entities.botobjects.kami_watchtower", Translation="uiR2EDbotObjKamiWatchtower"},
 					{Id="palette.entities.botobjects.vegetable_wall", Translation="uiR2EDbotObjVegetableWall"},
 					{Id="palette.entities.botobjects.vegetable_gateway", Translation="uiR2EDbotObjVegetableGateway"},
---					{Id="palette.entities.botobjects.statue_maduk", Translation="uiR2EDbotObjStatueMaduk"},
+					{Id="palette.entities.botobjects.statue_maduk", Translation="uiR2EDbotObjStatueMaduk"},
 					{Id="palette.entities.botobjects.kami_watchtower_off", Translation="uiR2EDbotObjKamiWatchtowerOff"},
---					{Id="palette.entities.botobjects.kami_altar", Translation="uiR2EDbotObjKamiAltar"}
+					{Id="palette.entities.botobjects.kami_altar", Translation="uiR2EDbotObjKamiAltar"},
+--					{Id="palette.entities.botobjects.stele_kami", Translation="uiR2EDbotObjSteleKami"}, --todo translation
+--					{Id="palette.entities.botobjects.temple_kami", Translation="uiR2EDbotObjTempleKami"} --todo translation
 				}
 			},
 
@@ -13898,16 +14105,18 @@ r2.Palette =
 				instances = 
 				{
 					{Id="palette.entities.botobjects.banner_karavan", Translation="uiR2EDbotObjBannerKaravan"},
+--					{Id="palette.entities.botobjects.karavan_stele", Translation="uiR2EDbotObjKaraStele"}, --todo translation
+--					{Id="palette.entities.botobjects.karavan_temple", Translation="uiR2EDbotObjKaratemple"}, --todo translation
 					{Id="palette.entities.botobjects.karavan_standard", Translation="uiR2EDbotObjKaravanStandard"},
 					{Id="palette.entities.botobjects.karavan_tent", Translation="uiR2EDbotObjKaravanTent"},
 					{Id="palette.entities.botobjects.karavan_big_wall", Translation="uiR2EDbotObjKaravanBigWall"},
 					{Id="palette.entities.botobjects.karavan_wall", Translation="uiR2EDbotObjKaravanWall"},
---					{Id="palette.entities.botobjects.statue_jena", Translation="uiR2EDbotObjStatueJena"},
+					{Id="palette.entities.botobjects.statue_jena", Translation="uiR2EDbotObjStatueJena"},
 					{Id="palette.entities.botobjects.karavan_mirador", Translation="uiR2EDbotObjKaravanMirador"},
 					{Id="palette.entities.botobjects.karavan_gateway", Translation="uiR2EDbotObjKaravanGateway"},
 					{Id="palette.entities.botobjects.karavan_device", Translation="uiR2EDbotObjKaravanDevice"},
 					{Id="palette.entities.botobjects.karavan_watchtower_off", Translation="uiR2EDbotObjKaravanWatchtowerOff"},
---					{Id="palette.entities.botobjects.karavan_altar", Translation="uiR2EDbotObjKaravanAltar"}
+					{Id="palette.entities.botobjects.karavan_altar", Translation="uiR2EDbotObjKaravanAltar"}
 				}
 			},
 
@@ -13959,6 +14168,8 @@ r2.Palette =
 				}
 			},
 
+
+			--foliage={
 			fytrees =
 			{
 				instances =
@@ -13972,7 +14183,7 @@ r2.Palette =
 					{Id="palette.entities.botobjects.fy_s1_burnedtree_d", Translation="uiR2EDbotObjTreeFyBurnedTreeD"},
 					{Id="palette.entities.botobjects.fy_s1_burnedtree_growth_a", Translation="uiR2EDbotObjTreeFyBurnedTreeGrowthA"},
 					{Id="palette.entities.botobjects.fy_s1_burnedtree_growth_b", Translation="uiR2EDbotObjTreeFyBurnedTreeGrowthB"},
-					{Id="palette.entities.botobjects.fy_s2_coconuts_a", Translation="uiR2EDbotObjTreeFyCoconutsA"},
+					--{Id="palette.entities.botobjects.fy_s2_coconuts_a", Translation="uiR2EDbotObjTreeFyCoconutsA"},
 					{Id="palette.entities.botobjects.fy_s2_coconuts_b", Translation="uiR2EDbotObjTreeFyCoconutsB"},
 					{Id="palette.entities.botobjects.fy_s2_lovejail_a", Translation="uiR2EDbotObjTreeFyLoveJailA"},
 					{Id="palette.entities.botobjects.fy_s2_lovejail_b", Translation="uiR2EDbotObjTreeFyLoveJailB"},
@@ -13984,13 +14195,13 @@ r2.Palette =
 					{Id="palette.entities.botobjects.fy_s2_palmtree_e", Translation="uiR2EDbotObjTreeFyPalmTreeE"},
 					{Id="palette.entities.botobjects.fy_s2_papaleaf_a", Translation="uiR2EDbotObjTreeFyPapaLeafA"},
 					{Id="palette.entities.botobjects.fy_s2_papaleaf_b", Translation="uiR2EDbotObjTreeFyPapaLeafB"},
-					{Id="palette.entities.botobjects.fy_s2_savantree_a", Translation="uiR2EDbotObjTreeFySavanTreeA"},
-					{Id="palette.entities.botobjects.fy_s2_savantree_b", Translation="uiR2EDbotObjTreeFySavanTreeB"},
-					{Id="palette.entities.botobjects.fy_s2_savantree_c", Translation="uiR2EDbotObjTreeFySavanTreeC"},
+					--{Id="palette.entities.botobjects.fy_s2_savantree_a", Translation="uiR2EDbotObjTreeFySavanTreeA"},
+					--{Id="palette.entities.botobjects.fy_s2_savantree_b", Translation="uiR2EDbotObjTreeFySavanTreeB"},
+					--{Id="palette.entities.botobjects.fy_s2_savantree_c", Translation="uiR2EDbotObjTreeFySavanTreeC"},
 					{Id="palette.entities.botobjects.fy_s3_termitiere_a", Translation="uiR2EDbotObjTreeFyTermitiereA"},
 					{Id="palette.entities.botobjects.fy_s3_termitiere_b", Translation="uiR2EDbotObjTreeFyTermitiereB"},
 					{Id="palette.entities.botobjects.fy_s3_termitiere_c", Translation="uiR2EDbotObjTreeFyTermitiereC"},
-					{Id="palette.entities.botobjects.fy_s3_termitiere_d", Translation="uiR2EDbotObjTreeFyTermitiereD"}
+					{Id="palette.entities.botobjects.fy_s3_termitiere_d", Translation="uiR2EDbotObjTreeFyTermitiereD"},
 				}
 			},
 
@@ -14014,7 +14225,7 @@ r2.Palette =
 					{Id="palette.entities.botobjects.fo_s3_champignou_a", Translation="uiR2EDbotObjTreeFoMushroomA"},
 					{Id="palette.entities.botobjects.fo_s3_champignou_b", Translation="uiR2EDbotObjTreeFoMushroomB"},
 					{Id="palette.entities.botobjects.fo_s3_fougere", Translation="uiR2EDbotObjTreeFoFern"},
---					{Id="palette.entities.botobjects.fo_s3_tree", Translation="uiR2EDbotObjTreeFoTree"}
+					--{Id="palette.entities.botobjects.fo_s3_tree", Translation="uiR2EDbotObjTreeFoTree"},
 				}
 			},
 
@@ -14034,7 +14245,7 @@ r2.Palette =
 					{Id="palette.entities.botobjects.ju_s3_fougere", Translation="uiR2EDbotObjTreeJuFern"},
 					{Id="palette.entities.botobjects.ju_s3_plante", Translation="uiR2EDbotObjTreeJuPlant"},
 					{Id="palette.entities.botobjects.ju_s3_plantegrasse", Translation="uiR2EDbotObjTreeJuFatPlant"},
-					{Id="palette.entities.botobjects.ju_s3_tree", Translation="uiR2EDbotObjTreeJuTree"}
+					{Id="palette.entities.botobjects.ju_s3_tree", Translation="uiR2EDbotObjTreeJuTree"},
 				}
 			},
 
@@ -14073,7 +14284,7 @@ r2.Palette =
 					{Id="palette.entities.botobjects.tr_s3_trumpet_a", Translation="uiR2EDbotObjTreeTrTrumpetA"},
 					{Id="palette.entities.botobjects.tr_s3_trumpet_b", Translation="uiR2EDbotObjTreeTrTrumpetB"},
 					{Id="palette.entities.botobjects.tr_s3_trumpet_c", Translation="uiR2EDbotObjTreeTrTrumpetC"},
-					{Id="palette.entities.botobjects.tr_s3_trumpet_d", Translation="uiR2EDbotObjTreeTrTrumpetD"}
+					{Id="palette.entities.botobjects.tr_s3_trumpet_d", Translation="uiR2EDbotObjTreeTrTrumpetD"},
 				}
 			},
 
@@ -14106,10 +14317,10 @@ r2.Palette =
 					{Id="palette.entities.botobjects.pr_s3_ploomweed_a", Translation="uiR2EDbotObjTreePrPloomWeedA"},
 					{Id="palette.entities.botobjects.pr_s3_ploomweed_b", Translation="uiR2EDbotObjTreePrPloomWeedB"},
 					{Id="palette.entities.botobjects.pr_s3_small_lumiseed_a", Translation="uiR2EDbotObjTreePrSmallLumiseedA"},
-					{Id="palette.entities.botobjects.pr_s3_small_lumiseed_b", Translation="uiR2EDbotObjTreePrSmallLumiseedB"}
+					{Id="palette.entities.botobjects.pr_s3_small_lumiseed_b", Translation="uiR2EDbotObjTreePrSmallLumiseedB"},
 				}
 			},
-
+			--},
 			enveffects =
 			{
 				instances =
@@ -14117,11 +14328,11 @@ r2.Palette =
 --					{Id="palette.entities.botobjects.fxy_canyon", Translation="uiR2EDbotObjFxCanyon"},
 --					{Id="palette.entities.botobjects.fx_desert_sandblasta", Translation="uiR2EDbotObjFxSandblastA"},
 --					{Id="palette.entities.botobjects.fx_desert_sandblastb", Translation="uiR2EDbotObjFxSandblastB"},
---					{Id="palette.entities.botobjects.fx_de_firewave", Translation="uiR2EDbotObjFxFirewave"},
+					{Id="palette.entities.botobjects.fx_de_firewave", Translation="uiR2EDbotObjFxFirewave"},
 --					{Id="palette.entities.botobjects.fx_de_geyser", Translation="uiR2EDbotObjFxGeyser"},
 --					{Id="palette.entities.botobjects.fx_de_geyser_fumee", Translation="uiR2EDbotObjFxGeyserFumee"},
 					{Id="palette.entities.botobjects.fx_de_vapeurs", Translation="uiR2EDbotObjFxVapeurs"},
-					{Id="palette.entities.botobjects.fx_fo_pollen", Translation="uiR2EDbotObjFxPollen"},
+--					{Id="palette.entities.botobjects.fx_fo_pollen", Translation="uiR2EDbotObjFxPollen"},
 					{Id="palette.entities.botobjects.fx_fo_solbirtha", Translation="uiR2EDbotObjFxFoSolbirthA"},
 					{Id="palette.entities.botobjects.fx_fo_solbirthb", Translation="uiR2EDbotObjFxFoSolbirthB"},
 					{Id="palette.entities.botobjects.fx_fo_solbirthc", Translation="uiR2EDbotObjFxFoSolbirthC"},
@@ -14131,7 +14342,7 @@ r2.Palette =
 --					{Id="palette.entities.botobjects.fx_fo_treefalld", Translation="uiR2EDbotObjFxFoTreeFallD"},
 --					{Id="palette.entities.botobjects.fx_fo_treefalle", Translation="uiR2EDbotObjFxFoTreeFallE"},
 --					{Id="palette.entities.botobjects.fx_fo_flower", Translation="uiR2EDbotObjFxFoFlower"},
-					{Id="palette.entities.botobjects.fx_fo_pollen2", Translation="uiR2EDbotObjFxPollen2"},
+--					{Id="palette.entities.botobjects.fx_fo_pollen2", Translation="uiR2EDbotObjFxPollen2"},
 --					{Id="palette.entities.botobjects.fx_fy_sandblastadesert", Translation="uiR2EDbotObjFxSandblastaDesert"},
 --					{Id="palette.entities.botobjects.fx_fy_sandblastdesert", Translation="uiR2EDbotObjFxSandblastDesert"},
 					{Id="palette.entities.botobjects.fx_fy_feu_foret", Translation="uiR2EDbotObjFxFeuForet"},
@@ -14147,9 +14358,9 @@ r2.Palette =
 --					{Id="palette.entities.botobjects.fx_ju_treefallc", Translation="uiR2EDbotObjFxJuTreeFallC"},
 --					{Id="palette.entities.botobjects.fx_ju_treefalld", Translation="uiR2EDbotObjFxJuTreeFallD"},
 					{Id="palette.entities.botobjects.fx_ju_brumes", Translation="uiR2EDbotObjFxBrumes"},
-					{Id="palette.entities.botobjects.fx_fo_brumes", Translation="uiR2EDbotObjFxBrumes"},
+--					{Id="palette.entities.botobjects.fx_fo_brumes", Translation="uiR2EDbotObjFxBrumes"},
 					{Id="palette.entities.botobjects.fx_ju_brumesb", Translation="uiR2EDbotObjFxBrumesB"},
-					{Id="palette.entities.botobjects.fx_fo_brumesb", Translation="uiR2EDbotObjFxBrumesB"},
+---					{Id="palette.entities.botobjects.fx_fo_brumesb", Translation="uiR2EDbotObjFxBrumesB"},
 --					{Id="palette.entities.botobjects.fx_ju_geyser4a", Translation="uiR2EDbotObjFxGeyser4A"},
 --					{Id="palette.entities.botobjects.fx_fo_geyser4a", Translation="uiR2EDbotObjFxGeyser4A"},
 --					{Id="palette.entities.botobjects.fx_ju_geyser4b", Translation="uiR2EDbotObjFxGeyser4B"},
@@ -14168,31 +14379,31 @@ r2.Palette =
 				instances =
 				{
 --					{Id="palette.entities.botobjects.fx_fishe", Translation="uiR2EDbotObjFxFishe"},
-             		{Id="palette.entities.botobjects.fxy_cricketa", Translation="uiR2EDbotObjFxCricketA"},
-             		{Id="palette.entities.botobjects.fx_de_birda", Translation="uiR2EDbotObjFxBirdA"},
+--            		{Id="palette.entities.botobjects.fxy_cricketa", Translation="uiR2EDbotObjFxCricketA"},
+--             		{Id="palette.entities.botobjects.fx_de_birda", Translation="uiR2EDbotObjFxBirdA"},
 --					{Id="palette.entities.botobjects.fx_de_fishes", Translation="uiR2EDbotObjFxDeFishes"},
 --					{Id="palette.entities.botobjects.fx_de_krevette", Translation="uiR2EDbotObjFxKrevette"},
 --					{Id="palette.entities.botobjects.fx_de_scorpion2", Translation="uiR2EDbotObjFxDeScorpion2"},
 --					{Id="palette.entities.botobjects.fx_de_serpent", Translation="uiR2EDbotObjFxDeSerpent"},
 --					{Id="palette.entities.botobjects.fx_de_ver", Translation="uiR2EDbotObjFxVer"},
 --					{Id="palette.entities.botobjects.fx_de_waterserpent", Translation="uiR2EDbotObjFxWaterSerpent"},
-					{Id="palette.entities.botobjects.fx_fo_bugsa", Translation="uiR2EDbotObjFxFoBugsA"},
-					{Id="palette.entities.botobjects.fx_fo_bugsb", Translation="uiR2EDbotObjFxFoBugsB"},
+--					{Id="palette.entities.botobjects.fx_fo_bugsa", Translation="uiR2EDbotObjFxFoBugsA"},
+--					{Id="palette.entities.botobjects.fx_fo_bugsb", Translation="uiR2EDbotObjFxFoBugsB"},
 					{Id="palette.entities.botobjects.fx_fo_bugsc", Translation="uiR2EDbotObjFxFoBugsC"},
-					{Id="palette.entities.botobjects.fx_fo_colibrisb", Translation="uiR2EDbotObjFxColibrisB"},
+--					{Id="palette.entities.botobjects.fx_fo_colibrisb", Translation="uiR2EDbotObjFxColibrisB"},
 					{Id="palette.entities.botobjects.fx_ju_colibrisb", Translation="uiR2EDbotObjFxColibrisB"},
 --					{Id="palette.entities.botobjects.fx_fo_fishes", Translation="uiR2EDbotObjFxFoFishes"},
 --					{Id="palette.entities.botobjects.fx_fo_serpent", Translation="uiR2EDbotObjFxFoJuSerpent"},
 --					{Id="palette.entities.botobjects.fx_ju_serpent", Translation="uiR2EDbotObjFxFoJuSerpent"},
 --					{Id="palette.entities.botobjects.fx_fyros_de_scorpion", Translation="uiR2EDbotObjFxScorpion"},
 					{Id="palette.entities.botobjects.fx_ju_bata", Translation="uiR2EDbotObjFxBatA"},
-					{Id="palette.entities.botobjects.fx_ju_bugsa", Translation="uiR2EDbotObjFxJuBugsA"},
+--					{Id="palette.entities.botobjects.fx_ju_bugsa", Translation="uiR2EDbotObjFxJuBugsA"},
 					{Id="palette.entities.botobjects.fx_ju_bugsb", Translation="uiR2EDbotObjFxJuBugsB"},
-					{Id="palette.entities.botobjects.fx_ju_dragonflya", Translation="uiR2EDbotObjFxDragonfly"},
+--					{Id="palette.entities.botobjects.fx_ju_dragonflya", Translation="uiR2EDbotObjFxDragonfly"},
 --					{Id="palette.entities.botobjects.fx_ju_bibubirdb", Translation="uiR2EDbotObjFxBibubirdB"},
 --					{Id="palette.entities.botobjects.fx_fo_bibubirdb", Translation="uiR2EDbotObjFxBibubirdB"},
-					{Id="palette.entities.botobjects.fx_ju_birds", Translation="uiR2EDbotObjFxBirds"},
-					{Id="palette.entities.botobjects.fx_fo_birds", Translation="uiR2EDbotObjFxBirds"},
+---					{Id="palette.entities.botobjects.fx_ju_birds", Translation="uiR2EDbotObjFxBirds"},
+--					{Id="palette.entities.botobjects.fx_fo_birds", Translation="uiR2EDbotObjFxBirds"},
 --					{Id="palette.entities.botobjects.fx_ju_birdsb", Translation="uiR2EDbotObjFxBirdsB"},
 --					{Id="palette.entities.botobjects.fx_fo_birdsb", Translation="uiR2EDbotObjFxBirdsB"},
 --					{Id="palette.entities.botobjects.fx_ju_birdsc", Translation="uiR2EDbotObjFxBirdsC"},
@@ -14204,13 +14415,13 @@ r2.Palette =
 --					{Id="palette.entities.botobjects.fx_ju_grenouilleb3", Translation="uiR2EDbotObjFxGrenouille3B"},
 --					{Id="palette.entities.botobjects.fx_fo_grenouilleb3", Translation="uiR2EDbotObjFxGrenouille3B"},
 					{Id="palette.entities.botobjects.fx_ju_grenouillec3", Translation="uiR2EDbotObjFxGrenouille3C"},
-					{Id="palette.entities.botobjects.fx_fo_grenouillec3", Translation="uiR2EDbotObjFxGrenouille3C"},
+--					{Id="palette.entities.botobjects.fx_fo_grenouillec3", Translation="uiR2EDbotObjFxGrenouille3C"},
 --					{Id="palette.entities.botobjects.fx_ju_ratsc", Translation="uiR2EDbotObjFxRatsC"},
 --					{Id="palette.entities.botobjects.fx_fo_ratsc", Translation="uiR2EDbotObjFxRatsC"},
 					{Id="palette.entities.botobjects.fx_ju_rotasecte", Translation="uiR2EDbotObjFxRotasecte"},
-					{Id="palette.entities.botobjects.fx_fo_rotasecte", Translation="uiR2EDbotObjFxRotasecte"},
+--					{Id="palette.entities.botobjects.fx_fo_rotasecte", Translation="uiR2EDbotObjFxRotasecte"},
 					{Id="palette.entities.botobjects.fx_ju_rotasecteb", Translation="uiR2EDbotObjFxRotasecteB"},
-					{Id="palette.entities.botobjects.fx_fo_rotasecteb", Translation="uiR2EDbotObjFxRotasecteB"},
+--					{Id="palette.entities.botobjects.fx_fo_rotasecteb", Translation="uiR2EDbotObjFxRotasecteB"},
 --					{Id="palette.entities.botobjects.fx_ju_scorpion2", Translation="uiR2EDbotObjFxJuFoScorpion2"},
 --					{Id="palette.entities.botobjects.fx_fo_scorpion2", Translation="uiR2EDbotObjFxJuFoScorpion2"},
 --					{Id="palette.entities.botobjects.fx_ju_taupe", Translation="uiR2EDbotObjFxFoTaupe"},
@@ -14223,16 +14434,31 @@ r2.Palette =
 --					{Id="palette.entities.botobjects.fx_ju_bibubirdb", Translation="uiR2EDbotObjFxBibubirdB2"},
 --					{Id="palette.entities.botobjects.fx_fo_bibubirdb", Translation="uiR2EDbotObjFxBibubirdB2"},
 -- same				{Id="palette.entities.botobjects.fx_matis_ju_fo_grenouillec3", Translation="uiR2EDbotObjFxGrenouilleC3"},
-					{Id="palette.entities.botobjects.fx_tr_colibris", Translation="uiR2EDbotObjFxTrColibris"},
+--					{Id="palette.entities.botobjects.fx_tr_colibris", Translation="uiR2EDbotObjFxTrColibris"},
 					{Id="palette.entities.botobjects.fx_tr_cricket_aqua", Translation="uiR2EDbotObjFxCricketAqua"},
-					{Id="palette.entities.botobjects.fx_tr_dragonflya", Translation="uiR2EDbotObjFxTrDragonflyA"},
+--					{Id="palette.entities.botobjects.fx_tr_dragonflya", Translation="uiR2EDbotObjFxTrDragonflyA"},
 					{Id="palette.entities.botobjects.fx_tr_dragonflyb", Translation="uiR2EDbotObjFxTrDragonflyB"},
 --					{Id="palette.entities.botobjects.fx_tr_fishes", Translation="uiR2EDbotObjFxTrFishes"},
 --					{Id="palette.entities.botobjects.fx_tr_fishesb", Translation="uiR2EDbotObjFxTrFishesB"},
 --					{Id="palette.entities.botobjects.fx_tr_fishesc", Translation="uiR2EDbotObjFxTrFishesC"},
 --					{Id="palette.entities.botobjects.fx_tr_serpent", Translation="uiR2EDbotObjFxTrSerpent"},
 				}
-			}
+			},
+			
+--			corpses =
+--			{
+--				instances =
+--				{
+--					{Id="palette.entities.botobjects.homin_body_fyros_H", Translation="uiR2EDnpc_fyros_h"},
+--					{Id="palette.entities.botobjects.homin_body_fyros_F", Translation="uiR2EDnpc_fyros_f"},
+--					{Id="palette.entities.botobjects.homin_body_matis_H", Translation="uiR2EDnpc_matis_h"},
+--					{Id="palette.entities.botobjects.homin_body_matis_F", Translation="uiR2EDnpc_matis_f"},
+--					{Id="palette.entities.botobjects.homin_body_tryker_H", Translation="uiR2EDnpc_tryker_h"},
+--					{Id="palette.entities.botobjects.homin_body_tryker_F", Translation="uiR2EDnpc_tryker_f"},
+--					{Id="palette.entities.botobjects.homin_body_zorai_H", Translation="uiR2EDnpc_zorai_h"},
+--					{Id="palette.entities.botobjects.homin_body_zorai_F", Translation="uiR2EDnpc_zorai_f"},
+--				}
+--			},
 		--}
 	}
 }
