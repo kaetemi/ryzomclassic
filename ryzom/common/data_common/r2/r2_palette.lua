@@ -3526,7 +3526,11 @@ r2.loadPalette = function()
 	}
 	r2.addPaletteElement("palette.entities.botobjects.counter", entries.counter);
 	
+<<<<<<< Updated upstream
 	-- new items  &xt
+=======
+	-- new items added for classic
+>>>>>>> Stashed changes
 	
 	entries.stele_kami=
 	{
@@ -3601,8 +3605,12 @@ r2.loadPalette = function()
 	}
 	r2.addPaletteElement("palette.entities.botobjects.karavan_temple", entries.karavan_temple);
 	
+<<<<<<< Updated upstream
 	-- add corpse section
 	
+=======
+	-- see corpse section added to pallete. these .creature are missing from classic
+>>>>>>> Stashed changes
 	entries.homin_body_fyros_H=
 	{
 		Base="palette.entities.botobject",
@@ -9553,7 +9561,11 @@ r2.Palette =
 					{Id="palette.entities.creatures.cbadd3", Translation="uiR2EDcreature_cbadd3"},
 					{Id="palette.entities.creatures.cbadd4", Translation="uiR2EDcreature_cbadd4"},
 				-- these break the pallet?
+<<<<<<< Updated upstream
 				--	{id="palette.entities.creatures.cbagb1", translation="uiR2EDcreature_cbagb1"},
+=======
+				--	{id="palette.entities.creatures.cbagb1", translation="uir2edcreature_cbagb1"},
+>>>>>>> Stashed changes
 				--	{id="palette.entities.creatures.cbagb2", Translation="uiR2EDcreature_cbagb2"},
 				--	{Id="palette.entities.creatures.cbagb3", Translation="uiR2EDcreature_cbagb3"},
 				--	{Id="palette.entities.creatures.cbagb4", Translation="uiR2EDcreature_cbagb4"},
@@ -10136,7 +10148,11 @@ r2.Palette =
 				}
 			},
 
+<<<<<<< Updated upstream
 		--	 Work Animals (Mounts & Packers)
+=======
+		--	 Work Animals (Mounts & Packers) new category added for classic
+>>>>>>> Stashed changes
 			work_animals =
 			{
 				instances = 
@@ -10165,7 +10181,11 @@ r2.Palette =
 					{Id="palette.entities.creatures.chipe2", Translation="uiR2EDcreature_chipe2"},
 					{Id="palette.entities.creatures.chipf2", Translation="uiR2EDcreature_chipf2"},
 					{Id="palette.entities.creatures.chjdb2", Translation="uiR2EDcreature_chjdb2"},
+<<<<<<< Updated upstream
 --					{Id="palette.entities.creatures.chjdb3", Translation="uiR2EDcreature_chjdb3"},
+=======
+-- duplicates		{Id="palette.entities.creatures.chjdb3", Translation="uiR2EDcreature_chjdb3"},
+>>>>>>> Stashed changes
 					{Id="palette.entities.creatures.chjdc2", Translation="uiR2EDcreature_chjdc2"},
 --					{Id="palette.entities.creatures.chjdc3", Translation="uiR2EDcreature_chjdc3"},
 					{Id="palette.entities.creatures.chjdd2", Translation="uiR2EDcreature_chjdd2"},
@@ -10239,6 +10259,10 @@ r2.Palette =
 					{Id="palette.entities.creatures.ccagc1", Translation="uiR2EDcreature_ccagc1"},
 					{Id="palette.entities.creatures.ccagc2", Translation="uiR2EDcreature_ccagc2"},
 					{Id="palette.entities.creatures.ccagc3", Translation="uiR2EDcreature_ccagc3"},
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 					{Id="palette.entities.creatures.ccagc4", Translation="uiR2EDcreature_ccagc4"},
 					{Id="palette.entities.creatures.ccagd1", Translation="uiR2EDcreature_ccagd1"},
 					{Id="palette.entities.creatures.ccagd2", Translation="uiR2EDcreature_ccagd2"},
@@ -11808,11 +11832,19 @@ r2.Palette =
 				{
 					{Id="palette.entities.creatures.cpfdf7", Translation="uiR2EDcreature_cpfdf7"},
 					{Id="palette.entities.creatures.cpblf7", Translation="uiR2EDcreature_cpblf7"},
+<<<<<<< Updated upstream
 					{Id="palette.entities.creatures.cpapf7", Translation="uiR2EDcreature_cpapf7"},
 					{Id="palette.entities.creatures.cpcpf7", Translation="uiR2EDcreature_cpcpf7"},
 					{Id="palette.entities.creatures.cpefe7", Translation="uiR2EDcreature_cpefe7"},
 					{Id="palette.entities.creatures.cpdje7", Translation="uiR2EDcreature_cpdje7"},
 					{Id="palette.entities.creatures.cpapd7", Translation="uiR2EDcreature_cpapd7"},
+=======
+					 {Id="palette.entities.creatures.cpapf7", Translation="uiR2EDcreature_cpapf7"},
+					{Id="palette.entities.creatures.cpcpf7", Translation="uiR2EDcreature_cpcpf7"},
+					{Id="palette.entities.creatures.cpefe7", Translation="uiR2EDcreature_cpefe7"},
+					{Id="palette.entities.creatures.cpdje7", Translation="uiR2EDcreature_cpdje7"},
+					 {Id="palette.entities.creatures.cpapd7", Translation="uiR2EDcreature_cpapd7"},
+>>>>>>> Stashed changes
 					{Id="palette.entities.creatures.cpcfc7", Translation="uiR2EDcreature_cpcfc7"}
 				}
 			},
@@ -14085,6 +14117,8 @@ r2.Palette =
 			{
 				instances = 
 				{
+--					{Id="palette.entities.botobjects.stele_kami", Translation="uiR2EDbotObjSteleKami"}, --todo translation
+--					{Id="palette.entities.botobjects.temple_kami", Translation="uiR2EDbotObjTempleKami"}, --todo translation
 					{Id="palette.entities.botobjects.banner_kami", Translation="uiR2EDbotObjBannerKami"},
 					{Id="palette.entities.botobjects.totem_kami", Translation="uiR2EDbotObjTotemKami"},
 					{Id="palette.entities.botobjects.kami_standard", Translation="uiR2EDbotObjKamiStandard"},
@@ -14094,9 +14128,13 @@ r2.Palette =
 					{Id="palette.entities.botobjects.vegetable_gateway", Translation="uiR2EDbotObjVegetableGateway"},
 					{Id="palette.entities.botobjects.statue_maduk", Translation="uiR2EDbotObjStatueMaduk"},
 					{Id="palette.entities.botobjects.kami_watchtower_off", Translation="uiR2EDbotObjKamiWatchtowerOff"},
+<<<<<<< Updated upstream
 					{Id="palette.entities.botobjects.kami_altar", Translation="uiR2EDbotObjKamiAltar"},
 --					{Id="palette.entities.botobjects.stele_kami", Translation="uiR2EDbotObjSteleKami"}, --todo translation
 --					{Id="palette.entities.botobjects.temple_kami", Translation="uiR2EDbotObjTempleKami"} --todo translation
+=======
+					{Id="palette.entities.botobjects.kami_altar", Translation="uiR2EDbotObjKamiAltar"}
+>>>>>>> Stashed changes
 				}
 			},
 
@@ -14104,6 +14142,8 @@ r2.Palette =
 			{
 				instances = 
 				{
+--					{Id="palette.entities.botobjects.karavan_stele", Translation="uiR2EDbotObjKaraStele"}, --todo translation
+--					{Id="palette.entities.botobjects.karavan_temple", Translation="uiR2EDbotObjKaratemple"}, --todo translation
 					{Id="palette.entities.botobjects.banner_karavan", Translation="uiR2EDbotObjBannerKaravan"},
 --					{Id="palette.entities.botobjects.karavan_stele", Translation="uiR2EDbotObjKaraStele"}, --todo translation
 --					{Id="palette.entities.botobjects.karavan_temple", Translation="uiR2EDbotObjKaratemple"}, --todo translation
@@ -14443,7 +14483,11 @@ r2.Palette =
 --					{Id="palette.entities.botobjects.fx_tr_fishesc", Translation="uiR2EDbotObjFxTrFishesC"},
 --					{Id="palette.entities.botobjects.fx_tr_serpent", Translation="uiR2EDbotObjFxTrSerpent"},
 				}
+<<<<<<< Updated upstream
 			},
+=======
+			}
+>>>>>>> Stashed changes
 			
 --			corpses =
 --			{
